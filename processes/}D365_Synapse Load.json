@@ -1,0 +1,86 @@
+{
+	"@type":"Process",
+	"Name":"}D365_Synapse Load",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}D365_Synapse Load.ti",
+	"DataSource":
+	{
+		"Type":"ODBC",
+		"dataSourceNameForServer":"TM1_Synapse",
+		"dataSourceNameForClient":"TM1_Synapse",
+		"userName":"admin",
+		"password":"Password1",
+		"query":"SET NOCOUNT ON\r\nSELECT        \r\nCONVERT(int, fy.NAME) AS yr,\r\nCONVERT(int, RIGHT('0' + TRIM(REPLACE(FP.NAME, 'Period ', '')), 2)) AS pr,\r\nleft(Accts.COSTCENTERVALUE,2) AS CoCode,\r\nAccts.COSTCENTERVALUE AS loc, \r\nAccts.MAINACCOUNTVALUE AS main, \r\nISNULL(Accts.PROJECTVALUE,'000') AS Project, \r\nISNULL(Accts.PRODUCTVALUE,'00') AS Product, \r\nSUM(gjae.ACCOUNTINGCURRENCYAMOUNT) AS data\r\nFROM dbo.GeneralJournalAccountEntry AS gjae\r\nINNER JOIN dbo.DimensionAttributeValueCombination AS Accts  \r\nON Accts.RECID = gjae.LEDGERDIMENSION\r\ninner join dbo.GeneralJournalEntry AS gje  \r\nON gjae.GENERALJOURNALENTRY = gje.RECID\r\ninner join dbo.FISCALCALENDARYEAR AS fy  \r\nON fy.RECID = gje.FISCALCALENDARYEAR AND fy.PARTITION = gje.PARTITION \r\ninner join dbo.FISCALCALENDARPERIOD AS FP  \r\nON fy.FISCALCALENDAR = FP.FISCALCALENDAR AND gje.FISCALCALENDARPERIOD = FP.RECID AND gje.PARTITION = FP.PARTITION\r\nWHERE  Accts.COSTCENTERVALUE IS NOT NULL and CONVERT(int, fy.NAME) >= 2024\r\nGROUP BY fy.NAME, FP.NAME, Accts.COSTCENTERVALUE, Accts.MAINACCOUNTVALUE, Accts.PROJECTVALUE, Accts.PRODUCTVALUE"
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"FiscalYear",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"FiscalPeriod",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"CoCode",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"Location",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"MainAcct",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"Project",
+			"Type":"String",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"Product",
+			"Type":"String",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"data",
+			"Type":"Numeric",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"UIData": "_ParameterConstraints=e30=\f",
+	"VariablesUIData": [
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=33\fColType=827\f"
+	]
+}

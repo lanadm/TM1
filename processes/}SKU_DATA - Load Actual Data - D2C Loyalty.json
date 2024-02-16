@@ -1,0 +1,100 @@
+{
+	"@type":"Process",
+	"Name":"}SKU_DATA - Load Actual Data - D2C Loyalty",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}SKU_DATA - Load Actual Data - D2C Loyalty.ti",
+	"DataSource":
+	{
+		"Type":"ODBC",
+		"dataSourceNameForServer":"TM1Data",
+		"dataSourceNameForClient":"TM1Data",
+		"userName":"admin",
+		"password":"",
+		"query":"Use SellingMetrics\r\nexec [spTM1Load_LoyaltyRedemptions_D2C] '202415', '202416'"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pStartWeek",
+			"Prompt":"Enter Start Week (YYYYWW)",
+			"Value":"202415",
+			"Type":"String"
+		},
+		{
+			"Name":"pEndWeek",
+			"Prompt":"Enter End Week (YYYYWW)",
+			"Value":"202416",
+			"Type":"String"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"FiscalYear",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"FiscalWeek",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"LocationID",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"SKU",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"SalesChannel",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"Gross",
+			"Type":"Numeric",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"SalesQuantity",
+			"Type":"Numeric",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"SalesUsage",
+			"Type":"Numeric",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"UIData": "_ParameterConstraints=e30=\f",
+	"VariablesUIData": [
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f"
+	]
+}
