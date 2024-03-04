@@ -9,7 +9,7 @@
 		"dataSourceNameForServer":"TM1_Synapse",
 		"dataSourceNameForClient":"TM1_Synapse",
 		"userName":"admin",
-		"password":"Password1",
+		"password":"@a21b#iFARrhRVo*",
 		"query":"SET NOCOUNT ON\r\nSELECT        \r\nCONVERT(int, fy.NAME) AS yr,\r\nCONVERT(int, RIGHT('0' + TRIM(REPLACE(FP.NAME, 'Period ', '')), 2)) AS pr,\r\nleft(Accts.COSTCENTERVALUE,2) AS CoCode,\r\nAccts.COSTCENTERVALUE AS loc, \r\nAccts.MAINACCOUNTVALUE AS main, \r\nISNULL(Accts.PROJECTVALUE,'000') AS Project, \r\nISNULL(Accts.PRODUCTVALUE,'00') AS Product, \r\nSUM(gjae.ACCOUNTINGCURRENCYAMOUNT) AS data\r\nFROM dbo.GeneralJournalAccountEntry AS gjae\r\nINNER JOIN dbo.DimensionAttributeValueCombination AS Accts  \r\nON Accts.RECID = gjae.LEDGERDIMENSION\r\ninner join dbo.GeneralJournalEntry AS gje  \r\nON gjae.GENERALJOURNALENTRY = gje.RECID\r\ninner join dbo.FISCALCALENDARYEAR AS fy  \r\nON fy.RECID = gje.FISCALCALENDARYEAR AND fy.PARTITION = gje.PARTITION \r\ninner join dbo.FISCALCALENDARPERIOD AS FP  \r\nON fy.FISCALCALENDAR = FP.FISCALCALENDAR AND gje.FISCALCALENDARPERIOD = FP.RECID AND gje.PARTITION = FP.PARTITION\r\nWHERE  Accts.COSTCENTERVALUE IS NOT NULL and CONVERT(int, fy.NAME) >= 2024\r\nGROUP BY fy.NAME, FP.NAME, Accts.COSTCENTERVALUE, Accts.MAINACCOUNTVALUE, Accts.PROJECTVALUE, Accts.PRODUCTVALUE"
 	},
 	"Parameters":[],

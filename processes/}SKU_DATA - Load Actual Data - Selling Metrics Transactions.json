@@ -9,7 +9,7 @@
 		"dataSourceNameForServer":"TM1_CMS",
 		"dataSourceNameForClient":"TM1_CMS",
 		"userName":"admin",
-		"password":"",
+		"password":"@a21b#iFARrhRVo*",
 		"query":"Select Fiscal_Week_Num_RMS as FiscalWeek, LocationID, Count(Distinct OrderNumber) as NumberOrders \r\nfrom CMS2000.dbo.BOHKioskTransactions O with (nolock) join CMS2000.dbo.TimeDimension T with (nolock)\r\non T.Phys_Date = O.DrawerDate\r\nwhere DrawerDate between '09/29/14' and '09/27/15' and LocationID > 99\r\ngroup by Fiscal_Week_Num_RMS, LocationID\r\norder by Fiscal_Week_Num_RMS, LocationID"
 	},
 	"Parameters":

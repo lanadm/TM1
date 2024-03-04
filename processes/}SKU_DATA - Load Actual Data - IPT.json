@@ -9,7 +9,7 @@
 		"dataSourceNameForServer":"TM1Data",
 		"dataSourceNameForClient":"TM1Data",
 		"userName":"admin",
-		"password":"",
+		"password":"@a21b#iFARrhRVo*",
 		"query":"Use SellingMetrics\r\nexec [spLoadIPTintoTM1] 202415, 202416"
 	},
 	"Parameters":

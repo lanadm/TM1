@@ -9,7 +9,7 @@
 		"dataSourceNameForServer":"TM1Data",
 		"dataSourceNameForClient":"TM1Data",
 		"userName":"admin",
-		"password":"",
+		"password":"@a21b#iFARrhRVo*",
 		"query":"Use SellingMetrics\r\nexec [spTM1Load_LoyaltyRedemptions_D2C] '202415', '202416'"
 	},
 	"Parameters":
