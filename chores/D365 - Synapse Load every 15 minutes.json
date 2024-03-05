@@ -1,0 +1,28 @@
+{
+	"@type":"Chore",
+	"Name":"D365 - Synapse Load every 15 minutes",
+	"StartTime":"2023-11-08T13:05Z",
+	"DSTSensitive":false,
+	"Active":false,
+	"ExecutionMode":"MultipleCommit",
+	"Frequency":"P1DT00H00M00S",
+	"Tasks":
+	[
+		{
+			"Step":0,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}D365_GL - Zero')"
+			}
+		},
+		{
+			"Step":1,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}D365_Synapse Load')"
+			}
+		}
+	]
+}

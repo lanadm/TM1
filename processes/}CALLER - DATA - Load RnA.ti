@@ -1,0 +1,94 @@
+#region Prolog
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strCube = 'RnA';
+strWeekCube = 't-weeks';
+strView = 'zz_'| strCube | '_ZeroOut';
+strSub = strView;
+numLoadWeeks = 2;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Trim the parameters to eliminate leading or trailing blanks
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYear = TRIM(pFiscalYear);
+strStartWeek = TRIM(pStartWeek);
+strEndWeek = TRIM(pEndWeek);
+strCategory = 'Actual';
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Process Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strZeroOutProcess = '}RnA - Zero Weekly Data';
+strRnALoadProcess = '}RnA - Load Actual Data';
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Dimension Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYearDim = 'YEAR';
+strWeekDim = 'WEEK';
+strLocationsDim = 'LOCATIONS';
+strCategoryDim = 'CATEGORY';
+strChannelDim = 'Lchannel';
+strDiscountIDDim = 'RnA_DiscountID_SKU';
+strMediaTypeDim = 'RnA_MediaType';
+strVehicleDim = 'RnA_Vehicle';
+strMeasuresDim = 'RnA_Measures';
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set the information variables including directories and names to use for logging and errors
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strProcessName = GETPROCESSNAME();
+strErrorFile = strProcessName | '_' | TIMST(NOW, '\Y\m\d') | '.csv';
+strLogDirectory = CELLGETS('bpmControl','Log Directory','Value');
+strLogDirectory = strLogDirectory | IF(SUBST(strLogDirectory, LONG(strLogDirectory), 1) @= '\', '', '\');
+strError = strLogDirectory | strErrorFile;
+numErrorCount = 0;
+
+
+IF(strYear @<> '' & strStartWeek @<> '' & strEndWeek @<> '' );
+    strChoreLoad = 'F';
+    numStartWeek = NUMBR(strStartWeek);
+    numEndWeek = NUMBR(strEndWeek);
+    numLoadWeeks = NUMBR(strEndWeek) - NUMBR(strStartWeek) + 1;
+ENDIF;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# If the Year, Start Week or End Week parameter is blank, but none of the above apply, go out and grab the info from the bpmControl Cube
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IF(strYear @= '');
+    strYear = CELLGETS('bpmControl','SKU_DATA Load - Fiscal Year','Value');
+ENDIF;
+
+IF(strStartWeek @= '');
+    strStartWeek = CELLGETS('bpmControl','SKU_DATA Load - Start Week','Value');
+    numStartWeek = NUMBR(strStartWeek);
+ENDIF;
+
+IF(strEndWeek @= '');
+    strEndWeek = CELLGETS('bpmControl','SKU_DATA Load - End Week','Value');
+    numEndWeek = NUMBR(strEndWeek);
+ENDIF;
+
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Execute Processes
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+     EXECUTEPROCESS(strZeroOutProcess, 'pFiscalYear', strYear, 'pStartWeek', strStartWeek, 'pEndWeek', strEndWeek);
+     EXECUTEPROCESS(strRnALoadProcess, 'pFiscalYear', strYear, 'pStartWeek', strStartWeek, 'pEndWeek', strEndWeek);
+
+
+#endregion
