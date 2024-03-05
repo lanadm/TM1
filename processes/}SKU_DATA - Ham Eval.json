@@ -1,0 +1,47 @@
+{
+	"@type":"Process",
+	"Name":"}SKU_DATA - Ham Eval",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}SKU_DATA - Ham Eval.ti",
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"dataSourceNameForServer":"Load Files/Ham Eval Load Files/HamEval.csv",
+		"dataSourceNameForClient":"Load Files/Ham Eval Load Files/HamEval.csv",
+		"asciiHeaderRecords":1,
+		"asciiQuoteCharacter":"\"",
+		"asciiDecimalSeparator":".",
+		"asciiThousandSeparator":",",
+		"asciiDelimiterType":"Character",
+		"asciiDelimiterChar":","
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"StoreID",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"Score",
+			"Type":"String",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"UIData": "_ParameterConstraints=e30=\f",
+	"VariablesUIData": [
+		"IgnoredInputVarName=V1\fVarType=32\fColType=1165\f",
+		"VarType=32\fColType=827\f",
+		"IgnoredInputVarName=V3\fVarType=32\fColType=1165\f",
+		"IgnoredInputVarName=V4\fVarType=32\fColType=1165\f",
+		"IgnoredInputVarName=V5\fVarType=32\fColType=1165\f",
+		"IgnoredInputVarName=V6\fVarType=32\fColType=1165\f",
+		"IgnoredInputVarName=V7\fVarType=32\fColType=1165\f",
+		"VarType=32\fColType=827\f"
+	]
+}

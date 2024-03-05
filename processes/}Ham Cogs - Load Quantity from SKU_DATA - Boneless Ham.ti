@@ -1,0 +1,66 @@
+#region Prolog
+#---------------------------
+
+# No Prolog
+
+#---------------------------
+#endregion
+#region Metadata
+#---------------------------
+
+vPlan_Scenario =
+    if( vScenario @= 'Budget', 'Planning 1', vScenario );
+
+vHC_Packers =
+    IF( CELLGETS( 'HamCogs_PackerMapBySKU', vYear, attrs( 'WEEK', vMonth, 'Period' ), vPlan_Scenario, vLocations,'Boneless', 'Packers' ) @= '',
+    'No Packer',
+    CELLGETS( 'HamCogs_PackerMapBySKU', vYear, attrs( 'WEEK', vMonth, 'Period' ), vPlan_Scenario, vLocations,'Boneless', 'Packers' ));
+
+vHC_HamCategory = 'Boneless';
+
+vHC_StorageCategory = 'Total Hams';
+
+vHC_Measures = 'Quantity #';
+
+vPeriod = attrs( 'WEEK', vMonth, 'Period' );
+
+#---------------------------
+#endregion
+#region Data
+#---------------------------
+
+vPlan_Scenario =
+    if( vScenario @= 'Budget', 'Planning 1', vScenario );
+
+vHC_Packers =
+    IF( CELLGETS( 'HamCogs_PackerMapBySKU', vYear, attrs( 'WEEK', vMonth, 'Period' ), vPlan_Scenario, vLocations,'Boneless', 'Packers' ) @= '',
+    'No Packer',
+    CELLGETS( 'HamCogs_PackerMapBySKU', vYear, attrs( 'WEEK', vMonth, 'Period' ), vPlan_Scenario, vLocations,'Boneless', 'Packers' ));
+
+vHC_HamCategory = 'Boneless';
+
+vHC_StorageCategory = 'Total Hams';
+
+vHC_Measures = 'Quantity #';
+
+vPeriod = attrs( 'WEEK', vMonth, 'Period' );
+
+IF( VALUE_IS_STRING = 1 );
+    SCellOldValue = CellGetS( 'HamCogs', vYear, vPeriod, vPlan_Scenario, vHC_Packers, vHC_HamCategory, vHC_StorageCategory, vHC_Measures );
+ELSE;
+    NCellOldValue = CellGetN( 'HamCogs', vYear, vPeriod, vPlan_Scenario, vHC_Packers, vHC_HamCategory, vHC_StorageCategory, vHC_Measures );
+ENDIF;
+
+if ( VALUE_IS_STRING = 1, 
+    CellPutS( SVALUE | SCellOldValue, 'HamCogs', vYear, vPeriod, vPlan_Scenario, vHC_Packers, vHC_HamCategory, vHC_StorageCategory, vHC_Measures), 
+    CellPutN( NVALUE + NCellOldValue, 'HamCogs', vYear, vPeriod, vPlan_Scenario, vHC_Packers, vHC_HamCategory, vHC_StorageCategory, vHC_Measures ));
+
+#---------------------------
+#endregion
+#region Epilog
+#---------------------------
+
+# No Epilog
+
+
+#endregion
