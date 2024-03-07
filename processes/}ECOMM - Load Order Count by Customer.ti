@@ -1,0 +1,50 @@
+#region Prolog
+#---------------------------
+
+# No Prolog
+
+#---------------------------
+#endregion
+#region Metadata
+#---------------------------
+
+vLskus = 'B2B Gifting';
+
+vYear = 'FY ' | subst(cellgets( 'bpmControl', 'SKU_DATA Load - Fiscal Year', 'Value'),3,2);
+
+vCategory = 'Actual'
+;
+vECOMMLSTAT = 'B2B-Orders';
+
+vLchannel = '300';
+
+vData = 1;
+
+#---------------------------
+#endregion
+#region Data
+#---------------------------
+
+vLskus = 'B2B Gifting';
+
+vYear = 'FY ' | subst( cellgets( 'bpmControl', 'SKU_DATA Load - Fiscal Year', 'Value' ), 3, 2 );
+
+vCategory = 'Actual';
+
+vECOMMLSTAT = 'B2B-Orders';
+
+vLchannel = '300';
+
+vData = 1;
+
+CellIncrementN( vData, 'E-COMMB2B', vYear, vCategory, vCustNum, vLskus, vWeek, vECOMMLSTAT, vLchannel );
+
+#---------------------------
+#endregion
+#region Epilog
+#---------------------------
+
+# No Epilog
+
+
+#endregion

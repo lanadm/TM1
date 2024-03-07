@@ -1,0 +1,43 @@
+{
+	"@type":"Process",
+	"Name":"}ECOMM - Load Order Count by Customer",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}ECOMM - Load Order Count by Customer.ti",
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"dataSourceNameForServer":"Load Files/ECOMM Load Files/ECOMM_OrderCount.csv",
+		"dataSourceNameForClient":"Load Files/ECOMM Load Files/ECOMM_OrderCount.csv",
+		"asciiHeaderRecords":0,
+		"asciiQuoteCharacter":"\"",
+		"asciiDecimalSeparator":".",
+		"asciiThousandSeparator":",",
+		"asciiDelimiterType":"Character",
+		"asciiDelimiterChar":","
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"vCustNum",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vSKU",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vWeek",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}
