@@ -1,0 +1,117 @@
+#region Prolog
+#----------------------------
+
+# No Prolog
+
+#----------------------------
+#endregion
+#region Metadata
+#----------------------------
+
+FYear='FY ' | subst(cellgets('bpmControl','Current Year', 'Value'),3,2);
+
+Category='Actual';
+
+LSKUS='SMG';
+
+LCHANNEL='100';
+
+Location=
+IF( Store @= 'SMG_Franchise', Store,
+     IF( Store @= 'Combined', 'SMG_Franchise',
+          CELLGETS( 't-strctr', subst(Store,1,4), 'Name' )));
+
+OSAT_NwChk=IF( TRIM(STR(OSAT_N,20,0))@='**',0,OSAT_N);
+OSAT_5wChk=IF( TRIM(STR(OSAT_5,20,0))@='**',0,OSAT_5);
+OSAT_4wChk=IF( TRIM(STR(OSAT_4,20,0))@='**',0,OSAT_4);
+OSAT_3wChk=IF( TRIM(STR(OSAT_3,20,0))@='**',0,OSAT_3);
+OSAT_2wChk=IF( TRIM(STR(OSAT_2,20,0))@='**',0,OSAT_2);
+OSAT_1wChk=IF( TRIM(STR(OSAT_1,20,0))@='**',0,OSAT_1);
+
+QoIO_NwChk=IF( TRIM(STR(QoIO_N,20,0))@='**',0,QoIO_N);
+QoIO_5wChk=IF( TRIM(STR(QoIO_5,20,0))@='**',0,QoIO_5);
+QoIO_4wChk=IF( TRIM(STR(QoIO_4,20,0))@='**',0,QoIO_4);
+QoIO_3wChk=IF( TRIM(STR(QoIO_3,20,0))@='**',0,QoIO_3);
+QoIO_2wChk=IF( TRIM(STR(QoIO_2,20,0))@='**',0,QoIO_2);
+QoIO_1wChk=IF( TRIM(STR(QoIO_1,20,0))@='**',0,QoIO_1);
+
+Value_NwChk=IF( TRIM(STR(Value_N,20,0))@='**',0,Value_N);
+Value_5wChk=IF( TRIM(STR(Value_5,20,0))@='**',0,Value_5);
+Value_4wChk=IF( TRIM(STR(Value_4,20,0))@='**',0,Value_4);
+Value_3wChk=IF( TRIM(STR(Value_3,20,0))@='**',0,Value_3);
+Value_2wChk=IF( TRIM(STR(Value_2,20,0))@='**',0,Value_2);
+Value_1wChk=IF( TRIM(STR(Value_1,20,0))@='**',0,Value_1);
+
+#----------------------------
+#endregion
+#region Data
+#----------------------------
+
+FYear='FY ' | subst(cellgets('bpmControl','Current Year', 'Value'),3,2);
+
+Category='Actual';
+
+LSKUS='SMG';
+
+LCHANNEL='100';
+
+Location=
+IF( Store @= 'SMG_Franchise', Store,
+     IF( Store @= 'Combined', 'SMG_Franchise',
+           CELLGETS( 't-strctr', subst(Store,1,4), 'Name' )));
+
+OSAT_NwChk=IF( TRIM(STR(OSAT_N,20,0))@='**',0,OSAT_N);
+OSAT_5wChk=IF( TRIM(STR(OSAT_5,20,0))@='**',0,OSAT_5);
+OSAT_4wChk=IF( TRIM(STR(OSAT_4,20,0))@='**',0,OSAT_4);
+OSAT_3wChk=IF( TRIM(STR(OSAT_3,20,0))@='**',0,OSAT_3);
+OSAT_2wChk=IF( TRIM(STR(OSAT_2,20,0))@='**',0,OSAT_2);
+OSAT_1wChk=IF( TRIM(STR(OSAT_1,20,0))@='**',0,OSAT_1);
+
+QoIO_NwChk=IF( TRIM(STR(QoIO_N,20,0))@='**',0,QoIO_N);
+QoIO_5wChk=IF( TRIM(STR(QoIO_5,20,0))@='**',0,QoIO_5);
+QoIO_4wChk=IF( TRIM(STR(QoIO_4,20,0))@='**',0,QoIO_4);
+QoIO_3wChk=IF( TRIM(STR(QoIO_3,20,0))@='**',0,QoIO_3);
+QoIO_2wChk=IF( TRIM(STR(QoIO_2,20,0))@='**',0,QoIO_2);
+QoIO_1wChk=IF( TRIM(STR(QoIO_1,20,0))@='**',0,QoIO_1);
+
+Value_NwChk=IF( TRIM(STR(Value_N,20,0))@='**',0,Value_N);
+Value_5wChk=IF( TRIM(STR(Value_5,20,0))@='**',0,Value_5);
+Value_4wChk=IF( TRIM(STR(Value_4,20,0))@='**',0,Value_4);
+Value_3wChk=IF( TRIM(STR(Value_3,20,0))@='**',0,Value_3);
+Value_2wChk=IF( TRIM(STR(Value_2,20,0))@='**',0,Value_2);
+Value_1wChk=IF( TRIM(STR(Value_1,20,0))@='**',0,Value_1);
+
+#OSAT Data Load
+CellPutN(OSAT_NwChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'OSAT N',LCHANNEL);
+CellPutN(OSAT_5wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'OSAT 5',LCHANNEL);
+CellPutN(OSAT_4wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'OSAT 4',LCHANNEL);
+CellPutN(OSAT_3wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'OSAT 3',LCHANNEL);
+CellPutN(OSAT_2wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'OSAT 2',LCHANNEL);
+CellPutN(OSAT_1wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'OSAT 1',LCHANNEL);
+
+#QoIO Data Load
+CellPutN(QoIO_NwChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'QoIO N',LCHANNEL);
+CellPutN(QoIO_5wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'QoIO 5',LCHANNEL);
+CellPutN(QoIO_4wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'QoIO 4',LCHANNEL);
+CellPutN(QoIO_3wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'QoIO 3',LCHANNEL);
+CellPutN(QoIO_2wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'QoIO 2',LCHANNEL);
+CellPutN(QoIO_1wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'QoIO 1',LCHANNEL);
+
+#Value Data Load
+CellPutN(Value_NwChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'Value N',LCHANNEL);
+CellPutN(Value_5wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'Value 5',LCHANNEL);
+CellPutN(Value_4wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'Value 4',LCHANNEL);
+CellPutN(Value_3wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'Value 3',LCHANNEL);
+CellPutN(Value_2wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'Value 2',LCHANNEL);
+CellPutN(Value_1wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'Value 1',LCHANNEL);
+
+#----------------------------
+#endregion
+#region Epilog
+#----------------------------
+
+# No Epilog
+
+
+
+#endregion

@@ -1,0 +1,125 @@
+#region Prolog
+#---------------------------
+
+# No Prolog
+
+#---------------------------
+#endregion
+#region Metadata
+#---------------------------
+
+vB2B_ProductPrice =
+     IF( SUBST( vProductPrice, 1, 1 ) @= '-',
+          StringToNumber( TRIM( Subst( vProductPrice, 3, 40 ))) * -1,
+          StringToNumber( TRIM( Subst( vProductPrice, 2, 40 ))));
+
+vB2B_Discount =
+     IF( subst( vDiscount, 1, 1 ) @= '-',
+          StringToNumber( TRIM( Subst( vDiscount, 3, 40 )))*-1,
+          StringToNumber( TRIM( Subst( vDiscount, 2, 40 ))));
+
+vB2B_ExtPrice =
+     IF( subst( vExtPrice, 1, 1 ) @= '-',
+          StringToNumber( TRIM( Subst( vExtPrice, 3, 40 ))) * -1,
+          StringToNumber( TRIM( Subst( vExtPrice, 2, 40 ))));
+
+vB2B_StandardFreight =
+     IF( subst( vStandardFreight, 1, 1 ) @= '-',
+          StringToNumber( TRIM( Subst( vStandardFreight, 3, 40 ))) * -1,
+          StringToNumber( TRIM( Subst( vStandardFreight, 2, 40 ))));
+
+vB2B_RushFreight =
+     IF( subst( vRushFreight, 1, 1 ) @= '-',
+          StringToNumber( TRIM( Subst( vRushFreight, 3, 40 ))) * -1,
+          StringToNumber( TRIM( Subst( vRushFreight, 2, 40 ))));
+
+vB2B_Total =
+     IF( subst( vTotal, 1, 1 ) @= '-',
+          StringToNumber( TRIM( Subst( vTotal, 3, 40 ))) * -1,
+          StringToNumber( TRIM( Subst( vTotal, 2, 40 ))));
+
+vYear = 'FY ' | subst( cellgets( 'bpmControl', 'SKU_DATA Load - Fiscal Year', 'Value' ), 3, 2 );
+
+vCategory = 'Actual';
+
+vChannel = if( vB2B_Total >= 1000 % vB2B_Total < 0, '300', 'B' );
+
+#If The total is 1000 or more, make equal to 3 - B2B Gifting, otherwise it is Consumer and B2B
+vLSkus =
+     IF( Long( vSKU ) = 1, '00000' | vSKU,
+     IF( Long( vSKU ) = 2, '0000' | vSKU,
+     IF( Long( vSKU ) = 3, '000' | vSKU,
+     IF( Long( vSKU ) = 4, '00' | vSKU,
+     IF( Long( vSKU ) = 5, '0' | vSKU,
+     vSKU )))));
+
+vB2B_Skus = 1;
+
+#---------------------------
+#endregion
+#region Data
+#---------------------------
+
+vB2B_ProductPrice =
+     IF( SUBST( vProductPrice, 1, 1 ) @= '-',
+          StringToNumber( TRIM( Subst( vProductPrice, 3, 40 ))) * -1,
+          StringToNumber( TRIM( Subst( vProductPrice, 2, 40 ))));
+
+vB2B_Discount =
+     IF( subst( vDiscount, 1, 1 ) @= '-',
+          StringToNumber( TRIM( Subst( vDiscount, 3, 40 ))) * -1,
+          StringToNumber( TRIM( Subst( vDiscount, 2, 40 ))));
+
+vB2B_ExtPrice =
+     IF( subst( vExtPrice, 1, 1) @= '-',
+          StringToNumber( TRIM( Subst( vExtPrice, 3, 40 ))) * -1,
+          StringToNumber( TRIM( Subst( vExtPrice, 2, 40 ))));
+
+vB2B_StandardFreight =
+     IF( subst( vStandardFreight, 1, 1) @= '-',
+          StringToNumber( TRIM( Subst( vStandardFreight, 3, 40 ))) * -1,
+          StringToNumber( TRIM( Subst( vStandardFreight, 2, 40 ))));
+
+vB2B_RushFreight =
+     IF( subst( vRushFreight, 1, 1) @= '-',
+          StringToNumber( TRIM( Subst( vRushFreight, 3, 40 ))) * -1,
+          StringToNumber( TRIM( Subst( vRushFreight, 2, 40 ))));
+
+vB2B_Total =
+          IF( subst( vTotal, 1, 1) @= '-',
+          StringToNumber( TRIM( Subst( vTotal, 3, 40 ))) * -1,
+          StringToNumber( TRIM( Subst( vTotal, 2, 40 ))));
+
+vYear = 'FY ' | subst( cellgets( 'bpmControl', 'SKU_DATA Load - Fiscal Year', 'Value' ), 3, 2 );
+
+vCategory = 'Actual';
+
+vChannel = if( vB2B_Total >= 1000 % vB2B_Total < 0, '300', 'B' );
+
+#If The total is 1000 or more, make equal to 3 - B2B Gifting, otherwise it is Consumer and B2B
+vLSkus =
+     IF( Long( vSKU ) = 1, '00000' | vSKU,
+     IF( Long( vSKU ) = 2, '0000' | vSKU,
+     IF( Long( vSKU ) = 3, '000' | vSKU,
+     IF( Long( vSKU ) = 4, '00' | vSKU,
+     IF( Long( vSKU ) = 5, '0' | vSKU,
+     vSKU )))));
+
+vB2B_Skus = 1;
+
+CellIncrementN(vQuantity, 'E-COMMB2B', vYear, vCategory, vECOMMCUST, vLSkus, vWeek, 'B2B-Quantity', vChannel );
+CellIncrementN( vB2B_ProductPrice, 'E-COMMB2B', vYear, vCategory, vECOMMCUST, vLSkus, vWeek, 'B2B-Product Price', vChannel );
+CellIncrementN( vB2B_Discount, 'E-COMMB2B', vYear, vCategory, vECOMMCUST, vLSkus, vWeek, 'B2B-Discount', vChannel );
+CellIncrementN( vB2B_ExtPrice,'E-COMMB2B', vYear, vCategory, vECOMMCUST, vLSkus, vWeek, 'B2B-Ext Price', vChannel );
+CellIncrementN( vB2B_StandardFreight, 'E-COMMB2B', vYear, vCategory, vECOMMCUST, vLSkus, vWeek, 'B2B-Standard Freight', vChannel );
+CellIncrementN( vB2B_RushFreight, 'E-COMMB2B', vYear, vCategory, vECOMMCUST, vLSkus, vWeek, 'B2B-Rush Freight', vChannel );
+CellIncrementN( vB2B_Skus, 'E-COMMB2B', vYear, vCategory, vECOMMCUST, vLSkus, vWeek, 'B2B-Skus', vChannel );
+
+#---------------------------
+#endregion
+#region Epilog
+#---------------------------
+
+# No Epilog
+
+#endregion

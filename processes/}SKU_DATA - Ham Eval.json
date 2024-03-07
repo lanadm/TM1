@@ -1,0 +1,41 @@
+{
+	"@type":"Process",
+	"Name":"}SKU_DATA - Ham Eval",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}SKU_DATA - Ham Eval.ti",
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"dataSourceNameForServer":"LoadFiles/Ham Eval/HamEval.csv",
+		"dataSourceNameForClient":"LoadFiles/Ham Eval/HamEval.csv",
+		"asciiHeaderRecords":1,
+		"asciiQuoteCharacter":"\"",
+		"asciiDecimalSeparator":".",
+		"asciiThousandSeparator":",",
+		"asciiDelimiterType":"Character",
+		"asciiDelimiterChar":","
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"StoreID",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"Score",
+			"Type":"String",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"VariablesUIData": [
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f"
+	],
+	"UIData": "_ParameterConstraints=e30=\f"
+}

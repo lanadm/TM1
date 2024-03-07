@@ -1,0 +1,62 @@
+#region Prolog
+#---------------------------
+
+# No Prolog
+
+#---------------------------
+#endregion
+#region Metadata
+#---------------------------
+
+FYear='FY ' | subst(cellgets('bpmControl','Current Year', 'Value'),3,2);
+
+Category='Actual';
+
+LSKUS='SMG';
+
+LCHANNEL='100';
+
+Location=
+     IF( Store @= 'SMG_Retail', Store,
+          IF( Store @= 'Combined', 'SMG_Retail',
+               CELLGETS( 't-strctr', trim(str(numbr(subst(Store,1,4)),4,0)), 'Name' )
+     ));
+
+OSAT_NwChk=IF( TRIM(STR(OSAT_N,20,0))@='**',0,OSAT_N);
+OSAT_5wChk=IF( TRIM(STR(OSAT_5,20,0))@='**',0,OSAT_5);
+OSAT_4wChk=IF( TRIM(STR(OSAT_4,20,0))@='**',0,OSAT_4);
+OSAT_3wChk=IF( TRIM(STR(OSAT_3,20,0))@='**',0,OSAT_3);
+OSAT_2wChk=IF( TRIM(STR(OSAT_2,20,0))@='**',0,OSAT_2);
+OSAT_1wChk=IF( TRIM(STR(OSAT_1,20,0))@='**',0,OSAT_1);
+
+QoIO_NwChk=IF( TRIM(STR(QoIO_N,20,0))@='**',0,QoIO_N);
+QoIO_5wChk=IF( TRIM(STR(QoIO_5,20,0))@='**',0,QoIO_5);
+QoIO_4wChk=IF( TRIM(STR(QoIO_4,20,0))@='**',0,QoIO_4);
+QoIO_3wChk=IF( TRIM(STR(QoIO_3,20,0))@='**',0,QoIO_3);
+QoIO_2wChk=IF( TRIM(STR(QoIO_2,20,0))@='**',0,QoIO_2);
+QoIO_1wChk=IF( TRIM(STR(QoIO_1,20,0))@='**',0,QoIO_1);
+
+Value_NwChk=IF( TRIM(STR(Value_N,20,0))@='**',0,Value_N);
+Value_5wChk=IF( TRIM(STR(Value_5,20,0))@='**',0,Value_5);
+Value_4wChk=IF( TRIM(STR(Value_4,20,0))@='**',0,Value_4);
+Value_3wChk=IF( TRIM(STR(Value_3,20,0))@='**',0,Value_3);
+Value_2wChk=IF( TRIM(STR(Value_2,20,0))@='**',0,Value_2);
+Value_1wChk=IF( TRIM(STR(Value_1,20,0))@='**',0,Value_1);
+
+#---------------------------
+#endregion
+#region Data
+#---------------------------
+
+
+
+#---------------------------
+#endregion
+#region Epilog
+#---------------------------
+
+# No Epilog
+
+
+
+#endregion
