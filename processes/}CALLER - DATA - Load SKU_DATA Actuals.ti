@@ -9,7 +9,7 @@ strWeekCube_g = 't-weeks';
 strView_g = 'zz_' | strCube_g | '_ZeroOut';
 strSub_g = strView_g;
 strCategory_g = 'Actual';
-numLoadWeeks = 6;
+numLoadWeeks = 5;
 #strChoreLoad = 'T';
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

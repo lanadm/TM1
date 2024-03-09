@@ -12,7 +12,6 @@ strCategory = 'Actual';
 #strStartWeek = pStartWeek;
 #strEndWeek = pEndWeek;
 
-
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Trim the parameters to eliminate leading or trailing blanks
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -20,10 +19,6 @@ strCategory = 'Actual';
 strYear = TRIM(pFiscalYear);
 strStartWeek = TRIM(pStartWeek);
 strEndWeek = TRIM(pEndWeek);
-
-
-
-
 strYearDim = 'YEAR';
 strWeekDim = 'WEEK';
 strLocationsDim = 'LOCATIONS';
@@ -33,11 +28,6 @@ strDiscountIDDim = 'RnA_DiscountID_SKU';
 strMediaTypeDim = 'RnA_MediaType';
 strVehicleDim = 'RnA_Vehicle';
 strMeasuresDim = 'RnA_Measures';
-
-
-
-
-
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Query data source TM1Data using pFiscalYear, pStartWeek, and pEndWeek as variables to pull the data
@@ -63,11 +53,9 @@ strQuery = 'select ' |
 'group by FiscalYear, FiscalWeek, LocationID, SalesChannelID, DiscountID, Vehicle, Mtype, Mkt_Vehicle ' |
 'order by DiscountID ASC ';
 
-
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Define Data Source and run query
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 strQuery = EXPAND(strQuery);
 
@@ -75,7 +63,6 @@ DATASOURCETYPE = 'ODBC';
 DATASOURCENAMEFORSERVER = strDataSource;
 DATASOURCENAMEFORCLIENT = strDataSource;
 DATASOURCEQUERY = strQuery;
-
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Define Specific dimension sort order for inserting new elements
@@ -128,8 +115,6 @@ vMTypeConsolidation='Total MediaType';
 vCategory='Actual';
 vDiscount = trim(vDiscountID);
 vLocation = trim(vLocationID);
-
-
 
 
 CellPutN(vPromoDiscount,'RnA',vFiscalYear,vFiscalWeek,vLocation,vCategory,vSalesChannelID,vDiscount,vMediaType,vVehicle,'Promo Discount');

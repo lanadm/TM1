@@ -1,0 +1,52 @@
+{
+	"@type":"Chore",
+	"Name":"SKU_DATA - Load All SMG Files",
+	"StartTime":"2022-03-28T15:58Z",
+	"DSTSensitive":false,
+	"Active":false,
+	"ExecutionMode":"MultipleCommit",
+	"Frequency":"P7DT00H00M00S",
+	"Tasks":
+	[
+		{
+			"Step":0,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}SKU_DATA - SMG Retail')"
+			}
+		},
+		{
+			"Step":1,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}SKU_DATA - SMG Retail Time & Speed')"
+			}
+		},
+		{
+			"Step":2,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}SKU_DATA - SMG - Franchise')"
+			}
+		},
+		{
+			"Step":3,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}SKU_DATA - SMG Franchise Time & Speed')"
+			}
+		},
+		{
+			"Step":4,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}SKU_DATA - SMG - D2C')"
+			}
+		}
+	]
+}

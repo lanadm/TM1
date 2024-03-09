@@ -1,0 +1,44 @@
+{
+	"@type":"Chore",
+	"Name":"SKU_DATA - Load Weekly Sales Pounds",
+	"StartTime":"2022-09-28T19:18Z",
+	"DSTSensitive":false,
+	"Active":false,
+	"ExecutionMode":"SingleCommit",
+	"Frequency":"P7DT00H00M00S",
+	"Tasks":
+	[
+		{
+			"Step":0,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}SKU_DATA - Load Sales Pounds Act for Curr Week & Year (Consumer Retail)')"
+			}
+		},
+		{
+			"Step":1,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}SKU_DATA - Load Sales Pounds Act for Curr Week & Year (Consumer Lunch)')"
+			}
+		},
+		{
+			"Step":2,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}SKU_DATA - Load Sales Pounds Act for Curr Week & Year (B2B Gifting)')"
+			}
+		},
+		{
+			"Step":3,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}SKU_DATA - Load Sales Pounds Act for Curr Week & Year (B2B Catering)')"
+			}
+		}
+	]
+}

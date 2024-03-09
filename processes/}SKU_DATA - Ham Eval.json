@@ -1,0 +1,54 @@
+{
+	"@type":"Process",
+	"Name":"}SKU_DATA - Ham Eval",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}SKU_DATA - Ham Eval.ti",
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"dataSourceNameForServer":"Load Files/HamEval/HamEval.csv",
+		"dataSourceNameForClient":"Load Files/HamEval/HamEval.csv",
+		"asciiHeaderRecords":1,
+		"asciiQuoteCharacter":"\"",
+		"asciiDecimalSeparator":".",
+		"asciiThousandSeparator":",",
+		"asciiDelimiterType":"Character",
+		"asciiDelimiterChar":","
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"StoreID",
+			"Type":"String",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"FormName",
+			"Type":"String",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"Score",
+			"Type":"String",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"VariablesUIData": [
+		"IgnoredInputVarName=AuditURLDate\fVarType=32\fColType=1165\f",
+		"VarType=32\fColType=827\f",
+		"IgnoredInputVarName=StoreName\fVarType=32\fColType=1165\f",
+		"IgnoredInputVarName=AuditDate\fVarType=32\fColType=1165\f",
+		"IgnoredInputVarName=District\fVarType=32\fColType=1165\f",
+		"VarType=32\fColType=827\f",
+		"IgnoredInputVarName=Duration\fVarType=32\fColType=1165\f",
+		"VarType=32\fColType=827\f"
+	],
+	"UIData": "_ParameterConstraints=e30=\f"
+}

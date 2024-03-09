@@ -1,0 +1,28 @@
+{
+	"@type":"Chore",
+	"Name":"D365_GL - Synapse Load",
+	"StartTime":"2024-02-16T20:45Z",
+	"DSTSensitive":true,
+	"Active":false,
+	"ExecutionMode":"SingleCommit",
+	"Frequency":"P0DT00H10M00S",
+	"Tasks":
+	[
+		{
+			"Step":0,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}D365_GL - Zero')"
+			}
+		},
+		{
+			"Step":1,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}D365_Synapse Load')"
+			}
+		}
+	]
+}
