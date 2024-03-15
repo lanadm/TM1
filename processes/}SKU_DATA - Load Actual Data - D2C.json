@@ -142,7 +142,6 @@
 			"EndByte":0
 		}
 	],
-	"UIData": "_ParameterConstraints=e30=\f",
 	"VariablesUIData": [
 		"VarType=32\fColType=827\f",
 		"VarType=32\fColType=827\f",
@@ -152,16 +151,14 @@
 		"VarType=32\fColType=827\f",
 		"VarType=33\fColType=827\f",
 		"VarType=33\fColType=827\f",
-		"IgnoredInputVarName=FinalQty\fVarType=33\fColType=1165\f",
-		"VarType=33\fColType=827\f",
-		"VarType=33\fColType=827\f",
-		"IgnoredInputVarName=FinalUnits\fVarType=33\fColType=1165\f",
 		"VarType=33\fColType=827\f",
 		"VarType=33\fColType=827\f",
 		"VarType=33\fColType=827\f",
 		"VarType=33\fColType=827\f",
 		"VarType=33\fColType=827\f",
 		"VarType=33\fColType=827\f",
-		"IgnoredInputVarName=NetSales\fVarType=32\fColType=1165\f"
-	]
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f"
+	],
+	"UIData": "_ParameterConstraints=e30=\f"
 }

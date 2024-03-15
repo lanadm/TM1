@@ -1,0 +1,95 @@
+#region Prolog
+#---------------------------
+
+# No Prolog
+
+#---------------------------
+#endregion
+#region Metadata
+#---------------------------
+
+FYear='FY ' | subst(cellgets('bpmControl','Current Year', 'Value'),3,2);
+
+Category='Actual';
+
+LSKUS='SMG';
+
+LCHANNEL='100';
+
+Location=
+     IF( Store @= 'SMG_Franchise', Store,
+          IF( Store @= 'Combined', 'SMG_Franchise',
+               CELLGETS( 't-strctr', subst(Store,1,4), 'Name' )));
+
+SoRO_NwChk=IF( TRIM(STR(SoRO_N,20,0))@='**',0,SoRO_N);
+SoRO_5wChk=IF( TRIM(STR(SoRO_5,20,0))@='**',0,SoRO_5);
+SoRO_4wChk=IF( TRIM(STR(SoRO_4,20,0))@='**',0,SoRO_4);
+SoRO_3wChk=IF( TRIM(STR(SoRO_3,20,0))@='**',0,SoRO_3);
+SoRO_2wChk=IF( TRIM(STR(SoRO_2,20,0))@='**',0,SoRO_2);
+SoRO_1wChk=IF( TRIM(STR(SoRO_1,20,0))@='**',0,SoRO_1);
+
+TW2BS_NwChk=IF( TRIM(STR(TW2BS_N,20,0))@='**',0,TW2BS_N);
+TW2BS_5wChk=IF( TRIM(STR(TW2BS_5,20,0))@='**',0,TW2BS_5);
+TW2BS_4wChk=IF( TRIM(STR(TW2BS_4,20,0))@='**',0,TW2BS_4);
+TW2BS_3wChk=IF( TRIM(STR(TW2BS_3,20,0))@='**',0,TW2BS_3);
+TW2BS_2wChk=IF( TRIM(STR(TW2BS_2,20,0))@='**',0,TW2BS_2);
+TW2BS_1wChk=IF( TRIM(STR(TW2BS_1,20,0))@='**',0,TW2BS_1);
+
+#---------------------------
+#endregion
+#region Data
+#---------------------------
+
+FYear='FY ' | subst(cellgets('bpmControl','Current Year', 'Value'),3,2);
+
+Category='Actual';
+
+LSKUS='SMG';
+
+LCHANNEL='100';
+
+Location=
+     IF( Store @= 'SMG_Franchise', Store,
+     IF( Store @= 'Combined', 'SMG_Franchise',
+     CELLGETS( 't-strctr', subst(Store,1,4), 'Name' )));
+
+SoRO_NwChk=IF( TRIM(STR(SoRO_N,20,0))@='**',0,SoRO_N);
+SoRO_5wChk=IF( TRIM(STR(SoRO_5,20,0))@='**',0,SoRO_5);
+SoRO_4wChk=IF( TRIM(STR(SoRO_4,20,0))@='**',0,SoRO_4);
+SoRO_3wChk=IF( TRIM(STR(SoRO_3,20,0))@='**',0,SoRO_3);
+SoRO_2wChk=IF( TRIM(STR(SoRO_2,20,0))@='**',0,SoRO_2);
+SoRO_1wChk=IF( TRIM(STR(SoRO_1,20,0))@='**',0,SoRO_1);
+
+TW2BS_NwChk=IF( TRIM(STR(TW2BS_N,20,0))@='**',0,TW2BS_N);
+TW2BS_5wChk=IF( TRIM(STR(TW2BS_5,20,0))@='**',0,TW2BS_5);
+TW2BS_4wChk=IF( TRIM(STR(TW2BS_4,20,0))@='**',0,TW2BS_4);
+TW2BS_3wChk=IF( TRIM(STR(TW2BS_3,20,0))@='**',0,TW2BS_3);
+TW2BS_2wChk=IF( TRIM(STR(TW2BS_2,20,0))@='**',0,TW2BS_2);
+TW2BS_1wChk=IF( TRIM(STR(TW2BS_1,20,0))@='**',0,TW2BS_1);
+
+#SoRO Data Load
+CellPutN(SoRO_NwChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'SoRO N',LCHANNEL);
+CellPutN(SoRO_5wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'SoRO 5',LCHANNEL);
+CellPutN(SoRO_4wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'SoRO 4',LCHANNEL);
+CellPutN(SoRO_3wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'SoRO 3',LCHANNEL);
+CellPutN(SoRO_2wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'SoRO 2',LCHANNEL);
+CellPutN(SoRO_1wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'SoRO 1',LCHANNEL);
+
+#TW2BS Data Load
+CellPutN(TW2BS_NwChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'TW2BS N',LCHANNEL);
+CellPutN(TW2BS_5wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'TW2BS 5',LCHANNEL);
+CellPutN(TW2BS_4wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'TW2BS 4',LCHANNEL);
+CellPutN(TW2BS_3wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'TW2BS 3',LCHANNEL);
+CellPutN(TW2BS_2wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'TW2BS 2',LCHANNEL);
+CellPutN(TW2BS_1wChk,'SKU_DATA',FYear,Category,Location,LSKUS,Week,'TW2BS 1',LCHANNEL);
+
+#---------------------------
+#endregion
+#region Epilog
+#---------------------------
+
+# No Epilog
+
+
+
+#endregion

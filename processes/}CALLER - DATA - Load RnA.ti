@@ -4,11 +4,11 @@
 # Set Variables
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-strCube = 'RnA';
+strCube = 'RnA'; 
 strWeekCube = 't-weeks';
 strView = 'zz_'| strCube | '_ZeroOut';
 strSub = strView;
-numLoadWeeks = 2;
+numLoadWeeks = 5;
 
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -49,17 +49,51 @@ strMeasuresDim = 'RnA_Measures';
 
 strProcessName = GETPROCESSNAME();
 strErrorFile = strProcessName | '_' | TIMST(NOW, '\Y\m\d') | '.csv';
-strLogDirectory = CELLGETS('bpmControl','Log Directory','Value');
-strLogDirectory = strLogDirectory | IF(SUBST(strLogDirectory, LONG(strLogDirectory), 1) @= '\', '', '\');
+strLogDirectory = 'Logging Errors/RnA';
 strError = strLogDirectory | strErrorFile;
 numErrorCount = 0;
 
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Check if Year, Start Week, End Week, and Start Week are blank. If so, then outputs errors.
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IF(strYear @= '' & ( strStartWeek @<> '' % strEndWeek @<> '' ) );
+    ASCIIOUTPUT(strError, 'Start Week entered, ' | strStartWeek | ', End Week entered, ' | strEndWeek | ', and Year entered, ' | strYear | ', must be blank for chore load, or have a value entered for on-demand load.');
+    PROCESSERROR;
+ENDIF;
+
+IF(strYear @<> '' & ( strStartWeek @= '' % strEndWeek @= '' ) );
+    ASCIIOUTPUT(strError, 'Start Week entered, ' | strStartWeek | ', End Week entered, ' | strEndWeek | ', and Year entered, ' | strYear | ', must be blank for chore load, or have a value entered for on-demand load.');
+    PROCESSERROR;
+ENDIF;
+
+IF(strStartWeek @= '' & strEndWeek @<> '');
+    ASCIIOUTPUT(strError, 'Start Week, ' | strStartWeek | ', and End Week, ' | strEndWeek | ', must be blank for chore load, or have a value entered for on-demand load.');
+    PROCESSERROR;
+ENDIF;
+
+IF(strStartWeek @<> '' & strEndWeek @= '');
+    ASCIIOUTPUT(strError, 'Start Week, ' | strStartWeek | ', and End Week, ' | strEndWeek | ', must be blank for chore load, or have a value entered for on-demand load.');
+    PROCESSERROR;
+ENDIF;
 
 IF(strYear @<> '' & strStartWeek @<> '' & strEndWeek @<> '' );
     strChoreLoad = 'F';
     numStartWeek = NUMBR(strStartWeek);
     numEndWeek = NUMBR(strEndWeek);
+
     numLoadWeeks = NUMBR(strEndWeek) - NUMBR(strStartWeek) + 1;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Check if the Number of Load weeks is less than zero. If so, output error.
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    IF(numLoadWeeks < 0);
+        ASCIIOUTPUT(strError, 'The  End Week entered, ' | strEndWeek | ', must be greater than or equal to the Start Week entered, ' | strStartWeek | '.');
+        PROCESSERROR;
+    ENDIF;
 ENDIF;
 
 
@@ -81,6 +115,17 @@ IF(strEndWeek @= '');
     numEndWeek = NUMBR(strEndWeek);
 ENDIF;
 
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Check if the Year element is missing from the YEAR dimension. If so, output an error.
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strDim = strYearDim;
+strElem = strYear;
+IF(DIMIX(strDim, strElem) = 0);
+    ASCIIOUTPUT(strError, 'The value entered, ' | strElem | ', is not a valid element in the ' | strDim | ' dimension.');
+    PROCESSERROR;
+ENDIF;
 
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

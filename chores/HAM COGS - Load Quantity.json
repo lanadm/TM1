@@ -1,0 +1,36 @@
+{
+	"@type":"Chore",
+	"Name":"HAM COGS - Load Quantity",
+	"StartTime":"2023-10-29T15:47Z",
+	"DSTSensitive":false,
+	"Active":false,
+	"ExecutionMode":"SingleCommit",
+	"Frequency":"P999DT00H00M00S",
+	"Tasks":
+	[
+		{
+			"Step":0,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}Ham Cogs - Load Quantity from SKU_DATA - Quarter Ham')"
+			}
+		},
+		{
+			"Step":1,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}Ham Cogs - Load Quantity from SKU_DATA - Half Ham')"
+			}
+		},
+		{
+			"Step":2,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}Ham Cogs - Load Quantity from SKU_DATA - Boneless Ham')"
+			}
+		}
+	]
+}

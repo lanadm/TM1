@@ -36,56 +36,56 @@
 	"Variables":
 	[
 		{
-			"Name":"V0",
+			"Name":"vFiscalYear",
 			"Type":"String",
 			"Position":1,
 			"StartByte":0,
 			"EndByte":0
 		},
 		{
-			"Name":"V1",
+			"Name":"vPeriod",
 			"Type":"String",
 			"Position":2,
 			"StartByte":0,
 			"EndByte":0
 		},
 		{
-			"Name":"V2",
+			"Name":"vFiscalWeek",
 			"Type":"String",
 			"Position":3,
 			"StartByte":0,
 			"EndByte":0
 		},
 		{
-			"Name":"V3",
+			"Name":"vLocationID",
 			"Type":"String",
 			"Position":4,
 			"StartByte":0,
 			"EndByte":0
 		},
 		{
-			"Name":"V4",
+			"Name":"vOdersID",
 			"Type":"String",
 			"Position":5,
 			"StartByte":0,
 			"EndByte":0
 		},
 		{
-			"Name":"V5",
+			"Name":"vDrawerDate",
 			"Type":"String",
 			"Position":6,
 			"StartByte":0,
 			"EndByte":0
 		},
 		{
-			"Name":"V6",
+			"Name":"vSKU",
 			"Type":"String",
 			"Position":7,
 			"StartByte":0,
 			"EndByte":0
 		},
 		{
-			"Name":"V7",
+			"Name":"vDesc",
 			"Type":"String",
 			"Position":8,
 			"StartByte":0,
@@ -141,7 +141,6 @@
 			"EndByte":0
 		}
 	],
-	"UIData": "_ParameterConstraints=e30=\f",
 	"VariablesUIData": [
 		"VarType=32\fColType=827\f",
 		"VarType=32\fColType=827\f",
@@ -158,5 +157,6 @@
 		"VarType=33\fColType=827\f",
 		"VarType=33\fColType=827\f",
 		"VarType=32\fColType=827\f"
-	]
+	],
+	"UIData": "_ParameterConstraints=e30=\f"
 }

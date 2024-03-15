@@ -1,33 +1,28 @@
 #region Prolog
 
-#NOTE! Parameters for this process define weeks ONLY for called process 'DATA - Zero Out SKU_3P_Wkv2b'!
-#            *** Source data is set to run week 1 to current.
-#            *** Unless called processes 'DATA - Load AR Actuals_3P_Wkb' and 'DATA - Load AR Actuals_3P_Wk_Transb' are revised to load what is defined by the process parameters,
-#                 ALWAYS enter week 1 to current in this CALLER - DATA - Load SKU_3P_Wkb process!
-
-
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Set Variables
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 strCube_g = 'SKU_3P_Wkb';
 strWeekCube_g = 't-weeks';
-numLoadWeeks = 6;
-strChoreLoad = 'F';
-strStartWeek_g = '1';
+strView = 'zz_'| strCube_g | '_ZeroOut';
+strSub = strView;
+numLoadWeeks = 5;
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Trim the parameters to eliminate leading or trailing blanks
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 strYear_g = TRIM(pYear);
+strStartWeek_g = TRIM(pStartWeek);
 strEndWeek_g = TRIM(pEndWeek);
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Set Process Variables
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-strZeroOutProcess = '}SKU_3P_WkB - Zero Weekly Data';
+strZeroOutProcess = '}SKU_3P_WkB - Zero Weekly Data for Load';
 strCMS3Process = '}SKU_3P_WkB - Load Actual Data';
 strCMS4Process = '}SKU_3P_WkB - Load Actual Data - Transactions';
 

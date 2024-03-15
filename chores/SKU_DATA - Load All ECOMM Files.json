@@ -1,0 +1,28 @@
+{
+	"@type":"Chore",
+	"Name":"SKU_DATA - Load All ECOMM Files",
+	"StartTime":"2022-04-04T17:17Z",
+	"DSTSensitive":false,
+	"Active":false,
+	"ExecutionMode":"MultipleCommit",
+	"Frequency":"P7DT00H00M00S",
+	"Tasks":
+	[
+		{
+			"Step":0,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}ECOMM- Load Orders by Customer')"
+			}
+		},
+		{
+			"Step":1,
+			"Parameters":[],
+			"Process":
+			{
+				"@id":"Processes('}ECOMM - Load Order Count by Customer')"
+			}
+		}
+	]
+}

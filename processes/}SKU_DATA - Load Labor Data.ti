@@ -1,0 +1,196 @@
+#region Prolog
+#----------------------------------------
+
+strProcessName = GETPROCESSNAME();
+strCube_g = 'SKU_DATA';
+strWeekCube_g = 't-weeks';
+strView_g = 'zz_' | strProcessName | '_ZeroOut';
+strSub_g = strView_g;
+strCategory_g = 'Actual';
+strSku_g = 'Consumer Retail';
+strChannel_g = '100';
+strYear_g = TRIM(pYear);
+strWeeknum_g = TRIM(pWeek);
+strStatWgsRegular_g = 'Hourly Wgs - Regular';
+strStatWgsVacation_g = 'Hourly Wgs - Vacation';
+strStatWgsOT_g = 'Hourly Wgs - OT';
+strStatHrsRegular_g = 'Regular Hrs';
+strStatHrsVacation_g = 'Vacation Hrs';
+strStatHrsOT_g = 'OT Hrs';
+#strLocation_g = '52310099';
+
+
+strYearDim = 'YEAR';
+strCategoryDim = 'CATEGORY';
+strLocationsDim = 'LOCATIONS';
+strSkusDim = 'Lskus';
+strWeekDim = 'WEEK';
+strStatDim = 'Lstat';
+strChannelDim = 'Lchannel';
+
+strErrorFile = strProcessName | '_' | TIMST(NOW, '\Y\m\d') | '.csv';
+strLogDirectory = CELLGETS('bpmControl','Log Directory','Value');
+strLogDirectory = strLogDirectory | IF(SUBST(strLogDirectory, LONG(strLogDirectory), 1) @<> '\', '\', '');
+strError = strLogDirectory | strErrorFile;
+
+strDataSource_g = 'TM1Data';
+strQuery_g = 'Use SellingMetrics ' |
+'exec [spBuildLaborPayComTm1_PayrollBatch] %strWeeknum_g%';
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+# Checks
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+
+strDim = strYearDim;
+strElem = strYear_g;
+IF(DIMIX(strDim, strElem) = 0);
+    ASCIIOUTPUT(strError, 'The value entered, ' | strElem | ', is not a valid element in the ' | strDim | ' dimension.');
+    PROCESSERROR;
+ENDIF;
+
+strDim = strYearDim;
+strElem = SUBST(strWeeknum_g, 1, 4);
+IF(DIMIX(strDim, strElem) = 0);
+    ASCIIOUTPUT(strError, 'The value entered, ' | strElem | ', is not a valid element in the ' | strDim | ' dimension.');
+    PROCESSERROR;
+ENDIF;
+
+# Determine WEEK Element
+#strWeek_g = CELLGETS(strWeekCube_g, SUBST(strWeeknum_g, 6, 1), strYear_g);
+strWeek_g = CELLGETS(strWeekCube_g, SUBST(strWeeknum_g, 5, 2), strYear_g);
+
+strDim = strWeekDim;
+strElem = strWeek_g;
+IF(DIMIX(strDim, strElem) = 0);
+    ASCIIOUTPUT(strError, 'The value entered, ' | strElem | ', is not a valid element in the ' | strDim | ' dimension.');
+    PROCESSERROR;
+ENDIF;
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+# Create Zero Out View
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+
+strCube = strCube_g;
+
+strView = strView_g;
+strSub = strSub_g;
+
+IF(VIEWEXISTS(strCube, strView) = 1);
+   VIEWDESTROY(strCube, strView);
+ENDIF;
+VIEWCREATE(strCube, strView);
+
+VIEWEXTRACTSKIPCALCSSET(strCube, strView, 1);
+VIEWEXTRACTSKIPRULEVALUESSET(strCube, strView, 1);
+VIEWEXTRACTSKIPZEROESSET(strCube, strView, 1);
+
+i = 1;
+WHILE(TABDIM(strCube, i) @<> '');
+   strDim = TABDIM(strCube, i);
+
+   IF(SUBSETEXISTS(strDim, strSub) = 0);
+      SUBSETCREATE(strDim, strSub);
+   ENDIF;
+   SUBSETDELETEALLELEMENTS(strDim, strSub);
+
+   VIEWSUBSETASSIGN(strCube, strView, strDim, strSub);
+
+   IF(strDim @= strYearDim);
+      strEle = strYear_g;
+      SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+   ELSEIF(strDim @= strCategoryDim);
+      strEle = strCategory_g;
+      SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+   ELSEIF(strDim @= strSkusDim);
+      strEle = strSku_g;
+      SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+   ELSEIF(strDim @= strWeekDim);
+      strEle = strWeek_g;
+      SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+   ELSEIF(strDim @= strStatDim);
+      strEle = strStatWgsRegular_g;
+      SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+      strEle = strStatWgsVacation_g;
+      SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+      strEle = strStatWgsOT_g;
+      SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+      strEle = strStatHrsRegular_g;
+      SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+      strEle = strStatHrsVacation_g;
+      SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+      strEle = strStatHrsOT_g;
+      SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+   ELSEIF(strDim @= strChannelDim);
+      strEle = strChannel_g;
+      SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+   ELSE;
+      p = 1;
+      WHILE(p <= DIMSIZ(strDim));
+         strLoopEle = DIMNM(strDim, p);
+         IF(ELLEV(strDim, strLoopEle) = 0);
+            SUBSETELEMENTINSERT(strDim, strSub, strLoopEle, SUBSETGETSIZE(strDim, strSub) + 1);
+         ENDIF;
+         p = p + 1;
+      END;
+   ENDIF;
+
+   i = i + 1;
+END;
+
+VIEWZEROOUT(strCube, strView);
+
+VIEWDESTROY(strCube, strView);
+
+i = 1;
+WHILE(TABDIM(strCube, i) @<> '');
+    strDim = TABDIM(strCube, i);
+
+    IF(SUBSETEXISTS(strDim, strSub) = 1);
+       SUBSETDESTROY(strDim, strSub);
+    ENDIF;
+    i = i + 1;
+END;
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+# Define Data Source
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+
+strQuery = EXPAND(strQuery_g);
+
+DATASOURCETYPE = 'ODBC';
+DATASOURCENAMEFORSERVER = strDataSource_g;
+DATASOURCENAMEFORCLIENT = strDataSource_g;
+DATASOURCEQUERY = strQuery;
+
+#----------------------------------------
+#endregion
+#region Metadata
+#----------------------------------------
+
+# No Metadata
+
+#----------------------------------------
+#endregion
+#region Data
+#----------------------------------------
+
+strLocation = TRIM(vCostCenter);
+strStatWgs = TRIM(vStatWgs);
+strStatHrs = TRIM(vStatHrs);
+numHours = vHours;
+numDollars = vDollars;
+
+CELLINCREMENTN(numHours, strCube_g, strYear_g, strCategory_g, strLocation, strSku_g, strWeek_g, strStatHrs, strChannel_g);
+CELLINCREMENTN(numDollars, strCube_g, strYear_g, strCategory_g, strLocation, strSku_g, strWeek_g, strStatWgs, strChannel_g);
+
+#----------------------------------------
+#endregion
+#region Epilog
+#----------------------------------------
+
+# No Epilog
+
+#endregion
