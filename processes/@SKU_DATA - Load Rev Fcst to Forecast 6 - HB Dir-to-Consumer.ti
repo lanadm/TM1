@@ -1,0 +1,140 @@
+#region Prolog
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Variables
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strProcessName = GETPROCESSNAME();
+strCube_g = 'SKU_DATA';
+strWeekCube_g = 't-weeks';
+strView_g = 'zz_' | strProcessName | '_Load';
+strSub_g = strView_g;
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Subset variables
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYear = TRIM(pYear);
+strOrigCategory = TRIM(pOrigCategory);
+strCategory = TRIM(pCategory);
+strLocations = ' All-HB DIR-TO-CONSUMER';
+strWeek = 'FY 24 Weeks 27-53';
+
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set dimension variables
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYearDim = 'YEAR';
+strCategoryDim = 'CATEGORY';
+strLocationsDim = 'LOCATIONS';
+strSKUDim = 'Lskus';
+strWeekDim = 'WEEK';
+strStatDim = 'Lstat';
+strChannelDim = 'Lchannel';
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# This section Creates Loading View
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strCube = strCube_g;
+strView = strView_g;
+strSub = strSub_g;
+
+#     =================================
+#      If the view already exists, destroy it.
+#     =================================
+
+IF(VIEWEXISTS(strCube, strView) = 1);
+   VIEWDESTROY(strCube, strView);
+ENDIF;
+
+#     =================================
+#      Create the new view
+#     =================================
+
+VIEWCREATE(strCube, strView);
+
+VIEWEXTRACTSKIPCALCSSET(strCube, strView, 1);
+VIEWEXTRACTSKIPRULEVALUESSET(strCube, strView, 1);
+VIEWEXTRACTSKIPZEROESSET(strCube, strView, 1);
+
+#     =================================
+#      Cycle through the dimensions
+#     =================================
+
+i = 1;
+WHILE(TABDIM(strCube, i) @<> '');
+   strDim = TABDIM(strCube, i);
+
+
+#     =================================
+#      Check to see if the view subset exists within the dimension.
+#           If it exists, delete all elements from the subset
+#     =================================
+
+   IF(SUBSETEXISTS(strDim, strSub) = 0);
+      SUBSETCREATE(strDim, strSub);
+   ENDIF;
+   SUBSETDELETEALLELEMENTS(strDim, strSub);
+
+#     =================================
+#      Assign dimension subset to the newly created zero out view
+#     =================================
+
+   VIEWSUBSETASSIGN(strCube, strView, strDim, strSub);
+
+#     =================================
+#      Add the appropriate elements to the subset
+#     =================================
+
+   IF( strDim @= strYearDim );
+      strEle = strYear;
+      SUBSETELEMENTINSERT( strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub ) + 1 );
+
+    ELSEIF( strDim @= strCategoryDim );
+      strEle = strOrigCategory;
+      SUBSETELEMENTINSERT( strDim, strSub, strEle, SUBSETGETSIZE( strDim, strSub ) + 1 );
+
+    ELSEIF( strDim @= strWeekDim );
+      p = 1;
+      WHILE( p <= SUBSETGETSIZE( strDim, strWeek ));
+         strLoopEle = SUBSETGETELEMENTNAME( strDim, strWeek, p );
+         SUBSETELEMENTINSERT( strDim, strSub, strLoopEle, SUBSETGETSIZE( strDim, strSub ) + 1);
+         p = p + 1;
+      END;
+
+    ELSEIF( strDim @= strLocationsDim );
+      p = 1;
+      WHILE( p <= SUBSETGETSIZE( strDim, strLocations ));
+         strLoopEle = SUBSETGETELEMENTNAME( strDim, strLocations, p );
+         SUBSETELEMENTINSERT( strDim, strSub, strLoopEle, SUBSETGETSIZE( strDim, strSub ) + 1);
+         p = p + 1;
+      END;
+       
+   ELSE;
+      p = 1;
+      WHILE(p <= DIMSIZ(strDim));
+         strLoopEle = DIMNM(strDim, p);
+         IF(ELLEV(strDim, strLoopEle) = 0);
+            SUBSETELEMENTINSERT(strDim, strSub, strLoopEle, SUBSETGETSIZE(strDim, strSub) + 1);
+         ENDIF;
+         p = p + 1;
+      END;
+
+   ENDIF;
+
+   i = i + 1;
+END;
+
+
+
+#endregion
+#region Data
+
+
+
+    CellPutN( vValue, 'SKU_DATA', vYear, strCategory, vLocations, vSKU, vWeek, vStat, vChannel ) ;
+
+
+#endregion

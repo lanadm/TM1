@@ -1,0 +1,12 @@
+{
+	"@type":"Process",
+	"Name":"@Planning - Zero Process",
+	"HasSecurityAccess":false,
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[],
+	"UIData": "_ParameterConstraints=e30=\f"
+}

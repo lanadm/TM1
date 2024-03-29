@@ -1,0 +1,124 @@
+{
+	"@type":"Process",
+	"Name":"@Planning - Load to SKU_DATA (Franchise Only)",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"@Planning - Load to SKU_DATA (Franchise Only).ti",
+	"DataSource":
+	{
+		"Type":"TM1CubeView",
+		"dataSourceNameForServer":"Planning",
+		"dataSourceNameForClient":"Planning",
+		"view":"zz_@Planning - Load to SKU_DATA (Franchise Only)_LoadtoSKU_DATA"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pYear",
+			"Prompt":"Year (FY YY)",
+			"Value":"FY 24",
+			"Type":"String"
+		},
+		{
+			"Name":"pScenario",
+			"Prompt":"Scenario to Copy from (Planning 1, Planning 2, etc)",
+			"Value":"Planning 1",
+			"Type":"String"
+		},
+		{
+			"Name":"pCategory",
+			"Prompt":"SKU_DATA Category to Copy to (Rev Fcst, Forecast 6, Budget etc)",
+			"Value":"Forecast 6",
+			"Type":"String"
+		},
+		{
+			"Name":"pStartWeek",
+			"Prompt":"Start Week (W)",
+			"Value":"27",
+			"Type":"String"
+		},
+		{
+			"Name":"pEndWeek",
+			"Prompt":"End Week (W)",
+			"Value":"53",
+			"Type":"String"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"vYear",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vWeek",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vScenario",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vChannel",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vLocations",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vProduct",
+			"Type":"String",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vBudgetWalk",
+			"Type":"String",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vMeasures",
+			"Type":"String",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vValue",
+			"Type":"Numeric",
+			"Position":9,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"UIData": "_ParameterConstraints=e30=\f",
+	"VariablesUIData": [
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=33\fColType=827\f"
+	]
+}

@@ -33,3 +33,20 @@ CellPutN( DataSign, 'D365_GL', FiscalYear, FiscalPeriod, Category, strProject, s
 
 
 #endregion
+#region Epilog
+
+strNow = Now();
+strDate = date(Now(), 1);
+strMonth = NumberToString(Month(strDate));
+strDay = NumberToString(Day(strDate));
+strYear = NumberToString(Year(strDate));
+strHour = NumberToString(TIMVL(strNow, 'H'));
+strMinute = NumberToString(TIMVL(strNow, 'I'));
+strLogDir = './D365_GL_ChoreCompletionLogs/';
+strFile = 'D365_SynapseLoad_' | strMonth | strDay | strYear | '_' | 'UTC' |strHour | strMinute | '.txt';
+  
+ASCIIOutput(strLogDir | strFile,'The Chore Completed at ' | strHour | ':' | strMinute );
+
+
+
+#endregion

@@ -1,0 +1,104 @@
+{
+	"@type":"Process",
+	"Name":"@SKU_DATA - Load Actual to Forecast",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"@SKU_DATA - Load Actual to Forecast.ti",
+	"DataSource":
+	{
+		"Type":"TM1CubeView",
+		"dataSourceNameForServer":"SKU_DATA",
+		"dataSourceNameForClient":"SKU_DATA",
+		"view":"zz_@SKU_DATA - Load Actual to Forecast_Load"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pYear",
+			"Prompt":"Year to Copy to (FY YY)",
+			"Value":"FY 24",
+			"Type":"String"
+		},
+		{
+			"Name":"pOrigCategory",
+			"Prompt":"Copy From Category (Actual, Budget, etc)",
+			"Value":"Actual",
+			"Type":"String"
+		},
+		{
+			"Name":"pCategory",
+			"Prompt":"Copy To Category (Rev Fcst, Budget, Forecast 6, etc)",
+			"Value":"Forecast 6",
+			"Type":"String"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"vYear",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vCategory",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vLocations",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vSKU",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vWeek",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vStat",
+			"Type":"String",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vChannel",
+			"Type":"String",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vValue",
+			"Type":"Numeric",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"UIData": "_ParameterConstraints=e30=\f",
+	"VariablesUIData": [
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=33\fColType=827\f"
+	]
+}

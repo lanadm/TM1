@@ -1,0 +1,245 @@
+#region Prolog
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Variables
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strProcessName = GETPROCESSNAME();
+strCube_g = 'Planning';
+strWeekCube_g = 't-weeks';
+strView_g = 'zz_' | strProcessName | '_LoadtoSKU_DATA';
+strSub_g = strView_g;
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Trim the week parameters to eliminate leading or trailing blanks
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# strStartWeek_g = TRIM(pStartWeek);
+# strEndWeek_g = TRIM(pEndWeek);
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Subset variables
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYear = TRIM(pYear);
+strScenario = TRIM(pScenario);
+strChannel = '!Extract from Plan to SKU_DATA';
+strLocations = 'HB Franchise - N Level';
+strProduct = '!Extract to SKU_DATA';
+strBudgetWalk = 'SKU_DATA - Extract List';
+strMeasures = 'SKU_DATA - Extract List';
+strWeek = 'SKU_DATA - Extract List';
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set dimension variables
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYearDim = 'YEAR';
+strWeekDim = 'Plan_Week';
+strScenarioDim = 'Plan_Scenario';
+strChannelDim = 'Lchannel';
+strLocationsDim = 'LOCATIONS';
+strProductDim = 'Plan_Product';
+strBudgetWalkDim = 'Plan_BudgetWalk';
+strMeasuresDim = 'Plan_Measures';
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Determine Number of Weeks in order to extrapolate the End Week and Start Week numbers
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# numWeeks = NUMBR(strEndWeek_g) - NUMBR(strStartWeek_g) + 1;
+# numEndWeek = NUMBR(strEndWeek_g);
+# numStartWeek = NUMBR(strStartWeek_g);
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# This section Creates Loading View
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strCube = strCube_g;
+strView = strView_g;
+strSub = strSub_g;
+
+#     =================================
+#      If the view already exists, destroy it.
+#     =================================
+
+IF(VIEWEXISTS(strCube, strView) = 1);
+   VIEWDESTROY(strCube, strView);
+ENDIF;
+
+#     =================================
+#      Create the new view
+#     =================================
+
+VIEWCREATE(strCube, strView);
+
+VIEWEXTRACTSKIPCALCSSET(strCube, strView, 0);
+VIEWEXTRACTSKIPRULEVALUESSET(strCube, strView, 0);
+VIEWEXTRACTSKIPZEROESSET(strCube, strView, 1);
+
+#     =================================
+#      Cycle through the dimensions
+#     =================================
+
+i = 1;
+WHILE(TABDIM(strCube, i) @<> '');
+   strDim = TABDIM(strCube, i);
+
+
+#     =================================
+#      Check to see if the view subset exists within the dimension.
+#           If it exists, delete all elements from the subset
+#     =================================
+
+   IF(SUBSETEXISTS(strDim, strSub) = 0);
+      SUBSETCREATE(strDim, strSub);
+   ENDIF;
+   SUBSETDELETEALLELEMENTS(strDim, strSub);
+
+#     =================================
+#      Assign dimension subset to the newly created zero out view
+#     =================================
+
+   VIEWSUBSETASSIGN(strCube, strView, strDim, strSub);
+
+#     =================================
+#      Add the appropriate elements to the subset
+#     =================================
+
+   IF( strDim @= strYearDim );
+      strEle = strYear;
+      SUBSETELEMENTINSERT( strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub ) + 1 );
+
+   # ELSEIF( strDim @= strWeekDim );
+   #    p = numStartWeek;
+   #    WHILE( p <= numEndWeek );
+   #       strLoopEle = CELLGETS( strWeekCube_g, NUMBERTOSTRING( p ), 'FY ' | SUBST(strYear, 3, 2 ) );
+   #       IF( ELLEV(strDim, strLoopEle ) = 0 );
+   #          SUBSETELEMENTINSERT( strDim, strSub, strLoopEle, SUBSETGETSIZE( strDim, strSub ) + 1 );
+   #       ENDIF;
+   #       p = p + 1;
+   #    END;
+
+       
+    ELSEIF( strDim @= strWeekDim );
+      p = 1;
+      WHILE( p <= SUBSETGETSIZE( strDim, strWeek ));
+         strLoopEle = SUBSETGETELEMENTNAME( strDim, strWeek, p );
+         SUBSETELEMENTINSERT( strDim, strSub, strLoopEle, SUBSETGETSIZE( strDim, strSub ) + 1);
+         p = p + 1;
+      END;
+
+       
+    ELSEIF( strDim @= strScenarioDim );
+      strEle = strScenario;
+      SUBSETELEMENTINSERT( strDim, strSub, strEle, SUBSETGETSIZE( strDim, strSub ) + 1 );
+
+    ELSEIF( strDim @= strChannelDim );
+      p = 1;
+      WHILE( p <= SUBSETGETSIZE( strDim, strChannel ));
+         strLoopEle = SUBSETGETELEMENTNAME( strDim, strChannel, p );
+         SUBSETELEMENTINSERT( strDim, strSub, strLoopEle, SUBSETGETSIZE( strDim, strSub ) + 1);
+         p = p + 1;
+      END;
+
+    ELSEIF( strDim @= strLocationsDim );
+      p = 1;
+      WHILE( p <= SUBSETGETSIZE( strDim, strLocations ));
+         strLoopEle = SUBSETGETELEMENTNAME( strDim, strLocations, p );
+         SUBSETELEMENTINSERT( strDim, strSub, strLoopEle, SUBSETGETSIZE( strDim, strSub ) + 1);
+         p = p + 1;
+      END;
+
+    ELSEIF( strDim @= strProductDim );
+      p = 1;
+      WHILE( p <= SUBSETGETSIZE( strDim, strProduct ));
+         strLoopEle = SUBSETGETELEMENTNAME( strDim, strProduct, p );
+         SUBSETELEMENTINSERT( strDim, strSub, strLoopEle, SUBSETGETSIZE( strDim, strSub ) + 1 );
+         p = p + 1;
+      END;
+
+    ELSEIF( strDim @= strBudgetWalkDim );
+      p = 1;
+      WHILE( p <= SUBSETGETSIZE( strDim, strBudgetWalk ));
+         strLoopEle = SUBSETGETELEMENTNAME( strDim, strBudgetWalk, p );
+         SUBSETELEMENTINSERT( strDim, strSub, strLoopEle, SUBSETGETSIZE( strDim, strSub ) + 1 );
+         p = p + 1;
+      END;
+
+    ELSEIF( strDim @= strMeasuresDim );
+      p = 1;
+      WHILE( p <= SUBSETGETSIZE( strDim, strMeasures ));
+         strLoopEle = SUBSETGETELEMENTNAME( strDim, strMeasures, p );
+         SUBSETELEMENTINSERT( strDim, strSub, strLoopEle, SUBSETGETSIZE( strDim, strSub ) + 1 );
+         p = p + 1;
+      END;
+
+          ENDIF;
+
+   i = i + 1;       
+
+END;
+
+
+
+#endregion
+#region Metadata
+
+
+
+#endregion
+#region Data
+
+Category = pCategory;
+
+LSKUS = IF( vProduct @= 'MISC EXCL GRATUITY',  
+                     '999997 - Unknown Skus',
+                     ATTRS( 'Plan_Product', vProduct, 'SKU_Translation' ) );
+
+SKU_WEEK = ATTRS( 'Plan_Week', vWeek, 'SKUWeekTranslation' );
+
+SKU_STAT = ATTRS( 'Plan_Measures', vMeasures, 'SKU_Data Name' );
+
+SKU_Channel=
+IF( vBudgetWalk @= 'Organic Volume' & vChannel @= 'CONSUMER RETAIL', '100',
+IF( vBudgetWalk @= 'RA Adjustment' & vChannel @= 'CONSUMER RETAIL', '100',
+IF(vBudgetWalk @= 'R&A Adjustment' & vChannel @= 'CONSUMER RETAIL', '100',
+IF( vBudgetWalk @= 'Elasticity' & vChannel @= 'CONSUMER RETAIL', '101',
+IF( vBudgetWalk @= 'Pricing' & vChannel @= 'CONSUMER RETAIL', '102',
+IF( vBudgetWalk @= 'NPD Total' & vChannel @= 'CONSUMER RETAIL', '103',
+IF( vBudgetWalk @= 'Organic Volume' & vChannel @= 'CONSUMER LUNCH', '200',
+IF( vBudgetWalk @= 'RA Adjustment' & vChannel @= 'CONSUMER LUNCH', '200',
+IF( vBudgetWalk @= 'R&A Adjustment' & vChannel @= 'CONSUMER LUNCH', '200',
+IF( vBudgetWalk @= 'Elasticity' & vChannel @= 'CONSUMER LUNCH', '201',
+IF( vBudgetWalk @= 'Pricing' & vChannel @= 'CONSUMER LUNCH', '202',
+IF( vBudgetWalk @= 'NPD Total' & vChannel @= 'CONSUMER LUNCH', '203',
+IF( vBudgetWalk @= 'Organic Volume' & vChannel @= 'B2B GIFTING', '300',
+IF( vBudgetWalk @= 'RA Adjustment' & vChannel @= 'B2B GIFTING', '300',
+IF( vBudgetWalk @= 'R&A Adjustment' & vChannel @= 'B2B GIFTING', '300',
+IF( vBudgetWalk @= 'Elasticity' & vChannel @= 'B2B GIFTING', '301',
+IF( vBudgetWalk @= 'Pricing' & vChannel @= 'B2B GIFTING', '302',
+IF( vBudgetWalk @= 'NPD Total' & vChannel @= 'B2B GIFTING', '303',
+IF( vBudgetWalk @= 'Organic Volume' & vChannel @= 'B2B CATERING', '400',
+IF( vBudgetWalk @= 'RA Adjustment' & vChannel @= 'B2B CATERING', '400',
+IF( vBudgetWalk @= 'R&A Adjustment' & vChannel @= 'B2B CATERING', '400',
+IF( vBudgetWalk @= 'Elasticity' & vChannel @= 'B2B CATERING', '401',
+IF( vBudgetWalk @= 'Pricing' & vChannel @= 'B2B CATERING', '402',
+IF( vBudgetWalk @= 'NPD Total' & vChannel @= 'B2B CATERING', '403',
+'Plan_Errors'))))))))))))))))))))))));
+
+
+IF(VALUE_IS_STRING=1);
+
+ SCellOldValue =  CellGetS( 'SKU_DATA', vYear, Category, vLocations, LSKUS, SKU_WEEK, SKU_STAT, SKU_Channel );
+
+ELSE;
+
+ NCellOldValue = CellGetN( 'SKU_DATA', vYear, Category, vLocations, LSKUS, SKU_WEEK, SKU_STAT, SKU_Channel );
+
+ENDIF;
+
+if ( VALUE_IS_STRING=1, 
+   CellPutS( SVALUE | SCellOldValue, 'SKU_DATA', vYear, Category, vLocations, LSKUS, SKU_WEEK, SKU_STAT, SKU_Channel ), 
+   CellPutN( NVALUE + NCellOldValue, 'SKU_DATA', vYear, Category, vLocations, LSKUS, SKU_WEEK, SKU_STAT, SKU_Channel ) );
+
+
+#endregion

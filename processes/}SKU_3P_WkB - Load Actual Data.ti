@@ -8,12 +8,13 @@ strCube_g = 'SKU_3P_Wkb';
 strWeekCube_g = 't-weeks';
 strYearCube_g = 't-yr4fy2';
 strLocationCube_g = 't-strctr';
-strStartWeek_g = '1';
+
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Trim the parameters to eliminate leading or trailing blanks
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+strStartWeek_g = TRIM(pStartWeek);
 strEndWeek_g = TRIM(pEndWeek);
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -46,8 +47,6 @@ DATASOURCENAMEFORSERVER = strDataSource_g;
 DATASOURCENAMEFORCLIENT = strDataSource_g;
 DATASOURCEQUERY = strQuery;
 
-#Note, this query is a copy of the Load Sku_Data Actual - RSM & RSM CMS3
-
 
 #endregion
 #region Metadata
@@ -59,7 +58,7 @@ DATASOURCEQUERY = strQuery;
 
 strDim = 'Lskus';
 strFile = strProcessName | '_' | strDim | '_ElementsAdded.txt';
-strSku = TRIM(V6);
+strSku = TRIM(vSKU);
 
 IF(DIMIX(strDim, strSku) = 0);
     DIMENSIONELEMENTINSERT(strDim, '', strSku, 'N');
@@ -74,44 +73,44 @@ ENDIF;
 # skip test stores 2021, 2011, 2003, 2031, 2022, -804
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-IF(TRIM(V2) @= '2021');
+IF(TRIM(vLocationID) @= '2021');
     ITEMSKIP;
-ElseIF(TRIM(V2) @= '2011');
+ElseIF(TRIM(vLocationID) @= '2011');
     ITEMSKIP;
-ElseIF(TRIM(V2) @= '2003');
+ElseIF(TRIM(vLocationID) @= '2003');
     ITEMSKIP;
-ElseIf(TRIM(V2) @= '2031');
+ElseIf(TRIM(vLocationID) @= '2031');
     ITEMSKIP;
-ElseIF(TRIM(V2) @= '2022');
+ElseIF(TRIM(vLocationID) @= '2022');
     ITEMSKIP;
-ElseIF(TRIM(V2) @= '-804');
+ElseIF(TRIM(vLocationID) @= '-804');
     ITEMSKIP;
 ENDIF;
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Get translated name from cube t-yr4fy2 using Fiscal Year
+# Grab the Fiscal Year Name from the t-yr4fy2 cube
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-strFY = CELLGETS(strYearCube_g, TRIM(V0), 'Name');
+strFY = CELLGETS( strYearCube_g, TRIM( vFiscalYear ), 'Name' );
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Get translated name from cube t-weeks using Fiscal Year
+# Grab the full week description for the Week and Fiscal Year from the t-weeks cube
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-strWeek = CELLGETS(strWeekCube_g, TRIM(V2), strFY);
+strWeek = CELLGETS(strWeekCube_g, TRIM(vFiscalWeek), strFY);
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Get translated location number from cube t-strctr using store number
+# Grab the Location translation for "GP_Lctn_5-2015" from the t-strctr cube
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-strLocation = CELLGETS(strLocationCube_g, TRIM(V3), 'GP_Lctn_5-2015');
+strLocation = CELLGETS(strLocationCube_g, TRIM(vLocationID), 'GP_Lctn_5-2015');
 strChannel = TRIM(ARAccount);
-strSku = TRIM(V6);
+strSku = TRIM(vSKU);
 
 
-IF(STRLOCATION @='');
-    ITEMSKIP;
-ENDIF;
+# IF( strLocation @='' );
+#     ITEMSKIP;
+# ENDIF;
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Calculate RA
@@ -123,9 +122,9 @@ RA=Discount*-1;
 # Input Quantity, Gross Sales, and RA into the SKU_3P_Wkb cube
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-CELLINCREMENTN(Quantity, strCube_g, strFY, strLocation, strSku, strWeek, 'Quantity', strChannel);
-CELLINCREMENTN(GrossSales, strCube_g, strFY, strLocation, strSku, strWeek, 'Gross', strChannel);
-CELLINCREMENTN(RA, strCube_g, strFY, strLocation, strSku, strWeek, 'Rtns and Allow', strChannel);
+CellIncrementN(Quantity, strCube_g, strFY, strLocation, strSku, strWeek, 'Quantity', strChannel);
+CellIncrementN(GrossSales, strCube_g, strFY, strLocation, strSku, strWeek, 'Gross', strChannel);
+CellIncrementN(RA, strCube_g, strFY, strLocation, strSku, strWeek, 'Rtns and Allow', strChannel);
 
 #endregion
 #region Epilog
