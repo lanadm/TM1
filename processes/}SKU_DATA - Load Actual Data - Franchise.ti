@@ -1,0 +1,133 @@
+#region Prolog
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strCube_g = 'SKU_DATA';
+strWeekCube_g = 't-weeks';
+strYearCube_g = 't-yr4fy2';
+strLocationCube_g = 't-strctr';
+strCategory_g = 'Actual';
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Trim the parameters to eliminate leading or trailing blanks
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strStartWeek_g = TRIM(pStartWeek);
+strEndWeek_g = TRIM(pEndWeek);
+
+# #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# # Set the information variables including directories and names to use for logging and errors
+# #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# strProcessName = GETPROCESSNAME();
+# strErrorFile = strProcessName | '_' | TIMST(NOW, '\Y\m\d') | '.csv';
+# strLogDirectory = CELLGETS('bpmControl','Log Directory','Value');
+# strLogDirectory = strLogDirectory | IF(SUBST(strLogDirectory, LONG(strLogDirectory), 1) @= '\', '', '\');
+# strError = strLogDirectory | strErrorFile;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Query data source TM1Data using strStartWeek and strEndWeek as variables to pull the data
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strDataSource_g = 'TM1Data';
+strQuery_g = 'Use SellingMetrics ' |
+'exec [spLoadFranchiseIntoTM1] %strStartWeek_g% , %strEndWeek_g%';
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+# Define Data Source
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+
+strQuery = EXPAND(strQuery_g);
+
+DATASOURCETYPE = 'ODBC';
+DATASOURCENAMEFORSERVER = strDataSource_g;
+DATASOURCENAMEFORCLIENT = strDataSource_g;
+DATASOURCEQUERY = strQuery;
+
+#endregion
+#region Metadata
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strDim = 'Lskus';
+strSku = TRIM(vSKU);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Add new SKUs into the Lskus dimension in the "ORPHAN" consolidation. *NOTE: These need to be researched and then moved
+#     to the appropriate rollup.
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IF(DIMIX(strDim, strSku) = 0);
+    DIMENSIONELEMENTINSERT(strDim, '', strSku, 'N');
+    DIMENSIONELEMENTCOMPONENTADD(strDim, 'ORPHAN', strSku, 1);
+    ASCIIOUTPUT('Exports/Orphans.csv', 'Element, ' | strSku | ', has been added to ORPHAN in ' | strDim | ' dimension.');
+ENDIF;
+
+
+#endregion
+#region Data
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# If the Location is 2011, skip it, as this is a Test Store
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IF(TRIM(vLocationID) @= '2011');
+    ITEMSKIP;
+ENDIF;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Grab the Fiscal Year Name from the t-yr4fy2 cube
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strFY = CELLGETS(strYearCube_g, TRIM(vFiscalYear), 'Name');
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Grab the full week description for the Week and Fiscal Year from the t-weeks cube
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strWeek = CELLGETS(strWeekCube_g, TRIM(vFiscalWeek), strFY);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Grab the Location translation for "GP_Lctn_5-2015" from the t-strctr cube
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strLocation = CELLGETS(strLocationCube_g, TRIM(vLocationID), 'GP_Lctn_5-2015');
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Grab all other variables, skipping blanks
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strSku = TRIM(vSKU);
+strChannel = TRIM(vSalesChannelID);
+
+IF(STRLOCATION @='');
+    ITEMSKIP;
+ENDIF;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Reverse values for Returns and Allowances, Discount and Discount Promo
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RA=vReturns*-1;
+DISC=vNonPromoDiscounts*-1;
+PROMO=vPromoDiscounts*-1;
+
+CELLINCREMENTN(vSalesQty, strCube_g, strFY, strCategory_g, strLocation, strSku, strWeek, 'Quantity', strChannel);
+CELLINCREMENTN(vSalesUsage, strCube_g, strFY, strCategory_g, strLocation, strSku, strWeek, 'Usage Qty', strChannel);
+CELLINCREMENTN(vSalesQtyUnits, strCube_g, strFY,strCategory_g, strLocation, strSku, strWeek, 'Units', strChannel);
+CELLINCREMENTN(vGrossSales, strCube_g, strFY,strCategory_g, strLocation, strSku, strWeek, 'Gross', strChannel);
+CELLINCREMENTN(RA, strCube_g, strFY,strCategory_g, strLocation, strSku, strWeek, 'Rtns and Allow', strChannel);
+CELLINCREMENTN(DISC, strCube_g, strFY,strCategory_g, strLocation, strSku, strWeek, 'Discount', strChannel);
+CELLINCREMENTN(PROMO, strCube_g, strFY,strCategory_g, strLocation, strSku, strWeek, 'Discount Promo', strChannel);
+
+#endregion
+#region Epilog
+
+
+
+#endregion

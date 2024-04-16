@@ -1,0 +1,64 @@
+#region Prolog
+#---------------------------------------
+
+# No Prolog
+
+#---------------------------------------
+#endregion
+#region Metadata
+#---------------------------------------
+
+HamEvalScore = NUMBR( Score ) / 100;
+
+HamEval = HamEvalScore * 5;
+
+Location = CELLGETS( 't-strctr', TRIM( STR( NUMBR( subst( StoreID, 1, 4 )), 4, 0 )), 'Name' );
+
+ASCIIOUTPUT('Debug.txt', AuditURLDate, StoreID, StoreName, AuditDate, District, Formname, NumberToString( Duration ), Score);
+
+FiscalWeek = SubsetGetElementName( 'Week', 'Current Week', 1 );
+
+FiscalYear = 'FY ' | subst( cellgets( 'bpmControl', 'Current Year', 'Value' ), 3, 2 );
+
+Category = 'Actual';
+
+Lskus = 'SMG';
+
+Channel = '100';
+
+
+#---------------------------------------
+#endregion
+#region Data
+#---------------------------------------
+
+HamEvalScore = NUMBR( Score ) / 100;
+
+HamEval = HamEvalScore * 5;
+
+Location = CELLGETS( 't-strctr', TRIM( STR( NUMBR( subst( StoreID, 1, 4 )), 4, 0 )), 'Name' );
+
+FiscalWeek = SubsetGetElementName( 'Week', 'Current Week', 1 );
+
+FiscalYear = 'FY ' | subst( cellgets( 'bpmControl', 'Current Year', 'Value' ), 3, 2 );
+
+Category = 'Actual';
+
+Lskus = 'SMG';
+
+Channel = '100';
+
+CellPutN( HamEvalScore, 'SKU_DATA', FiscalYear, Category, Location, Lskus, FiscalWeek, 'Ham Eval %', Channel );
+CellPutN( HamEval, 'SKU_DATA', FiscalYear, Category, Location, Lskus, FiscalWeek, 'Ham Evaluation', Channel );
+
+
+#---------------------------------------
+#endregion
+#region Epilog
+#---------------------------------------
+
+# No Epilog
+
+#---------------------------------------
+
+#endregion

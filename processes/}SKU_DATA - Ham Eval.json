@@ -1,0 +1,89 @@
+{
+	"@type":"Process",
+	"Name":"}SKU_DATA - Ham Eval",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}SKU_DATA - Ham Eval.ti",
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"dataSourceNameForServer":"Load Files/Ham Eval/HamEval.csv",
+		"dataSourceNameForClient":"Load Files/Ham Eval/HamEval.csv",
+		"asciiHeaderRecords":1,
+		"asciiQuoteCharacter":"\"",
+		"asciiDecimalSeparator":".",
+		"asciiThousandSeparator":",",
+		"asciiDelimiterType":"Character",
+		"asciiDelimiterChar":","
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"AuditURLDate",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"StoreID",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"StoreName",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"AuditDate",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"District",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"FormName",
+			"Type":"String",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"Duration",
+			"Type":"Numeric",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"Score",
+			"Type":"String",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"VariablesUIData": [
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=33\fColType=827\f",
+		"VarType=32\fColType=827\f"
+	],
+	"UIData": "_ParameterConstraints=e30=\f"
+}
