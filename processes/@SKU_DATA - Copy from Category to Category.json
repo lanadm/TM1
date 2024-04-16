@@ -8,7 +8,7 @@
 		"Type":"TM1CubeView",
 		"dataSourceNameForServer":"SKU_DATA",
 		"dataSourceNameForClient":"SKU_DATA",
-		"view":"zz_@SKU_DATA - Load Actual to Forecast_Load"
+		"view":"zz_@SKU_DATA - Copy from Category to Category_Load"
 	},
 	"Parameters":
 	[
@@ -102,7 +102,6 @@
 			"EndByte":0
 		}
 	],
-	"UIData": "_ParameterConstraints=e30=\f",
 	"VariablesUIData": [
 		"VarType=32\fColType=827\f",
 		"VarType=32\fColType=827\f",
@@ -112,5 +111,6 @@
 		"VarType=32\fColType=827\f",
 		"VarType=32\fColType=827\f",
 		"VarType=33\fColType=827\f"
-	]
+	],
+	"UIData": "_ParameterConstraints=e30=\f"
 }
