@@ -1,0 +1,11 @@
+{
+	"@type":"Process",
+	"Name":"}SKU_DATA - SMG Deliver on Time",
+	"HasSecurityAccess":false,
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

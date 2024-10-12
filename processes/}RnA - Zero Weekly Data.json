@@ -1,0 +1,33 @@
+{
+	"@type":"Process",
+	"Name":"}RnA - Zero Weekly Data",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}RnA - Zero Weekly Data.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pFiscalYear",
+			"Prompt":"Enter Fiscal Year as YYYY",
+			"Value":"2024",
+			"Type":"String"
+		},
+		{
+			"Name":"pStartWeek",
+			"Prompt":"Enter Start Week as W",
+			"Value":"1",
+			"Type":"String"
+		},
+		{
+			"Name":"pEndWeek",
+			"Prompt":"Enter End Week as W",
+			"Value":"53",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "172159243100012"
+}

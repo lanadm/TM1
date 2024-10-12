@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"View",
+	"Hierarchies@Code.links":
+	[
+		"View.hierarchies/View.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('View')/Hierarchies('View')"
+	}
+}

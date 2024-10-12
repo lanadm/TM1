@@ -1,0 +1,27 @@
+{
+	"@type":"Cube",
+	"Name":"Capital",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('D365_Locations')"
+		},
+		{
+			"@id":"Dimensions('Capital Project Names')"
+		},
+		{
+			"@id":"Dimensions('Time - Monthly')"
+		},
+		{
+			"@id":"Dimensions('View')"
+		},
+		{
+			"@id":"Dimensions('CapStat')"
+		}
+	],
+	"Rules@Code.link":"Capital.rules",
+	"Views@Code.links":
+	[
+		"Capital.views/Project Names - Monthly.json"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"}E-COMMB2B - Zero Weekly Data",
+	"HasSecurityAccess":false,
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[],
+	"UID": "17215924310005",
+	"UIData": "_ParameterConstraints=e30=\f"
+}

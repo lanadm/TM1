@@ -1,0 +1,105 @@
+SKIPCHECK;
+
+#2024 YTD Calculations:
+
+['Oct 2024 YTD']=['Oct 2023'];
+['Nov 2024 YTD']=['Nov 2023']+['Oct 2024 YTD'];
+['Dec 2024 YTD']=['Dec 2023']+['Nov 2024 YTD'];
+['Jan 2024 YTD']=['Jan 2024']+['Dec 2024 YTD'];
+['T1 2024'] = ['Jan 2024 YTD']; 
+
+['Feb 2024 YTD']=['Feb 2024'] + ['Jan 2024 YTD']; 
+['Mar 2024 YTD']=['Mar 2024']+['Feb 2024 YTD'];
+['Apr 2024 YTD']=['Apr 2024']+['Mar 2024 YTD'];
+['May 2024 YTD']=['May 2024']+['Apr 2024 YTD'];
+['T2 2024'] = ['May 2024 YTD'] - ['T1 2024']; 
+
+['Jun 2024 YTD']=['Jun 2024'] + ['May 2024 YTD']; 
+['Jul 2024 YTD']=['Jul 2024']+['Jun 2024 YTD'];
+['Aug 2024 YTD']=['Aug 2024']+['Jul 2024 YTD'];
+['Sep 2024 YTD']=['Sep 2024']+['Aug 2024 YTD'];
+['T3 2024'] = ['Sep 2024 YTD'] - ['T2 2024'] - ['T1 2024']; 
+
+['2024'] = ['Sep 2024 YTD'];
+
+#Actual + Budget 2024
+
+['Actual + Budget','Oct 2023'] =IF( ['Current Month Toggle','Oct 2023','Remodel #1']  > 0, ['Actual','Oct 2023'], ['Budget','Oct 2023']);
+['Actual + Budget','Nov 2023'] =IF( ['Current Month Toggle','Nov 2023','Remodel #1']  > 0, ['Actual','Nov 2023'], ['Budget','Nov 2023']);
+['Actual + Budget','Dec 2023'] =IF( ['Current Month Toggle','Dec 2023','Remodel #1']  > 0, ['Actual','Dec 2023'], ['Budget','Dec 2023']);
+['Actual + Budget','Jan 2024'] =IF( ['Current Month Toggle','Jan 2024','Remodel #1']  > 0, ['Actual','Jan 2024'], ['Budget','Jan 2024']);
+['Actual + Budget','Feb 2024'] =IF( ['Current Month Toggle','Feb 2024','Remodel #1']  > 0, ['Actual','Feb 2024'], ['Budget','Feb 2024']);
+['Actual + Budget','Mar 2024'] =IF( ['Current Month Toggle','Mar 2024','Remodel #1']  > 0, ['Actual','Mar 2024'], ['Budget','Mar 2024']);
+['Actual + Budget','Apr 2024'] =IF( ['Current Month Toggle','Apr 2024','Remodel #1']  > 0, ['Actual','Apr 2024'], ['Budget','Apr 2024']);
+['Actual + Budget','May 2024'] =IF( ['Current Month Toggle','May 2024','Remodel #1']  > 0, ['Actual','May 2024'], ['Budget','May 2024']);
+['Actual + Budget','Jun 2024'] =IF( ['Current Month Toggle','Jun 2024','Remodel #1']  > 0, ['Actual','Jun 2024'], ['Budget','Jun 2024']);
+['Actual + Budget','Jul 2024'] =IF( ['Current Month Toggle','Jul 2024','Remodel #1']  > 0, ['Actual','Jul 2024'], ['Budget','Jul 2024']);
+['Actual + Budget','Aug 2024'] =IF( ['Current Month Toggle','Aug 2024','Remodel #1']  > 0, ['Actual','Aug 2024'], ['Budget','Aug 2024']);
+['Actual + Budget','Sep 2024'] =IF( ['Current Month Toggle','Sep 2024','Remodel #1']  > 0, ['Actual','Sep 2024'], ['Budget','Sep 2024']);
+
+
+# Actual + Current Forecast 2024
+
+['Actual + Forecast','Oct 2023'] =IF( ['Current Month Toggle','Oct 2023','Remodel #1']  > 0, ['Actual','Oct 2023'], ['Budget','Oct 2023']);
+['Actual + Forecast','Nov 2023'] =IF( ['Current Month Toggle','Nov 2023','Remodel #1']  > 0, ['Actual','Nov 2023'], ['Forecast 1','Nov 2023']);
+['Actual + Forecast','Dec 2023'] =IF( ['Current Month Toggle','Dec 2023','Remodel #1']  > 0, ['Actual','Dec 2023'], ['Forecast 2','Dec 2023']);
+['Actual + Forecast','Jan 2024'] =IF( ['Current Month Toggle','Jan 2024','Remodel #1']  > 0, ['Actual','Jan 2024'], ['Forecast 3','Jan 2024']);
+['Actual + Forecast','Feb 2024'] =IF( ['Current Month Toggle','Feb 2024','Remodel #1']  > 0, ['Actual','Feb 2024'], ['Forecast 4','Feb 2024']);
+['Actual + Forecast','Mar 2024'] =IF( ['Current Month Toggle','Mar 2024','Remodel #1']  > 0, ['Actual','Mar 2024'], ['Forecast 5','Mar 2024']);
+['Actual + Forecast','Apr 2024'] =IF( ['Current Month Toggle','Apr 2024','Remodel #1']  > 0, ['Actual','Apr 2024'], ['Forecast 6','Apr 2024']);
+['Actual + Forecast','May 2024'] =IF( ['Current Month Toggle','May 2024','Remodel #1']  > 0, ['Actual','May 2024'], ['Forecast 7','May 2024']);
+['Actual + Forecast','Jun 2024'] =IF( ['Current Month Toggle','Jun 2024','Remodel #1']  > 0, ['Actual','Jun 2024'], ['Forecast 8','Jun 2024']);
+['Actual + Forecast','Jul 2024'] =IF( ['Current Month Toggle','Jul 2024','Remodel #1']  > 0, ['Actual','Jul 2024'], ['Forecast 9','Jul 2024']);
+['Actual + Forecast','Aug 2024'] =IF( ['Current Month Toggle','Aug 2024','Remodel #1']  > 0, ['Actual','Aug 2024'], ['Forecast 10','Aug 2024']);
+['Actual + Forecast','Sep 2024'] =IF( ['Current Month Toggle','Sep 2024','Remodel #1']  > 0, ['Actual','Sep 2024'], ['Forecast 11','Sep 2024']);
+
+# Actual + Prior Forecast 2024
+
+        #Actual/Continue Statments 2024
+['Actual + Prior Forecast','Oct 2023'] =IF( ['Prior Month Toggle','Oct 2023','Remodel #1']  > 0, ['Actual','Oct 2023'], CONTINUE);
+['Actual + Prior Forecast','Nov 2023'] =IF( ['Prior Month Toggle','Nov 2023','Remodel #1']  > 0, ['Actual','Nov 2023'], CONTINUE);
+['Actual + Prior Forecast','Dec 2023'] =IF( ['Prior Month Toggle','Dec 2023','Remodel #1']  > 0, ['Actual','Dec 2023'], CONTINUE);
+['Actual + Prior Forecast','Jan 2024'] =IF( ['Prior Month Toggle','Jan 2024','Remodel #1']  > 0, ['Actual','Jan 2024'], CONTINUE);
+['Actual + Prior Forecast','Feb 2024'] =IF( ['Prior Month Toggle','Feb 2024','Remodel #1']  > 0, ['Actual','Feb 2024'], CONTINUE);
+['Actual + Prior Forecast','Mar 2024'] =IF( ['Prior Month Toggle','Mar 2024','Remodel #1']  > 0, ['Actual','Mar 2024'], CONTINUE);
+['Actual + Prior Forecast','Apr 2024'] =IF( ['Prior Month Toggle','Apr 2024','Remodel #1']  > 0, ['Actual','Apr 2024'], CONTINUE);
+['Actual + Prior Forecast','May 2024'] =IF( ['Prior Month Toggle','May 2024','Remodel #1']  > 0, ['Actual','May 2024'],CONTINUE);
+['Actual + Prior Forecast','Jun 2024'] =IF( ['Prior Month Toggle','Jun 2024','Remodel #1']  > 0, ['Actual','Jun 2024'], CONTINUE);
+['Actual + Prior Forecast','Jul 2024'] =IF( ['Prior Month Toggle','Jul 2024','Remodel #1']  > 0, ['Actual','Jul 2024'], CONTINUE);
+['Actual + Prior Forecast','Aug 2024'] =IF( ['Prior Month Toggle','Aug 2024','Remodel #1']  > 0, ['Actual','Aug 2024'], CONTINUE);
+['Actual + Prior Forecast','Sep 2024'] =IF( ['Prior Month Toggle','Sep 2024','Remodel #1']  > 0, ['Actual','Sep 2024'], CONTINUE);
+
+        #Choose Budget/Forecast 2024
+['Actual + Prior Forecast'] =IF( ['Prior Month Toggle','Oct 2023','Remodel #2']  > 0, ['Budget'], CONTINUE);
+['Actual + Prior Forecast'] =IF( ['Prior Month Toggle','Nov 2023','Remodel #2']  > 0, ['Forecast 1'], CONTINUE);
+['Actual + Prior Forecast'] =IF( ['Prior Month Toggle','Dec 2023','Remodel #2']  > 0, ['Forecast 2'], CONTINUE);
+['Actual + Prior Forecast'] =IF( ['Prior Month Toggle','Jan 2024','Remodel #2']  > 0, ['Forecast 3'], CONTINUE);
+['Actual + Prior Forecast'] =IF( ['Prior Month Toggle','Feb 2024','Remodel #2']  > 0, ['Forecast 4'], CONTINUE);
+['Actual + Prior Forecast'] =IF( ['Prior Month Toggle','Mar 2024','Remodel #2']  > 0, ['Forecast 5'], CONTINUE);
+['Actual + Prior Forecast'] =IF( ['Prior Month Toggle','Apr 2024','Remodel #2']  > 0, ['Forecast 6'], CONTINUE);
+['Actual + Prior Forecast'] =IF( ['Prior Month Toggle','May 2024','Remodel #2']  > 0, ['Forecast 7'],CONTINUE);
+['Actual + Prior Forecast'] =IF( ['Prior Month Toggle','Jun 2024','Remodel #2']  > 0, ['Forecast 8'], CONTINUE);
+['Actual + Prior Forecast'] =IF( ['Prior Month Toggle','Jul 2024','Remodel #2']  > 0, ['Forecast 9'], CONTINUE);
+['Actual + Prior Forecast'] =IF( ['Prior Month Toggle','Aug 2024','Remodel #2']  > 0, ['Forecast 10'], CONTINUE);
+['Actual + Prior Forecast'] =IF( ['Prior Month Toggle','Sep 2024','Remodel #2']  > 0, ['Forecast 11'], CONTINUE);
+
+FEEDERS;
+
+#2024 YTD Calculations:
+
+['Oct 2023'] => ['Oct 2024 YTD'];
+['Nov 2023'] => ['Nov 2024 YTD'];
+['Dec 2023'] => ['Dec 2024 YTD'];
+['Jan 2024'] => ['Jan 2024 YTD'];
+['Jan 2024 YTD']  => ['T1 2024'];
+['Feb 2024'] => ['Feb 2024 YTD'];
+['Mar 2024'] => ['Mar 2024 YTD'];
+['Apr 2024'] => ['Apr 2024 YTD'];
+['May 2024'] => ['May 2024 YTD'];
+['May 2024 YTD']  => ['T2 2024'];
+['Jun 2024'] => ['Jun 2024 YTD'];
+['Jul 2024'] => ['Jul 2024 YTD'];
+['Aug 2024'] => ['Aug 2024 YTD'];
+['Sep 2024'] => ['Sep 2024 YTD'];
+['Sep 2024 YTD']  => ['T3 2024'];
+['Sep 2024 YTD']  => ['2024'];

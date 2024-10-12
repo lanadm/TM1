@@ -1,0 +1,93 @@
+{
+	"@type":"Process",
+	"Name":"}SKU_DATA - Load Labor Data",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}SKU_DATA - Load Labor Data.ti",
+	"DataSource":
+	{
+		"Type":"ODBC",
+		"dataSourceNameForServer":"TM1Data",
+		"dataSourceNameForClient":"TM1Data",
+		"userName":"admin",
+		"password":"@a21b#iFARrhRVo*",
+		"query":"Use SellingMetrics\r\nexec [spBuildLaborPayComTm1_PayrollBatch] 202501"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pYear",
+			"Prompt":"Fiscal Year (FY YY)",
+			"Value":"FY 25",
+			"Type":"String"
+		},
+		{
+			"Name":"pWeek",
+			"Prompt":"Week (YYYYWW)",
+			"Value":"202501",
+			"Type":"String"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"vFiscalWeek",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vFiscalYear",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vCostCenter",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vStatWgs",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vStatHrs",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vHours",
+			"Type":"Numeric",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vDollars",
+			"Type":"Numeric",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"UID": "172159243100034",
+	"VariablesUIData": [
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f"
+	],
+	"UIData": "_ParameterConstraints=e30=\f"
+}

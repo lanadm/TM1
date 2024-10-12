@@ -1,0 +1,33 @@
+{
+	"@type":"Process",
+	"Name":"}SKU_DATA - Zero Weekly Data (Main Load)",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}SKU_DATA - Zero Weekly Data (Main Load).ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pYear",
+			"Prompt":"Fiscal Year (YYYY)",
+			"Value":"2024",
+			"Type":"String"
+		},
+		{
+			"Name":"pStartWeek",
+			"Prompt":"Start Week (W)",
+			"Value":"1",
+			"Type":"String"
+		},
+		{
+			"Name":"pEndWeek",
+			"Prompt":"End Week (W)",
+			"Value":"52",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "172159243100045"
+}

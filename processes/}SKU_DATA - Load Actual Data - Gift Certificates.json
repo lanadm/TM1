@@ -1,0 +1,101 @@
+{
+	"@type":"Process",
+	"Name":"}SKU_DATA - Load Actual Data - Gift Certificates",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}SKU_DATA - Load Actual Data - Gift Certificates.ti",
+	"DataSource":
+	{
+		"Type":"ODBC",
+		"dataSourceNameForServer":"TM1Data",
+		"dataSourceNameForClient":"TM1Data",
+		"userName":"admin",
+		"password":"@a21b#iFARrhRVo*",
+		"query":"Use SellingMetrics\r\nexec [spLoadRetailSELMETRGCInTM1] '202415', '202416'"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pStartWeek",
+			"Prompt":"Start Week (YYYYWW)",
+			"Value":"202415",
+			"Type":"String"
+		},
+		{
+			"Name":"pEndWeek",
+			"Prompt":"End Week (YYYYWW)",
+			"Value":"202416",
+			"Type":"String"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"V0",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"V1",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"V2",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"V3",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"V4",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"V5",
+			"Type":"String",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"V6",
+			"Type":"Numeric",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"V7",
+			"Type":"Numeric",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"UID": "172159243100026",
+	"VariablesUIData": [
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f"
+	],
+	"UIData": "_ParameterConstraints=e30=\f"
+}

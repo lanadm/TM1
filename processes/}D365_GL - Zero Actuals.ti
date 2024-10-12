@@ -1,0 +1,155 @@
+#region Prolog
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYear = 'FY 24';
+strProcessName = GETPROCESSNAME();
+strCube = 'D365_GL';
+strView = 'zz_'| strProcessName | '_ZeroOut';
+strSub = strView;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set dimension variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYearDim = 'YEAR';
+strCategoryDim = 'D365_Category';
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set subset variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYearSubset = strYear;
+strCategorySubset = 'Actual';
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set the information variables including directories and names to use for logging and errors
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strErrorFile = strProcessName | '_' | TIMST(NOW, '\Y\m\d') | '.csv';
+strLogDirectory = './D365_GL_ChoreCompletionLogs';
+strLogDirectory = strLogDirectory | IF(SUBST(strLogDirectory, LONG(strLogDirectory), 1) @<> '\', '\', '');
+strError = strLogDirectory | strErrorFile;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Checks if the Fiscal Year exists in the "YEAR" dimension. If not, exports an error. 
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strDim = strYearDim;
+strElem = strYear;
+
+IF(DIMIX(strDim, strElem) = 0);
+     ASCIIOUTPUT(strError, 'The value entered, ' | strElem | ', is not a valid element in the ' | strDim | ' dimension.');
+     PROCESSERROR;
+ENDIF;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# This section Creates a Zero Out View
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strCube_v = strCube;
+strView_v = strView;
+strSub_v = strSub;
+
+#     =================================
+#      If the view already exists, destroy it.
+#     =================================
+
+IF(VIEWEXISTS(strCube, strView) = 1);
+     VIEWDESTROY(strCube, strView);
+ENDIF;
+
+
+#     =================================
+#      Create the new zero view
+#     =================================
+
+VIEWCREATE(strCube, strView);
+VIEWEXTRACTSKIPCALCSSET(strCube, strView, 1);
+VIEWEXTRACTSKIPRULEVALUESSET(strCube, strView, 1);
+VIEWEXTRACTSKIPZEROESSET(strCube, strView, 1);
+
+
+#     =================================
+#      Cycle through the dimensions
+#     =================================
+
+i = 1;
+WHILE( TABDIM( strCube, i ) @<> '' );
+     strDim = TABDIM( strCube, i );
+
+#     =================================
+#      Check to see if the view subset exists within the dimension.
+#           If it exists, delete all elements from the subset
+#     =================================
+
+  IF(SUBSETEXISTS(strDim, strSub) = 0);
+     SUBSETCREATE(strDim, strSub);
+  ENDIF;
+  SUBSETDELETEALLELEMENTS(strDim, strSub);
+
+#     =================================
+#      Assign dimension subset to the newly created zero out view
+#     =================================
+
+  VIEWSUBSETASSIGN(strCube, strView, strDim, strSub);
+
+#     =================================
+#      Add the appropriate elements to the subset
+#     =================================
+
+  IF(strDim @= strYearDim);
+     strEle = strYearSubset;
+     SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+
+  ELSEIF(strDim @= strCategoryDim);
+     strEle = strCategorySubset;
+     SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+
+
+  ELSE;
+     p = 1;
+     WHILE( p <= DIMSIZ( strDim ));
+         strLoopEle = DIMNM( strDim, p);
+         IF( ELLEV( strDim, strLoopEle ) = 0);
+             SUBSETELEMENTINSERT( strDim, strSub, strLoopEle, SUBSETGETSIZE( strDim, strSub ) + 1 );
+        endif;
+        p = p + 1;
+     END;
+
+  ENDIF;
+
+  i = i + 1;
+
+END;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Use the newly created zero out view to zero the associated values
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+VIEWZEROOUT(strCube, strView);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Once update is complete, destroy the view
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+VIEWDESTROY(strCube, strView);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Destroy the associated subsets
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+i = 1;
+WHILE(TABDIM(strCube, i) @<> '');
+    strDim = TABDIM(strCube, i);
+
+    IF(SUBSETEXISTS(strDim, strSub) = 1);
+       SUBSETDESTROY(strDim, strSub);
+    ENDIF;
+    i = i + 1;
+END;
+
+#endregion

@@ -1,0 +1,29 @@
+{
+	"@type":"MDXView",
+	"Name":"Project Names - Monthly",
+	"MDX@Code.link":"Project Names - Monthly.mdx",
+	"Meta": {
+		"Aliases": {
+			"[D365_Locations].[D365_Locations]": "Name"
+		},
+		"ExpandAboves": {
+			"[Time - Monthly].[Time - Monthly]": false,
+			"[CapStat].[CapStat]": false,
+			"[D365_Locations].[D365_Locations]": false,
+			"[Capital Project Names].[Capital Project Names]": false,
+			"[View].[View]": false
+		},
+		"ContextSets": {
+			"[CapStat].[CapStat]": {
+				"Expression": "{[CapStat].[CapStat].MEMBERS}"
+			},
+			"[D365_Locations].[D365_Locations]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[View].[View]": {
+				"Expression": "{[View].[View].MEMBERS}"
+			}
+		}
+	}
+}

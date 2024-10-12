@@ -1,0 +1,291 @@
+{
+	"@type":"Hierarchy",
+	"Name":"View",
+	"Elements":
+	[
+		{
+			"Name":"Actual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 11",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Actual + Budget",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Actual + Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Actual + Prior Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Current Month Toggle",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Prior Month Toggle",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 10 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 10",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Forecast 9 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 9",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Forecast 8 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 8",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Forecast 7 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 7",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Forecast 6 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 6",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Forecast 5 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 5",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Forecast 4 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 4",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Forecast 3 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Forecast 2 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Forecast 1 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Budget Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Budget 3 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget 3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Budget 2 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Budget 1 Input",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget 1",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Forecast 11",
+			"ComponentName":"Forecast 10 Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 11",
+			"ComponentName":"Forecast 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 10",
+			"ComponentName":"Forecast 9 Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 10",
+			"ComponentName":"Forecast 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 9",
+			"ComponentName":"Forecast 8 Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 9",
+			"ComponentName":"Forecast 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 8",
+			"ComponentName":"Forecast 7 Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 8",
+			"ComponentName":"Forecast 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 7",
+			"ComponentName":"Forecast 6 Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 7",
+			"ComponentName":"Forecast 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 6",
+			"ComponentName":"Forecast 5 Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 6",
+			"ComponentName":"Forecast 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 5",
+			"ComponentName":"Forecast 4 Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 5",
+			"ComponentName":"Forecast 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 4",
+			"ComponentName":"Forecast 3 Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 4",
+			"ComponentName":"Forecast 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 3",
+			"ComponentName":"Forecast 2 Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 3",
+			"ComponentName":"Forecast 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 2",
+			"ComponentName":"Forecast 1 Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 2",
+			"ComponentName":"Forecast 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 1",
+			"ComponentName":"Budget Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecast 1",
+			"ComponentName":"Budget",
+			"Weight":1
+		},
+		{
+			"ParentName":"Budget",
+			"ComponentName":"Budget 3 Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Budget",
+			"ComponentName":"Budget 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Budget 3",
+			"ComponentName":"Budget 2 Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Budget 3",
+			"ComponentName":"Budget 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Budget 2",
+			"ComponentName":"Budget 1 Input",
+			"Weight":1
+		},
+		{
+			"ParentName":"Budget 2",
+			"ComponentName":"Budget 1",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

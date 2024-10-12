@@ -1,0 +1,1740 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Time - Monthly",
+	"Elements":
+	[
+		{
+			"Name":"T1 2024",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"2024",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Oct 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2023",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T2 2024",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Feb 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T3 2024",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jun 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T1 2025",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"2025",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Oct 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T2 2025",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Feb 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T3 2025",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jun 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T1 2026",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"2026",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Oct 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2025",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T2 2026",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Feb 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T3 2026",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jun 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T1 2027",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"2027",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Oct 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T2 2027",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Feb 2027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T3 2027",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jun 2027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T1 2028",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"2028",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Oct 2027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T2 2028",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Feb 2028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T3 2028",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jun 2028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T1 2029",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"2029",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Oct 2028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T2 2029",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Feb 2029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T3 2029",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jun 2029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T1 2030",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"2030",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Oct 2029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2030",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T2 2030",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Feb 2030",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2030",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2030",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2030",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T3 2030",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jun 2030",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2030",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2030",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2030",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2024 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2024 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2024 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2024 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2024 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2024 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2024 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2024 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2024 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2024 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2024 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2024 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2025 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2025 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2025 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2025 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2025 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2025 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2025 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2025 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2025 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2025 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2025 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2025 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2026 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2026 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2026 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2026 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2026 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2026 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2026 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2026 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2026 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2026 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2026 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2026 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2027 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2027 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2027 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2027 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2027 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2027 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2027 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2027 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2027 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2027 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2027 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2027 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2028 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2028 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2028 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2028 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2028 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2028 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2028 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2028 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2028 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2028 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2028 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2028 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2029 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2029 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2029 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2029 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2029 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2029 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2029 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2029 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2029 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2029 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2029 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2029 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2030 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2030 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2030 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2030 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2030 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2030 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2030 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2030 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2030 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2030 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2030 YTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2030 YTD",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"T1 2024",
+			"ComponentName":"Oct 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2024",
+			"ComponentName":"Nov 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2024",
+			"ComponentName":"Dec 2023",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2024",
+			"ComponentName":"Jan 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2024",
+			"ComponentName":"Oct 2024 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2024",
+			"ComponentName":"Nov 2024 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2024",
+			"ComponentName":"Dec 2024 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2024",
+			"ComponentName":"Jan 2024 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"2024",
+			"ComponentName":"T1 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"2024",
+			"ComponentName":"T2 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"2024",
+			"ComponentName":"T3 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2024",
+			"ComponentName":"Feb 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2024",
+			"ComponentName":"Mar 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2024",
+			"ComponentName":"Apr 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2024",
+			"ComponentName":"May 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2024",
+			"ComponentName":"Feb 2024 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2024",
+			"ComponentName":"Mar 2024 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2024",
+			"ComponentName":"Apr 2024 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2024",
+			"ComponentName":"May 2024 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2024",
+			"ComponentName":"Jun 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2024",
+			"ComponentName":"Jul 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2024",
+			"ComponentName":"Aug 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2024",
+			"ComponentName":"Sep 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2024",
+			"ComponentName":"Jun 2024 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2024",
+			"ComponentName":"Jul 2024 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2024",
+			"ComponentName":"Aug 2024 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2024",
+			"ComponentName":"Sep 2024 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2025",
+			"ComponentName":"Oct 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2025",
+			"ComponentName":"Nov 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2025",
+			"ComponentName":"Dec 2024",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2025",
+			"ComponentName":"Jan 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2025",
+			"ComponentName":"Oct 2025 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2025",
+			"ComponentName":"Nov 2025 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2025",
+			"ComponentName":"Dec 2025 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2025",
+			"ComponentName":"Jan 2025 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"2025",
+			"ComponentName":"T1 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"2025",
+			"ComponentName":"T2 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"2025",
+			"ComponentName":"T3 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2025",
+			"ComponentName":"Feb 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2025",
+			"ComponentName":"Mar 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2025",
+			"ComponentName":"Apr 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2025",
+			"ComponentName":"May 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2025",
+			"ComponentName":"Feb 2025 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2025",
+			"ComponentName":"Mar 2025 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2025",
+			"ComponentName":"Apr 2025 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2025",
+			"ComponentName":"May 2025 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2025",
+			"ComponentName":"Jun 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2025",
+			"ComponentName":"Jul 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2025",
+			"ComponentName":"Aug 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2025",
+			"ComponentName":"Sep 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2025",
+			"ComponentName":"Jun 2025 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2025",
+			"ComponentName":"Jul 2025 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2025",
+			"ComponentName":"Aug 2025 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2025",
+			"ComponentName":"Sep 2025 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2026",
+			"ComponentName":"Oct 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2026",
+			"ComponentName":"Nov 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2026",
+			"ComponentName":"Dec 2025",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2026",
+			"ComponentName":"Jan 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2026",
+			"ComponentName":"Oct 2026 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2026",
+			"ComponentName":"Nov 2026 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2026",
+			"ComponentName":"Dec 2026 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2026",
+			"ComponentName":"Jan 2026 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"2026",
+			"ComponentName":"T1 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"2026",
+			"ComponentName":"T2 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"2026",
+			"ComponentName":"T3 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2026",
+			"ComponentName":"Feb 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2026",
+			"ComponentName":"Mar 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2026",
+			"ComponentName":"Apr 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2026",
+			"ComponentName":"May 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2026",
+			"ComponentName":"Feb 2026 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2026",
+			"ComponentName":"Mar 2026 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2026",
+			"ComponentName":"Apr 2026 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2026",
+			"ComponentName":"May 2026 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2026",
+			"ComponentName":"Jun 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2026",
+			"ComponentName":"Jul 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2026",
+			"ComponentName":"Aug 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2026",
+			"ComponentName":"Sep 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2026",
+			"ComponentName":"Jun 2026 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2026",
+			"ComponentName":"Jul 2026 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2026",
+			"ComponentName":"Aug 2026 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2026",
+			"ComponentName":"Sep 2026 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2027",
+			"ComponentName":"Oct 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2027",
+			"ComponentName":"Nov 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2027",
+			"ComponentName":"Dec 2026",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2027",
+			"ComponentName":"Jan 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2027",
+			"ComponentName":"Oct 2027 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2027",
+			"ComponentName":"Nov 2027 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2027",
+			"ComponentName":"Dec 2027 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2027",
+			"ComponentName":"Jan 2027 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"2027",
+			"ComponentName":"T1 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"2027",
+			"ComponentName":"T2 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"2027",
+			"ComponentName":"T3 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2027",
+			"ComponentName":"Feb 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2027",
+			"ComponentName":"Mar 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2027",
+			"ComponentName":"Apr 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2027",
+			"ComponentName":"May 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2027",
+			"ComponentName":"Feb 2027 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2027",
+			"ComponentName":"Mar 2027 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2027",
+			"ComponentName":"Apr 2027 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2027",
+			"ComponentName":"May 2027 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2027",
+			"ComponentName":"Jun 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2027",
+			"ComponentName":"Jul 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2027",
+			"ComponentName":"Aug 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2027",
+			"ComponentName":"Sep 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2027",
+			"ComponentName":"Jun 2027 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2027",
+			"ComponentName":"Jul 2027 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2027",
+			"ComponentName":"Aug 2027 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2027",
+			"ComponentName":"Sep 2027 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2028",
+			"ComponentName":"Oct 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2028",
+			"ComponentName":"Nov 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2028",
+			"ComponentName":"Dec 2027",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2028",
+			"ComponentName":"Jan 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2028",
+			"ComponentName":"Oct 2028 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2028",
+			"ComponentName":"Nov 2028 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2028",
+			"ComponentName":"Dec 2028 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2028",
+			"ComponentName":"Jan 2028 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"2028",
+			"ComponentName":"T1 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"2028",
+			"ComponentName":"T2 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"2028",
+			"ComponentName":"T3 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2028",
+			"ComponentName":"Feb 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2028",
+			"ComponentName":"Mar 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2028",
+			"ComponentName":"Apr 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2028",
+			"ComponentName":"May 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2028",
+			"ComponentName":"Feb 2028 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2028",
+			"ComponentName":"Mar 2028 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2028",
+			"ComponentName":"Apr 2028 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2028",
+			"ComponentName":"May 2028 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2028",
+			"ComponentName":"Jun 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2028",
+			"ComponentName":"Jul 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2028",
+			"ComponentName":"Aug 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2028",
+			"ComponentName":"Sep 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2028",
+			"ComponentName":"Jun 2028 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2028",
+			"ComponentName":"Jul 2028 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2028",
+			"ComponentName":"Aug 2028 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2028",
+			"ComponentName":"Sep 2028 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2029",
+			"ComponentName":"Oct 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2029",
+			"ComponentName":"Nov 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2029",
+			"ComponentName":"Dec 2028",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2029",
+			"ComponentName":"Jan 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2029",
+			"ComponentName":"Oct 2029 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2029",
+			"ComponentName":"Nov 2029 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2029",
+			"ComponentName":"Dec 2029 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2029",
+			"ComponentName":"Jan 2029 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"2029",
+			"ComponentName":"T1 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"2029",
+			"ComponentName":"T2 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"2029",
+			"ComponentName":"T3 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2029",
+			"ComponentName":"Feb 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2029",
+			"ComponentName":"Mar 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2029",
+			"ComponentName":"Apr 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2029",
+			"ComponentName":"May 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2029",
+			"ComponentName":"Feb 2029 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2029",
+			"ComponentName":"Mar 2029 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2029",
+			"ComponentName":"Apr 2029 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2029",
+			"ComponentName":"May 2029 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2029",
+			"ComponentName":"Jun 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2029",
+			"ComponentName":"Jul 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2029",
+			"ComponentName":"Aug 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2029",
+			"ComponentName":"Sep 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2029",
+			"ComponentName":"Jun 2029 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2029",
+			"ComponentName":"Jul 2029 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2029",
+			"ComponentName":"Aug 2029 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2029",
+			"ComponentName":"Sep 2029 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2030",
+			"ComponentName":"Oct 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2030",
+			"ComponentName":"Nov 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2030",
+			"ComponentName":"Dec 2029",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2030",
+			"ComponentName":"Jan 2030",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2030",
+			"ComponentName":"Oct 2030 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2030",
+			"ComponentName":"Nov 2030 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2030",
+			"ComponentName":"Dec 2030 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T1 2030",
+			"ComponentName":"Jan 2030 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"2030",
+			"ComponentName":"T1 2030",
+			"Weight":1
+		},
+		{
+			"ParentName":"2030",
+			"ComponentName":"T2 2030",
+			"Weight":1
+		},
+		{
+			"ParentName":"2030",
+			"ComponentName":"T3 2030",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2030",
+			"ComponentName":"Feb 2030",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2030",
+			"ComponentName":"Mar 2030",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2030",
+			"ComponentName":"Apr 2030",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2030",
+			"ComponentName":"May 2030",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2030",
+			"ComponentName":"Feb 2030 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2030",
+			"ComponentName":"Mar 2030 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2030",
+			"ComponentName":"Apr 2030 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T2 2030",
+			"ComponentName":"May 2030 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2030",
+			"ComponentName":"Jun 2030",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2030",
+			"ComponentName":"Jul 2030",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2030",
+			"ComponentName":"Aug 2030",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2030",
+			"ComponentName":"Sep 2030",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2030",
+			"ComponentName":"Jun 2030 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2030",
+			"ComponentName":"Jul 2030 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2030",
+			"ComponentName":"Aug 2030 YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"T3 2030",
+			"ComponentName":"Sep 2030 YTD",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

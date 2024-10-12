@@ -1,0 +1,139 @@
+#region Prolog
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strCube = 'RnA'; 
+strWeekCube = 't-weeks';
+strView = 'zz_'| strCube | '_ZeroOut';
+strSub = strView;
+numLoadWeeks = 5;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Trim the parameters to eliminate leading or trailing blanks
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYear = TRIM(pFiscalYear);
+strStartWeek = TRIM(pStartWeek);
+strEndWeek = TRIM(pEndWeek);
+strCategory = 'Actual';
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Process Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strZeroOutProcess = '}RnA - Zero Weekly Data';
+strRnALoadProcess = '}RnA - Load Actual Data';
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Dimension Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYearDim = 'YEAR';
+strWeekDim = 'WEEK';
+strLocationsDim = 'LOCATIONS';
+strCategoryDim = 'CATEGORY';
+strChannelDim = 'Lchannel';
+strDiscountIDDim = 'RnA_DiscountID_SKU';
+strMediaTypeDim = 'RnA_MediaType';
+strVehicleDim = 'RnA_Vehicle';
+strMeasuresDim = 'RnA_Measures';
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set the information variables including directories and names to use for logging and errors
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strProcessName = GETPROCESSNAME();
+strErrorFile = strProcessName | '_' | TIMST(NOW, '\Y\m\d') | '.csv';
+strLogDirectory = 'Logging Errors/RnA';
+strError = strLogDirectory | strErrorFile;
+numErrorCount = 0;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Check if Year, Start Week, End Week, and Start Week are blank. If so, then outputs errors.
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IF(strYear @= '' & ( strStartWeek @<> '' % strEndWeek @<> '' ) );
+    ASCIIOUTPUT(strError, 'Start Week entered, ' | strStartWeek | ', End Week entered, ' | strEndWeek | ', and Year entered, ' | strYear | ', must be blank for chore load, or have a value entered for on-demand load.');
+    PROCESSERROR;
+ENDIF;
+
+IF(strYear @<> '' & ( strStartWeek @= '' % strEndWeek @= '' ) );
+    ASCIIOUTPUT(strError, 'Start Week entered, ' | strStartWeek | ', End Week entered, ' | strEndWeek | ', and Year entered, ' | strYear | ', must be blank for chore load, or have a value entered for on-demand load.');
+    PROCESSERROR;
+ENDIF;
+
+IF(strStartWeek @= '' & strEndWeek @<> '');
+    ASCIIOUTPUT(strError, 'Start Week, ' | strStartWeek | ', and End Week, ' | strEndWeek | ', must be blank for chore load, or have a value entered for on-demand load.');
+    PROCESSERROR;
+ENDIF;
+
+IF(strStartWeek @<> '' & strEndWeek @= '');
+    ASCIIOUTPUT(strError, 'Start Week, ' | strStartWeek | ', and End Week, ' | strEndWeek | ', must be blank for chore load, or have a value entered for on-demand load.');
+    PROCESSERROR;
+ENDIF;
+
+IF(strYear @<> '' & strStartWeek @<> '' & strEndWeek @<> '' );
+    strChoreLoad = 'F';
+    numStartWeek = NUMBR(strStartWeek);
+    numEndWeek = NUMBR(strEndWeek);
+
+    numLoadWeeks = NUMBR(strEndWeek) - NUMBR(strStartWeek) + 1;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Check if the Number of Load weeks is less than zero. If so, output error.
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    IF(numLoadWeeks < 0);
+        ASCIIOUTPUT(strError, 'The  End Week entered, ' | strEndWeek | ', must be greater than or equal to the Start Week entered, ' | strStartWeek | '.');
+        PROCESSERROR;
+    ENDIF;
+ENDIF;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# If the Year, Start Week or End Week parameter is blank, but none of the above apply, go out and grab the info from the bpmControl Cube
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IF(strYear @= '');
+    strYear = CELLGETS('bpmControl','SKU_DATA Load - Fiscal Year','Value');
+ENDIF;
+
+IF(strStartWeek @= '');
+    strStartWeek = CELLGETS('bpmControl','SKU_DATA Load - Start Week','Value');
+    numStartWeek = NUMBR(strStartWeek);
+ENDIF;
+
+IF(strEndWeek @= '');
+    strEndWeek = CELLGETS('bpmControl','SKU_DATA Load - End Week','Value');
+    numEndWeek = NUMBR(strEndWeek);
+ENDIF;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Check if the Year element is missing from the YEAR dimension. If so, output an error.
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strDim = strYearDim;
+strElem = strYear;
+IF(DIMIX(strDim, strElem) = 0);
+    ASCIIOUTPUT(strError, 'The value entered, ' | strElem | ', is not a valid element in the ' | strDim | ' dimension.');
+    PROCESSERROR;
+ENDIF;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Execute Processes
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+     EXECUTEPROCESS(strZeroOutProcess, 'pFiscalYear', strYear, 'pStartWeek', strStartWeek, 'pEndWeek', strEndWeek);
+     EXECUTEPROCESS(strRnALoadProcess, 'pFiscalYear', strYear, 'pStartWeek', strStartWeek, 'pEndWeek', strEndWeek);
+
+
+#endregion

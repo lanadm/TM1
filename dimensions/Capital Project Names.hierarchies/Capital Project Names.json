@@ -1,0 +1,2193 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Capital Project Names",
+	"Elements":
+	[
+		{
+			"Name":"CoOwned Remodels (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"REMODELS (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"All Projects",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Real Estate & Facilities",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Remodel #1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - Remodels",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CoOwned Express (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"EXPRESS (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Express 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Express 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Express 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Relocation 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Relocation 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CoOwned Maint (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CO-OWNED MAINT / REPAIRS (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"R&M CAP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CoOwned Misc (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CO-OWNED OTHER (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Buxton Re-build",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Scale Replacements",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Open Merchandiser Project",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CoOwned New Stores (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CO-OWNED NEW STORES (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"New Store #1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"New Store #2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - New Stores",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"California (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CALIFORNIA (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CALIFORNIA",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Health Requirement #1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Health Requirement #2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - California",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Franchise Acquisition (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FRANCHISE ACQUISITIONS (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FRANCHISE ACQUISITIONS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Franchise Acq #1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production System (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"PRODUCTION SYSTEM (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Supply Chain Services",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Phase 2 - Next Gen Slicer Build",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Phase 3 - Next Gen Slicer Build",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Auto Glazing Machine 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Auto Glazing Machine 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - Production System",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IT Cap Labor (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"IT (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"IT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Cap Labor - Infrastructure",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cap Labor - Security",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cap Labor - Omni/Digitization",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IT Digit_Omni (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Mobile App launch/rollout",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OE Phase 2/Ordering Svcs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"KSU Capstone",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OLO Dispatch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Data Warehouse",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IT Security (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Other - IT Security",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IT Other (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Register Refresh",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ESX Stack for DC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Service Now Product Development",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ESX Stack for T5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kitchen Printers for Corp Stores",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Holland NVR Replacement",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SQL Server Harware (HBHSSQLDW)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IT Transf (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"IT TRANSFORMATION (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Enterprise Phase 2 - Sikich + Disys",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Enterprise Phase 2 - Sikich",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Enterprise Phase 2 - Dexian-Disys",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Enteprise Phase 2 - Kforce",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Enteprise Phase 2 - Insight Global",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAP Labor",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - Transformation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"D2C (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DTC (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"D2C UPS printers",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Holland Maint (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"HOLLAND MAINTENANCE (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Roof Replacement",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Concrete Replacement",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Roof Top A/C units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Holland Intiatives (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"HOLLAND INITIATIVES (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sanitation conveyor",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Processing room conveyor",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Processing roof Lift Table",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Packaging Equipment",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Franchise (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FRANCHISE (CS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FRANCHISE",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Franchise Website Rebuild",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pivot Design Work",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - Express",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Relocation 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - Misc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ETL Listing Torches",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"New Store #3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"New Store #4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"California - IT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kitchen printers",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Health Requirement #3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Health Requirement #4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Health Requirement #5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other Health Requirements",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ham Carts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freezers",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Stanchion/ Toppers, Merch Carts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Alarm System Upgrades part 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Alarm System Upgrades part 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Franchise Acq #2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slicer Oscillator R&D",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sliacer Blade Sharpener",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Design",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - Omni",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Lunch Expansion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"A/B Testing Integratioin",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FRanchise Website Migration/Consolidation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Personalization/Offer Engine Capabilities",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"D2C Order Management/Chatbots/OE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS 2.x/Express Checkout",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IVR Payment Solution",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ServiceNow Enhancements/SAM",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Internet Router Replacement",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HW Upgrades",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Misc Repairs and Upgrades",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ITC Capital Upgrades",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PC Laptop Refresh",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PC Laptop - New Hires",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"iPad Replacements",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Meraki User Switches - DC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ingenico Upgrades",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD-Wan Upgrade",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Scanners",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Planning & Analytics",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Enterprise Phase 2 - Inventory Devices",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Enterprise Phase 2 - Test Lead",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"EDI Phase 2 - SPS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Enterprise Phase 2 - Distributors",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Enterprise Phase 2 - Sutton",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Enterprise Phase 2 - Symbeo",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Enterprise Phase 2 - SKGlobal",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Amonia line Set",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Compressor",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Interior Office Renovation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Purger For New Tower 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aon unit rebuild",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ammonia Line set",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Racking 3rd Freezer",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tote Washer",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dock office",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ammonia Compressor",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - Franchise",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Franchise Dev videos",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Franchise Trade Show Booth",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - IT Other",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CSC_RR_DevCtr (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OTHER (CS) - BS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Building Services",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Furniture & Fixtures",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - CSC_RR_DevCtr",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Roswell Ridge",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"RR HVAC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HR (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OTHER (CS) - HR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"HR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Training Videos - Culture, FOH, BOH",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Training Videos - new for LMS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Learning Mgmt System",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - HR",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Security _ NonIT (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Alarm System Upgrades",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Camera System Upgrades",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Physical Security Replacements",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Robbery Prevention",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Training (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Other - Training",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Accounting (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OTHER (CS) - Other",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Other",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Other - Accounting",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Other (PN)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales (SG)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Other - Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Digital Menu Boards (Remodel)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Digital Menu Boards (CoOwn)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #1 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #2 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #3 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #4 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #5 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #6 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #7 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #8 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #9 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #10 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #11 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #12 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #13 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #14 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #15 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #16 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #17 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #18 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #19 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #20 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #21 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - Maintenance",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"R&M CAP (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Maintenance Fund",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - Holland Maintenance",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Enterprise Phase 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Paycom Implementation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Relocation 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #22 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #23 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #24 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #25 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Remodel #26 (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - Security non-IT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Glazing Machine Prototype",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Roof AC Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pack Area Roof",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Processing Room Boiler",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS 3.0 Scan Guns",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS 3.0 Server Upgrades",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AEDs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other - Remodels (CA)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"New Store #5",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Remodel #1",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Remodel #2",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Remodel #3",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Remodel #4",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Remodel #5",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Remodel #6",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Remodel #7",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Remodel #8",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Remodel #9",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Remodel #10",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Remodel #11",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Remodel #12",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Remodel #13",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Digital Menu Boards (Remodel)",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Pivot Design Work",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Remodels (SG)",
+			"ComponentName":"Other - Remodels",
+			"Weight":1
+		},
+		{
+			"ParentName":"REMODELS (CS)",
+			"ComponentName":"CoOwned Remodels (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Projects",
+			"ComponentName":"Real Estate & Facilities",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Projects",
+			"ComponentName":"CALIFORNIA",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Projects",
+			"ComponentName":"FRANCHISE ACQUISITIONS",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Projects",
+			"ComponentName":"Supply Chain Services",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Projects",
+			"ComponentName":"IT",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Projects",
+			"ComponentName":"FRANCHISE",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Projects",
+			"ComponentName":"Building Services",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Projects",
+			"ComponentName":"HR",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Projects",
+			"ComponentName":"Other",
+			"Weight":1
+		},
+		{
+			"ParentName":"Real Estate & Facilities",
+			"ComponentName":"REMODELS (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Real Estate & Facilities",
+			"ComponentName":"EXPRESS (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Real Estate & Facilities",
+			"ComponentName":"CO-OWNED MAINT / REPAIRS (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Real Estate & Facilities",
+			"ComponentName":"CO-OWNED OTHER (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Real Estate & Facilities",
+			"ComponentName":"CO-OWNED NEW STORES (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Express (SG)",
+			"ComponentName":"Express 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Express (SG)",
+			"ComponentName":"Express 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Express (SG)",
+			"ComponentName":"Express 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Express (SG)",
+			"ComponentName":"Relocation 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Express (SG)",
+			"ComponentName":"Relocation 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Express (SG)",
+			"ComponentName":"Relocation 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Express (SG)",
+			"ComponentName":"Relocation 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Express (SG)",
+			"ComponentName":"Other - Express",
+			"Weight":1
+		},
+		{
+			"ParentName":"EXPRESS (CS)",
+			"ComponentName":"CoOwned Express (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Maint (SG)",
+			"ComponentName":"R&M CAP",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Maint (SG)",
+			"ComponentName":"Other - Maintenance",
+			"Weight":1
+		},
+		{
+			"ParentName":"CO-OWNED MAINT / REPAIRS (CS)",
+			"ComponentName":"CoOwned Maint (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Misc (SG)",
+			"ComponentName":"Buxton Re-build",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Misc (SG)",
+			"ComponentName":"Scale Replacements",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Misc (SG)",
+			"ComponentName":"Open Merchandiser Project",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Misc (SG)",
+			"ComponentName":"Digital Menu Boards (CoOwn)",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Misc (SG)",
+			"ComponentName":"ETL Listing Torches",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned Misc (SG)",
+			"ComponentName":"Other - Misc",
+			"Weight":1
+		},
+		{
+			"ParentName":"CO-OWNED OTHER (CS)",
+			"ComponentName":"CoOwned Misc (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned New Stores (SG)",
+			"ComponentName":"New Store #1",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned New Stores (SG)",
+			"ComponentName":"New Store #2",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned New Stores (SG)",
+			"ComponentName":"New Store #3",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned New Stores (SG)",
+			"ComponentName":"New Store #4",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned New Stores (SG)",
+			"ComponentName":"New Store #5",
+			"Weight":1
+		},
+		{
+			"ParentName":"CoOwned New Stores (SG)",
+			"ComponentName":"Other - New Stores",
+			"Weight":1
+		},
+		{
+			"ParentName":"CO-OWNED NEW STORES (CS)",
+			"ComponentName":"CoOwned New Stores (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Health Requirement #1",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Health Requirement #2",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Health Requirement #3",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Health Requirement #4",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Health Requirement #5",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #1 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #2 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #3 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #4 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #5 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #6 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #7 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #8 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #9 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #10 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #11 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #12 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #13 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #14 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #15 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #16 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #17 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #18 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #19 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #20 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #21 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #22 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #23 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #24 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #25 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Remodel #26 (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Other - Remodels (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"R&M CAP (CA)",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Other - California",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"California - IT",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Kitchen printers",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Other Health Requirements",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Ham Carts",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Freezers",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Stanchion/ Toppers, Merch Carts",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Alarm System Upgrades part 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"California (SG)",
+			"ComponentName":"Alarm System Upgrades part 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"CALIFORNIA (CS)",
+			"ComponentName":"California (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"CALIFORNIA",
+			"ComponentName":"CALIFORNIA (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise Acquisition (SG)",
+			"ComponentName":"Franchise Acq #1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise Acquisition (SG)",
+			"ComponentName":"Franchise Acq #2",
+			"Weight":1
+		},
+		{
+			"ParentName":"FRANCHISE ACQUISITIONS (CS)",
+			"ComponentName":"Franchise Acquisition (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"FRANCHISE ACQUISITIONS",
+			"ComponentName":"FRANCHISE ACQUISITIONS (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production System (SG)",
+			"ComponentName":"Phase 2 - Next Gen Slicer Build",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production System (SG)",
+			"ComponentName":"Phase 3 - Next Gen Slicer Build",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production System (SG)",
+			"ComponentName":"Auto Glazing Machine 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production System (SG)",
+			"ComponentName":"Auto Glazing Machine 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production System (SG)",
+			"ComponentName":"Slicer Oscillator R&D",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production System (SG)",
+			"ComponentName":"Sliacer Blade Sharpener",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production System (SG)",
+			"ComponentName":"Design",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production System (SG)",
+			"ComponentName":"Glazing Machine Prototype",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production System (SG)",
+			"ComponentName":"Other - Production System",
+			"Weight":1
+		},
+		{
+			"ParentName":"PRODUCTION SYSTEM (CS)",
+			"ComponentName":"Production System (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Supply Chain Services",
+			"ComponentName":"PRODUCTION SYSTEM (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Supply Chain Services",
+			"ComponentName":"DTC (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Supply Chain Services",
+			"ComponentName":"HOLLAND MAINTENANCE (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Supply Chain Services",
+			"ComponentName":"HOLLAND INITIATIVES (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Cap Labor (SG)",
+			"ComponentName":"Cap Labor - Infrastructure",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Cap Labor (SG)",
+			"ComponentName":"Cap Labor - Security",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Cap Labor (SG)",
+			"ComponentName":"Cap Labor - Omni/Digitization",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT (CS)",
+			"ComponentName":"IT Cap Labor (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT (CS)",
+			"ComponentName":"IT Digit_Omni (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT (CS)",
+			"ComponentName":"IT Security (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT (CS)",
+			"ComponentName":"IT Other (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT",
+			"ComponentName":"IT (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT",
+			"ComponentName":"IT TRANSFORMATION (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"Mobile App launch/rollout",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"OE Phase 2/Ordering Svcs",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"KSU Capstone",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"OLO Dispatch",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"Data Warehouse",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"Lunch Expansion",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"A/B Testing Integratioin",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"FRanchise Website Migration/Consolidation",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"Personalization/Offer Engine Capabilities",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"D2C Order Management/Chatbots/OE",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"BOPIS 2.x/Express Checkout",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"IVR Payment Solution",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"BOPIS 3.0 Scan Guns",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"BOPIS 3.0 Server Upgrades",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Digit_Omni (SG)",
+			"ComponentName":"Other - Omni",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Security (SG)",
+			"ComponentName":"ServiceNow Enhancements/SAM",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Security (SG)",
+			"ComponentName":"Internet Router Replacement",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Security (SG)",
+			"ComponentName":"HW Upgrades",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Security (SG)",
+			"ComponentName":"Misc Repairs and Upgrades",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Security (SG)",
+			"ComponentName":"ITC Capital Upgrades",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Security (SG)",
+			"ComponentName":"Other - IT Security",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"Register Refresh",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"ESX Stack for DC",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"Service Now Product Development",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"ESX Stack for T5",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"Kitchen Printers for Corp Stores",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"Holland NVR Replacement",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"SQL Server Harware (HBHSSQLDW)",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"PC Laptop Refresh",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"PC Laptop - New Hires",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"iPad Replacements",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"Meraki User Switches - DC",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"Ingenico Upgrades",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"SD-Wan Upgrade",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"Scanners",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Other (SG)",
+			"ComponentName":"Other - IT Other",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Enterprise Phase 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"EDI Phase 2 - SPS",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Enterprise Phase 2 - Sikich + Disys",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Enterprise Phase 2 - Sikich",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Enterprise Phase 2 - Dexian-Disys",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Enteprise Phase 2 - Kforce",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Enteprise Phase 2 - Insight Global",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Enterprise Phase 2 - Inventory Devices",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Enterprise Phase 2 - Test Lead",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Enterprise Phase 2 - Distributors",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Enterprise Phase 2 - Sutton",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Enterprise Phase 2 - Symbeo",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Enterprise Phase 2 - SKGlobal",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"CAP Labor",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Planning & Analytics",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT Transf (SG)",
+			"ComponentName":"Other - Transformation",
+			"Weight":1
+		},
+		{
+			"ParentName":"IT TRANSFORMATION (CS)",
+			"ComponentName":"IT Transf (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"D2C (SG)",
+			"ComponentName":"D2C UPS printers",
+			"Weight":1
+		},
+		{
+			"ParentName":"DTC (CS)",
+			"ComponentName":"D2C (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Maint (SG)",
+			"ComponentName":"Roof Replacement",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Maint (SG)",
+			"ComponentName":"Concrete Replacement",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Maint (SG)",
+			"ComponentName":"Roof Top A/C units",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Maint (SG)",
+			"ComponentName":"Maintenance Fund",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Maint (SG)",
+			"ComponentName":"Amonia line Set",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Maint (SG)",
+			"ComponentName":"Compressor",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Maint (SG)",
+			"ComponentName":"Interior Office Renovation",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Maint (SG)",
+			"ComponentName":"Purger For New Tower 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Maint (SG)",
+			"ComponentName":"Aon unit rebuild",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Maint (SG)",
+			"ComponentName":"Ammonia Line set",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Maint (SG)",
+			"ComponentName":"Roof AC Units",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Maint (SG)",
+			"ComponentName":"Pack Area Roof",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Maint (SG)",
+			"ComponentName":"Other - Holland Maintenance",
+			"Weight":1
+		},
+		{
+			"ParentName":"HOLLAND MAINTENANCE (CS)",
+			"ComponentName":"Holland Maint (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Intiatives (SG)",
+			"ComponentName":"Sanitation conveyor",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Intiatives (SG)",
+			"ComponentName":"Processing room conveyor",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Intiatives (SG)",
+			"ComponentName":"Processing roof Lift Table",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Intiatives (SG)",
+			"ComponentName":"Packaging Equipment",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Intiatives (SG)",
+			"ComponentName":"Racking 3rd Freezer",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Intiatives (SG)",
+			"ComponentName":"Tote Washer",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Intiatives (SG)",
+			"ComponentName":"Dock office",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Intiatives (SG)",
+			"ComponentName":"Ammonia Compressor",
+			"Weight":1
+		},
+		{
+			"ParentName":"Holland Intiatives (SG)",
+			"ComponentName":"Processing Room Boiler",
+			"Weight":1
+		},
+		{
+			"ParentName":"HOLLAND INITIATIVES (CS)",
+			"ComponentName":"Holland Intiatives (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise (SG)",
+			"ComponentName":"Franchise Dev videos",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise (SG)",
+			"ComponentName":"Franchise Trade Show Booth",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise (SG)",
+			"ComponentName":"Franchise Website Rebuild",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise (SG)",
+			"ComponentName":"Other - Franchise",
+			"Weight":1
+		},
+		{
+			"ParentName":"FRANCHISE (CS)",
+			"ComponentName":"Franchise (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"FRANCHISE",
+			"ComponentName":"FRANCHISE (CS)",
+			"Weight":1
+		},
+		{
+			"ParentName":"CSC_RR_DevCtr (SG)",
+			"ComponentName":"Furniture & Fixtures",
+			"Weight":1
+		},
+		{
+			"ParentName":"CSC_RR_DevCtr (SG)",
+			"ComponentName":"Other - CSC_RR_DevCtr",
+			"Weight":1
+		},
+		{
+			"ParentName":"CSC_RR_DevCtr (SG)",
+			"ComponentName":"Roswell Ridge",
+			"Weight":1
+		},
+		{
+			"ParentName":"CSC_RR_DevCtr (SG)",
+			"ComponentName":"RR HVAC",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER (CS) - BS",
+			"ComponentName":"CSC_RR_DevCtr (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Building Services",
+			"ComponentName":"OTHER (CS) - BS",
+			"Weight":1
+		},
+		{
+			"ParentName":"HR (SG)",
+			"ComponentName":"Training Videos - Culture, FOH, BOH",
+			"Weight":1
+		},
+		{
+			"ParentName":"HR (SG)",
+			"ComponentName":"Training Videos - new for LMS",
+			"Weight":1
+		},
+		{
+			"ParentName":"HR (SG)",
+			"ComponentName":"Learning Mgmt System",
+			"Weight":1
+		},
+		{
+			"ParentName":"HR (SG)",
+			"ComponentName":"Paycom Implementation",
+			"Weight":1
+		},
+		{
+			"ParentName":"HR (SG)",
+			"ComponentName":"Other - HR",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER (CS) - HR",
+			"ComponentName":"HR (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER (CS) - HR",
+			"ComponentName":"Security _ NonIT (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER (CS) - HR",
+			"ComponentName":"Training (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"HR",
+			"ComponentName":"OTHER (CS) - HR",
+			"Weight":1
+		},
+		{
+			"ParentName":"Security _ NonIT (SG)",
+			"ComponentName":"Alarm System Upgrades",
+			"Weight":1
+		},
+		{
+			"ParentName":"Security _ NonIT (SG)",
+			"ComponentName":"Camera System Upgrades",
+			"Weight":1
+		},
+		{
+			"ParentName":"Security _ NonIT (SG)",
+			"ComponentName":"Physical Security Replacements",
+			"Weight":1
+		},
+		{
+			"ParentName":"Security _ NonIT (SG)",
+			"ComponentName":"Robbery Prevention",
+			"Weight":1
+		},
+		{
+			"ParentName":"Security _ NonIT (SG)",
+			"ComponentName":"AEDs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Security _ NonIT (SG)",
+			"ComponentName":"Other - Security non-IT",
+			"Weight":1
+		},
+		{
+			"ParentName":"Training (SG)",
+			"ComponentName":"Other - Training",
+			"Weight":1
+		},
+		{
+			"ParentName":"Accounting (SG)",
+			"ComponentName":"Other - Accounting",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER (CS) - Other",
+			"ComponentName":"Accounting (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER (CS) - Other",
+			"ComponentName":"Other (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER (CS) - Other",
+			"ComponentName":"Sales (SG)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Other",
+			"ComponentName":"OTHER (CS) - Other",
+			"Weight":1
+		},
+		{
+			"ParentName":"Other (SG)",
+			"ComponentName":"Other (PN)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sales (SG)",
+			"ComponentName":"Other - Sales",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":[]
+}

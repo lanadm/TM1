@@ -1,0 +1,109 @@
+{
+	"@type":"Process",
+	"Name":"}SKU_DATA - Load Actual Data - BOPIS and BOPAC IPT",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}SKU_DATA - Load Actual Data - BOPIS and BOPAC IPT.ti",
+	"DataSource":
+	{
+		"Type":"ODBC",
+		"dataSourceNameForServer":"TM1Data",
+		"dataSourceNameForClient":"TM1Data",
+		"userName":"admin",
+		"password":"@a21b#iFARrhRVo*",
+		"query":"Use SellingMetrics\r\nexec [spLoadBOPIS_BOPACSellingMetricsIntoTM1] 202415, 202416"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pStartWeek",
+			"Prompt":"Start Week (YYYYWW)",
+			"Value":"202415",
+			"Type":"String"
+		},
+		{
+			"Name":"pEndWeek",
+			"Prompt":"End Week (YYYYWW)",
+			"Value":"202416",
+			"Type":"String"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"vYear",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vFiscalWeek",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vLocationID",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vOrigSalesChannelID",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vOrigSalesCenterID",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vTransactions",
+			"Type":"Numeric",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vNumberOfItems",
+			"Type":"Numeric",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vSumOfTranAmount",
+			"Type":"Numeric",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vSameDayPickup",
+			"Type":"Numeric",
+			"Position":9,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"UID": "172159243100017",
+	"VariablesUIData": [
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f",
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f"
+	],
+	"UIData": "_ParameterConstraints=e30=\f"
+}
