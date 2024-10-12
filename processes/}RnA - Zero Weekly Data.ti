@@ -1,0 +1,255 @@
+#region Prolog
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strProcessName = GETPROCESSNAME();
+strCube = 'RnA';
+strWeekCube = 't-weeks';
+strView = 'zz_'| strProcessName | '_ZeroOut';
+strSub = strView;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Trim the parameters to eliminate leading or trailing blanks
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYear = TRIM(pFiscalYear);
+strStartWeek = TRIM(pStartWeek);
+strEndWeek = TRIM(pEndWeek);
+strCategory = 'Actual';
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set dimension variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYearDim = 'YEAR';
+strWeekDim = 'WEEK';
+strLocationsDim = 'LOCATIONS';
+strCategoryDim = 'CATEGORY';
+strChannelDim = 'Lchannel';
+strDiscountIDDim = 'RnA_DiscountID_SKU';
+strMediaDim = 'RnA_MediaType';
+strVehicleDim = 'RnA_Vehicle';
+strMeasuresDim = 'RnA_Measures';
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set subset variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strLocationsSubset = 'All Level 0';
+strCategorySubset = 'Actual';
+strChannelSubset = 'All Level 0';
+strDiscountSubset = 'All N Level SKUs';
+strMediaSubset = 'All N Level MTypes';
+strVehicleSubset = 'All N Elements';
+strMeasuresSubset = 'All N Elements';
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set the information variables including directories and names to use for logging and errors
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strErrorFile = strProcessName | '_' | TIMST(NOW, '\Y\m\d') | '.csv';
+strLogDirectory = CELLGETS('bpmControl','Log Directory','Value');
+strLogDirectory = strLogDirectory | IF(SUBST(strLogDirectory, LONG(strLogDirectory), 1) @<> '\', '\', '');
+strError = strLogDirectory | strErrorFile;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Checks if the Fiscal Year exists in the "YEAR" dimension. If not, exports an error. 
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strDim = strYearDim;
+strElem = strYear;
+
+IF(DIMIX(strDim, strElem) = 0);
+     ASCIIOUTPUT(strError, 'The value entered, ' | strElem | ', is not a valid element in the ' | strDim | ' dimension.');
+     PROCESSERROR;
+ENDIF;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Determine Number of Weeks in order to extrapolate the End Week and Start Week numbers
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+numWeeks = NUMBR(strEndWeek) - NUMBR(strStartWeek) + 1;
+numEndWeek = NUMBR(strEndWeek);
+numStartWeek = NUMBR(strStartWeek);
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Checks if the number of weeks is a positive integer. If not, exports an error.
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IF(numWeeks < 0);
+     ASCIIOUTPUT(strError, 'The End Week entered, ' | strEndWeek | ', must be greater than or equal to the Start Week entered. ' | strStartWeek | '.');
+     PROCESSERROR;
+ENDIF;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# This section Creates a Zero Out View
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strCube_v = strCube;
+strView_v = strView;
+strSub_v = strSub;
+
+
+#     =================================
+#      If the view already exists, destroy it.
+#     =================================
+
+IF(VIEWEXISTS(strCube, strView) = 1);
+     VIEWDESTROY(strCube, strView);
+ENDIF;
+
+
+#     =================================
+#      Create the new zero view
+#     =================================
+
+VIEWCREATE(strCube, strView);
+
+VIEWEXTRACTSKIPCALCSSET(strCube, strView, 1);
+VIEWEXTRACTSKIPRULEVALUESSET(strCube, strView, 1);
+VIEWEXTRACTSKIPZEROESSET(strCube, strView, 1);
+
+
+#     =================================
+#      Cycle through the dimensions
+#     =================================
+
+i = 1;
+WHILE(TABDIM(strCube, i) @<> '');
+     strDim = TABDIM(strCube, i);
+
+
+#     =================================
+#      Check to see if the view subset exists within the dimension.
+#           If it exists, delete all elements from the subset
+#     =================================
+
+  IF(SUBSETEXISTS(strDim, strSub) = 0);
+     SUBSETCREATE(strDim, strSub);
+  ENDIF;
+  SUBSETDELETEALLELEMENTS(strDim, strSub);
+
+#     =================================
+#      Assign dimension subset to the newly created zero out view
+#     =================================
+
+  VIEWSUBSETASSIGN(strCube, strView, strDim, strSub);
+
+
+#     =================================
+#      Add the appropriate elements to the subset
+#     =================================
+
+  IF(strDim @= strCategoryDim);
+     strEle = strCategory;
+     SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+
+  ELSEIF(strDim @= strYearDim);
+     strEle = strYear;
+     SUBSETELEMENTINSERT(strDim, strSub, strEle, SUBSETGETSIZE(strDim, strSub) + 1);
+
+  ELSEIF(strDim @= strLocationsDim);
+     p = 1;
+     WHILE(p <= SUBSETGETSIZE(strDim, strLocationsSubset));
+          strLoopEle = SUBSETGETELEMENTNAME(strDim, strLocationsSubset, p);
+          SUBSETELEMENTINSERT(strDim, strSub, strLoopEle, SUBSETGETSIZE(strDim, strSub) + 1);
+          p = p + 1;
+     END;
+
+  ELSEIF(strDim @= strChannelDim);
+     p = 1;
+     WHILE(p<=SUBSETGETSIZE(strDim, strChannelSubset));
+          strLoopEle = SUBSETGETELEMENTNAME(strDim, strChannelSubset, p);
+          SUBSETELEMENTINSERT(strDim, strSub, strLoopEle, SUBSETGETSIZE(strDim, strSub) + 1);
+          p = p + 1;
+     END;
+
+  ELSEIF(strDim @= strDiscountIDDim);
+     p = 1;
+     WHILE(p<=SUBSETGETSIZE(strDim, strDiscountSubset));
+          strLoopEle = SUBSETGETELEMENTNAME(strDim, strDiscountSubset, p);
+          SUBSETELEMENTINSERT(strDim, strSub, strLoopEle, SUBSETGETSIZE(strDim, strSub) + 1);
+          p = p + 1;
+     END;
+
+  ELSEIF(strDim @= strMediaDim);
+     p = 1;
+     WHILE(p<=SUBSETGETSIZE(strDim, strMediaSubset));
+          strLoopEle = SUBSETGETELEMENTNAME(strDim, strMediaSubset, p);
+          SUBSETELEMENTINSERT(strDim, strSub, strLoopEle, SUBSETGETSIZE(strDim, strSub) + 1);
+          p = p + 1;
+     END;
+
+  ELSEIF(strDim @= strVehicleDim);
+     p = 1;
+     WHILE(p<=SUBSETGETSIZE(strDim, strVehicleSubset));
+          strLoopEle = SUBSETGETELEMENTNAME(strDim, strVehicleSubset, p);
+          SUBSETELEMENTINSERT(strDim, strSub, strLoopEle, SUBSETGETSIZE(strDim, strSub) + 1);
+          p = p + 1;
+     END;
+
+  ELSEIF(strDim @= strWeekDim);
+     p = numStartWeek;
+     WHILE(p<=numEndWeek);
+          strLoopEle = CELLGETS(strWeekCube, NUMBERTOSTRING(p), 'FY ' | SUBST(strYear, 3, 2));
+          IF(ELLEV(strDim, strLoopEle) = 0);
+               SUBSETELEMENTINSERT(strDim, strSub, strLoopEle, SUBSETGETSIZE(strDim, strSub) + 1);
+          ENDIF;
+          p = p + 1;
+     END;
+
+  ELSE;
+     p = 1;
+     WHILE(p <= SUBSETGETSIZE(strDim, strMeasuresSubset));
+          strLoopEle = SUBSETGETELEMENTNAME(strDim, strMeasuresSubset, p);
+          SUBSETELEMENTINSERT(strDim, strSub, strLoopEle, SUBSETGETSIZE(strDim, strSub) + 1);
+          p = p + 1;
+     END;
+
+  ENDIF;
+
+  i = i + 1;
+
+END;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Use the newly created zero out view to zero the associated values
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+VIEWZEROOUT(strCube, strView);
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Once update is complete, destroy the view
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+VIEWDESTROY(strCube, strView);
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Destroy the associated subsets
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+i = 1;
+WHILE(TABDIM(strCube, i) @<> '');
+     strDim = TABDIM(strCube, i);
+
+     IF(SUBSETEXISTS(strDim, strSub) = 1);
+          SUBSETDESTROY(strDim, strSub);
+     ENDIF;
+     i = i + 1;
+END;
+
+
+#endregion

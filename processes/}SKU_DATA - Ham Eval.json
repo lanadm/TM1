@@ -1,0 +1,52 @@
+{
+	"@type":"Process",
+	"Name":"}SKU_DATA - Ham Eval",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}SKU_DATA - Ham Eval.ti",
+	"DataSource":
+	{
+		"Type":"ODBC",
+		"dataSourceNameForServer":"MYSQL_TM1",
+		"dataSourceNameForClient":"MYSQL_TM1",
+		"userName":"admin",
+		"password":"@a21b#iFARrhRVo*",
+		"query":"SELECT [Location ID], AVG(cast([Eval Score] AS float)) AS Score\r\n  FROM vRizePoint_Protein_Evaluations\r\n  WHERE [Eval Date] between '?pStartDate?' and '?pEndDate?'\r\n  /* WHERE [Eval Date] between '07/15/2024' and '07/21/2024'  */\r\n  GROUP BY [Location ID]"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pStartDate",
+			"Prompt":"Enter the week's starting date (mm/dd/yyyy)",
+			"Value":"07/15/2024",
+			"Type":"String"
+		},
+		{
+			"Name":"pEndDate",
+			"Prompt":"Enter the week's ending date (mm/dd/yyyy)",
+			"Value":"07/21/2024",
+			"Type":"String"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"vLocationID",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vScore",
+			"Type":"Numeric",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"VariablesUIData": [
+		"VarType=32\fColType=827\f",
+		"VarType=33\fColType=827\f"
+	],
+	"UIData": "_ParameterConstraints=e30=\f"
+}

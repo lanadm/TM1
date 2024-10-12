@@ -1,0 +1,14 @@
+{
+	"@type":"Process",
+	"Name":"}D365_GL - Zero Actuals",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}D365_GL - Zero Actuals.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[],
+	"UIData": "_ParameterConstraints=e30=\f",
+	"VariablesUIData": []
+}

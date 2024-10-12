@@ -1,0 +1,146 @@
+#region Prolog
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strCube_g = 'SKU_DATA';
+strWeekCube_g = 't-weeks';
+strYearCube_g = 't-yr4fy2';
+strLocationCube_g = 't-strctr';
+strCategory_g = 'Actual';
+strLocation_g = '52315899';
+strSku_g = '1';
+strChannel_g = '100';
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Trim the pWeek Paramater to eliminate leading or trailing blanks
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strWeek_g = TRIM(pWeek);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Grab the Fiscal Year from the pWeek Parameter
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strFY_g = 'FY ' | SUBST(strWeek_g, 3, 2);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Use the trimmed paramter for week (pWeek), and grab the translation from the t-weeks cube for the appropriate Fiscal Year.
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+strWeekEle_g = CELLGETS(strWeekCube_g, SUBST(strWeek_g, 5, 2), strFY_g);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Use the value pulled from the t-weeks cube to grab the month and day, then combine with "20" as the first part of the year,
+#      then grab the last part of the year from the parameter (pWeek)  
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strEndDate_g = SUBST(strWeekEle_g, LONG(strWeekEle_g) - 7, 5) | '/20' | SUBST(strWeekEle_g, LONG(strWeekEle_g) - 1, 2);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Use the end date from above to isolate the Month, Day and Year
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strMonth = SUBST(strEndDate_g, 1, 2);
+strDay = SUBST(strEndDate_g, 4, 2);
+strYear = SUBST(strEndDate_g, 7, 4);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Find the beginning of the week's date and isolate the Month, Day and Year, then set the Start Date.
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+numEndSerial_g = DAYNO(strYear | '-' | strMonth | '-' | strDay);
+numStartSerial_g = numEndSerial_g - 6;
+
+strMonth = SUBST(DATE(numStartSerial_g, 1), 6, 2);
+strDay = SUBST(DATE(numStartSerial_g, 1), 9, 2);
+strYear = SUBST(DATE(numStartSerial_g, 1), 1, 4);
+
+strStartDate_g = strMonth | '/' | strDay | '/' | strYear;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set the information variables including directories and names to use for logging and errors
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strProcessName = GETPROCESSNAME();
+strErrorFile = strProcessName | '_' | TIMST(NOW, '\Y\m\d') | '.csv';
+strLogDirectory = CELLGETS('bpmControl','Log Directory','Value');
+strLogDirectory = strLogDirectory | IF(SUBST(strLogDirectory, LONG(strLogDirectory), 1) @= '\', '', '\');
+strError = strLogDirectory | strErrorFile;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Query data source TM1Data using strStartDate and strEndDate as variables to pull the data
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strDataSource_g = 'TM1Data';
+
+strQuery_g = 'select ' |
+'  Sum(ProductSales), ' |
+'  Sum(Discount), ' |
+'  Sum(Freight),' |
+'  Sum(NetRevenue),' |
+'      COUNT (DISTINCT OrdersID), ' |
+'      SUM(NoOfProducts), ' |
+'      COUNT (DISTINCT OrderShipToID) ' |
+'from SellingMetrics.dbo.Catalog_Sales with (nolock) ' |
+'where ShipDate between ''%strStartDate_g%'' and ''%strEndDate_g%'' ' |
+'AND CategoryCode NOT IN (''MAIL'', ''EGCRT'', ''GCRT'', ''GCRD'') ' |
+'AND OrdersID not between 59000000 and 59999999' ;
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+# Define Data Source
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+
+strQuery = EXPAND(strQuery_g);
+
+DATASOURCETYPE = 'ODBC';
+DATASOURCENAMEFORSERVER = strDataSource_g;
+DATASOURCENAMEFORCLIENT = strDataSource_g;
+DATASOURCEQUERY = strQuery;
+
+#endregion
+#region Data
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Create source data variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+numProductSales = vProductSales;
+numDiscount = vDiscount;
+numFreight = vFreight;
+numNetRevenue = vNetRevenue;
+numOrders = vOrders;
+numNumProducts = vNumProducts;
+numRecipients = vRecipients;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Create Data input variables as source data divided by driver (Number of Orders or Number of Recipients)
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+numAverageOrder = numNetRevenue \ numOrders;
+numFreightRevPerOrder = numFreight \ numOrders;
+numItemsPerOrder = numNumProducts \ numOrders;
+numRecipientsPerOrder = numRecipients \ numOrders;
+numDollarsPerRecipient = numNetRevenue \ numRecipients;
+numItemsPerRecipient = numNumProducts \ numRecipients;
+
+
+CELLPUTN(numOrders, strCube_g, strFY_g, strCategory_g, strLocation_g, strSku_g, strWeekEle_g, 'Orders', strChannel_g);
+CELLPUTN(numAverageOrder, strCube_g, strFY_g, strCategory_g, strLocation_g, strSku_g, strWeekEle_g, 'Average Order', strChannel_g);
+CELLPUTN(numFreightRevPerOrder, strCube_g, strFY_g, strCategory_g, strLocation_g, strSku_g, strWeekEle_g, 'Freight Rev Per Order', strChannel_g);
+CELLPUTN(numItemsPerOrder, strCube_g, strFY_g, strCategory_g, strLocation_g, strSku_g, strWeekEle_g, 'Items Per Order', strChannel_g);
+CELLPUTN(numRecipients, strCube_g, strFY_g, strCategory_g, strLocation_g, strSku_g, strWeekEle_g, 'Recipients', strChannel_g);
+CELLPUTN(numRecipientsPerOrder, strCube_g, strFY_g, strCategory_g, strLocation_g, strSku_g, strWeekEle_g, 'Recipients Per Order', strChannel_g);
+CELLPUTN(numDollarsPerRecipient, strCube_g, strFY_g, strCategory_g, strLocation_g, strSku_g, strWeekEle_g, '$ per Recipient', strChannel_g);
+CELLPUTN(numItemsPerRecipient, strCube_g, strFY_g, strCategory_g, strLocation_g, strSku_g, strWeekEle_g, 'Items Per Recipient', strChannel_g);
+CELLPUTN(numNumProducts, strCube_g, strFY_g, strCategory_g, strLocation_g, strSku_g, strWeekEle_g, '# of Items', strChannel_g);
+
+#endregion
+#region Epilog
+
+
+
+
+#endregion

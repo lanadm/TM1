@@ -1,0 +1,32 @@
+{
+	"@type":"Process",
+	"Name":"}CALLER - DATA - Load RnA",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}CALLER - DATA - Load RnA.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pFiscalYear",
+			"Prompt":"Enter Fiscal Year as YYYY",
+			"Value":"2024",
+			"Type":"String"
+		},
+		{
+			"Name":"pStartWeek",
+			"Prompt":"Enter Start Week as W",
+			"Value":"19",
+			"Type":"String"
+		},
+		{
+			"Name":"pEndWeek",
+			"Prompt":"Enter End Week as W",
+			"Value":"20",
+			"Type":"String"
+		}
+	],
+	"Variables":[]
+}

@@ -1,0 +1,112 @@
+#region Prolog
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strCube_g = 'SKU_DATA';
+strWeekCube_g = 't-weeks';
+strYearCube_g = 't-yr4fy2';
+strLocationCube_g = 't-strctr';
+strCategory_g = 'Actual';
+strLocation_g = '52317910';
+strSku_g = '1';
+strChannel_g = 'C';
+numRecord = 0;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Trim the parameters to eliminate leading or trailing blanks
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strWeek_g = TRIM(pWeek);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Extrapolate the Fiscal Year from the trimmed parameter variable
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strFY_g = 'FY ' | SUBST(strWeek_g, 3, 2);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Grab the Week Name description translation using the week number and fiscal year  from the t-weeks cube
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strWeekEle_g = CELLGETS(strWeekCube_g, SUBST(strWeek_g, 5, 2), strFY_g);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Extrapolate the End Date using the Week translation above.
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strEndDate_g = SUBST(strWeekEle_g, LONG(strWeekEle_g) - 7, 5) | '/20' | SUBST(strWeekEle_g, LONG(strWeekEle_g) - 1, 2);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Extrapolate the Month, Day and Year using the End Date above, then grab the calculate the start and end date
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strMonth = SUBST(strEndDate_g, 1, 2);
+strDay = SUBST(strEndDate_g, 4, 2);
+strYear = SUBST(strEndDate_g, 7, 4);
+
+numEndSerial_g = DAYNO(strYear | '-' | strMonth | '-' | strDay);
+numStartSerial_g = numEndSerial_g - 6;
+
+strMonth = SUBST(DATE(numStartSerial_g, 1), 6, 2);
+strDay = SUBST(DATE(numStartSerial_g, 1), 9, 2);
+strYear = SUBST(DATE(numStartSerial_g, 1), 1, 4);
+
+strStartDate_g = strMonth | '/' | strDay | '/' | strYear;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set the information variables including directories and names to use for logging and errors
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strProcessName = GETPROCESSNAME();
+strErrorFile = strProcessName | '_' | TIMST(NOW, '\Y\m\d') | '.csv';
+strLogDirectory = CELLGETS('bpmControl','Log Directory','Value');
+strLogDirectory = strLogDirectory | IF(SUBST(strLogDirectory, LONG(strLogDirectory), 1) @= '\', '', '\');
+strError = strLogDirectory | strErrorFile;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Query data source TM1Data using strStartWeek and strEndWeek as variables to pull the data
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strDataSource_g = 'TM1Data';
+strQuery_g = 'use CMS2000_Views ' |
+'SELECT ShipDate, NewCustomerCount, NetSalesWithoutFreight, FreightOnly, NetSalesWithFreight ' |
+'FROM NE_Catalog_Sales ' |
+'WHERE (((ShipDate) Between ''%strStartDate_g%'' and ''%strEndDate_g%'' )) ' ;
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+# Define Data Source
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+
+strQuery = EXPAND(strQuery_g);
+
+DATASOURCETYPE = 'ODBC';
+DATASOURCENAMEFORSERVER = strDataSource_g;
+DATASOURCENAMEFORCLIENT = strDataSource_g;
+DATASOURCEQUERY = strQuery;
+
+#endregion
+#region Data
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Loop through the records and zero the SKU_DATA values, then replace and increment the import of Net Sales with Freight from the source
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+numRecord = numRecord + 1;
+
+IF(numRecord = 1);
+    CELLPUTN(0, strCube_g, strFY_g, strCategory_g, strLocation_g, strSku_g, strWeekEle_g, 'Selling Metrics Sales', strChannel_g);
+ENDIF;
+
+CELLINCREMENTN(vNetSalesWithFreight, strCube_g, strFY_g, strCategory_g, strLocation_g, strSku_g, strWeekEle_g, 'Selling Metrics Sales', strChannel_g);
+
+
+#endregion
+#region Epilog
+
+
+
+
+#endregion
