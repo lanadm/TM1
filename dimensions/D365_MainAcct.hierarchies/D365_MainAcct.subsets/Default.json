@@ -1,0 +1,62 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL GROSS REVENUE')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('RETURNS/ALLOWANCES')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL NET REVENUE')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL COST OF GOODS')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL GROSS PROFIT')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL SELLING EXPENSE')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL WGS/BONUSES/PR TAX/BENEFITS')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL G & A EXPENSE')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('INCOME FROM OPERATIONS')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('NON-OPERATING INCOME/EXPENSE')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('NET INCOME BEFORE OVERHEAD')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('OVERHEAD ASSESSMENTS')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('NET INCOME')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('OPERATING EBITDA')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('BANK EBITDA')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('BALANCE SHEET')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL ASSETS')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL LIABILITIES AND STOCKHOLDERS EQUITY')"
+		}
+	]
+}

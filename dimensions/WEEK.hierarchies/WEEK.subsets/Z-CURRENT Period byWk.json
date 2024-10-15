@@ -1,0 +1,19 @@
+{
+	"@type":"Subset",
+	"Name":"Z-CURRENT Period byWk",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 19 -  02/08/09')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 20 -  02/15/09')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 21 -  02/22/09')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 22 -  03/01/09')"
+		}
+	]
+}

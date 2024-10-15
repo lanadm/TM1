@@ -1,0 +1,29 @@
+{
+	"@type":"Subset",
+	"Name":"PLDist_FY24-Franchise",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('TM1 admin test-OPERATIONS - RETAIL-D2C-FRANCHISE')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('TM1 admin test-HB FRANCHISE')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('TM1 admin test-HB DIR-TO-CONSUMER')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB FRANCHISE')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('FRANCHISE OPERATIONS')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB DIR-TO-CONSUMER')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('52315899')"
+		}
+	]
+}

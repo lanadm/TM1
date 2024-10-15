@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_DATA - TEST QTY - Load Qty from Sku_Data - Budget_Source",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 1')"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Current Week",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {FILTER(TM1SubsetAll([WEEK].[WEEK]), ([WEEK].[WEEK].CURRENTMEMBER.PROPERTIES(\"Current\") = \"Current\"))}"
+}

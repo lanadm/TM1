@@ -1,0 +1,127 @@
+#region Prolog
+#---------------------------
+
+# No Prolog
+
+#---------------------------
+#endregion
+#region Metadata
+#---------------------------
+
+vPriceValue =
+
+    # HALF HAM
+    #---------------------------
+    IF( vLskus @= 'HALF HAM',
+        cellgetn( 'SKU_DATA', vYear, vCategory, vLocations, '101200', vWeek, 'Ham Price per lb', '100' ),
+
+    # WHOLE HAM
+    #---------------------------
+    IF( vLskus @= 'WHOLE HAM',
+        cellgetn( 'SKU_DATA', vYear, vCategory, vLocations, '101000', vWeek, 'Ham Price per lb', '100' ),
+
+    # QUARTER HAM
+    #---------------------------
+    IF( vLskus @= 'QUARTER HAM',
+        cellgetn( 'SKU_DATA', vYear, vCategory, vLocations, '100114', vWeek, 'Ham Price per lb', '100' ),
+
+    # BONELESS-HAM-WHOLE
+    #---------------------------
+    IF( vLskus @= 'BONELESS-HAM-WHOLE',
+        cellgetn( 'SKU_DATA', vYear, vCategory, vLocations, '100115', vWeek, 'Ham Price per lb', '100' ),
+
+    # BONELESS-HAM-HALF
+    #---------------------------
+    IF( vLskus @= 'BONELESS-HAM-HALF',
+        cellgetn( 'SKU_DATA', vYear, vCategory, vLocations, '100116', vWeek, 'Ham Price per lb', '100' ),
+
+    # TURKEY BREAST
+    #---------------------------
+    IF( vLskus @= 'TURKEY BREAST',
+        cellgetn( 'SKU_DATA', vYear, vCategory, vLocations, '110103', vWeek, 'Ham Price per lb', '100' ),
+
+    # ELSE
+    #---------------------------
+    0))))));
+
+vSalesPounds = vGrossValue \ vPriceValue;
+
+LoadingSku =
+    IF( vLskus @= 'HALF HAM', '101200',
+    IF( vLskus @= 'WHOLE HAM', '101000',
+    IF( vLskus @= 'QUARTER HAM', '100114',
+    IF( vLskus @= 'BONELESS-HAM-WHOLE', '100115',
+    IF( vLskus @= 'BONELESS-HAM-HALF', '100116',
+    IF( vLskus @= 'TURKEY BREAST', '110103',
+    '0'))))));
+
+LoadingChannel = '400';
+LoadingStat = 'Sales Pounds';
+
+#---------------------------
+#endregion
+#region Data
+#---------------------------
+
+vPriceValue =
+
+    # HALF HAM
+    #---------------------------
+    IF( vLskus @= 'HALF HAM',
+        cellgetn( 'SKU_DATA', vYear, vCategory, vLocations, '101200', vWeek, 'Ham Price per lb', '100' ),
+
+    # WHOLE HAM
+    #---------------------------
+    IF( vLskus @= 'WHOLE HAM',
+        cellgetn( 'SKU_DATA', vYear, vCategory, vLocations, '101000', vWeek, 'Ham Price per lb', '100' ),
+
+    # QUARTER HAM
+    #---------------------------
+    IF( vLskus @= 'QUARTER HAM',
+        cellgetn( 'SKU_DATA', vYear, vCategory, vLocations, '100114', vWeek, 'Ham Price per lb', '100' ),
+
+    # BONELESS-HAM-WHOLE
+    #---------------------------
+    IF( vLskus @= 'BONELESS-HAM-WHOLE',
+        cellgetn( 'SKU_DATA', vYear, vCategory, vLocations, '100115', vWeek, 'Ham Price per lb', '100' ),
+
+    # BONELESS-HAM-HALF
+    #---------------------------
+    IF( vLskus @= 'BONELESS-HAM-HALF',
+        cellgetn( 'SKU_DATA', vYear, vCategory, vLocations, '100116', vWeek, 'Ham Price per lb', '100' ),
+
+    # TURKEY BREAST
+    #---------------------------
+    IF( vLskus @= 'TURKEY BREAST',
+        cellgetn( 'SKU_DATA', vYear, vCategory, vLocations, '110103', vWeek, 'Ham Price per lb', '100' ),
+
+    # ELSE
+    #---------------------------
+    0))))));
+
+vSalesPounds = vGrossValue \ vPriceValue;
+
+LoadingSku =
+    IF( vLskus @= 'HALF HAM', '101200',
+    IF( vLskus @= 'WHOLE HAM', '101000',
+    IF( vLskus @= 'QUARTER HAM', '100114',
+    IF( vLskus @= 'BONELESS-HAM-WHOLE', '100115',
+    IF( vLskus @= 'BONELESS-HAM-HALF', '100116',
+    IF( vLskus @= 'TURKEY BREAST', '110103',
+    '0'))))));
+
+LoadingChannel = '400';
+
+LoadingStat = 'Sales Pounds';
+
+CellPutN( vSalesPounds, 'SKU_DATA', vYear, vCategory, vLocations, LoadingSku, vWeek, LoadingStat, LoadingChannel );
+
+#---------------------------
+#endregion
+#region Epilog
+#---------------------------
+
+# No Epilog
+
+
+#endregion

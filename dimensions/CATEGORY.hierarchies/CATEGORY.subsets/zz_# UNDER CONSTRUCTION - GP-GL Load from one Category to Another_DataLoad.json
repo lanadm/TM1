@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_# UNDER CONSTRUCTION - GP-GL Load from one Category to Another_DataLoad",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Budget')"
+		}
+	]
+}

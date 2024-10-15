@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@D365_GL - Zero for SKU_DATA Load (HB Retail incl CA)",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('4010')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('4220')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('4225')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('4221')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('4040')"
+		}
+	]
+}

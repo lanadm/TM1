@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"HB Retail - N Level with Parent",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {[LOCATIONS].[LOCATIONS].[HB RETAIL],TM1FILTERBYLEVEL(TM1DRILLDOWNMEMBER(TM1FILTERBYPATTERN(TM1SUBSETALL([LOCATIONS]) , \"hb retail\") , ALL , RECURSIVE) , 0)}"
+}

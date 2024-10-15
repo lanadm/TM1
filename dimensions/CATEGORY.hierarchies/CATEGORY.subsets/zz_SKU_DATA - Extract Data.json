@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_SKU_DATA - Extract Data",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Actual')"
+		}
+	]
+}

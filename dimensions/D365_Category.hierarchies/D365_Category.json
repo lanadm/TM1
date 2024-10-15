@@ -1,0 +1,395 @@
+{
+	"@type":"Hierarchy",
+	"Name":"D365_Category",
+	"Elements":
+	[
+		{
+			"Name":"{All Categories",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Actual vs Budget",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Actual vs Rev Fcst",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Budget",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Rev Fcst",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Act vs Test",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Test",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Act vs Backup",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Actual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY23_Actual_Backup",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Rev Fcst 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TESTING",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TEST-Actual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"{Testing and Backup Categories",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"BudgetFY25_Backup_07152024",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LRP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ALL CATEGORIES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Budget 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T1 Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T2 Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T3 Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Act vs Test-Act",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Budget 5",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"{All Categories",
+			"ComponentName":"ALL CATEGORIES",
+			"Weight":0
+		},
+		{
+			"ParentName":"{All Categories",
+			"ComponentName":"Actual vs Budget",
+			"Weight":0
+		},
+		{
+			"ParentName":"{All Categories",
+			"ComponentName":"Actual vs Rev Fcst",
+			"Weight":0
+		},
+		{
+			"ParentName":"{All Categories",
+			"ComponentName":"{Testing and Backup Categories",
+			"Weight":0
+		},
+		{
+			"ParentName":"Actual vs Budget",
+			"ComponentName":"Actual",
+			"Weight":1
+		},
+		{
+			"ParentName":"Actual vs Budget",
+			"ComponentName":"Budget",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Actual vs Rev Fcst",
+			"ComponentName":"Actual",
+			"Weight":1
+		},
+		{
+			"ParentName":"Actual vs Rev Fcst",
+			"ComponentName":"Rev Fcst",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Act vs Test",
+			"ComponentName":"Actual",
+			"Weight":1
+		},
+		{
+			"ParentName":"Act vs Test",
+			"ComponentName":"Test",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Act vs Backup",
+			"ComponentName":"Actual",
+			"Weight":1
+		},
+		{
+			"ParentName":"Act vs Backup",
+			"ComponentName":"FY23_Actual_Backup",
+			"Weight":-1
+		},
+		{
+			"ParentName":"{Testing and Backup Categories",
+			"ComponentName":"BudgetFY25_Backup_07152024",
+			"Weight":0
+		},
+		{
+			"ParentName":"{Testing and Backup Categories",
+			"ComponentName":"Act vs Test",
+			"Weight":0
+		},
+		{
+			"ParentName":"{Testing and Backup Categories",
+			"ComponentName":"Act vs Backup",
+			"Weight":0
+		},
+		{
+			"ParentName":"{Testing and Backup Categories",
+			"ComponentName":"TESTING",
+			"Weight":0
+		},
+		{
+			"ParentName":"{Testing and Backup Categories",
+			"ComponentName":"Act vs Test-Act",
+			"Weight":0
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Actual",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Budget",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Budget 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Budget 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Budget 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Budget 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Budget 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Rev Fcst",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Rev Fcst 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"LRP",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"T1 Forecast",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"T2 Forecast",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"T3 Forecast",
+			"Weight":1
+		},
+		{
+			"ParentName":"Act vs Test-Act",
+			"ComponentName":"Actual",
+			"Weight":1
+		},
+		{
+			"ParentName":"Act vs Test-Act",
+			"ComponentName":"TEST-Actual",
+			"Weight":-1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"D365_Category.subsets/Actual.json",
+		"D365_Category.subsets/Actual & Budget.json",
+		"D365_Category.subsets/Actual Budget & RevFcst.json",
+		"D365_Category.subsets/All Level 0.json",
+		"D365_Category.subsets/Budget.json",
+		"D365_Category.subsets/Default.json",
+		"D365_Category.subsets/zz_@D365_GL - Copy from Category to Category.json",
+		"D365_Category.subsets/zz_@D365_GL - Copy from Category to Category_ZeroOut.json",
+		"D365_Category.subsets/zz_@D365_GL - Zero for SKU_DATA Load (HB Retail incl CA).json",
+		"D365_Category.subsets/zz_D365_GL - Export Data.json"
+	]
+}

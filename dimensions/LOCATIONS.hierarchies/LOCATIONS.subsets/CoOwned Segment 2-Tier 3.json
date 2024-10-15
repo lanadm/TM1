@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"CoOwned Segment 2-Tier 3",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {DISTINCT({[LOCATIONS].[LOCATIONS].[CO Segment 2-3],DESCENDANTS([LOCATIONS].[LOCATIONS].[CO Segment 2-3] , 99 , LEAVES)})}"
+}

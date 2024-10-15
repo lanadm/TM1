@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"All Level 0 (no desc)",
+	"Expression":"{TM1SORT( {TM1FILTERBYLEVEL( {TM1SUBSETALL( [D365_MAINACCT] )}, 0)}, ASC)}"
+}

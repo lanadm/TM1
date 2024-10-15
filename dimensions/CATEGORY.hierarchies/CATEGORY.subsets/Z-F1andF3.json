@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"Z-F1andF3",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 1')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 3')"
+		}
+	]
+}

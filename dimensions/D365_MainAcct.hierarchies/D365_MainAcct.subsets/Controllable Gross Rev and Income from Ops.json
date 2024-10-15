@@ -1,0 +1,17 @@
+{
+	"@type":"Subset",
+	"Name":"Controllable Gross Rev and Income from Ops",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CONTROLLABLE GROSS REVENUE FY23')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CONTROLLABLE INCOME FROM OPERATIONS FY23')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CONTROLLABLE WAGE/BONUS EXPENSE FY23')"
+		}
+	]
+}

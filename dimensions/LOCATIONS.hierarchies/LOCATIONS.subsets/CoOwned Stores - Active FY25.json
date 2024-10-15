@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"CoOwned Stores - Active FY25",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {{DISTINCT({[LOCATIONS].[LOCATIONS].[CoOwned Stores - Active FY25], DESCENDANTS([LOCATIONS].[LOCATIONS].[CoOwned Stores - Active FY25], 99 , LEAVES)})}}"
+}

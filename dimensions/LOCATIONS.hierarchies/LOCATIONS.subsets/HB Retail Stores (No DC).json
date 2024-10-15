@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"HB Retail Stores (No DC)",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {TM1DRILLDOWNMEMBER(DRILLUPMEMBER({[LOCATIONS].[LOCATIONS].[HB Retail Stores (no DC)]} , {[LOCATIONS].[LOCATIONS].[HB Retail Stores (no DC)]}) , {[LOCATIONS].[LOCATIONS].[HB Retail Stores (no DC)]} , RECURSIVE)}"
+}

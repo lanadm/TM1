@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"WEEK",
+	"Hierarchies@Code.links":
+	[
+		"WEEK.hierarchies/WEEK.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('WEEK')/Hierarchies('WEEK')"
+	}
+}

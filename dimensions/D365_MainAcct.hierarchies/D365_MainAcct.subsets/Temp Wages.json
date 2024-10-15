@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Temp Wages",
+	"Alias":"Name",
+	"Expression":"{TM1FILTERBYPATTERN( {TM1SUBSETALL( [D365_MainAcct] )}, \"TEMP WAGES\")}"
+}

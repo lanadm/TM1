@@ -1,0 +1,38 @@
+{
+	"@type":"NativeView",
+	"Name":"Period-Month Names",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('NAME')/Hierarchies('NAME')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('NAME')/Hierarchies('NAME')/Elements('Month Name')"
+					},
+					{
+						"@id":"Dimensions('NAME')/Hierarchies('NAME')/Elements('Calendar Mo Name')"
+					}
+				]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('storenum')/Hierarchies('storenum')/Subsets('Periods-Numerical')"
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.#########"
+}

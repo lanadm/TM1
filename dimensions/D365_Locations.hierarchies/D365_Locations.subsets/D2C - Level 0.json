@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"D2C - Level 0",
+	"Alias":"Name",
+	"Expression":"{TM1SORT( {TM1FILTERBYLEVEL( {TM1DRILLDOWNMEMBER( {TM1FILTERBYPATTERN( {TM1SUBSETALL( [D365_Locations] )}, \"HB DIR-TO-CONSUMER\")}, ALL, RECURSIVE )}, 0)}, ASC)}"
+}

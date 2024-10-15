@@ -1,0 +1,52 @@
+#region Data
+
+Category = 'Actual';
+
+#----------------------------------------------------------------------------
+# Reverse signs on accounts marked as "NEG"
+#----------------------------------------------------------------------------
+
+AcctType = attrs( 'D365_MainAcct', MainAcct, 'PosNeg' );
+AcctSign = if( AcctType @= 'Pos', 1, -1 );
+DataSign = data * AcctSign;
+
+#----------------------------------------------------------------------------
+# For account 3205 if Product and Project are blank, assign to 00 and 000 respectively
+#----------------------------------------------------------------------------
+
+strProject = if( MainAcct @= '3205' & Project @= '', '000', Project );
+strProduct = if( MainAcct @= '3205' & Product @= '', '00', Product );
+
+#----------------------------------------------------------------------------
+# Skip Test store and period 0
+#----------------------------------------------------------------------------
+
+# If( trim( Location ) @= '52112022' );
+#     ITEMSKIP;
+# endif;
+
+#----------------------------------------------------------------------------
+# Load Data
+#----------------------------------------------------------------------------
+
+CellPutN( DataSign, 'D365_GL', FiscalYear, FiscalPeriod, Category, strProject, strProduct, Location, MainAcct );
+
+
+#endregion
+#region Epilog
+
+strNow = Now();
+strDate = date(Now(), 1);
+strMonth = NumberToString(Month(strDate));
+strDay = NumberToString(Day(strDate));
+strYear = NumberToString(Year(strDate));
+strHour = NumberToString(TIMVL(strNow, 'H'));
+strMinute = NumberToString(TIMVL(strNow, 'I'));
+strLogDir = './D365_GL_ChoreCompletionLogs/';
+strFile = 'D365_SynapseLoad_' | strMonth | strDay | strYear | '_' | 'UTC' |strHour | strMinute | '.txt';
+  
+ ASCIIOutput(strLogDir | strFile,'The Chore Completed at ' | strHour | ':' | strMinute );
+
+
+
+#endregion

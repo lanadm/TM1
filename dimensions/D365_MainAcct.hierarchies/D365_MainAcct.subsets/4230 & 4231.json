@@ -1,0 +1,14 @@
+{
+	"@type":"Subset",
+	"Name":"4230 & 4231",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('4230')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('4231')"
+		}
+	]
+}

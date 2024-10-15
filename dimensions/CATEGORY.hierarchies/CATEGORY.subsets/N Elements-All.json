@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"N Elements-All",
+	"Expression":"{TM1SORT( {TM1FILTERBYLEVEL( {TM1SUBSETALL( [CATEGORY] )}, 0)}, ASC)}"
+}

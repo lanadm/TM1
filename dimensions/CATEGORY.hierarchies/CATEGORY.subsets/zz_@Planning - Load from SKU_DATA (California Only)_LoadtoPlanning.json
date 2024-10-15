@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Planning - Load from SKU_DATA (California Only)_LoadtoPlanning",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 9')"
+		}
+	]
+}

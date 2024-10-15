@@ -1,0 +1,145 @@
+#region Prolog
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strCube_g = 'SKU_DATA';
+strWeekCube_g = 't-weeks';
+strView_g = 'zz_' | strCube_g | '_ZeroOut';
+strSub_g = strView_g;
+strCategory_g = 'Actual';
+numLoadWeeks = 5;
+#strChoreLoad = 'T';
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Trim the parameters to eliminate leading or trailing blanks
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYear_g = TRIM(pYear);
+strStartWeek_g = TRIM(pStartWeek);
+strEndWeek_g = TRIM(pEndWeek);
+strWeek_g = TRIM(pWeek);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Process Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strZeroOutProcess = '}SKU_DATA - Zero Weekly Data (Main Load)';
+strCMS3Process = '}SKU_DATA - Load Actual Data - Retail';
+strCMSCatProcess = '}SKU_DATA - Load Actual Data - D2C';
+strHBFProcess = '}SKU_DATA - Load Actual Data - Franchise';
+strRSMZeroOutProcess = '}SKU_DATA - Zero Weekly - Retail Selling Metrics';
+strHBHFProcess = '}SKU_DATA - Load Actual Data - Franchise Transactions';
+strHBHFCAProcess = '}SKU_DATA - Load Actual Data - Franchise CA Transactions';
+strRSMProcess = '}SKU_DATA - Load Actual Data - Retail Transactions';
+strGCProcess = '}SKU_DATA - Load Actual Data - Gift Certificates';
+strIPTProcess = '}SKU_DATA - Load Actual Data - IPT';
+strBopisBopacProcess = '}SKU_DATA - Load Actual Data - BOPIS and BOPAC';
+strBopProcessIPT = '}SKU_DATA - Load Actual Data - BOPIS and BOPAC IPT';
+strFundProcess = '}SKU_DATA - Load Actual Data - Fundraising';
+strCACOProcess = '}SKU_DATA - Load Actual Data - Retail CA';
+strLoyaltyCOProcess = '}SKU_DATA - Load Actual Data - Retail Loyalty';
+strLoyaltyD2CProcess = '}SKU_DATA - Load Actual Data - D2C Loyalty';
+strNESalesProcess = '}SKU_DATA - Load Actual Data - Selling Metrics Sales';
+strCatalogProcess = '}SKU_DATA - Load Actual Data - D2C Sales';
+strPURProcess = '}SKU_DATA - Load Actual Data - Selling Metrics Transactions';
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Dimension Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strYearDim = 'YEAR';
+strCategoryDim = 'CATEGORY';
+strLocationsDim = 'LOCATIONS';
+strSkusDim = 'Lskus';
+strWeekDim = 'WEEK';
+strStatDim = 'Lstat';
+strChannelDim = 'Lchannel';
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set the information variables including directories and names to use for logging and errors
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strProcessName = GETPROCESSNAME();
+# strErrorFile = strProcessName | '_' | TIMST(NOW, '\Y\m\d') | '.csv';
+# strLogDirectory = CELLGETS('bpmControl','Log Directory','Value');
+# strLogDirectory = strLogDirectory | IF(SUBST(strLogDirectory, LONG(strLogDirectory), 1) @= '\', '', '\');
+# strError = strLogDirectory | strErrorFile;
+# numErrorCount = 0;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Check if Year, Start Week, End Week, and Start Week are blank. If not, then set the variables based on the input.
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IF(strYear_g @<> '' & strStartWeek_g @<> '' & strEndWeek_g @<> '' );
+    strChoreLoad = 'F';
+    numStartWeek = NUMBR(strStartWeek_g);
+    numEndWeek = NUMBR(strEndWeek_g);
+    numLoadWeeks = NUMBR(strEndWeek_g) - NUMBR(strStartWeek_g) + 1;
+ENDIF;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# If the Year, Start Week or End Week parameter is blank, but none of the above apply, go out and grab the info from the bpmControl Cube
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IF(strYear_g @= '');
+    strYear_g = CELLGETS('bpmControl','SKU_DATA Load - Fiscal Year','Value');
+ENDIF;
+
+IF(strStartWeek_g @= '');
+    strStartWeek_g = CELLGETS('bpmControl','SKU_DATA Load - Start Week','Value');
+    numStartWeek = NUMBR(strStartWeek_g);
+ENDIF;
+
+IF(strEndWeek_g @= '');
+    strEndWeek_g = CELLGETS('bpmControl','SKU_DATA Load - End Week','Value');
+    numEndWeek = NUMBR(strEndWeek_g);
+ENDIF;
+
+IF(strWeek_g @= '');
+    strWeek_g = CELLGETS('bpmControl','SKU_DATA Load - Week','Value');
+    numstrWeek = NUMBR(strWeek_g);
+ENDIF;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# If Chore Load is set to True, Execute Processes
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    EXECUTEPROCESS(strZeroOutProcess, 'pYear', strYear_g, 'pStartWeek', strStartWeek_g, 'pEndWeek', strEndWeek_g);
+    EXECUTEPROCESS(strCMS3Process, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+    EXECUTEPROCESS(strCMSCatProcess, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+    EXECUTEPROCESS(strHBFProcess, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+
+    EXECUTEPROCESS(strRSMZeroOutProcess, 'pYear', strYear_g, 'pStartWeek', strStartWeek_g, 'pEndWeek', strEndWeek_g);
+    EXECUTEPROCESS(strHBHFProcess, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+    EXECUTEPROCESS(strHBHFCAProcess, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+    EXECUTEPROCESS(strRSMProcess, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+    EXECUTEPROCESS(strGCProcess, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+
+    EXECUTEPROCESS(strIPTProcess, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+    EXECUTEPROCESS(strBopisBopacProcess, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+    EXECUTEPROCESS(strBopProcessIPT, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+    EXECUTEPROCESS(strFundProcess, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+
+    EXECUTEPROCESS(strCACOProcess, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+
+    EXECUTEPROCESS(strLoyaltyCOProcess, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+    EXECUTEPROCESS(strLoyaltyD2CProcess, 'pStartWeek', strYear_g | strStartWeek_g, 'pEndWeek', strYear_g | strEndWeek_g);
+
+    EXECUTEPROCESS(strNESalesProcess, 'pWeek', strWeek_g);
+    EXECUTEPROCESS(strCatalogProcess, 'pWeek', strWeek_g);
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Execute the PUR process for every week from the start week to the end week
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    numLoadWeek = numStartWeek;
+    WHILE(numLoadWeek <= numEndWeek);
+        EXECUTEPROCESS(strPURProcess, 'pWeek', strYear_g | NUMBERTOSTRING(numLoadWeek));
+        numLoadWeek = numLoadWeek + 1;
+    END;
+
+#endregion

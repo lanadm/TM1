@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"FY25 - District Totals for Store and Express",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {DISTINCT({{DISTINCT({DESCENDANTS([LOCATIONS].[LOCATIONS].[DISTRICT TOTALS FOR STORE AND EXPRESS FY25])})}})}"
+}

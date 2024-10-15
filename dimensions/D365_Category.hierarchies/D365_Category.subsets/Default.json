@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {ORDER(EXCEPT(TM1FILTERBYLEVEL(TM1SUBSETALL([D365_Category].[D365_Category]) , 0) , {[D365_Category].[D365_Category].[Test],[D365_Category].[D365_Category].[TESTING]}) , [D365_Category].[D365_Category].CURRENTMEMBER.PROPERTIES(\"MEMBER_CAPTION\") , BASC)}"
+}

@@ -1,0 +1,26 @@
+{
+	"@type":"Subset",
+	"Name":"Quintile Rollups",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('{Quintile Rollups')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('QUINTILE 1')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('QUINTILE 2')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('QUINTILE 3')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('QUINTILE 4')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('QUINTILE 5')"
+		}
+	]
+}

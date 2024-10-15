@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_DATA - QTY - Copy by Location_Category_Year_Weeknum_SourceView",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Pass 1')"
+		}
+	]
+}

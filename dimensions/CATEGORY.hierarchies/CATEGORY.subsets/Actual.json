@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Actual",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Actual')"
+		}
+	]
+}

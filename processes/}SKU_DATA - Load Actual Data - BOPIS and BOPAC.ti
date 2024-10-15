@@ -1,0 +1,169 @@
+#region Prolog
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set Variables
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strCube_g = 'SKU_DATA';
+strWeekCube_g = 't-weeks';
+strYearCube_g = 't-yr4fy2';
+strLocationCube_g = 't-strctr';
+strCategory = 'Actual';
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Trim the parameters to eliminate leading or trailing blanks
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strStartWeek = TRIM( pStartWeek );
+strEndWeek = TRIM( pEndWeek );
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Set the information variables including directories and names to use for logging and errors
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strProcessName = GETPROCESSNAME();
+strErrorFile = strProcessName | '_' | TIMST(NOW, '\Y\m\d') | '.csv';
+strLogDirectory = CELLGETS('bpmControl','Log Directory','Value');
+strLogDirectory = strLogDirectory | IF(SUBST(strLogDirectory, LONG(strLogDirectory), 1) @= '\', '', '\');
+strError = strLogDirectory | strErrorFile;
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Query data source TM1Data using strStartWeek and strEndWeek as variables to pull the data
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strDataSource_g = 'TM1Data';
+strQuery_g = 'Use SellingMetrics ' |
+'exec [spLoadBOPIS_BOPACIntoTM1] %strStartWeek%, %strEndWeek%';
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+# Define Data Source
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> #
+
+strQuery = EXPAND(strQuery_g);
+
+DATASOURCETYPE = 'ODBC';
+DATASOURCENAMEFORSERVER = strDataSource_g;
+DATASOURCENAMEFORCLIENT = strDataSource_g;
+DATASOURCEQUERY = strQuery;
+
+#endregion
+#region Data
+
+numLocationID = StringToNumber( TRIM(vLocationid) );
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# If the Location is between 2000 & 2049, skip it. These are testing stores only
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IF( numLocationID >= 2000 & numLocationID <= 2049 );
+    ItemSkip;
+ENDIF;
+
+
+# IF( TRIM( vLocationid ) @= '2011' );
+#     ITEMSKIP;
+# ENDIF;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Grab the Fiscal Year Name from the t-yr4fy2 cube
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strFY = CELLGETS( strYearCube_g, TRIM( vYear ), 'Name' );
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Grab the full week description for the Week and Fiscal Year from the t-weeks cube
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strWeek = CELLGETS(strWeekCube_g, TRIM(vFiscalWeek), strFY);
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Grab the Location translation for "GP_Lctn_5-2015" from the t-strctr cube
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strLocation = CELLGETS(strLocationCube_g, TRIM( vLocationid ), 'GP_Lctn_5-2015');
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Sales Center = 22 - BOPIS
+# Sales Center = 23 - BOPAC
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strSalesCenterID= TRIM( vOrigSalesCenterID );
+strSalesChannelID=TRIM( vOrigSalesChannelID );
+
+strSalesCenter = IF( strSalesCenterID @= '22', 'BOPIS',
+                          IF( strSalesCenterID @= '23', 'BOPAC',
+                          'ERROR' ));
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Stat Elements
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+strSalesQuantity = IF( vSameDayPickUp = 1, 'SD ' | strSalesCenter | ' Sales Quantity', 
+                                   strSalesCenter | ' Sales Quantity' );
+
+strSalesUsage = IF( vSameDayPickUp = 1, 'SD ' | strSalesCenter | ' Sales Usage', 
+                                strSalesCenter | ' Sales Usage' );       
+
+strSalesQuantityUnits = IF( vSameDayPickUp = 1, 'SD ' | strSalesCenter | ' Sales Quantity Units', 
+                                          strSalesCenter | ' Sales Quantity Units' );
+
+strSalesUsageUnits = IF( vSameDayPickUp = 1, 'SD ' | strSalesCenter | ' Sales Usage Units', 
+                                        strSalesCenter | ' Sales Usage Units' );
+
+strGrossSales = IF( vSameDayPickUp = 1, 'SD ' | strSalesCenter | ' Gross Sales', 
+                              strSalesCenter | ' Gross Sales' );
+
+strReturns = IF( vSameDayPickUp = 1, 'SD ' | strSalesCenter | ' Returns',
+                         strSalesCenter | ' Returns' );
+
+strNonPromoDiscounts = IF( vSameDayPickUp = 1, 'SD ' | strSalesCenter | ' Non Promo Discounts',
+                                             strSalesCenter | ' Non Promo Discounts' );
+
+strPromoDiscounts = IF( vSameDayPickUp = 1, 'SD ' | strSalesCenter | ' Promo Discounts',
+                                      strSalesCenter | ' Promo Discounts' );
+
+strNetSales = IF( vSameDayPickUp = 1, 'SD ' | strSalesCenter | ' Net Sales',
+                           strSalesCenter | ' Net Sales' );
+
+strCMSExtPrice = IF( vSameDayPickUp = 1, 'SD ' | strSalesCenter | ' CMS Ext Price',
+                                 strSalesCenter | ' CMS Ext Price' );
+
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Data Import
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+CELLPUTN( vSumOfSalesQuantity, strCube_g, strFY, strCategory, strLocation, vSKU, strWeek, strSalesQuantity, strSalesChannelID);
+
+CELLPUTN( vSumOfSalesUsage, strCube_g, strFY, strCategory, strLocation, vSKU, strWeek, strSalesUsage, strSalesChannelID);
+
+CELLPUTN( vSumOfSalesQuantityUnits, strCube_g, strFY, strCategory, strLocation, vSKU, strWeek, strSalesQuantityUnits, strSalesChannelID);
+
+CELLPUTN( vSumOfSalesUsageUnits, strCube_g, strFY, strCategory, strLocation, vSKU, strWeek, strSalesUsageUnits, strSalesChannelID);
+
+CELLPUTN( vSumOfGrossSales, strCube_g, strFY, strCategory, strLocation, vSKU, strWeek, strGrossSales, strSalesChannelID);
+
+CELLPUTN( vSumOfReturns, strCube_g, strFY, strCategory, strLocation, vSKU, strWeek, strReturns, strSalesChannelID);
+
+CELLPUTN( vSumOfNonPromoDiscounts, strCube_g,strFY, strCategory, strLocation, vSKU, strWeek, strNonPromoDiscounts, strSalesChannelID);
+
+CELLPUTN( vSumOfPromoDiscounts, strCube_g, strFY, strCategory, strLocation, vSKU, strWeek, strPromoDiscounts, strSalesChannelID);
+
+CELLPUTN( vSumOfNetSales, strCube_g, strFY, strCategory, strLocation, vSKU, strWeek, strNetSales, strSalesChannelID);
+
+CELLPUTN( vSumOfCmsExtPrice, strCube_g, strFY, strCategory, strLocation, vSKU, strWeek, strCMSExtPrice, strSalesChannelID);
+
+#endregion
+#region Epilog
+
+
+
+#endregion

@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"Actual Budget & RevFcst",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')/Elements('Actual')"
+		},
+		{
+			"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')/Elements('Budget')"
+		},
+		{
+			"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')/Elements('Rev Fcst')"
+		}
+	]
+}

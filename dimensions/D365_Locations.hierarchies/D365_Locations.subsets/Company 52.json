@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Company 52",
+	"Alias":"Name",
+	"Expression":"{TM1DRILLDOWNMEMBER( {TM1FILTERBYPATTERN( {TM1SUBSETALL( [D365_Locations] )}, \"company 52\")}, ALL, RECURSIVE )}"
+}

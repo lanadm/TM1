@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Z_Actual",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Actual')"
+		}
+	]
+}

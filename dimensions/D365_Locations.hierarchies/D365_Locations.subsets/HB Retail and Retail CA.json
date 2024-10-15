@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"HB Retail and Retail CA",
+	"Alias":"Name",
+	"Expression":"{UNION(\r     {TM1FILTERBYLEVEL( {TM1DRILLDOWNMEMBER( {TM1FILTERBYPATTERN( {TM1SUBSETALL( [D365_Locations] )}, \"HB RETAIL\")}, ALL, RECURSIVE )}, 0)},\r     {TM1FILTERBYLEVEL( {TM1DRILLDOWNMEMBER( {TM1FILTERBYPATTERN( {TM1SUBSETALL( [D365_Locations] )}, \"HBH California LLC\")}, ALL, RECURSIVE )}, 0)}\r     )}\r\r"
+}

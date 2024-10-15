@@ -1,0 +1,18 @@
+{
+	"@type":"Cube",
+	"Name":"t-strctr",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('storenum')"
+		},
+		{
+			"@id":"Dimensions('NAME')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"t-strctr.views/Default.json",
+		"t-strctr.views/Period-Month Names.json"
+	]
+}

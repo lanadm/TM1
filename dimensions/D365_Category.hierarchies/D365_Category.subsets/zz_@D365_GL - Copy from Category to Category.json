@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@D365_GL - Copy from Category to Category",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')/Elements('Forecast')"
+		}
+	]
+}

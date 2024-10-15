@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"TOTAL FRAN DISTRICTS STORES",
+	"Alias":"Name",
+	"Expression":"{FILTER( {TM1SUBSETALL( [D365_LOCATIONS] )}, [D365_LOCATIONS].[Tier] = \"3\")}"
+}

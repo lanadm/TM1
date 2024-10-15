@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Z_Forecast10",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 10')"
+		}
+	]
+}

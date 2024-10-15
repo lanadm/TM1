@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Cost Location",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('Cost Location')"
+		}
+	]
+}

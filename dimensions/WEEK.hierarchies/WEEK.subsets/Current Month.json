@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Current Month",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('MAR FY 23')"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Purchasing Standards Locations",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {ORDER(FILTER(TM1FILTERBYLEVEL(TM1SUBSETALL([LOCATIONS].[LOCATIONS]) , 0) , (INSTR(1 , [LOCATIONS].[LOCATIONS].CURRENTMEMBER.PROPERTIES(\"PurchTbl_Include\") , \"Y\" , 1) >= 1)) , [LOCATIONS].[LOCATIONS].CURRENTMEMBER.PROPERTIES(\"PurchTbl_Include\") , BASC)}"
+}

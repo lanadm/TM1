@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SKU_DATA - Copy from Category to Category (HBH California)_Load",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Rev Fcst')"
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+	"@type":"Process",
+	"Name":"}SKU_DATA - Load Actual Data - D2C Sales",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"}SKU_DATA - Load Actual Data - D2C Sales.ti",
+	"DataSource":
+	{
+		"Type":"ODBC",
+		"dataSourceNameForServer":"TM1Data",
+		"dataSourceNameForClient":"TM1Data",
+		"userName":"admin",
+		"password":"@a21b#iFARrhRVo*",
+		"query":"select \r\n            Sum(ProductSales) as ProductSales, \r\n            Sum(Discount) as Discount,\r\n            Sum(Freight) as Freight,\r\n            Sum(NetRevenue) as NetRevenue,\r\n    COUNT (DISTINCT OrdersID) AS 'Orders', \r\n    SUM(NoOfProducts) AS '#ofProducts', \r\n    COUNT (DISTINCT OrderShipToID) AS 'Recipients'\r\nfrom SellingMetrics.dbo.Catalog_Sales with (nolock)\r\nwhere ShipDate between '01/01/24' and '01/08/24'\r\nAND CategoryCode NOT IN ('MAIL', 'EGCRT', 'EGCRD', 'GCRT', 'GCRD')\r\nand OrdersID not between 59000000 and 59999999"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pWeek",
+			"Prompt":"Load Week",
+			"Value":"202416",
+			"Type":"String"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"vProductSales",
+			"Type":"Numeric",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vDiscount",
+			"Type":"Numeric",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vFreight",
+			"Type":"Numeric",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vNetRevenue",
+			"Type":"Numeric",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vOrders",
+			"Type":"Numeric",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vNumProducts",
+			"Type":"Numeric",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vRecipients",
+			"Type":"Numeric",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"VariablesUIData": [
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f",
+		"VarType=33\fColType=827\f"
+	],
+	"UIData": "_ParameterConstraints=e30=\f"
+}

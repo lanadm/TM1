@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Z_Annual",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Annual')"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"Actual & Budget",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Actual')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Budget')"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"California CoOwned",
+	"Alias":"Name",
+	"Expression":"{TM1FILTERBYLEVEL( {TM1DRILLDOWNMEMBER( {TM1FILTERBYPATTERN( {TM1SUBSETALL( [D365_LOCATIONS] )}, \"HBHCA CO-OWNED\")}, ALL, RECURSIVE )}, 0)}"
+}

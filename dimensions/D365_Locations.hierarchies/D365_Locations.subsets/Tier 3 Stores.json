@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Tier 3 Stores",
+	"Alias":"Name",
+	"Expression":"{FILTER( {TM1SUBSETALL( [D365_LOCATIONS] )}, [D365_LOCATIONS].[Tier] = \"3\")}"
+}

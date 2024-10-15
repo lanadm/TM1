@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"FY25 - District Region Totals (Distinct)",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {DISTINCT({{DISTINCT({DESCENDANTS([LOCATIONS].[LOCATIONS].[DISTRICT REGION TOTALS - FY25])})}})}"
+}

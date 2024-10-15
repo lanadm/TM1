@@ -1,0 +1,17 @@
+{
+	"@type":"Cube",
+	"Name":"t-wkyear",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('WEEK')"
+		},
+		{
+			"@id":"Dimensions('NAME')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"t-wkyear.views/Default.json"
+	]
+}

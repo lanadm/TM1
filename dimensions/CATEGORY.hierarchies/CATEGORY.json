@@ -1,0 +1,645 @@
+{
+	"@type":"Hierarchy",
+	"Name":"CATEGORY",
+	"Elements":
+	[
+		{
+			"Name":"{All Category Rollups",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL CATEGORIES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Budget 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LRP22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 6b",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pass 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pass 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pass 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pass 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pass 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pass 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pass 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pass 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pass 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pass 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"History",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 2b",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 6rev",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 6c",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Rev Fcst",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Rev Fcst 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ACT+BDGS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL FORECASTS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Forecast 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VARIANCE ROLLUPS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Actual to Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Actual to Budget",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Budget",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Actual to Budget %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Actual to TEST-Actual",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TEST-Actual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Actual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LRP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T1 Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T2 Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T3 Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Actual to EDR_TEST",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"EDR_TEST",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"{All Category Rollups",
+			"ComponentName":"ALL CATEGORIES",
+			"Weight":0
+		},
+		{
+			"ParentName":"{All Category Rollups",
+			"ComponentName":"ACT+BDGS",
+			"Weight":0
+		},
+		{
+			"ParentName":"{All Category Rollups",
+			"ComponentName":"ALL FORECASTS",
+			"Weight":0
+		},
+		{
+			"ParentName":"{All Category Rollups",
+			"ComponentName":"VARIANCE ROLLUPS",
+			"Weight":0
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Actual",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Budget",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Budget 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Budget 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Budget 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Budget 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Budget 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 6b",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Pass 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Pass 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Pass 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Pass 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Pass 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Pass 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Pass 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Pass 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Pass 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Pass 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"History",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Actual to Forecast",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 2b",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 6rev",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Forecast 6c",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Rev Fcst",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Rev Fcst 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"LRP",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"LRP22",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"Actual to Budget %",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"T1 Forecast",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"T2 Forecast",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CATEGORIES",
+			"ComponentName":"T3 Forecast",
+			"Weight":1
+		},
+		{
+			"ParentName":"ACT+BDGS",
+			"ComponentName":"Actual",
+			"Weight":1
+		},
+		{
+			"ParentName":"ACT+BDGS",
+			"ComponentName":"Budget",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL FORECASTS",
+			"ComponentName":"Forecast 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL FORECASTS",
+			"ComponentName":"Forecast 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL FORECASTS",
+			"ComponentName":"Forecast 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL FORECASTS",
+			"ComponentName":"Forecast 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL FORECASTS",
+			"ComponentName":"Forecast 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL FORECASTS",
+			"ComponentName":"Forecast 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL FORECASTS",
+			"ComponentName":"Forecast 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL FORECASTS",
+			"ComponentName":"Forecast 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL FORECASTS",
+			"ComponentName":"Forecast 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL FORECASTS",
+			"ComponentName":"Forecast 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL FORECASTS",
+			"ComponentName":"Forecast 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"VARIANCE ROLLUPS",
+			"ComponentName":"Actual to Forecast",
+			"Weight":1
+		},
+		{
+			"ParentName":"VARIANCE ROLLUPS",
+			"ComponentName":"Actual to Budget",
+			"Weight":1
+		},
+		{
+			"ParentName":"VARIANCE ROLLUPS",
+			"ComponentName":"Actual to Budget %",
+			"Weight":1
+		},
+		{
+			"ParentName":"VARIANCE ROLLUPS",
+			"ComponentName":"Actual to TEST-Actual",
+			"Weight":1
+		},
+		{
+			"ParentName":"VARIANCE ROLLUPS",
+			"ComponentName":"Actual to EDR_TEST",
+			"Weight":1
+		},
+		{
+			"ParentName":"Actual to Budget",
+			"ComponentName":"Budget",
+			"Weight":1
+		},
+		{
+			"ParentName":"Actual to Budget",
+			"ComponentName":"Actual",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Actual to TEST-Actual",
+			"ComponentName":"TEST-Actual",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Actual to TEST-Actual",
+			"ComponentName":"Actual",
+			"Weight":1
+		},
+		{
+			"ParentName":"Actual to EDR_TEST",
+			"ComponentName":"Actual",
+			"Weight":1
+		},
+		{
+			"ParentName":"Actual to EDR_TEST",
+			"ComponentName":"EDR_TEST",
+			"Weight":-1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"CATEGORY.subsets/Act and ActAsOfGLCls.json",
+		"CATEGORY.subsets/Actual.json",
+		"CATEGORY.subsets/Actual & Budget.json",
+		"CATEGORY.subsets/Actual_Budget.json",
+		"CATEGORY.subsets/Actual Budget & RevFcst.json",
+		"CATEGORY.subsets/All Categories.json",
+		"CATEGORY.subsets/All Level 0.json",
+		"CATEGORY.subsets/All N Elements.json",
+		"CATEGORY.subsets/Budget.json",
+		"CATEGORY.subsets/Default.json",
+		"CATEGORY.subsets/Forecast1-11.json",
+		"CATEGORY.subsets/Forecast 3 & Rev Fcst.json",
+		"CATEGORY.subsets/Forecasts.json",
+		"CATEGORY.subsets/N Elements-All.json",
+		"CATEGORY.subsets/Z-Bdg and Forecasts.json",
+		"CATEGORY.subsets/Z-F1andF3.json",
+		"CATEGORY.subsets/Z_Actual.json",
+		"CATEGORY.subsets/Z_All Forecasts.json",
+		"CATEGORY.subsets/Z_Budget.json",
+		"CATEGORY.subsets/Z_Budget3.json",
+		"CATEGORY.subsets/z_Budget and Budget1.json",
+		"CATEGORY.subsets/Z_Forecast1.json",
+		"CATEGORY.subsets/Z_Forecast10.json",
+		"CATEGORY.subsets/Z_Forecast11.json",
+		"CATEGORY.subsets/Z_Forecast2.json",
+		"CATEGORY.subsets/Z_Forecast3.json",
+		"CATEGORY.subsets/Z_Forecast4.json",
+		"CATEGORY.subsets/Z_Forecast5.json",
+		"CATEGORY.subsets/Z_Forecast6.json",
+		"CATEGORY.subsets/Z_Forecast7.json",
+		"CATEGORY.subsets/Z_Forecast8.json",
+		"CATEGORY.subsets/Z_Forecast9.json",
+		"CATEGORY.subsets/Z_Pass1.json",
+		"CATEGORY.subsets/Z_Pass2.json",
+		"CATEGORY.subsets/Z_RevFcst.json",
+		"CATEGORY.subsets/zz_#MS - Purchasing Data - Move from Standard Cost to Extended Cost.json",
+		"CATEGORY.subsets/zz_# UNDER CONSTRUCTION - GP-GL Load from one Category to Another_DataLoad.json",
+		"CATEGORY.subsets/zz_@D365_GL - Copy from SKU_DATA.json",
+		"CATEGORY.subsets/zz_@D365_GL - Copy from SKU_DATA (D2C).json",
+		"CATEGORY.subsets/zz_@D365_GL - Copy from SKU_DATA (Franchise).json",
+		"CATEGORY.subsets/zz_@D365_GL - Copy from SKU_DATA (HBH California).json",
+		"CATEGORY.subsets/zz_@D365_GL - Copy from SKU_DATA (HB Retail incl CA).json",
+		"CATEGORY.subsets/zz_@D365_GL - Copy from SKU_DATA (Retail).json",
+		"CATEGORY.subsets/zz_@D365_GL - Copy from SKU_DATA (Retail Operations Only).json",
+		"CATEGORY.subsets/zz_@Planning - Load from SKU_DATA (California Only)_LoadtoPlanning.json",
+		"CATEGORY.subsets/zz_@Planning - Load from SKU_DATA_LoadtoPlanning.json",
+		"CATEGORY.subsets/zz_@SKU_DATA - Copy from Category to Category.json",
+		"CATEGORY.subsets/zz_@SKU_DATA - Copy from Category to Category (D2C).json",
+		"CATEGORY.subsets/zz_@SKU_DATA - Copy from Category to Category (Franchise).json",
+		"CATEGORY.subsets/zz_@SKU_DATA - Copy from Category to Category (HBHCA Franchise).json",
+		"CATEGORY.subsets/zz_@SKU_DATA - Copy from Category to Category (HBH California)_Load.json",
+		"CATEGORY.subsets/zz_@SKU_DATA - Copy from Category to Category (HB Retail incl CA).json",
+		"CATEGORY.subsets/zz_@SKU_DATA - Copy from Category to Category (Retail).json",
+		"CATEGORY.subsets/zz_@SKU_DATA - Load Actual to Forecast_Load.json",
+		"CATEGORY.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HB Dir-to-Consumer_Load.json",
+		"CATEGORY.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HBH California_Load.json",
+		"CATEGORY.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast FY 24 Weeks 27-53 - Temp_Load.json",
+		"CATEGORY.subsets/zz_DATA - Copy GP-GL 10 to 52_SourceView.json",
+		"CATEGORY.subsets/zz_DATA - QTY - Copy by Location_Category_Year_Weeknum_SourceView.json",
+		"CATEGORY.subsets/zz_DATA - QTY - Load QTY from SKU_DATA - Budget (backup)_Source.json",
+		"CATEGORY.subsets/zz_DATA - QTY - Load QTY from SKU_DATA - Budget_Source.json",
+		"CATEGORY.subsets/zz_DATA - SKU DATA - Copy by Location_Category_week_SourceView.json",
+		"CATEGORY.subsets/zz_DATA - TEST QTY - Load Qty from Sku_Data - Budget_Source.json",
+		"CATEGORY.subsets/zz_SKU_DATA - Extract Data.json",
+		"CATEGORY.subsets/zzSKUDATA_to_GPGL.json"
+	]
+}

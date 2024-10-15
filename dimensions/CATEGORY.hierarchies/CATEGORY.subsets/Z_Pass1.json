@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Z_Pass1",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Pass 1')"
+		}
+	]
+}

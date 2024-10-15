@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"Z-FY08__wks18-19",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 18 - 02/03/08')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 19 - 02/10/08')"
+		}
+	]
+}
