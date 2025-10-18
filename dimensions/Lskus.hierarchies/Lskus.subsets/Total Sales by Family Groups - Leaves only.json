@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Total Sales by Family Groups - Leaves only",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {ORDER(EXCEPT(DISTINCT({[Lskus].[Lskus].[TOTAL SALES BY FAMILY GROUPS],DESCENDANTS([Lskus].[Lskus].[TOTAL SALES BY FAMILY GROUPS] , 99 , LEAVES)}) , {[Lskus].[Lskus].[{TOP HIERARCHIES AND GROUPS^TOTAL SALES BY FAMILY GROUPS]}) , IIF([Lskus].[Lskus].CURRENTMEMBER.PROPERTIES(\"Name\") = \"\" , [Lskus].[Lskus].CURRENTMEMBER.PROPERTIES(\"MEMBER_CAPTION\") , [Lskus].[Lskus].CURRENTMEMBER.PROPERTIES(\"Name\")) , BASC)}"
+}

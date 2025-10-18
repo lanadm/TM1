@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Loyalty Redemptions",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('-100')"
+		}
+	]
+}

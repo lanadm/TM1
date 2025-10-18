@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"SLIDERS Tree",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {DISTINCT({DESCENDANTS([Lskus].[Lskus].[SLIDERS])})}"
+}

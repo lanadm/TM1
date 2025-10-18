@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"Z_Str Wkbk Units",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('SPIRAL SLICED HAM')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TURKEY BREAST')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('BY-THE-SLICE')"
+		}
+	]
+}

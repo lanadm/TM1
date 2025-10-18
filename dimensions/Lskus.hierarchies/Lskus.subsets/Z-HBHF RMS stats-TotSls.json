@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Z-HBHF RMS stats-TotSls",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TOTAL SALES BY FAMILY GROUPS')"
+		}
+	]
+}

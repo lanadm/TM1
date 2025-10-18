@@ -1,0 +1,23 @@
+{
+	"@type":"Subset",
+	"Name":"Z-All skus excl Rtl Selling Metrics",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TOTAL SALES BY FAMILY GROUPS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('GIFT CERTIFICATES')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TOTAL GIFTING')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('LUNCH AND CATERING')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TOTAL OF ALL SKUS')"
+		}
+	]
+}

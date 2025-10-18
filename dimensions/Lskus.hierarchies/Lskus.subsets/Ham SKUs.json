@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Ham SKUs",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {{DISTINCT({[Lskus].[Lskus].[HAM], DESCENDANTS([Lskus].[Lskus].[HAM], 99 , LEAVES)})}}"
+}
