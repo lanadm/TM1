@@ -1,0 +1,81 @@
+{
+	"@type":"NativeView",
+	"Name":"zz_@ODBC Output - Retail Dashboard - Labor Dollars_AzureExport",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Subsets('All Channels Total')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Subsets('Total Labor Dollars')"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Subsets('ODBC Year')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 25')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Subsets('Actual Budget & RevFcst')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Actual')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Subsets('FY25_T3 - District Totals for Store and Seasonal')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT TOTAL FOR STORE AND SEASONAL FY25_T3')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Subsets('Retail Selling Metrics')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('RETAIL SELLING METRICS')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Subsets('FY 25 Weeks - Rollups')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 1 FY 25')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"",
+	"ViewExtractSkipConsolidatedValues": false,
+	"ViewExtractSkipRuleValues": false,
+	"ViewExtractSkipZeroes": true
+}

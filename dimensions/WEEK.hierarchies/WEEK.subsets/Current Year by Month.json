@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"Current Year by Month",
+	"Expression":"{TM1FILTERBYLEVEL( {TM1DRILLDOWNMEMBER( {FILTER( {TM1SUBSETALL( [WEEK] )}, [WEEK].[Current Year] = \"CURRENT\")}, ALL, RECURSIVE )}, 2)}"
+}

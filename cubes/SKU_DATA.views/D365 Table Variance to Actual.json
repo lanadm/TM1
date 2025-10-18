@@ -1,0 +1,32 @@
+{
+	"@type":"MDXView",
+	"Name":"D365 Table Variance to Actual",
+	"MDX@Code.link":"D365 Table Variance to Actual.mdx",
+	"Meta": {
+		"Aliases": {
+			"[Lskus].[Lskus]": "Name",
+			"[LOCATIONS].[LOCATIONS]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[Lchannel].[Lchannel]": {
+				"Expression": "{[Lchannel].[Lchannel].[ALL CHANNELS], [Lchannel].[Lchannel].[CONSUMER RETAIL], [Lchannel].[Lchannel].[CONSUMER LUNCH], [Lchannel].[Lchannel].[B2B GIFTING], [Lchannel].[Lchannel].[B2B CATERING]}"
+			},
+			"[LOCATIONS].[LOCATIONS]": {
+				"Expression": "{DRILLDOWNMEMBER({[LOCATIONS].[LOCATIONS].[{HBH ROLLUPS^THE HONEY BAKED HAM COMPANY LLC]} , {[LOCATIONS].[LOCATIONS].[{HBH ROLLUPS^THE HONEY BAKED HAM COMPANY LLC]} , RECURSIVE)}"
+			}
+		}
+	}
+}

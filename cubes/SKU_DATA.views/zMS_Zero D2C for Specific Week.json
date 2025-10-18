@@ -1,0 +1,121 @@
+{
+	"@type":"NativeView",
+	"Name":"zMS_Zero D2C for Specific Week",
+	"Columns":[],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('YEAR')/Hierarchies('YEAR')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 22')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Subsets('Z_Actual')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')"
+				},
+				"Alias":"Name",
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('52315899')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Subsets('Z-All NElements')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('WEEK')/Hierarchies('WEEK')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 12 - 12/19/21')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 13 - 12/26/21')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lstat')/Hierarchies('Lstat')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Gross')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Rtns and Allow')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Reshipments')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount Promo')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount GC Redemp')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Quantity')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Usage Qty')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Units')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Usage Units')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Subsets('N Elements')"
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":""
+}

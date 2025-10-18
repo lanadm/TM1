@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Adhoc California Cost Centers (Michelle)",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118982')"
+		}
+	]
+}

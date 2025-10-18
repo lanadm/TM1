@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Total Sales by Family Groups",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TOTAL SALES BY FAMILY GROUPS')"
+		}
+	]
+}

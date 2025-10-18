@@ -1,0 +1,356 @@
+{
+	"@type":"NativeView",
+	"Name":"zMS_Extract CA Budget to Plan",
+	"Columns":[],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('YEAR')/Hierarchies('YEAR')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 23')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Budget')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')"
+				},
+				"Alias":"Name",
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66110000')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66116700')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118903')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118904')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118905')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118906')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118907')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118908')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118910')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118911')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118912')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118914')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118915')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118916')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118917')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118919')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118920')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118921')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118922')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118923')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118925')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118939')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118960')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118961')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118966')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118967')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118968')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66118982')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66119104')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66119114')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66119600')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Subsets('!Extract to Planning Cube')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('WEEK')/Hierarchies('WEEK')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 1 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 2 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 3 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 4 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 5 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 6 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 7 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 8 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 9 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 10 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 11 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 12 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 13 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 14 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 15 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 16 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 17 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 18 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 19 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 20 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 21 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 22 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 23 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 24 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 25 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 26 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 27 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 28 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 29 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 30 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 31 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 32 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 33 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 34 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 35 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 36 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 37 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 38 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 39 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 40 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 41 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 42 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 43 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 44 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 45 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 46 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 47 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 48 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 49 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 50 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 51 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 52 FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 53 FY 23')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Subsets('Stat Extract to Plan')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('CONSUMER RETAIL')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('CONSUMER LUNCH')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B2B GIFTING')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B2B CATERING')"
+					}
+				]
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"",
+	"ViewExtractSkipConsolidatedValues": false
+}

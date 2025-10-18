@@ -1,0 +1,25 @@
+{
+	"@type":"Subset",
+	"Name":"zzSKUDATA_to_GPGL",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount Promo')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Reshipments')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Rtns and Allow')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Gross')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Holder - R&A')"
+		}
+	]
+}

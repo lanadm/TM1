@@ -1,0 +1,181 @@
+{
+	"@type":"Subset",
+	"Name":"zz_DATA - SKU DATA - Copy by Location_Category_week_SourceView",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Gross')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Rtns and Allow')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Reshipments')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount Promo')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount GC Redemp')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount GCRV True-Up')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Freight Rev')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Cost of Goods')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Quantity')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Usage Qty')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Units')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Usage Units')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Promo Units')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Inv Dollars')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Inv Quantity')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Mix%25 Budgeted')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Lift%25 Budgeted')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Sales Pounds')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Purchased Pounds')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Purchase Units')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Cost')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Cost - Credit')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Extended Cost')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Ham Transactions')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Labor Budget')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Recipients')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('# of Items')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Package Count')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Items Per Order')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Items Per Recipient')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Orders')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Recipients per Order')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('$ per Recipient')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Average Order')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Freight Rev per Order')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Holiday')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Regular')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Vacation')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - OT')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - OT (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Holiday Hrs')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Regular Hrs')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Vacation Hrs')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('OT Hrs')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('OT Hrs (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Selling Metrics Receipts')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Selling Metrics Transactions')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Selling Metrics Sales')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Selling Metrics GC Sold Trans')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Selling Metrics GC Sold')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Holder - R&A - load')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Holder - R&A')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Ham Price per lb')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Freight Cost')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Freight Qty')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Store View Net')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Store View Labor')"
+		}
+	]
+}

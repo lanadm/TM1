@@ -1,0 +1,85 @@
+{
+	"@type":"Subset",
+	"Name":"Z-F06_Apr-SepInclPeriods",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 27 - 04/04/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 28 - 04/11/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 29 - 04/18/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 30 - 04/25/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 31 - 05/02/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 32 - 05/09/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 33 - 05/16/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 34 - 05/23/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 35 - 05/30/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 36 - 06/06/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 37 - 06/13/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 38 - 06/20/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 39 - 06/27/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 40 - 07/04/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 41 - 07/11/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 42 - 07/18/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 43 - 07/25/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 44 - 08/01/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 45 - 08/08/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 46 - 08/15/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 47 - 08/22/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 48 - 08/29/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 49 - 09/05/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 50 - 09/12/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 51 - 09/19/21')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 52 - 09/26/21')"
+		}
+	]
+}

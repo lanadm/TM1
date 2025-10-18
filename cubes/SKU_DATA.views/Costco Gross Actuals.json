@@ -1,0 +1,38 @@
+{
+	"@type":"MDXView",
+	"Name":"Costco Gross Actuals",
+	"MDX@Code.link":"Costco Gross Actuals.mdx",
+	"Meta": {
+		"Aliases": {
+			"[Lskus].[Lskus]": "Name",
+			"[WEEK].[WEEK]": "MEMBER_NAME",
+			"[LOCATIONS].[LOCATIONS]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"Expression": "{ {DISTINCT({DESCENDANTS([YEAR].[YEAR].[ALL YEARS])})}}"
+			},
+			"[Lskus].[Lskus]": {
+				"Expression": "{[Lskus].[Lskus].[CostCo - Pkt of Two $50 Gift Cards]}"
+			},
+			"[CATEGORY].[CATEGORY]": {
+				"Expression": "{TM1SubsetToSet([CATEGORY].[CATEGORY],\"Default\",\"public\")}"
+			},
+			"[Lchannel].[Lchannel]": {
+				"Expression": "{[Lchannel].[Lchannel].[Costco]}"
+			},
+			"[LOCATIONS].[LOCATIONS]": {
+				"Expression": "{[LOCATIONS].[LOCATIONS].[52119540]}"
+			}
+		}
+	}
+}

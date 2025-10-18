@@ -1,0 +1,39 @@
+{
+	"@type":"MDXView",
+	"Name":"Ham Quantity by Week - HB Retail",
+	"MDX@Code.link":"Ham Quantity by Week - HB Retail.mdx",
+	"Meta": {
+		"Aliases": {
+			"[Lskus].[Lskus]": "Name",
+			"[LOCATIONS].[LOCATIONS]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[CATEGORY].[CATEGORY]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[Lchannel].[Lchannel]": {
+				"Expression": "{[Lchannel].[Lchannel].[ALL CHANNELS], [Lchannel].[Lchannel].[CONSUMER RETAIL], [Lchannel].[Lchannel].[CONSUMER LUNCH], [Lchannel].[Lchannel].[B2B GIFTING], [Lchannel].[Lchannel].[B2B CATERING]}"
+			},
+			"[WEEK].[WEEK]": {
+				"Expression": "{[WEEK].[WEEK].[FISCAL YEAR BY WEEK FY 24], [WEEK].[WEEK].[WEEK 1 FY 24], [WEEK].[WEEK].[WEEK 2 FY 24], [WEEK].[WEEK].[WEEK 3 FY 24], [WEEK].[WEEK].[WEEK 4 FY 24], [WEEK].[WEEK].[WEEK 5 FY 24], [WEEK].[WEEK].[WEEK 6 FY 24], [WEEK].[WEEK].[WEEK 7 FY 24], [WEEK].[WEEK].[WEEK 8 FY 24], [WEEK].[WEEK].[WEEK 9 FY 24], [WEEK].[WEEK].[WEEK 10 FY 24], [WEEK].[WEEK].[WEEK 11 FY 24], [WEEK].[WEEK].[WEEK 12 FY 24], [WEEK].[WEEK].[WEEK 13 FY 24], [WEEK].[WEEK].[WEEK 14 FY 24], [WEEK].[WEEK].[WEEK 15 FY 24], [WEEK].[WEEK].[WEEK 16 FY 24], [WEEK].[WEEK].[WEEK 17 FY 24], [WEEK].[WEEK].[WEEK 18 FY 24], [WEEK].[WEEK].[WEEK 19 FY 24], [WEEK].[WEEK].[WEEK 20 FY 24], [WEEK].[WEEK].[WEEK 21 FY 24], [WEEK].[WEEK].[WEEK 22 FY 24], [WEEK].[WEEK].[WEEK 23 FY 24], [WEEK].[WEEK].[WEEK 24 FY 24], [WEEK].[WEEK].[WEEK 25 FY 24], [WEEK].[WEEK].[WEEK 26 FY 24], [WEEK].[WEEK].[WEEK 27 FY 24], [WEEK].[WEEK].[WEEK 28 FY 24], [WEEK].[WEEK].[WEEK 29 FY 24], [WEEK].[WEEK].[WEEK 30 FY 24], [WEEK].[WEEK].[WEEK 31 FY 24], [WEEK].[WEEK].[WEEK 32 FY 24], [WEEK].[WEEK].[WEEK 33 FY 24], [WEEK].[WEEK].[WEEK 34 FY 24], [WEEK].[WEEK].[WEEK 35 FY 24], [WEEK].[WEEK].[WEEK 36 FY 24], [WEEK].[WEEK].[WEEK 37 FY 24], [WEEK].[WEEK].[WEEK 38 FY 24], [WEEK].[WEEK].[WEEK 39 FY 24], [WEEK].[WEEK].[WEEK 40 FY 24], [WEEK].[WEEK].[WEEK 41 FY 24], [WEEK].[WEEK].[WEEK 42 FY 24], [WEEK].[WEEK].[WEEK 43 FY 24], [WEEK].[WEEK].[WEEK 44 FY 24], [WEEK].[WEEK].[WEEK 45 FY 24], [WEEK].[WEEK].[WEEK 46 FY 24], [WEEK].[WEEK].[WEEK 47 FY 24], [WEEK].[WEEK].[WEEK 48 FY 24], [WEEK].[WEEK].[WEEK 49 FY 24], [WEEK].[WEEK].[WEEK 50 FY 24], [WEEK].[WEEK].[WEEK 51 FY 24], [WEEK].[WEEK].[WEEK 52 FY 24], [WEEK].[WEEK].[WEEK 53 FY 24]}"
+			},
+			"[Lstat].[Lstat]": {
+				"Expression": "{[Lstat].[Lstat].[NET], [Lstat].[Lstat].[GROSS SALES], [Lstat].[Lstat].[Gross], [Lstat].[Lstat].[RTNS AND ALLWNC], [Lstat].[Lstat].[RTNS AND ALLWNC - PROMO], [Lstat].[Lstat].[Holder - R&A], [Lstat].[Lstat].[RTNS AND ALLWNC - NONPROMO], [Lstat].[Lstat].[NET (incl GC Redemption Variance)], [Lstat].[Lstat].[GROSS SALES], [Lstat].[Lstat].[Gross], [Lstat].[Lstat].[RTNS AND ALLOW (incl GC Redemp Var)], [Lstat].[Lstat].[Rtns and Allow], [Lstat].[Lstat].[Reshipments], [Lstat].[Lstat].[Discount], [Lstat].[Lstat].[Discount Promo], [Lstat].[Lstat].[GC REDEMPTION VARIANCE], [Lstat].[Lstat].[Discount GC Redemp], [Lstat].[Lstat].[Discount GCRV True-Up], [Lstat].[Lstat].[{SELLING METRICS STATS], [Lstat].[Lstat].[Selling Metrics Receipts], [Lstat].[Lstat].[Selling Metrics GC Sold Trans], [Lstat].[Lstat].[RSM SALES + GC SOLD], [Lstat].[Lstat].[Selling Metrics Sales], [Lstat].[Lstat].[Selling Metrics GC Sold], [Lstat].[Lstat].[TOTAL QUANTITY], [Lstat].[Lstat].[Quantity], [Lstat].[Lstat].[Usage Qty], [Lstat].[Lstat].[TOTAL UNITS], [Lstat].[Lstat].[Units], [Lstat].[Lstat].[Usage Units], [Lstat].[Lstat].[TOTAL HAM], [Lstat].[Lstat].[Purchased Pounds], [Lstat].[Lstat].[Purchase Units], [Lstat].[Lstat].[Cost], [Lstat].[Lstat].[Ham Transactions], [Lstat].[Lstat].[TOTAL LABOR DOLLARS], [Lstat].[Lstat].[Hourly Wgs - OT], [Lstat].[Lstat].[TOTAL LABOR HOURS], [Lstat].[Lstat].[OT Hrs], [Lstat].[Lstat].[TOTAL LABOR DOLLARS X OT], [Lstat].[Lstat].[Hourly Wgs - Regular], [Lstat].[Lstat].[Hourly Wgs - Vacation], [Lstat].[Lstat].[Hourly Wgs - Holiday], [Lstat].[Lstat].[TOTAL LABOR HOURS X OT], [Lstat].[Lstat].[Regular Hrs], [Lstat].[Lstat].[Vacation Hrs], [Lstat].[Lstat].[Holiday Hrs], [Lstat].[Lstat].[TOTAL TRANSACTIONS], [Lstat].[Lstat].[Selling Metrics Transactions], [Lstat].[Lstat].[Recipients], [Lstat].[Lstat].[Freight Rev], [Lstat].[Lstat].[Cost of Goods], [Lstat].[Lstat].[Promo Units], [Lstat].[Lstat].[Inv Dollars], [Lstat].[Lstat].[Inv Quantity], [Lstat].[Lstat].[Mix% Budgeted], [Lstat].[Lstat].[Lift% Budgeted], [Lstat].[Lstat].[Sales Pounds], [Lstat].[Lstat].[Sales Pounds (Calc)], [Lstat].[Lstat].[Cost - Credit], [Lstat].[Lstat].[Extended Cost], [Lstat].[Lstat].[Hourly Labor Budget], [Lstat].[Lstat].[# of Items], [Lstat].[Lstat].[Package Count], [Lstat].[Lstat].[Items Per Order], [Lstat].[Lstat].[Items Per Recipient], [Lstat].[Lstat].[Orders], [Lstat].[Lstat].[Recipients per Order], [Lstat].[Lstat].[$ per Recipient], [Lstat].[Lstat].[Average Order], [Lstat].[Lstat].[Freight Rev per Order], [Lstat].[Lstat].[Hourly Wgs - OT (Asst Mgr)], [Lstat].[Lstat].[OT Hrs (Asst Mgr)], [Lstat].[Lstat].[Holder - R&A - load], [Lstat].[Lstat].[Ham Price per lb], [Lstat].[Lstat].[Sales Price], [Lstat].[Lstat].[Freight Cost], [Lstat].[Lstat].[Freight Qty], [Lstat].[Lstat].[Store View Net], [Lstat].[Lstat].[Store View Labor], [Lstat].[Lstat].[Average Sales Weight]}"
+			}
+		}
+	}
+}

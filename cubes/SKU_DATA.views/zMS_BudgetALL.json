@@ -1,0 +1,73 @@
+{
+	"@type":"NativeView",
+	"Name":"zMS_BudgetALL",
+	"Columns":[],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('YEAR')/Hierarchies('YEAR')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 24')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Budget')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Subsets('All Level 0')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Subsets('All N Level')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Subsets('FY 24 Weeks')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Subsets('All level 0')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Subsets('All Level 0')"
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"",
+	"ViewExtractSkipRuleValues": true
+}

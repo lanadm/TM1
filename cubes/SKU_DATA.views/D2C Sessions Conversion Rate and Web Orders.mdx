@@ -1,0 +1,1 @@
+SELECT {[Lstat].[Lstat].[Sessions - Traffic],[Lstat].[Lstat].[Conversion Rate],[Lstat].[Lstat].[Web Orders]} ON 0, {TM1SubsetToSet([WEEK].[WEEK],"FY 25 Weeks - Leaves","public")} ON 1 FROM [SKU_DATA] WHERE ([CATEGORY].[CATEGORY].[Actual], [Lskus].[Lskus].[SMG], [Lchannel].[Lchannel].[100], [YEAR].[YEAR].[FY 25], [LOCATIONS].[LOCATIONS].[SMG_D2C])

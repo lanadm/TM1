@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"z_Disc-GCredemp",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount GC Redemp')"
+		}
+	]
+}

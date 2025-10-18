@@ -1,0 +1,40 @@
+{
+	"@type":"MDXView",
+	"Name":"Make It A Meal",
+	"MDX@Code.link":"Make It A Meal.mdx",
+	"Meta": {
+		"Aliases": {
+			"[Lskus].[Lskus]": "Name",
+			"[WEEK].[WEEK]": "MEMBER_NAME",
+			"[Lstat].[Lstat]": "MEMBER_NAME",
+			"[LOCATIONS].[LOCATIONS]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"Expression": "{ {DISTINCT({DESCENDANTS([YEAR].[YEAR].[ALL YEARS])})}}"
+			},
+			"[Lskus].[Lskus]": {
+				"Expression": "{DRILLDOWNMEMBER({[Lskus].[Lskus].[MAKE IT A MEAL]} , {[Lskus].[Lskus].[MAKE IT A MEAL]} , RECURSIVE)}"
+			},
+			"[CATEGORY].[CATEGORY]": {
+				"Expression": "{[CATEGORY].[CATEGORY].[TEST-Actual],[CATEGORY].[CATEGORY].[Actual]}"
+			},
+			"[WEEK].[WEEK]": {
+				"SubsetName": "Fiscal Year by Week FY 25",
+				"IsPublic": true
+			},
+			"[Lstat].[Lstat]": {
+				"Expression": "{DRILLDOWNMEMBER({[Lstat].[Lstat].[NET]} , {[Lstat].[Lstat].[NET]} , RECURSIVE)}"
+			}
+		}
+	}
+}

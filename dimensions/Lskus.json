@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Lskus",
+	"Hierarchies@Code.links":
+	[
+		"Lskus.hierarchies/Lskus.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Lskus')/Hierarchies('Lskus')"
+	}
+}

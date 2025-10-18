@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_DATA - Copy GP-GL 10 to 52_SourceView",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 7')"
+		}
+	]
+}

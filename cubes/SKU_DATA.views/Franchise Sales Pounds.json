@@ -1,0 +1,179 @@
+{
+	"@type":"NativeView",
+	"Name":"Franchise Sales Pounds",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lskus')/Hierarchies('Lskus')"
+				},
+				"Alias":"Name",
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('HALF HAM')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('WHOLE HAM')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('QUARTER HAM')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('BONELESS HAM')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('INDIVIDUAL TURKEY BREAST')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('WEEK')/Hierarchies('WEEK')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Period 1')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Period 2')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Period 3')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Period 4')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Period 5')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Period 6')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Period 7')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Period 8')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Period 9')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Period 10')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Period 11')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Period 12')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Subsets('Default')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Subsets('Franchise')"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('ALL CHANNELS')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('CONSUMER RETAIL')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('CONSUMER LUNCH')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B2B GIFTING')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B2B CATERING')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('ALL CHANNELS')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lstat')/Hierarchies('Lstat')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Ham Price per lb')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Sales Pounds')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Ham Price per lb')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Actual')"
+					},
+					{
+						"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Budget')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Actual')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":true,
+	"SuppressEmptyRows":true,
+	"FormatString":""
+}

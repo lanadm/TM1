@@ -1,0 +1,55 @@
+{
+	"@type":"Subset",
+	"Name":"Time and Speed",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Time Waited To Be Served (TW2BS)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TW2BS TOTAL')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TW2BS 5')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TW2BS 4')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TW2BS 3')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TW2BS 2')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TW2BS 1')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TW2BS N')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Speed of Receiving Order (SoRO)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('SoRO TOTAL')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('SoRO 5')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('SoRO 4')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('SoRO 3')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('SoRO 2')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('SoRO 1')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('SoRO N')"
+		}
+	]
+}

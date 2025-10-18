@@ -1,0 +1,34 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Planning - Load to SKU_DATA (HBHCA Franchise Only) w Adjustment_LoadtoSKU_DATA",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('20782832')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('20782856')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('20782857')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('20782858')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('20782859')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('20782890')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('20782891')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('20782892')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('20782893')"
+		}
+	]
+}

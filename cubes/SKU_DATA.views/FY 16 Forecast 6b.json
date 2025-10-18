@@ -1,0 +1,146 @@
+{
+	"@type":"NativeView",
+	"Name":"FY 16 Forecast 6b",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('WEEK')/Hierarchies('WEEK')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 28')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 29')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 30')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 31')"
+					}
+				]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')"
+				},
+				"Alias":"Name",
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('52110001')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lstat')/Hierarchies('Lstat')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Gross')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Rtns and Allow')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Reshipments')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount Promo')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Holder - R&A')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')"
+				},
+				"Alias":"Name",
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B2B GIFTING')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lskus')/Hierarchies('Lskus')"
+				},
+				"Alias":"Name",
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TURKEY BREAST')"
+					}
+				]
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')"
+				},
+				"Expression":"TM1SubsetAll([CATEGORY])"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 6b')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('YEAR')/Hierarchies('YEAR')"
+				},
+				"Expression":"TM1SubsetAll([YEAR])"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 16')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.#########"
+}

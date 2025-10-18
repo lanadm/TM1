@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Forecasting - Load from CC to CC (Special)",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('52110604')"
+		}
+	]
+}

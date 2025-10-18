@@ -1,0 +1,163 @@
+{
+	"@type":"Subset",
+	"Name":"FY23 Weeks",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 1 - 10/02/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 2 - 10/09/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 3 - 10/16/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 4 - 10/23/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 5 - 10/30/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 6 - 11/06/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 7 - 11/13/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 8 - 11/20/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 9 - 11/27/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 10 - 12/04/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 11 - 12/11/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 12 - 12/18/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 13 - 12/25/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 14 - 01/01/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 15 - 01/08/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 16 - 01/15/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 17 - 01/22/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 18 - 01/29/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 19 - 02/05/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 20 - 02/12/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 21 - 02/19/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 22 - 02/26/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 23 - 03/05/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 24 - 03/12/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 25 - 03/19/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 26 - 03/26/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 27 - 04/02/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 28 - 04/09/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 29 - 04/16/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 30 - 04/23/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 31 - 04/30/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 32 - 05/07/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 33 - 05/14/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 34 - 05/21/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 35 - 05/28/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 36 - 06/04/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 37 - 06/11/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 38 - 06/18/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 39 - 06/25/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 40 - 07/02/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 41 - 07/09/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 42 - 07/16/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 43 - 07/23/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 44 - 07/30/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 45 - 08/06/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 46 - 08/13/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 47 - 08/20/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 48 - 08/27/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 49 - 09/03/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 50 - 09/10/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 51 - 09/17/23')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 52 - 09/24/23')"
+		}
+	]
+}

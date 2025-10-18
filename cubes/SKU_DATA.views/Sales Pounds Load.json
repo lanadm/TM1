@@ -1,0 +1,38 @@
+{
+	"@type":"MDXView",
+	"Name":"Sales Pounds Load",
+	"MDX@Code.link":"Sales Pounds Load.mdx",
+	"Meta": {
+		"Aliases": {
+			"[Lskus].[Lskus]": "Name",
+			"[WEEK].[WEEK]": "MEMBER_NAME",
+			"[LOCATIONS].[LOCATIONS]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"Expression": "{TM1SubsetAll([YEAR])}"
+			},
+			"[CATEGORY].[CATEGORY]": {
+				"Expression": "{[CATEGORY].[CATEGORY].[Actual]}"
+			},
+			"[Lchannel].[Lchannel]": {
+				"Expression": "{[Lchannel].[Lchannel].[ALL CHANNELS], [Lchannel].[Lchannel].[CONSUMER RETAIL], [Lchannel].[Lchannel].[100], [Lchannel].[Lchannel].[101], [Lchannel].[Lchannel].[102], [Lchannel].[Lchannel].[600], [Lchannel].[Lchannel].[CONSUMER LUNCH], [Lchannel].[Lchannel].[B2B GIFTING], [Lchannel].[Lchannel].[300], [Lchannel].[Lchannel].[301], [Lchannel].[Lchannel].[302], [Lchannel].[Lchannel].[500], [Lchannel].[Lchannel].[501], [Lchannel].[Lchannel].[502], [Lchannel].[Lchannel].[700], [Lchannel].[Lchannel].[701], [Lchannel].[Lchannel].[702], [Lchannel].[Lchannel].[800], [Lchannel].[Lchannel].[801], [Lchannel].[Lchannel].[802], [Lchannel].[Lchannel].[B2B CATERING], [Lchannel].[Lchannel].[ALL OTHER CHANNELS], [Lchannel].[Lchannel].[ALL VENDORS], [Lchannel].[Lchannel].[ALL 3P]}"
+			},
+			"[Lstat].[Lstat]": {
+				"Expression": "{[Lstat].[Lstat].[Sales Pounds]}"
+			},
+			"[LOCATIONS].[LOCATIONS]": {
+				"Expression": "{[LOCATIONS].[LOCATIONS].[HB RETAIL SSS], [LOCATIONS].[LOCATIONS].[HB RETAIL ORIGINAL], [LOCATIONS].[LOCATIONS].[HB RETAIL NEWFY16], [LOCATIONS].[LOCATIONS].[HB RETAIL NEWFY17], [LOCATIONS].[LOCATIONS].[HB RETAIL NEWFY18], [LOCATIONS].[LOCATIONS].[HB RETAIL NEWFY19], [LOCATIONS].[LOCATIONS].[HB RETAIL NEWFY20]}"
+			}
+		}
+	}
+}

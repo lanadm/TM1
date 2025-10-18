@@ -1,0 +1,33 @@
+{
+	"@type":"MDXView",
+	"Name":"Sales & Trans Report",
+	"MDX@Code.link":"Sales & Trans Report.mdx",
+	"Meta": {
+		"Aliases": {
+			"[YEAR].[YEAR]": "MEMBER_NAME",
+			"[Lskus].[Lskus]": "Name",
+			"[Lchannel].[Lchannel]": "MEMBER_NAME",
+			"[WEEK].[WEEK]": "MEMBER_NAME",
+			"[Lstat].[Lstat]": "Name-Alt",
+			"[LOCATIONS].[LOCATIONS]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {
+			"[CATEGORY].[CATEGORY]": {
+				"Expression": "{TM1SubsetToSet([CATEGORY].[CATEGORY],\"Default\",\"public\")}"
+			},
+			"[WEEK].[WEEK]": {
+				"SubsetName": "Fiscal Year by Week FY 25",
+				"IsPublic": true
+			}
+		}
+	}
+}

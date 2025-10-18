@@ -1,0 +1,55 @@
+{
+	"@type":"Subset",
+	"Name":"Z-Bdg and Forecasts",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Budget')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Budget 1')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Pass 1')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Pass 2')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Pass 3')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 1')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 2')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 3')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 4')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 5')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 6')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 7')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 8')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 9')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 10')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 11')"
+		}
+	]
+}

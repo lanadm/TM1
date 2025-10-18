@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Z-All N Lskus",
+	"Alias":"Name",
+	"Expression":"TM1SubsetAll([Lskus])"
+}

@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"ODBC Forecast Stats",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Forecasting Stats')"
+		}
+	]
+}

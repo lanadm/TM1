@@ -1,0 +1,73 @@
+{
+	"@type":"NativeView",
+	"Name":"zMS_Zero Budget FY23 Planning Metrics",
+	"Columns":[],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('YEAR')/Hierarchies('YEAR')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 23')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Budget')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Subsets('HB Retail - N Level')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Subsets('All Level 0')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Subsets('FY23 Weeks')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Subsets('Planning Metrics')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Subsets('All Level 0')"
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"",
+	"ViewExtractSkipRuleValues": true
+}

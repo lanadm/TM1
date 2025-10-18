@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"zz_DATA - SKU DATA - Copy by Location_Category_week_SourceView",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 14 - 01/05/20')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 15 - 01/12/20')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 16 - 01/19/20')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 17 - 01/26/20')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 18 - 02/02/20')"
+		}
+	]
+}

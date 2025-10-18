@@ -1,0 +1,25 @@
+{
+	"@type":"Subset",
+	"Name":"Sales Pounds SKU Groupings",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('HALF HAM')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('WHOLE HAM')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('QUARTER HAM')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('BONELESS-HAM-WHOLE')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('BONELESS-HAM-HALF')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TURKEY BREAST')"
+		}
+	]
+}

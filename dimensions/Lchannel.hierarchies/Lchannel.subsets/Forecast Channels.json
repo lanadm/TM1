@@ -1,0 +1,29 @@
+{
+	"@type":"Subset",
+	"Name":"Forecast Channels",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('ALL CHANNELS')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('100')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('200')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('300')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('400')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('C')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B')"
+		}
+	]
+}

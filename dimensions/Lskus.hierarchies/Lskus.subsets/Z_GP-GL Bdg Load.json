@@ -1,0 +1,136 @@
+{
+	"@type":"Subset",
+	"Name":"Z_GP-GL Bdg Load",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('INDIVIDUAL HAM')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('HAM BUNDLES')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('QUARTER HAM')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('BONELESS HAM')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('SILVERMARK')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('INDIVIDUAL TURKEY BREAST')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TURKEY BREAST BUNDLES')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('INDIVIDUAL WHOLE TURKEY')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('WHOLE TURKEY BUNDLES')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('BBQ ROAST')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('PORK LOIN')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('BEEF')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('LAMB')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('21-HAM BY THE SLICE/HONEYGRAND')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TURKEY BY THE SLICE')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('RTN/ALLOW-BY THE SLICE')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('RIBS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('BBQ PORK')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('BACON')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('CHICKEN')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('40-LUNCH HG SLICES/SOUPS/SALADS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('LUNCH ADDONS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('APPETIZERS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('BREADS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('CAKES')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('PIES')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('OTHER DESSERTS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('SIDES')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('CONDIMENTS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('SOUPS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('HAM BONES')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('SERVINGWARE')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('55-SWEETS/BEV')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('BASKETS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('BOXES')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('MEAT PARTY TRAYS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('VEG PARTY TRAYS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('75-DESSERT PARTY TRAYS/RA PARTY TRAYS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('HAM BUFFETS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TURKEY BUFFETS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('OTHER BUFFETS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('RETAIL DELIVERY FEES')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('99-CLUBS/CAT FRT/MISC')"
+		}
+	]
+}

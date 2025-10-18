@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Total Labor Dollars",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TOTAL LABOR DOLLARS')"
+		}
+	]
+}

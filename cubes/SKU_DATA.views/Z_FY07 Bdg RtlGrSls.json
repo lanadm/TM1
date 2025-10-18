@@ -1,0 +1,55 @@
+{
+	"@type":"NativeView",
+	"Name":"Z_FY07 Bdg RtlGrSls",
+	"Columns":[],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Subsets('Z_FY08')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Subsets('Z_Forecast3')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Subsets('Retail_Operations')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Subsets('Z_GP-GL BdgFY08')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Subsets('MoFY08_Jan-Sep')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Subsets('Z_Gross')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Subsets('All Channels')"
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"",
+	"ViewExtractSkipConsolidatedValues": false
+}

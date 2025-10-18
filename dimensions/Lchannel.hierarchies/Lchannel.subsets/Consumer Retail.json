@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Consumer Retail",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('CONSUMER RETAIL')"
+		}
+	]
+}

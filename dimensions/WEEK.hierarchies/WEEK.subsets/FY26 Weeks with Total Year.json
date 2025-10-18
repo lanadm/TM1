@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"FY26 Weeks with Total Year",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {DRILLDOWNMEMBER({[WEEK].[WEEK].[FISCAL YEAR BY WEEK FY 26]} , {[WEEK].[WEEK].[FISCAL YEAR BY WEEK FY 26]} , RECURSIVE)}"
+}

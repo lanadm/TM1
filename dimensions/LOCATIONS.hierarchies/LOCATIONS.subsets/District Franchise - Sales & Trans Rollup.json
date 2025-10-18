@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"District Franchise - Sales & Trans Rollup",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {DISTINCT({DESCENDANTS([LOCATIONS].[LOCATIONS].[TOTAL FRANCHISE DISTRICTS])})}"
+}

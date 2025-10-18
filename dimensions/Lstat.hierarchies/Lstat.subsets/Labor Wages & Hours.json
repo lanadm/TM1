@@ -1,0 +1,103 @@
+{
+	"@type":"Subset",
+	"Name":"Labor Wages & Hours",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Regular Hrs')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Vacation Hrs')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('OT Hrs')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Holiday Hrs')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Double Time Hrs')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Sick Hrs')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('CA SPL Hrs')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Paid Lunch Award Hrs')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Regular Hrs (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Vacation Hrs (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('OT Hrs (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Holiday Hrs (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Double Time Hrs (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Sick Hrs (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('CA SPL Hrs (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Paid Lunch Award Hrs (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Regular')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Vacation')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - OT')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Holiday')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Double Time')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Sick')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - CA SPL')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Paid Lunch Award')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Reg (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Vacation (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - OT (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Holiday (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Double Time (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Sick (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - CA SPL (Asst Mgr)')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Wgs - Paid Lunch Award (Asst Mgr)')"
+		}
+	]
+}

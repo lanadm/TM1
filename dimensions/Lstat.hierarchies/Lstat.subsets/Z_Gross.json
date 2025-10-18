@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Z_Gross",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Gross')"
+		}
+	]
+}

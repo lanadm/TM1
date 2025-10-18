@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"All Level 0 - No Desc",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {DISTINCT({ORDER(TM1FILTERBYLEVEL(TM1SUBSETALL([Lskus].[Lskus]) , 0) , [Lskus].[Lskus].CURRENTMEMBER.PROPERTIES(\"MEMBER_NAME\") , BASC)})}"
+}

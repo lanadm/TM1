@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SKU_DATA - Copy from Category to Category (D2C)",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 6')"
+		}
+	]
+}

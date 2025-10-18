@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"FY17_Weeks",
+	"Expression":"{FILTER( {TM1SUBSETALL( [WEEK] )}, [WEEK].[FY_byWk] = \"FY 17\")}"
+}

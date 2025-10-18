@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SKU_DATA - Load Actual to Forecast_Load",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Actual')"
+		}
+	]
+}

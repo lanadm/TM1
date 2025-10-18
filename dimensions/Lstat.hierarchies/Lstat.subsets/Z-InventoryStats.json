@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"Z-InventoryStats",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Inv Dollars')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Inv Quantity')"
+		}
+	]
+}

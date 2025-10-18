@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"Gross Qty Usage",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Gross')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Quantity')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Usage Qty')"
+		}
+	]
+}

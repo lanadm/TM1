@@ -1,0 +1,130 @@
+{
+	"@type":"NativeView",
+	"Name":"zMS_Extract to GP-GL RevFcst - HB Retail (incl CA)",
+	"Columns":[],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('YEAR')/Hierarchies('YEAR')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 23')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Rev Fcst')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Subsets('PLAN - Company Owned Stores (including CA)')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Subsets('All N Level')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('WEEK')/Hierarchies('WEEK')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('OCT FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('NOV FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('DEC FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('JAN FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('FEB FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('MAR FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('APR FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('MAY FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('JUN FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('JUL FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('AUG FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('SEP FY 23')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lstat')/Hierarchies('Lstat')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('GROSS SALES')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount Promo')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Subsets('zzSKUDATA_to_GPGL')"
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"",
+	"ViewExtractSkipConsolidatedValues": false
+}

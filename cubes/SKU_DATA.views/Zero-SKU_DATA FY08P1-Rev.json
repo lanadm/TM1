@@ -1,0 +1,54 @@
+{
+	"@type":"NativeView",
+	"Name":"Zero-SKU_DATA FY08P1-Rev",
+	"Columns":[],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Subsets('Z_FY08')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Subsets('Z_Pass1')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Subsets('All NElements')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Subsets('Z-All NElements')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Subsets('weeks08')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Subsets('Z_Gross')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Subsets('N Elements')"
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":""
+}

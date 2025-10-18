@@ -1,0 +1,40 @@
+{
+	"@type":"Subset",
+	"Name":"Forecast1-11",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 1')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 2')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 3')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 4')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 5')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 6')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 7')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 8')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 9')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 10')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 11')"
+		}
+	]
+}
