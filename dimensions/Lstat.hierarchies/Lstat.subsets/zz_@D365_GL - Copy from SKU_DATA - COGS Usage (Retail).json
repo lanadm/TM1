@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@D365_GL - Copy from SKU_DATA - COGS Usage (Retail)",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('COGS Usage')"
+		}
+	]
+}

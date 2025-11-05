@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Z_COG",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Cost of Goods')"
+		}
+	]
+}

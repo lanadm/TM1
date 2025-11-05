@@ -1,0 +1,20 @@
+{
+	"@type":"Subset",
+	"Name":"Current Month Weeks",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 23 FY 24')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 24 FY 24')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 25 FY 24')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 26 FY 24')"
+		}
+	]
+}

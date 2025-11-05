@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Alias":"Name",
+	"Expression":"{ HIERARCHIZE( {TM1SUBSETALL( [D365_Project] )} ) }"
+}

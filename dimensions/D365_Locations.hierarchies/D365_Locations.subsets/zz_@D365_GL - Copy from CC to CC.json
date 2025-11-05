@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@D365_GL - Copy from CC to CC",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('52117103')"
+		}
+	]
+}

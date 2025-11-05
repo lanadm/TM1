@@ -1,0 +1,80 @@
+{
+	"@type":"Subset",
+	"Name":"BalSheet-Rvw RtndEarn",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('NET INCOME BEFORE OVERHEAD')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('OVERHEAD ASSESSMENTS')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('NET INCOME')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('BALANCE SHEET')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL ASSETS')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL LIABILITIES AND STOCKHOLDERS EQUITY')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CURRENT LIABILITIES')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('LONG TERM DEBT')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('3RD PARTY NOTES PAYABLE LT')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('RELATED PARTY NOTES PAYABLE LT')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('DEFERRED GAINS')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('OTHER LIABILITIES LT')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('STOCKHOLDERS EQUITY')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('INITIAL ENTERPRISE VALUE')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('COMMON STOCK')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('RETAINED EARNINGS')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('DISTRIBUTIONS')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('OTHER RETAINED EARNINGS')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('3205')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('3210')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('3211')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Current Earnings')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Retained Earnings Unapp')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TREASURY STOCK AT COST')"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"@type":"MDXView",
+	"Name":"zMS - Zero FY24",
+	"MDX@Code.link":"zMS - Zero FY24.mdx",
+	"Meta": {
+		"Aliases": {
+			"[D365_MainAcct].[D365_MainAcct]": "Name",
+			"[D365_Project].[D365_Project]": "Name",
+			"[D365_Locations].[D365_Locations]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[MONTH].[MONTH]": false,
+			"[D365_MainAcct].[D365_MainAcct]": false,
+			"[D365_Category].[D365_Category]": false,
+			"[D365_Project].[D365_Project]": false,
+			"[D365_Locations].[D365_Locations]": false,
+			"[D365_Product].[D365_Product]": false
+		},
+		"ContextSets": {}
+	}
+}

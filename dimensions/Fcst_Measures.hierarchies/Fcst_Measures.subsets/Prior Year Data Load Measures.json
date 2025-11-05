@@ -1,0 +1,20 @@
+{
+	"@type":"Subset",
+	"Name":"Prior Year Data Load Measures",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('PriorYear Transactions')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('PriorYear Quantity')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('PriorYear Discount')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('PriorYear Discount Promo')"
+		}
+	]
+}

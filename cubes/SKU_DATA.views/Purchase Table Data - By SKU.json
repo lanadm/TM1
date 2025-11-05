@@ -1,0 +1,42 @@
+{
+	"@type":"MDXView",
+	"Name":"Purchase Table Data - By SKU",
+	"MDX@Code.link":"Purchase Table Data - By SKU.mdx",
+	"Meta": {
+		"Aliases": {
+			"[Lskus].[Lskus]": "Purchasing Description",
+			"[Lchannel].[Lchannel]": "MEMBER_NAME",
+			"[Lstat].[Lstat]": "MEMBER_NAME",
+			"[LOCATIONS].[LOCATIONS]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[Lskus].[Lskus]": {
+				"SubsetName": "All Level 0 - Purchasing Description",
+				"IsPublic": true
+			},
+			"[CATEGORY].[CATEGORY]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[Lstat].[Lstat]": {
+				"Expression": "{[Lstat].[Lstat].[{Purchasing Stats^Extended Cost]}"
+			},
+			"[LOCATIONS].[LOCATIONS]": {
+				"Expression": "{[LOCATIONS].[LOCATIONS].[THE HONEY BAKED HAM COMPANY LLC]}"
+			}
+		}
+	}
+}

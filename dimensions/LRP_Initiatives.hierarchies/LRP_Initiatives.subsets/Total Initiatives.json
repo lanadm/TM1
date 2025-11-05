@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Total Initiatives",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('LRP_Initiatives')/Hierarchies('LRP_Initiatives')/Elements('Total Initiatives')"
+		}
+	]
+}

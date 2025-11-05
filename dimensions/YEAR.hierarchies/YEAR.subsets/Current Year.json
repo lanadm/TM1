@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Current Year",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {FILTER(TM1SubsetAll([YEAR].[YEAR]), ([YEAR].[YEAR].CURRENTMEMBER.PROPERTIES(\"Current\") = \"Current\"))}"
+}

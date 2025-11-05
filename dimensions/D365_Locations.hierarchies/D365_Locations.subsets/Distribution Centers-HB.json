@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Distribution Centers-HB",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {TM1DRILLDOWNMEMBER(DRILLUPMEMBER({[D365_Locations].[D365_Locations].[DISTRIBUTION CENTERS-HB]} , {[D365_Locations].[D365_Locations].[DISTRIBUTION CENTERS-HB]}), {[D365_Locations].[D365_Locations].[DISTRIBUTION CENTERS-HB]}, RECURSIVE)}"
+}

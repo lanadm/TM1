@@ -1,0 +1,18 @@
+{
+	"@type":"MDXView",
+	"Name":"zMS_Extract Actuals",
+	"MDX@Code.link":"zMS_Extract Actuals.mdx",
+	"Meta": {
+		"Aliases": {},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {}
+	}
+}

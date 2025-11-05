@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Adhoc Week",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 1 - 10/05/25')"
+		}
+	]
+}

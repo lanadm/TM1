@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SKU_DATA - Load Rev Fcst to Forecast FY 24 Weeks 27-53 - Temp_Load",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Rev Fcst')"
+		}
+	]
+}

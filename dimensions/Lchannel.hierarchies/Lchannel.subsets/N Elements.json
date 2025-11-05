@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"N Elements",
+	"Expression":"{TM1FILTERBYLEVEL( {TM1SUBSETALL( [Lchannel] )}, 0)}"
+}

@@ -1,0 +1,343 @@
+#==================================
+SKIPCHECK;
+#==================================
+
+#Plug 3205_Adj
+          #  Note: When we switched over to FY24 in D365_GL, there was a retained earnings account that did not get picked up by IPA because the cost center was empty. This is causing 
+          #  an ongoing out of balance with the beginning balance rollover in D365. For this reason an adjustment account was created (3205_Adj) to adjust out the -429.36 difference to account for this. 
+          #  the amount was manually adjusted out in FY24, and is being plugged into the Beginning balance each year beginning in FY25.
+
+
+['3205_Adj', '52509999', D365_Project:'000', D365_Product:'00', 'Actual', 'Beginning'] = N: IF( DB( '}ElementAttributes_YEAR', !YEAR, '3205_Adj_Rule' ) @<> 'N', -429.36, STET );
+
+
+
+#Balance Sheet YTD Calculations
+
+['OCT YTD'] = C: IF( DB( '}ElementAttributes_D365_MainAcct', !D365_MainAcct, 'BalAcct' ) @= 'BAL' &
+			              DB( '}ElementAttributes_D365_Category', !D365_Category, 'BAL' ) @= 'Y' &
+			              DB( '}ElementAttributes_YEAR', !YEAR, 'Historical' ) @= 'N',
+			              ['OCT'],
+			              CONTINUE );
+
+['NOV YTD'] = C: IF( DB( '}ElementAttributes_D365_MainAcct', !D365_MainAcct, 'BalAcct' ) @= 'BAL' &
+			              DB( '}ElementAttributes_D365_Category', !D365_Category, 'BAL' ) @= 'Y' &
+			              DB( '}ElementAttributes_YEAR', !YEAR, 'Historical' ) @= 'N',
+			              ['NOV'],
+			              CONTINUE );
+
+['DEC YTD'] = C: IF( DB( '}ElementAttributes_D365_MainAcct', !D365_MainAcct, 'BalAcct' ) @= 'BAL' &
+			              DB( '}ElementAttributes_D365_Category', !D365_Category, 'BAL' ) @= 'Y' &
+			              DB( '}ElementAttributes_YEAR', !YEAR, 'Historical' ) @= 'N',
+			              ['DEC'],
+			              CONTINUE );
+
+['JAN YTD'] = C: IF( DB( '}ElementAttributes_D365_MainAcct', !D365_MainAcct, 'BalAcct' ) @= 'BAL' &
+			              DB( '}ElementAttributes_D365_Category', !D365_Category, 'BAL' ) @= 'Y' &
+			              DB( '}ElementAttributes_YEAR', !YEAR, 'Historical' ) @= 'N',
+			              ['JAN'],
+			              CONTINUE );
+
+['FEB YTD'] = C: IF( DB( '}ElementAttributes_D365_MainAcct', !D365_MainAcct, 'BalAcct' ) @= 'BAL' &
+			              DB( '}ElementAttributes_D365_Category', !D365_Category, 'BAL' ) @= 'Y' &
+			              DB( '}ElementAttributes_YEAR', !YEAR, 'Historical' ) @= 'N',
+			              ['FEB'],
+			              CONTINUE );
+
+['MAR YTD'] = C: IF( DB( '}ElementAttributes_D365_MainAcct', !D365_MainAcct, 'BalAcct' ) @= 'BAL' &
+			              DB( '}ElementAttributes_D365_Category', !D365_Category, 'BAL' ) @= 'Y' &
+			              DB( '}ElementAttributes_YEAR', !YEAR, 'Historical' ) @= 'N',
+			              ['MAR'],
+			              CONTINUE );
+
+['APR YTD'] = C: IF( DB( '}ElementAttributes_D365_MainAcct', !D365_MainAcct, 'BalAcct' ) @= 'BAL' &
+			              DB( '}ElementAttributes_D365_Category', !D365_Category, 'BAL' ) @= 'Y' &
+			              DB( '}ElementAttributes_YEAR', !YEAR, 'Historical' ) @= 'N',
+			              ['APR'],
+			              CONTINUE );
+
+['MAY YTD'] = C: IF( DB( '}ElementAttributes_D365_MainAcct', !D365_MainAcct, 'BalAcct' ) @= 'BAL' &
+			              DB( '}ElementAttributes_D365_Category', !D365_Category, 'BAL' ) @= 'Y' &
+			              DB( '}ElementAttributes_YEAR', !YEAR, 'Historical' ) @= 'N',
+			              ['MAY'],
+			              CONTINUE );
+
+['JUN YTD'] = C: IF( DB( '}ElementAttributes_D365_MainAcct', !D365_MainAcct, 'BalAcct' ) @= 'BAL' &
+			              DB( '}ElementAttributes_D365_Category', !D365_Category, 'BAL' ) @= 'Y' &
+			              DB( '}ElementAttributes_YEAR', !YEAR, 'Historical' ) @= 'N',
+			              ['JUN'],
+			              CONTINUE );
+
+['JUL YTD'] = C: IF( DB( '}ElementAttributes_D365_MainAcct', !D365_MainAcct, 'BalAcct' ) @= 'BAL' &
+			              DB( '}ElementAttributes_D365_Category', !D365_Category, 'BAL' ) @= 'Y' &
+			              DB( '}ElementAttributes_YEAR', !YEAR, 'Historical' ) @= 'N',
+			              ['JUL'],
+			              CONTINUE );
+
+['AUG YTD'] = C: IF( DB( '}ElementAttributes_D365_MainAcct', !D365_MainAcct, 'BalAcct' ) @= 'BAL' &
+			              DB( '}ElementAttributes_D365_Category', !D365_Category, 'BAL' ) @= 'Y' &
+			              DB( '}ElementAttributes_YEAR', !YEAR, 'Historical' ) @= 'N',
+			              ['AUG'],
+			              CONTINUE );
+
+['SEP YTD'] = C: IF( DB( '}ElementAttributes_D365_MainAcct', !D365_MainAcct, 'BalAcct' ) @= 'BAL' &
+			              DB( '}ElementAttributes_D365_Category', !D365_Category, 'BAL' ) @= 'Y' &
+			              DB( '}ElementAttributes_YEAR', !YEAR, 'Historical' ) @= 'N',
+			              ['SEP'],
+			              CONTINUE );
+
+
+# CURRENT EARNINGS RULE
+
+[{ 'Actual', 'Forecast 4', 'Forecast 5', 'Forecast 6', 'Forecast 7', 'Forecast 8', 'Forecast 9', 'Forecast 10', 'Budget', 'Budget 1', 'Budget 2', 'Budget 3', 'Budget 4', 'Budget 5', 'Rev Fcst' },'Current Earnings'] = ['NET INCOME'];
+
+
+
+#BUILD NWC
+
+['NWC - AR','OCT'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','OCT YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','BEGINNING'];
+['NWC - INVENTORY','OCT'] = ['INVENTORIES','OCT YTD'] - ['INVENTORIES','BEGINNING'];
+['NWC - PREPAID','OCT'] = ['PREPAID AND OTHER ASSETS','OCT YTD'] - ['PREPAID AND OTHER ASSETS','BEGINNING'];
+['NWC - AP','OCT'] = ['ACCOUNTS PAYABLE','BEGINNING'] - ['ACCOUNTS PAYABLE','OCT YTD'];
+['NWC - GC','OCT'] = ['GIFT CERTIFICATES PAYABLE','BEGINNING'] - ['GIFT CERTIFICATES PAYABLE','OCT YTD'];
+['NWC - ACCRUED','OCT'] = ['ACCRUED EXPENSES','BEGINNING'] - ['ACCRUED EXPENSES','OCT YTD'];
+['NWC - TOTAL','OCT'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','OCT YTD'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','OCT YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','BEGINNING'];
+['NWC - INVENTORY','OCT YTD'] = ['INVENTORIES','OCT YTD'] - ['INVENTORIES','BEGINNING'];
+['NWC - PREPAID','OCT YTD'] = ['PREPAID AND OTHER ASSETS','OCT YTD'] - ['PREPAID AND OTHER ASSETS','BEGINNING'];
+['NWC - AP','OCT YTD'] = ['ACCOUNTS PAYABLE','BEGINNING'] - ['ACCOUNTS PAYABLE','OCT YTD'];
+['NWC - GC','OCT YTD'] = ['GIFT CERTIFICATES PAYABLE','BEGINNING'] - ['GIFT CERTIFICATES PAYABLE','OCT YTD'];
+['NWC - ACCRUED','OCT YTD'] = ['ACCRUED EXPENSES','BEGINNING'] - ['ACCRUED EXPENSES','OCT YTD'];
+['NWC - TOTAL','OCT YTD'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','NOV'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','NOV YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','OCT YTD'];
+['NWC - INVENTORY','NOV'] = ['INVENTORIES','NOV YTD'] - ['INVENTORIES','OCT YTD'];
+['NWC - PREPAID','NOV'] = ['PREPAID AND OTHER ASSETS','NOV YTD'] - ['PREPAID AND OTHER ASSETS','OCT YTD'];
+['NWC - AP','NOV'] = ['ACCOUNTS PAYABLE','OCT YTD'] - ['ACCOUNTS PAYABLE','NOV YTD'];
+['NWC - GC','NOV'] = ['GIFT CERTIFICATES PAYABLE','OCT YTD'] - ['GIFT CERTIFICATES PAYABLE','NOV YTD'];
+['NWC - ACCRUED','NOV'] = ['ACCRUED EXPENSES','OCT YTD'] - ['ACCRUED EXPENSES','NOV YTD'];
+['NWC - TOTAL','NOV'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','NOV YTD'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','NOV YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','BEGINNING'];
+['NWC - INVENTORY','NOV YTD'] = ['INVENTORIES','NOV YTD'] - ['INVENTORIES','BEGINNING'];
+['NWC - PREPAID','NOV YTD'] = ['PREPAID AND OTHER ASSETS','NOV YTD'] - ['PREPAID AND OTHER ASSETS','BEGINNING'];
+['NWC - AP','NOV YTD'] = ['ACCOUNTS PAYABLE','BEGINNING'] - ['ACCOUNTS PAYABLE','NOV YTD'];
+['NWC - GC','NOV YTD'] = ['GIFT CERTIFICATES PAYABLE','BEGINNING'] - ['GIFT CERTIFICATES PAYABLE','NOV YTD'];
+['NWC - ACCRUED','NOV YTD'] = ['ACCRUED EXPENSES','BEGINNING'] - ['ACCRUED EXPENSES','NOV YTD'];
+['NWC - TOTAL','NOV YTD'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','DEC'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','DEC YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','NOV YTD'];
+['NWC - INVENTORY','DEC'] = ['INVENTORIES','DEC YTD'] - ['INVENTORIES','NOV YTD'];
+['NWC - PREPAID','DEC'] = ['PREPAID AND OTHER ASSETS','DEC YTD'] - ['PREPAID AND OTHER ASSETS','NOV YTD'];
+['NWC - AP','DEC'] = ['ACCOUNTS PAYABLE','NOV YTD'] - ['ACCOUNTS PAYABLE','DEC YTD'];
+['NWC - GC','DEC'] = ['GIFT CERTIFICATES PAYABLE','NOV YTD'] - ['GIFT CERTIFICATES PAYABLE','DEC YTD'];
+['NWC - ACCRUED','DEC'] = ['ACCRUED EXPENSES','NOV YTD'] - ['ACCRUED EXPENSES','DEC YTD'];
+['NWC - TOTAL','DEC'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','DEC YTD'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','DEC YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','BEGINNING'];
+['NWC - INVENTORY','DEC YTD'] = ['INVENTORIES','DEC YTD'] - ['INVENTORIES','BEGINNING'];
+['NWC - PREPAID','DEC YTD'] = ['PREPAID AND OTHER ASSETS','DEC YTD'] - ['PREPAID AND OTHER ASSETS','BEGINNING'];
+['NWC - AP','DEC YTD'] = ['ACCOUNTS PAYABLE','BEGINNING'] - ['ACCOUNTS PAYABLE','DEC YTD'];
+['NWC - GC','DEC YTD'] = ['GIFT CERTIFICATES PAYABLE','BEGINNING'] - ['GIFT CERTIFICATES PAYABLE','DEC YTD'];
+['NWC - ACCRUED','DEC YTD'] = ['ACCRUED EXPENSES','BEGINNING'] - ['ACCRUED EXPENSES','DEC YTD'];
+['NWC - TOTAL','DEC YTD'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','JAN'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','JAN YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','DEC YTD'];
+['NWC - INVENTORY','JAN'] = ['INVENTORIES','JAN YTD'] - ['INVENTORIES','DEC YTD'];
+['NWC - PREPAID','JAN'] = ['PREPAID AND OTHER ASSETS','JAN YTD'] - ['PREPAID AND OTHER ASSETS','DEC YTD'];
+['NWC - AP','JAN'] = ['ACCOUNTS PAYABLE','DEC YTD'] - ['ACCOUNTS PAYABLE','JAN YTD'];
+['NWC - GC','JAN'] = ['GIFT CERTIFICATES PAYABLE','DEC YTD'] - ['GIFT CERTIFICATES PAYABLE','JAN YTD'];
+['NWC - ACCRUED','JAN'] = ['ACCRUED EXPENSES','DEC YTD'] - ['ACCRUED EXPENSES','JAN YTD'];
+['NWC - TOTAL','JAN'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','JAN YTD'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','JAN YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','BEGINNING'];
+['NWC - INVENTORY','JAN YTD'] = ['INVENTORIES','JAN YTD'] - ['INVENTORIES','BEGINNING'];
+['NWC - PREPAID','JAN YTD'] = ['PREPAID AND OTHER ASSETS','JAN YTD'] - ['PREPAID AND OTHER ASSETS','BEGINNING'];
+['NWC - AP','JAN YTD'] = ['ACCOUNTS PAYABLE','BEGINNING'] - ['ACCOUNTS PAYABLE','JAN YTD'];
+['NWC - GC','JAN YTD'] = ['GIFT CERTIFICATES PAYABLE','BEGINNING'] - ['GIFT CERTIFICATES PAYABLE','JAN YTD'];
+['NWC - ACCRUED','JAN YTD'] = ['ACCRUED EXPENSES','BEGINNING'] - ['ACCRUED EXPENSES','JAN YTD'];
+['NWC - TOTAL','JAN YTD'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','FEB'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','FEB YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','JAN YTD'];
+['NWC - INVENTORY','FEB'] = ['INVENTORIES','FEB YTD'] - ['INVENTORIES','JAN YTD'];
+['NWC - PREPAID','FEB'] = ['PREPAID AND OTHER ASSETS','FEB YTD'] - ['PREPAID AND OTHER ASSETS','JAN YTD'];
+['NWC - AP','FEB'] = ['ACCOUNTS PAYABLE','JAN YTD'] - ['ACCOUNTS PAYABLE','FEB YTD'];
+['NWC - GC','FEB'] = ['GIFT CERTIFICATES PAYABLE','JAN YTD'] - ['GIFT CERTIFICATES PAYABLE','FEB YTD'];
+['NWC - ACCRUED','FEB'] = ['ACCRUED EXPENSES','JAN YTD'] - ['ACCRUED EXPENSES','FEB YTD'];
+['NWC - TOTAL','FEB'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','FEB YTD'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','FEB YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','BEGINNING'];
+['NWC - INVENTORY','FEB YTD'] = ['INVENTORIES','FEB YTD'] - ['INVENTORIES','BEGINNING'];
+['NWC - PREPAID','FEB YTD'] = ['PREPAID AND OTHER ASSETS','FEB YTD'] - ['PREPAID AND OTHER ASSETS','BEGINNING'];
+['NWC - AP','FEB YTD'] = ['ACCOUNTS PAYABLE','BEGINNING'] - ['ACCOUNTS PAYABLE','FEB YTD'];
+['NWC - GC','FEB YTD'] = ['GIFT CERTIFICATES PAYABLE','BEGINNING'] - ['GIFT CERTIFICATES PAYABLE','FEB YTD'];
+['NWC - ACCRUED','FEB YTD'] = ['ACCRUED EXPENSES','BEGINNING'] - ['ACCRUED EXPENSES','FEB YTD'];
+['NWC - TOTAL','FEB YTD'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','MAR'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','MAR YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','FEB YTD'];
+['NWC - INVENTORY','MAR'] = ['INVENTORIES','MAR YTD'] - ['INVENTORIES','FEB YTD'];
+['NWC - PREPAID','MAR'] = ['PREPAID AND OTHER ASSETS','MAR YTD'] - ['PREPAID AND OTHER ASSETS','FEB YTD'];
+['NWC - AP','MAR'] = ['ACCOUNTS PAYABLE','FEB YTD'] - ['ACCOUNTS PAYABLE','MAR YTD'];
+['NWC - GC','MAR'] = ['GIFT CERTIFICATES PAYABLE','FEB YTD'] - ['GIFT CERTIFICATES PAYABLE','MAR YTD'];
+['NWC - ACCRUED','MAR'] = ['ACCRUED EXPENSES','FEB YTD'] - ['ACCRUED EXPENSES','MAR YTD'];
+['NWC - TOTAL','MAR'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','MAR YTD'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','MAR YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','BEGINNING'];
+['NWC - INVENTORY','MAR YTD'] = ['INVENTORIES','MAR YTD'] - ['INVENTORIES','BEGINNING'];
+['NWC - PREPAID','MAR YTD'] = ['PREPAID AND OTHER ASSETS','MAR YTD'] - ['PREPAID AND OTHER ASSETS','BEGINNING'];
+['NWC - AP','MAR YTD'] = ['ACCOUNTS PAYABLE','BEGINNING'] - ['ACCOUNTS PAYABLE','MAR YTD'];
+['NWC - GC','MAR YTD'] = ['GIFT CERTIFICATES PAYABLE','BEGINNING'] - ['GIFT CERTIFICATES PAYABLE','MAR YTD'];
+['NWC - ACCRUED','MAR YTD'] = ['ACCRUED EXPENSES','BEGINNING'] - ['ACCRUED EXPENSES','MAR YTD'];
+['NWC - TOTAL','MAR YTD'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','APR'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','APR YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','MAR YTD'];
+['NWC - INVENTORY','APR'] = ['INVENTORIES','APR YTD'] - ['INVENTORIES','MAR YTD'];
+['NWC - PREPAID','APR'] = ['PREPAID AND OTHER ASSETS','APR YTD'] - ['PREPAID AND OTHER ASSETS','MAR YTD'];
+['NWC - AP','APR'] = ['ACCOUNTS PAYABLE','MAR YTD'] - ['ACCOUNTS PAYABLE','APR YTD'];
+['NWC - GC','APR'] = ['GIFT CERTIFICATES PAYABLE','MAR YTD'] - ['GIFT CERTIFICATES PAYABLE','APR YTD'];
+['NWC - ACCRUED','APR'] = ['ACCRUED EXPENSES','MAR YTD'] - ['ACCRUED EXPENSES','APR YTD'];
+['NWC - TOTAL','APR'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','APR YTD'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','APR YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','BEGINNING'];
+['NWC - INVENTORY','APR YTD'] = ['INVENTORIES','APR YTD'] - ['INVENTORIES','BEGINNING'];
+['NWC - PREPAID','APR YTD'] = ['PREPAID AND OTHER ASSETS','APR YTD'] - ['PREPAID AND OTHER ASSETS','BEGINNING'];
+['NWC - AP','APR YTD'] = ['ACCOUNTS PAYABLE','BEGINNING'] - ['ACCOUNTS PAYABLE','APR YTD'];
+['NWC - GC','APR YTD'] = ['GIFT CERTIFICATES PAYABLE','BEGINNING'] - ['GIFT CERTIFICATES PAYABLE','APR YTD'];
+['NWC - ACCRUED','APR YTD'] = ['ACCRUED EXPENSES','BEGINNING'] - ['ACCRUED EXPENSES','APR YTD'];
+['NWC - TOTAL','APR YTD'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','MAY'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','MAY YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','APR YTD'];
+['NWC - INVENTORY','MAY'] = ['INVENTORIES','MAY YTD'] - ['INVENTORIES','APR YTD'];
+['NWC - PREPAID','MAY'] = ['PREPAID AND OTHER ASSETS','MAY YTD'] - ['PREPAID AND OTHER ASSETS','APR YTD'];
+['NWC - AP','MAY'] = ['ACCOUNTS PAYABLE','APR YTD'] - ['ACCOUNTS PAYABLE','MAY YTD'];
+['NWC - GC','MAY'] = ['GIFT CERTIFICATES PAYABLE','APR YTD'] - ['GIFT CERTIFICATES PAYABLE','MAY YTD'];
+['NWC - ACCRUED','MAY'] = ['ACCRUED EXPENSES','APR YTD'] - ['ACCRUED EXPENSES','MAY YTD'];
+['NWC - TOTAL','MAY'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','MAY YTD'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','MAY YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','BEGINNING'];
+['NWC - INVENTORY','MAY YTD'] = ['INVENTORIES','MAY YTD'] - ['INVENTORIES','BEGINNING'];
+['NWC - PREPAID','MAY YTD'] = ['PREPAID AND OTHER ASSETS','MAY YTD'] - ['PREPAID AND OTHER ASSETS','BEGINNING'];
+['NWC - AP','MAY YTD'] = ['ACCOUNTS PAYABLE','BEGINNING'] - ['ACCOUNTS PAYABLE','MAY YTD'];
+['NWC - GC','MAY YTD'] = ['GIFT CERTIFICATES PAYABLE','BEGINNING'] - ['GIFT CERTIFICATES PAYABLE','MAY YTD'];
+['NWC - ACCRUED','MAY YTD'] = ['ACCRUED EXPENSES','BEGINNING'] - ['ACCRUED EXPENSES','MAY YTD'];
+['NWC - TOTAL','MAY YTD'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','JUN'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','JUN YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','MAY YTD'];
+['NWC - INVENTORY','JUN'] = ['INVENTORIES','JUN YTD'] - ['INVENTORIES','MAY YTD'];
+['NWC - PREPAID','JUN'] = ['PREPAID AND OTHER ASSETS','JUN YTD'] - ['PREPAID AND OTHER ASSETS','MAY YTD'];
+['NWC - AP','JUN'] = ['ACCOUNTS PAYABLE','MAY YTD'] - ['ACCOUNTS PAYABLE','JUN YTD'];
+['NWC - GC','JUN'] = ['GIFT CERTIFICATES PAYABLE','MAY YTD'] - ['GIFT CERTIFICATES PAYABLE','JUN YTD'];
+['NWC - ACCRUED','JUN'] = ['ACCRUED EXPENSES','MAY YTD'] - ['ACCRUED EXPENSES','JUN YTD'];
+['NWC - TOTAL','JUN'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','JUN YTD'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','JUN YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','BEGINNING'];
+['NWC - INVENTORY','JUN YTD'] = ['INVENTORIES','JUN YTD'] - ['INVENTORIES','BEGINNING'];
+['NWC - PREPAID','JUN YTD'] = ['PREPAID AND OTHER ASSETS','JUN YTD'] - ['PREPAID AND OTHER ASSETS','BEGINNING'];
+['NWC - AP','JUN YTD'] = ['ACCOUNTS PAYABLE','BEGINNING'] - ['ACCOUNTS PAYABLE','JUN YTD'];
+['NWC - GC','JUN YTD'] = ['GIFT CERTIFICATES PAYABLE','BEGINNING'] - ['GIFT CERTIFICATES PAYABLE','JUN YTD'];
+['NWC - ACCRUED','JUN YTD'] = ['ACCRUED EXPENSES','BEGINNING'] - ['ACCRUED EXPENSES','JUN YTD'];
+['NWC - TOTAL','JUN YTD'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','JUL'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','JUL YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','JUN YTD'];
+['NWC - INVENTORY','JUL'] = ['INVENTORIES','JUL YTD'] - ['INVENTORIES','JUN YTD'];
+['NWC - PREPAID','JUL'] = ['PREPAID AND OTHER ASSETS','JUL YTD'] - ['PREPAID AND OTHER ASSETS','JUN YTD'];
+['NWC - AP','JUL'] = ['ACCOUNTS PAYABLE','JUN YTD'] - ['ACCOUNTS PAYABLE','JUL YTD'];
+['NWC - GC','JUL'] = ['GIFT CERTIFICATES PAYABLE','JUN YTD'] - ['GIFT CERTIFICATES PAYABLE','JUL YTD'];
+['NWC - ACCRUED','JUL'] = ['ACCRUED EXPENSES','JUN YTD'] - ['ACCRUED EXPENSES','JUL YTD'];
+['NWC - TOTAL','JUL'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','JUL YTD'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','JUL YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','BEGINNING'];
+['NWC - INVENTORY','JUL YTD'] = ['INVENTORIES','JUL YTD'] - ['INVENTORIES','BEGINNING'];
+['NWC - PREPAID','JUL YTD'] = ['PREPAID AND OTHER ASSETS','JUL YTD'] - ['PREPAID AND OTHER ASSETS','BEGINNING'];
+['NWC - AP','JUL YTD'] = ['ACCOUNTS PAYABLE','BEGINNING'] - ['ACCOUNTS PAYABLE','JUL YTD'];
+['NWC - GC','JUL YTD'] = ['GIFT CERTIFICATES PAYABLE','BEGINNING'] - ['GIFT CERTIFICATES PAYABLE','JUL YTD'];
+['NWC - ACCRUED','JUL YTD'] = ['ACCRUED EXPENSES','BEGINNING'] - ['ACCRUED EXPENSES','JUL YTD'];
+['NWC - TOTAL','JUL YTD'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','AUG'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','AUG YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','JUL YTD'];
+['NWC - INVENTORY','AUG'] = ['INVENTORIES','AUG YTD'] - ['INVENTORIES','JUL YTD'];
+['NWC - PREPAID','AUG'] = ['PREPAID AND OTHER ASSETS','AUG YTD'] - ['PREPAID AND OTHER ASSETS','JUL YTD'];
+['NWC - AP','AUG'] = ['ACCOUNTS PAYABLE','JUL YTD'] - ['ACCOUNTS PAYABLE','AUG YTD'];
+['NWC - GC','AUG'] = ['GIFT CERTIFICATES PAYABLE','JUL YTD'] - ['GIFT CERTIFICATES PAYABLE','AUG YTD'];
+['NWC - ACCRUED','AUG'] = ['ACCRUED EXPENSES','JUL YTD'] - ['ACCRUED EXPENSES','AUG YTD'];
+['NWC - TOTAL','AUG'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','AUG YTD'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','AUG YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','BEGINNING'];
+['NWC - INVENTORY','AUG YTD'] = ['INVENTORIES','AUG YTD'] - ['INVENTORIES','BEGINNING'];
+['NWC - PREPAID','AUG YTD'] = ['PREPAID AND OTHER ASSETS','AUG YTD'] - ['PREPAID AND OTHER ASSETS','BEGINNING'];
+['NWC - AP','AUG YTD'] = ['ACCOUNTS PAYABLE','BEGINNING'] - ['ACCOUNTS PAYABLE','AUG YTD'];
+['NWC - GC','AUG YTD'] = ['GIFT CERTIFICATES PAYABLE','BEGINNING'] - ['GIFT CERTIFICATES PAYABLE','AUG YTD'];
+['NWC - ACCRUED','AUG YTD'] = ['ACCRUED EXPENSES','BEGINNING'] - ['ACCRUED EXPENSES','AUG YTD'];
+['NWC - TOTAL','AUG YTD'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','SEP'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','SEP YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','AUG YTD'];
+['NWC - INVENTORY','SEP'] = ['INVENTORIES','SEP YTD'] - ['INVENTORIES','AUG YTD'];
+['NWC - PREPAID','SEP'] = ['PREPAID AND OTHER ASSETS','SEP YTD'] - ['PREPAID AND OTHER ASSETS','AUG YTD'];
+['NWC - AP','SEP'] = ['ACCOUNTS PAYABLE','AUG YTD'] - ['ACCOUNTS PAYABLE','SEP YTD'];
+['NWC - GC','SEP'] = ['GIFT CERTIFICATES PAYABLE','AUG YTD'] - ['GIFT CERTIFICATES PAYABLE','SEP YTD'];
+['NWC - ACCRUED','SEP'] = ['ACCRUED EXPENSES','AUG YTD'] - ['ACCRUED EXPENSES','SEP YTD'];
+['NWC - TOTAL','SEP'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+['NWC - AR','SEP YTD'] = ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','SEP YTD'] - ['A/R NET OF ALLOWANCE FOR DOUBTFUL ACCTS','BEGINNING'];
+['NWC - INVENTORY','SEP YTD'] = ['INVENTORIES','SEP YTD'] - ['INVENTORIES','BEGINNING'];
+['NWC - PREPAID','SEP YTD'] = ['PREPAID AND OTHER ASSETS','SEP YTD'] - ['PREPAID AND OTHER ASSETS','BEGINNING'];
+['NWC - AP','SEP YTD'] = ['ACCOUNTS PAYABLE','BEGINNING'] - ['ACCOUNTS PAYABLE','SEP YTD'];
+['NWC - GC','SEP YTD'] = ['GIFT CERTIFICATES PAYABLE','BEGINNING'] - ['GIFT CERTIFICATES PAYABLE','SEP YTD'];
+['NWC - ACCRUED','SEP YTD'] = ['ACCRUED EXPENSES','BEGINNING'] - ['ACCRUED EXPENSES','SEP YTD'];
+['NWC - TOTAL','SEP YTD'] = - ['NWC - AR'] - ['NWC - INVENTORY'] - ['NWC - PREPAID'] - ['NWC - AP'] - ['NWC - GC'] - ['NWC - ACCRUED'];
+
+#Temporary Rulse for Beginning Balance FY24 (Until D365 rolls forward FY23)
+
+#['Beginning', 'FY 24', 'Actual'] = N: IF( DB( '}ElementAttributes_D365_MainAcct', !D365_MainAcct, 'BalAcct' ) @= 'BAL', ['SEP YTD', 'FY 23', 'Actual'], stet );
+
+#['Beginning', 'FY 24', 'Retained Earnings Unapp', 'Actual'] = N: ['SEP YTD', 'FY 23', 'PL Accounts', 'Actual'] ;
+
+
+
+#==================================
+feeders;
+#==================================
+
+
+
+
+#BALSHEET
+
+['OCT'] => ['OCT YTD'];
+['NOV'] => ['NOV YTD'];
+['DEC'] => ['DEC YTD'];
+['JAN'] => ['JAN YTD'];
+['FEB'] => ['FEB YTD'];
+['MAR'] => ['MAR YTD'];
+['APR'] => ['APR YTD'];
+['MAY'] => ['MAY YTD'];
+['JUN'] => ['JUN YTD'];
+['JUL'] => ['JUL YTD'];
+['AUG'] => ['AUG YTD'];
+['SEP'] => ['SEP YTD'];
+
+# CURRENT EARNINGS RULE
+
+[{'Actual', 'Forecast 4', 'Forecast 5', 'Forecast 6', 'Forecast 7', 'Forecast 8', 'Forecast 9', 'Forecast 10', 'Budget', 'Budget 1', 'Budget 2', 'Budget 3', 'Budget 4', 'Budget 5', 'Rev Fcst'}, 'NET INCOME']=>['Current Earnings'];
+
+
+
+#Temporary Rule for Beginning Balance FY24 (Until D365 rolls forward FY23)
+#['SEP', 'FY 23', '4010', 'Actual'] => ['Beginning', 'FY 24', 'Retained Earnings Unapp', 'Actual'] ;
+#['SEP', 'FY 23', 'Actual'] => ['Beginning', 'FY 24', 'Actual'] ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

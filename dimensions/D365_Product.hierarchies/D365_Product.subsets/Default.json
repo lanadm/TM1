@@ -1,0 +1,371 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('ALL PRODUCT CODES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('HAM')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('SPIRAL SLICE HAM')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('BONELESS HAM')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('TURKEY')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('TURKEY BREAST')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('WHOLE TURKEY')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('A/O CENTER-OF-TABLE')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('CASUAL ENTREES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('SLICES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('BBQ')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('DINNERS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('OTHER CASUAL ENTREES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('LUNCH')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('MEAL COMPLETERS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('MEAL ADDONS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('GIFTING BUNDLES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('BASKETS/BOXES/CLUBS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('PARTY TRAYS/BUFFETS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('FREIGHT')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('MISCELLANEOUS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('BUDGETED PRODUCT LINES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('LUNCH/BUFFETS/PARTY TRAYS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('SIDES AND DESSERTS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('OTHER BUDGETED PRODUCTS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('BASKETS/BOXES/CLUBS/GC FRT')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('NEW PRODUCT GROUPS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('HAM LARGE GATHERINGS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('HAM SMALL GATHERINGS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('BBQ ROAST AND PORK')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('BEEF AND CHICKEN')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('SLICES AND DINNERS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('BREAKFAST')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('RIBS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('APPETIZERS AND BREADS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('DESSERTS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('SIDES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('CONDIMENTS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('SWEETS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('SOUPS AND BONES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('ACCESSORIES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('PARTY TRAYS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('BUFFETS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('GENERAL')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('5 PRODUCT-LINE')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('OTHER PRODUCTS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('OTHER PRODUCTS EXCL RTL DEL FEES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('RETAIL DELIVERY FEES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('LUNCH AND BUFFETS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('00')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('01')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('02')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('03')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('04')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('05')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('07')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('09')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('11')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('13')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('15')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('17')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('19')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('21')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('22')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('23')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('24')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('25')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('27')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('29')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('31')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('32')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('33')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('34')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('35')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('36')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('37')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('39')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('40')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('41')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('43')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('45')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('47')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('49')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('51')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('53')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('55')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('57')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('59')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('61')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('63')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('65')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('67')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('69')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('71')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('73')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('75')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('77')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('79')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('80')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('81')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('83')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('85')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('87')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('88')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('89')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('90')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('91')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('92')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('93')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('99')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('99_1')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('99_2')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('99_3')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('99_4')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('ALL PRODUCT CODES X RTL DEL')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('PROTEIN')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('OTHER GP ITEMS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('OTHER TO SUM')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('RETAIL')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('HAM & MISC')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('ALL LESS HAM')"
+		}
+	]
+}

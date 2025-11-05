@@ -1,0 +1,26 @@
+{
+	"@type":"Subset",
+	"Name":"Balance Sheet Compare",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('BALANCE SHEET')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL ASSETS')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL LIABILITIES AND STOCKHOLDERS EQUITY')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('BALANCE SHEET FOR REPORT - BS TAB')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('BS - TAB - TOTAL ASSETS')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('BS - TAB - TOTAL LIABILITIES AND EQUITY')"
+		}
+	]
+}

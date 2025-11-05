@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"Next Month",
+	"Expression":"{FILTER( {TM1SUBSETALL( [MONTH] )}, [MONTH].[Current] = \"Next\")}"
+}

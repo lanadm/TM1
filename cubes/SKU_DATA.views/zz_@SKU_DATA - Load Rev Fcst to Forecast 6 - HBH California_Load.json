@@ -1,0 +1,81 @@
+{
+	"@type":"NativeView",
+	"Name":"zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HBH California_Load",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Subsets('zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HBH California_Load')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Subsets('zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HBH California_Load')"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Subsets('zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HBH California_Load')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 24')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Subsets('zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HBH California_Load')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Rev Fcst')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Subsets('zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HBH California_Load')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('52118903')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Subsets('zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HBH California_Load')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('100100')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Subsets('zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HBH California_Load')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 27 - 03/31/24')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"",
+	"ViewExtractSkipConsolidatedValues": true,
+	"ViewExtractSkipRuleValues": true,
+	"ViewExtractSkipZeroes": true
+}

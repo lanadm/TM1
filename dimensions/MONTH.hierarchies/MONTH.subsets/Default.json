@@ -1,0 +1,352 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{ALL MONTHLY  ROLLUPS')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FISCAL YEAR')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Beginning')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Oct')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Nov')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Dec')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Jan')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Feb')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Mar')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Apr')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('May')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Jun')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Jul')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Aug')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Sep')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('AuditAdj')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Adjustment2')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{YEARLY ROLLUPS')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('OCT YTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('NOV YTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('DEC YTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('JAN YTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FEB YTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('MAR YTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('APR YTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('MAY YTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('JUN YTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('JUL YTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('AUG YTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('SEP YTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Adj YTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{QUARTERLY ROLLUPS')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FISCAL YEAR (by Qtr)')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('OCT QTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('NOV QTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('DEC QTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('JAN QTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FEB QTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('MAR QTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('APR QTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('MAY QTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('JUN QTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('JUL QTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('AUG QTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('SEP QTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{TRIMESTER ROLLUPS')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FISCAL YEAR BY TRIMESTER')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('TRIMESTER 2 AND 3')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('OCT - T1 TD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('NOV - T1 TD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('DEC - T1 TD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('JAN - T1 TD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FEB - T2 TD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('MAR - T2 TD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('APR - T2 TD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('MAY - T2 TD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('JUN - T3 TD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('JUL - T3 TD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('AUG - T3 TD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('SEP - T3 TD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('CALENDAR YEAR')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FISCAL YEAR - HBH')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{BONUS PERIOD ROLLUPS')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FY 99 BONUS PERIOD 1')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FY 99 BONUS PERIOD 2')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('OCT BONUS PTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('NOV BONUS PTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('DEC BONUS PTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('JAN BONUS PTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FEB BONUS PTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('MAR BONUS PTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('APR BONUS PTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('MAY BONUS PTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('JUN BONUS PTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('JUL BONUS PTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('AUG BONUS PTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('SEP BONUS PTD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{MONTH RANGES')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{NOV RANGES')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{DEC RANGES')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{JAN RANGES')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{FEB RANGES')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{MAR RANGES')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{APR RANGES')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{MAY RANGES')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{JUN RANGES')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{JUL RANGES')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{AUG RANGES')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{SEP RANGES')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('ALL MO incl BEG/ADJ/ANNUAL')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{MISC ROLLUPS')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('MAY ROY')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('AUG STUB PERIOD')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('NOV+DEC')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{EASTER ROLLUPS')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('12-MO excl BEGINNING')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('{OTHER')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Oct+1')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Nov+1')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Dec+1')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Jan+1')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Feb+1')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Mar+1')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Apr+1')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('May+1')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Jun+1')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Aug+1')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Sep+1')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Oct orig SAP-GL')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FY17 5YR PLAN')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FY18 5YR PLAN')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FY19 5YR PLAN')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FY20 5YR PLAN')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('FY21 5YR PLAN')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('COMMENTS')"
+		}
+	]
+}

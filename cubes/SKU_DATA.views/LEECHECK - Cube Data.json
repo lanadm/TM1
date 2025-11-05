@@ -1,0 +1,338 @@
+{
+	"@type":"NativeView",
+	"Name":"LEECHECK - Cube Data",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('YEAR')/Hierarchies('YEAR')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 25')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 24')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 23')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 22')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 21')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 20')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 19')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 18')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 17')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 16')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 15')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 14')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 13')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 12')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 11')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 10')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 09')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 08')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 07')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 06')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 05')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 04')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 03')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 02')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 01')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 00')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 99')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 98')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 97')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 96')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 95')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 94')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 93')"
+					}
+				]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Subsets('N Elements-All')"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('WEEK')/Hierarchies('WEEK')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('FISCAL YEAR BY WEEK FY 24')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('FISCAL YEAR BY WEEK FY 23')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('FISCAL YEAR BY WEEK FY 22')"
+					},
+					{
+						"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('FISCAL YEAR BY WEEK')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('FISCAL YEAR BY WEEK FY 24')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lskus')/Hierarchies('Lskus')"
+				},
+				"Alias":"Name",
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TOTAL SALES BY FAMILY GROUPS EXCL DONATIONS')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TOTAL SALES BY FAMILY GROUPS')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('HAM')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TURKEY')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('CASUAL ENTREES')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('MEAL COMPLETERS')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('A/O CENTER-OF-TABLE')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('LUNCH')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('GIFTING (EXCLUDING GCS)')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('CATERING')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('MISCELLANEOUS')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('CATALOG FREIGHT REVENUE')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('MEAL ADDONS')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('200200')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('DONATIONS')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TOTAL SALES BY FAMILY GROUPS EXCL DONATIONS')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('ALL CHANNELS')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('CONSUMER RETAIL')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('CONSUMER LUNCH')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B2B GIFTING')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B2B CATERING')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('ALL CHANNELS')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')"
+				},
+				"Alias":"Name",
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('THE HONEY BAKED HAM COMPANY LLC')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('HB RETAIL')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('HB DIR-TO-CONSUMER')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('HB OVERHEAD')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('HB FRANCHISE')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('FRANCHISE OPERATIONS')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('FRANCHISE OVERHEAD')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('HBHCA FRANCHISE')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('Roll Forward - Franchise')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('HB OTHER')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('HBH California LLC')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('HBHCA OVERHEAD')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('HBHCA CO-OWNED')"
+					},
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('HBHCA D2C')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('THE HONEY BAKED HAM COMPANY LLC')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lstat')/Hierarchies('Lstat')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('NET')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TOTAL UNITS')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TOTAL TRANSACTIONS')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('NET')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":true,
+	"SuppressEmptyRows":true,
+	"FormatString":""
+}

@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@D365_GL - Copy from SKU_DATA (HBH California)",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Budget')"
+		}
+	]
+}

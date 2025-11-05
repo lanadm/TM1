@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@D365_GL - Copy from Category to Category_ZeroOut",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Oct')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Nov')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Dec')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Jan')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Feb')"
+		}
+	]
+}

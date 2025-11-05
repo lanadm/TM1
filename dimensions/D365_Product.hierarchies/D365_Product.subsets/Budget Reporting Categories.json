@@ -1,0 +1,29 @@
+{
+	"@type":"Subset",
+	"Name":"Budget Reporting Categories",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('ALL PRODUCT CODES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('HAM')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('TURKEY BREAST')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('SLICES AND DINNERS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('LUNCH')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('OTHER PRODUCTS EXCL RTL DEL FEES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('RETAIL DELIVERY FEES')"
+		}
+	]
+}

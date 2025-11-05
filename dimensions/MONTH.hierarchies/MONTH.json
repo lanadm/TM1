@@ -1,0 +1,3771 @@
+{
+	"@type":"Hierarchy",
+	"Name":"MONTH",
+	"Elements":
+	[
+		{
+			"Name":"{ALL MONTHLY  ROLLUPS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FISCAL YEAR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{YEARLY ROLLUPS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OCT YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JAN YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FEB YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAR YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"APR YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAY YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUN YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUL YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"AUG YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SEP YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Adj YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{QUARTERLY ROLLUPS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FISCAL YEAR (by Qtr)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"QTR 1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"QTR 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"QTR 3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"QTR 4",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"QTR Adj",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OCT QTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV QTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC QTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JAN QTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FEB QTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAR QTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"APR QTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAY QTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUN QTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUL QTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"AUG QTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SEP QTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{TRIMESTER ROLLUPS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FISCAL YEAR BY TRIMESTER",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TRIMESTER 1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TRIMESTER 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TRIMESTER 3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TRIMESTER 2 AND 3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OCT - T1 TD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV - T1 TD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC - T1 TD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JAN - T1 TD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FEB - T2 TD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAR - T2 TD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"APR - T2 TD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAY - T2 TD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUN - T3 TD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUL - T3 TD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"AUG - T3 TD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SEP - T3 TD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CALENDAR YEAR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FISCAL YEAR - HBH",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{BONUS PERIOD ROLLUPS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FY 99 BONUS PERIOD 1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FY 99 BONUS PERIOD 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OCT BONUS PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV BONUS PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC BONUS PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JAN BONUS PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FEB BONUS PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAR BONUS PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"APR BONUS PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAY BONUS PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUN BONUS PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUL BONUS PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"AUG BONUS PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SEP BONUS PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{MONTH RANGES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{NOV RANGES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV - DEC",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV - JAN",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV - FEB",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV - MAR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV - APR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV - MAY",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV - JUN",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV - JUL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV - AUG",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV - SEP",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV - ADJS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{DEC RANGES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC - JAN",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC - FEB",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC - MAR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC - APR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC - MAY",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC - JUN",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC - JUL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC - AUG",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC - SEP",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DEC - ADJS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{JAN RANGES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JAN - FEB",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JAN - MAR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JAN - APR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JAN - MAY",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JAN - JUN",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JAN - JUL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JAN - AUG",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JAN - SEP",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JAN - ADJS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{FEB RANGES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FEB - MAR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FEB - APR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FEB - MAY",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FEB - JUN",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FEB - JUL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FEB - AUG",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FEB - SEP",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FEB - ADJS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{MAR RANGES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAR - APR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAR - MAY",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAR - JUN",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAR - JUL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAR - AUG",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAR - SEP",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAR - ADJS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{APR RANGES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"APR - MAY",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"APR - JUN",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"APR - JUL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"APR - AUG",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"APR - SEP",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"APR - ADJS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{MAY RANGES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAY - JUN",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAY - JUL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAY - AUG",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAY - SEP",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAY - ADJS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{JUN RANGES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUN - JUL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUN - AUG",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUN - SEP",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUN - ADJS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{JUL RANGES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUL - AUG",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUL - SEP",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"JUL - ADJS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{AUG RANGES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"AUG - SEP",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"AUG - ADJS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{SEP RANGES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sep + Audit Adj",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL MO incl BEG/ADJ/ANNUAL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{MISC ROLLUPS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"MAY ROY",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"AUG STUB PERIOD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NOV+DEC",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{EASTER ROLLUPS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"EASTER - MAR/APR",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"QTR 2 EASTER (FY07/FY06/FY04/FY03)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"QTR 3 EASTER (FY07/FY06/FY04/FY03)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"YTD EASTER",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"12-MO excl BEGINNING",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{OTHER",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Beginning",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AuditAdj",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Adjustment",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Adjustment2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Annual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct orig SAP-GL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun-HBH",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep-HBH",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct+1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov+1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec+1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan+1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb+1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar+1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr+1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May+1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun+1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug+1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep+1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY17 5YR PLAN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY18 5YR PLAN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY19 5YR PLAN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY20 5YR PLAN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY21 5YR PLAN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"COMMENTS",
+			"Type":"String"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"{ALL MONTHLY  ROLLUPS",
+			"ComponentName":"FISCAL YEAR",
+			"Weight":1
+		},
+		{
+			"ParentName":"{ALL MONTHLY  ROLLUPS",
+			"ComponentName":"{YEARLY ROLLUPS",
+			"Weight":1
+		},
+		{
+			"ParentName":"{ALL MONTHLY  ROLLUPS",
+			"ComponentName":"{QUARTERLY ROLLUPS",
+			"Weight":1
+		},
+		{
+			"ParentName":"{ALL MONTHLY  ROLLUPS",
+			"ComponentName":"{TRIMESTER ROLLUPS",
+			"Weight":1
+		},
+		{
+			"ParentName":"{ALL MONTHLY  ROLLUPS",
+			"ComponentName":"CALENDAR YEAR",
+			"Weight":1
+		},
+		{
+			"ParentName":"{ALL MONTHLY  ROLLUPS",
+			"ComponentName":"FISCAL YEAR - HBH",
+			"Weight":1
+		},
+		{
+			"ParentName":"{ALL MONTHLY  ROLLUPS",
+			"ComponentName":"{BONUS PERIOD ROLLUPS",
+			"Weight":1
+		},
+		{
+			"ParentName":"{ALL MONTHLY  ROLLUPS",
+			"ComponentName":"{MONTH RANGES",
+			"Weight":1
+		},
+		{
+			"ParentName":"{ALL MONTHLY  ROLLUPS",
+			"ComponentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"Weight":1
+		},
+		{
+			"ParentName":"{ALL MONTHLY  ROLLUPS",
+			"ComponentName":"{MISC ROLLUPS",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"Beginning",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"{YEARLY ROLLUPS",
+			"ComponentName":"OCT YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{YEARLY ROLLUPS",
+			"ComponentName":"NOV YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{YEARLY ROLLUPS",
+			"ComponentName":"DEC YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{YEARLY ROLLUPS",
+			"ComponentName":"JAN YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{YEARLY ROLLUPS",
+			"ComponentName":"FEB YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{YEARLY ROLLUPS",
+			"ComponentName":"MAR YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{YEARLY ROLLUPS",
+			"ComponentName":"APR YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{YEARLY ROLLUPS",
+			"ComponentName":"MAY YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{YEARLY ROLLUPS",
+			"ComponentName":"JUN YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{YEARLY ROLLUPS",
+			"ComponentName":"JUL YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{YEARLY ROLLUPS",
+			"ComponentName":"AUG YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{YEARLY ROLLUPS",
+			"ComponentName":"SEP YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{YEARLY ROLLUPS",
+			"ComponentName":"Adj YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"OCT YTD",
+			"ComponentName":"Beginning",
+			"Weight":1
+		},
+		{
+			"ParentName":"OCT YTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV YTD",
+			"ComponentName":"OCT YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV YTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC YTD",
+			"ComponentName":"NOV YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC YTD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN YTD",
+			"ComponentName":"DEC YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN YTD",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB YTD",
+			"ComponentName":"JAN YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB YTD",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR YTD",
+			"ComponentName":"FEB YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR YTD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR YTD",
+			"ComponentName":"MAR YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR YTD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY YTD",
+			"ComponentName":"APR YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY YTD",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN YTD",
+			"ComponentName":"MAY YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN YTD",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL YTD",
+			"ComponentName":"JUN YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL YTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG YTD",
+			"ComponentName":"JUL YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG YTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP YTD",
+			"ComponentName":"AUG YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP YTD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"Adj YTD",
+			"ComponentName":"SEP YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"Adj YTD",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"Adj YTD",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"{QUARTERLY ROLLUPS",
+			"ComponentName":"FISCAL YEAR (by Qtr)",
+			"Weight":0
+		},
+		{
+			"ParentName":"{QUARTERLY ROLLUPS",
+			"ComponentName":"OCT QTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{QUARTERLY ROLLUPS",
+			"ComponentName":"NOV QTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{QUARTERLY ROLLUPS",
+			"ComponentName":"DEC QTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{QUARTERLY ROLLUPS",
+			"ComponentName":"JAN QTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{QUARTERLY ROLLUPS",
+			"ComponentName":"FEB QTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{QUARTERLY ROLLUPS",
+			"ComponentName":"MAR QTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{QUARTERLY ROLLUPS",
+			"ComponentName":"APR QTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{QUARTERLY ROLLUPS",
+			"ComponentName":"MAY QTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{QUARTERLY ROLLUPS",
+			"ComponentName":"JUN QTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{QUARTERLY ROLLUPS",
+			"ComponentName":"JUL QTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{QUARTERLY ROLLUPS",
+			"ComponentName":"AUG QTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{QUARTERLY ROLLUPS",
+			"ComponentName":"SEP QTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"FISCAL YEAR (by Qtr)",
+			"ComponentName":"QTR 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR (by Qtr)",
+			"ComponentName":"QTR 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR (by Qtr)",
+			"ComponentName":"QTR 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR (by Qtr)",
+			"ComponentName":"QTR 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR (by Qtr)",
+			"ComponentName":"QTR Adj",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 1",
+			"ComponentName":"Beginning",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 1",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 1",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 1",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 2",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 2",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 2",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 3",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 3",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 3",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 4",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 4",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 4",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR Adj",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR Adj",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"OCT QTD",
+			"ComponentName":"Beginning",
+			"Weight":1
+		},
+		{
+			"ParentName":"OCT QTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV QTD",
+			"ComponentName":"Beginning",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV QTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV QTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC QTD",
+			"ComponentName":"Beginning",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC QTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC QTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC QTD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN QTD",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB QTD",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB QTD",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR QTD",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR QTD",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR QTD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR QTD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY QTD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY QTD",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN QTD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN QTD",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN QTD",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL QTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG QTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG QTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP QTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP QTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP QTD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP QTD",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP QTD",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"FISCAL YEAR BY TRIMESTER",
+			"Weight":0
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"TRIMESTER 2 AND 3",
+			"Weight":0
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"OCT - T1 TD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"NOV - T1 TD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"DEC - T1 TD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"JAN - T1 TD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"FEB - T2 TD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"MAR - T2 TD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"APR - T2 TD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"MAY - T2 TD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"JUN - T3 TD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"JUL - T3 TD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"AUG - T3 TD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{TRIMESTER ROLLUPS",
+			"ComponentName":"SEP - T3 TD",
+			"Weight":0
+		},
+		{
+			"ParentName":"FISCAL YEAR BY TRIMESTER",
+			"ComponentName":"TRIMESTER 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR BY TRIMESTER",
+			"ComponentName":"TRIMESTER 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR BY TRIMESTER",
+			"ComponentName":"TRIMESTER 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 1",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 1",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 1",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 1",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 2",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 2",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 2",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 2",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 3",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 3",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 3",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 3",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 2 AND 3",
+			"ComponentName":"TRIMESTER 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"TRIMESTER 2 AND 3",
+			"ComponentName":"TRIMESTER 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"OCT - T1 TD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - T1 TD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - T1 TD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - T1 TD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - T1 TD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - T1 TD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - T1 TD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - T1 TD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - T1 TD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - T1 TD",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - T2 TD",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - T2 TD",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - T2 TD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - T2 TD",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - T2 TD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - T2 TD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - T2 TD",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - T2 TD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - T2 TD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - T2 TD",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN - T3 TD",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL - T3 TD",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL - T3 TD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG - T3 TD",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG - T3 TD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG - T3 TD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP - T3 TD",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP - T3 TD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP - T3 TD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP - T3 TD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"CALENDAR YEAR",
+			"ComponentName":"Jan",
+			"Weight":0
+		},
+		{
+			"ParentName":"CALENDAR YEAR",
+			"ComponentName":"Feb",
+			"Weight":0
+		},
+		{
+			"ParentName":"CALENDAR YEAR",
+			"ComponentName":"Mar",
+			"Weight":0
+		},
+		{
+			"ParentName":"CALENDAR YEAR",
+			"ComponentName":"Apr",
+			"Weight":0
+		},
+		{
+			"ParentName":"CALENDAR YEAR",
+			"ComponentName":"May",
+			"Weight":0
+		},
+		{
+			"ParentName":"CALENDAR YEAR",
+			"ComponentName":"Jun",
+			"Weight":0
+		},
+		{
+			"ParentName":"CALENDAR YEAR",
+			"ComponentName":"Jul",
+			"Weight":0
+		},
+		{
+			"ParentName":"CALENDAR YEAR",
+			"ComponentName":"Aug",
+			"Weight":0
+		},
+		{
+			"ParentName":"CALENDAR YEAR",
+			"ComponentName":"Sep",
+			"Weight":0
+		},
+		{
+			"ParentName":"CALENDAR YEAR",
+			"ComponentName":"Oct",
+			"Weight":0
+		},
+		{
+			"ParentName":"CALENDAR YEAR",
+			"ComponentName":"Nov",
+			"Weight":0
+		},
+		{
+			"ParentName":"CALENDAR YEAR",
+			"ComponentName":"Dec",
+			"Weight":0
+		},
+		{
+			"ParentName":"FISCAL YEAR - HBH",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR - HBH",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR - HBH",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR - HBH",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR - HBH",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR - HBH",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR - HBH",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR - HBH",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR - HBH",
+			"ComponentName":"Jun-HBH",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR - HBH",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR - HBH",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"FISCAL YEAR - HBH",
+			"ComponentName":"Sep-HBH",
+			"Weight":1
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"FY 99 BONUS PERIOD 1",
+			"Weight":0
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"FY 99 BONUS PERIOD 2",
+			"Weight":0
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"OCT BONUS PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"NOV BONUS PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"DEC BONUS PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"JAN BONUS PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"FEB BONUS PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"MAR BONUS PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"APR BONUS PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"MAY BONUS PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"JUN BONUS PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"JUL BONUS PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"AUG BONUS PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{BONUS PERIOD ROLLUPS",
+			"ComponentName":"SEP BONUS PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"FY 99 BONUS PERIOD 1",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY 99 BONUS PERIOD 1",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY 99 BONUS PERIOD 1",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY 99 BONUS PERIOD 1",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY 99 BONUS PERIOD 1",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY 99 BONUS PERIOD 2",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY 99 BONUS PERIOD 2",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY 99 BONUS PERIOD 2",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY 99 BONUS PERIOD 2",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY 99 BONUS PERIOD 2",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY 99 BONUS PERIOD 2",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY 99 BONUS PERIOD 2",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"OCT BONUS PTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV BONUS PTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV BONUS PTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC BONUS PTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC BONUS PTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC BONUS PTD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN BONUS PTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN BONUS PTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN BONUS PTD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN BONUS PTD",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB BONUS PTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB BONUS PTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB BONUS PTD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB BONUS PTD",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB BONUS PTD",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR BONUS PTD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR BONUS PTD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR BONUS PTD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY BONUS PTD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY BONUS PTD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY BONUS PTD",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN BONUS PTD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN BONUS PTD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN BONUS PTD",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN BONUS PTD",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL BONUS PTD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL BONUS PTD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL BONUS PTD",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL BONUS PTD",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL BONUS PTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG BONUS PTD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG BONUS PTD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG BONUS PTD",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG BONUS PTD",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG BONUS PTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG BONUS PTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP BONUS PTD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP BONUS PTD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP BONUS PTD",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP BONUS PTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP BONUS PTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"SEP BONUS PTD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"{MONTH RANGES",
+			"ComponentName":"{NOV RANGES",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MONTH RANGES",
+			"ComponentName":"{DEC RANGES",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MONTH RANGES",
+			"ComponentName":"{JAN RANGES",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MONTH RANGES",
+			"ComponentName":"{FEB RANGES",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MONTH RANGES",
+			"ComponentName":"{MAR RANGES",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MONTH RANGES",
+			"ComponentName":"{APR RANGES",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MONTH RANGES",
+			"ComponentName":"{MAY RANGES",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MONTH RANGES",
+			"ComponentName":"{JUN RANGES",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MONTH RANGES",
+			"ComponentName":"{JUL RANGES",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MONTH RANGES",
+			"ComponentName":"{AUG RANGES",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MONTH RANGES",
+			"ComponentName":"{SEP RANGES",
+			"Weight":0
+		},
+		{
+			"ParentName":"{NOV RANGES",
+			"ComponentName":"NOV - DEC",
+			"Weight":0
+		},
+		{
+			"ParentName":"{NOV RANGES",
+			"ComponentName":"NOV - JAN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{NOV RANGES",
+			"ComponentName":"NOV - FEB",
+			"Weight":0
+		},
+		{
+			"ParentName":"{NOV RANGES",
+			"ComponentName":"NOV - MAR",
+			"Weight":0
+		},
+		{
+			"ParentName":"{NOV RANGES",
+			"ComponentName":"NOV - APR",
+			"Weight":0
+		},
+		{
+			"ParentName":"{NOV RANGES",
+			"ComponentName":"NOV - MAY",
+			"Weight":0
+		},
+		{
+			"ParentName":"{NOV RANGES",
+			"ComponentName":"NOV - JUN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{NOV RANGES",
+			"ComponentName":"NOV - JUL",
+			"Weight":0
+		},
+		{
+			"ParentName":"{NOV RANGES",
+			"ComponentName":"NOV - AUG",
+			"Weight":0
+		},
+		{
+			"ParentName":"{NOV RANGES",
+			"ComponentName":"NOV - SEP",
+			"Weight":0
+		},
+		{
+			"ParentName":"{NOV RANGES",
+			"ComponentName":"NOV - ADJS",
+			"Weight":0
+		},
+		{
+			"ParentName":"NOV - DEC",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - DEC",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - JAN",
+			"ComponentName":"NOV - DEC",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - JAN",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - FEB",
+			"ComponentName":"NOV - JAN",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - FEB",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - MAR",
+			"ComponentName":"NOV - FEB",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - MAR",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - APR",
+			"ComponentName":"NOV - MAR",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - APR",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - MAY",
+			"ComponentName":"NOV - APR",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - MAY",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - JUN",
+			"ComponentName":"NOV - MAY",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - JUN",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - JUL",
+			"ComponentName":"NOV - JUN",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - JUL",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - AUG",
+			"ComponentName":"NOV - JUL",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - AUG",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - SEP",
+			"ComponentName":"NOV - AUG",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - SEP",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - ADJS",
+			"ComponentName":"NOV - SEP",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - ADJS",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV - ADJS",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"{DEC RANGES",
+			"ComponentName":"DEC - JAN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{DEC RANGES",
+			"ComponentName":"DEC - FEB",
+			"Weight":0
+		},
+		{
+			"ParentName":"{DEC RANGES",
+			"ComponentName":"DEC - MAR",
+			"Weight":0
+		},
+		{
+			"ParentName":"{DEC RANGES",
+			"ComponentName":"DEC - APR",
+			"Weight":0
+		},
+		{
+			"ParentName":"{DEC RANGES",
+			"ComponentName":"DEC - MAY",
+			"Weight":0
+		},
+		{
+			"ParentName":"{DEC RANGES",
+			"ComponentName":"DEC - JUN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{DEC RANGES",
+			"ComponentName":"DEC - JUL",
+			"Weight":0
+		},
+		{
+			"ParentName":"{DEC RANGES",
+			"ComponentName":"DEC - AUG",
+			"Weight":0
+		},
+		{
+			"ParentName":"{DEC RANGES",
+			"ComponentName":"DEC - SEP",
+			"Weight":0
+		},
+		{
+			"ParentName":"{DEC RANGES",
+			"ComponentName":"DEC - ADJS",
+			"Weight":0
+		},
+		{
+			"ParentName":"DEC - JAN",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - JAN",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - FEB",
+			"ComponentName":"DEC - JAN",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - FEB",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - MAR",
+			"ComponentName":"DEC - FEB",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - MAR",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - APR",
+			"ComponentName":"DEC - MAR",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - APR",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - MAY",
+			"ComponentName":"DEC - APR",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - MAY",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - JUN",
+			"ComponentName":"DEC - MAY",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - JUN",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - JUL",
+			"ComponentName":"DEC - JUN",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - JUL",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - AUG",
+			"ComponentName":"DEC - JUL",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - AUG",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - SEP",
+			"ComponentName":"DEC - AUG",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - SEP",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - ADJS",
+			"ComponentName":"DEC - SEP",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - ADJS",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"DEC - ADJS",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"{JAN RANGES",
+			"ComponentName":"JAN - FEB",
+			"Weight":0
+		},
+		{
+			"ParentName":"{JAN RANGES",
+			"ComponentName":"JAN - MAR",
+			"Weight":0
+		},
+		{
+			"ParentName":"{JAN RANGES",
+			"ComponentName":"JAN - APR",
+			"Weight":0
+		},
+		{
+			"ParentName":"{JAN RANGES",
+			"ComponentName":"JAN - MAY",
+			"Weight":0
+		},
+		{
+			"ParentName":"{JAN RANGES",
+			"ComponentName":"JAN - JUN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{JAN RANGES",
+			"ComponentName":"JAN - JUL",
+			"Weight":0
+		},
+		{
+			"ParentName":"{JAN RANGES",
+			"ComponentName":"JAN - AUG",
+			"Weight":0
+		},
+		{
+			"ParentName":"{JAN RANGES",
+			"ComponentName":"JAN - SEP",
+			"Weight":0
+		},
+		{
+			"ParentName":"{JAN RANGES",
+			"ComponentName":"JAN - ADJS",
+			"Weight":0
+		},
+		{
+			"ParentName":"JAN - FEB",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - FEB",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - MAR",
+			"ComponentName":"JAN - FEB",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - MAR",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - APR",
+			"ComponentName":"JAN - MAR",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - APR",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - MAY",
+			"ComponentName":"JAN - APR",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - MAY",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - JUN",
+			"ComponentName":"JAN - MAY",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - JUN",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - JUL",
+			"ComponentName":"JAN - JUN",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - JUL",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - AUG",
+			"ComponentName":"JAN - JUL",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - AUG",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - SEP",
+			"ComponentName":"JAN - AUG",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - SEP",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - ADJS",
+			"ComponentName":"JAN - SEP",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - ADJS",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"JAN - ADJS",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"{FEB RANGES",
+			"ComponentName":"FEB - MAR",
+			"Weight":0
+		},
+		{
+			"ParentName":"{FEB RANGES",
+			"ComponentName":"FEB - APR",
+			"Weight":0
+		},
+		{
+			"ParentName":"{FEB RANGES",
+			"ComponentName":"FEB - MAY",
+			"Weight":0
+		},
+		{
+			"ParentName":"{FEB RANGES",
+			"ComponentName":"FEB - JUN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{FEB RANGES",
+			"ComponentName":"FEB - JUL",
+			"Weight":0
+		},
+		{
+			"ParentName":"{FEB RANGES",
+			"ComponentName":"FEB - AUG",
+			"Weight":0
+		},
+		{
+			"ParentName":"{FEB RANGES",
+			"ComponentName":"FEB - SEP",
+			"Weight":0
+		},
+		{
+			"ParentName":"{FEB RANGES",
+			"ComponentName":"FEB - ADJS",
+			"Weight":0
+		},
+		{
+			"ParentName":"FEB - MAR",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - MAR",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - APR",
+			"ComponentName":"FEB - MAR",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - APR",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - MAY",
+			"ComponentName":"FEB - APR",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - MAY",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - JUN",
+			"ComponentName":"FEB - MAY",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - JUN",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - JUL",
+			"ComponentName":"FEB - JUN",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - JUL",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - AUG",
+			"ComponentName":"FEB - JUL",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - AUG",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - SEP",
+			"ComponentName":"FEB - AUG",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - SEP",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - ADJS",
+			"ComponentName":"FEB - SEP",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - ADJS",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"FEB - ADJS",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"{MAR RANGES",
+			"ComponentName":"MAR - APR",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MAR RANGES",
+			"ComponentName":"MAR - MAY",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MAR RANGES",
+			"ComponentName":"MAR - JUN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MAR RANGES",
+			"ComponentName":"MAR - JUL",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MAR RANGES",
+			"ComponentName":"MAR - AUG",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MAR RANGES",
+			"ComponentName":"MAR - SEP",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MAR RANGES",
+			"ComponentName":"MAR - ADJS",
+			"Weight":0
+		},
+		{
+			"ParentName":"MAR - APR",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - APR",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - MAY",
+			"ComponentName":"MAR - APR",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - MAY",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - JUN",
+			"ComponentName":"MAR - MAY",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - JUN",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - JUL",
+			"ComponentName":"MAR - JUN",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - JUL",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - AUG",
+			"ComponentName":"MAR - JUL",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - AUG",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - SEP",
+			"ComponentName":"MAR - AUG",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - SEP",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - ADJS",
+			"ComponentName":"MAR - SEP",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - ADJS",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAR - ADJS",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"{APR RANGES",
+			"ComponentName":"APR - MAY",
+			"Weight":0
+		},
+		{
+			"ParentName":"{APR RANGES",
+			"ComponentName":"APR - JUN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{APR RANGES",
+			"ComponentName":"APR - JUL",
+			"Weight":0
+		},
+		{
+			"ParentName":"{APR RANGES",
+			"ComponentName":"APR - AUG",
+			"Weight":0
+		},
+		{
+			"ParentName":"{APR RANGES",
+			"ComponentName":"APR - SEP",
+			"Weight":0
+		},
+		{
+			"ParentName":"{APR RANGES",
+			"ComponentName":"APR - ADJS",
+			"Weight":0
+		},
+		{
+			"ParentName":"APR - MAY",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - MAY",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - JUN",
+			"ComponentName":"APR - MAY",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - JUN",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - JUL",
+			"ComponentName":"APR - JUN",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - JUL",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - AUG",
+			"ComponentName":"APR - JUL",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - AUG",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - SEP",
+			"ComponentName":"APR - AUG",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - SEP",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - ADJS",
+			"ComponentName":"APR - SEP",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - ADJS",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"APR - ADJS",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"{MAY RANGES",
+			"ComponentName":"MAY - JUN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MAY RANGES",
+			"ComponentName":"MAY - JUL",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MAY RANGES",
+			"ComponentName":"MAY - AUG",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MAY RANGES",
+			"ComponentName":"MAY - SEP",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MAY RANGES",
+			"ComponentName":"MAY - ADJS",
+			"Weight":0
+		},
+		{
+			"ParentName":"MAY - JUN",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - JUN",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - JUL",
+			"ComponentName":"MAY - JUN",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - JUL",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - AUG",
+			"ComponentName":"MAY - JUL",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - AUG",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - SEP",
+			"ComponentName":"MAY - AUG",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - SEP",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - ADJS",
+			"ComponentName":"MAY - SEP",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - ADJS",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY - ADJS",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"{JUN RANGES",
+			"ComponentName":"JUN - JUL",
+			"Weight":0
+		},
+		{
+			"ParentName":"{JUN RANGES",
+			"ComponentName":"JUN - AUG",
+			"Weight":0
+		},
+		{
+			"ParentName":"{JUN RANGES",
+			"ComponentName":"JUN - SEP",
+			"Weight":0
+		},
+		{
+			"ParentName":"{JUN RANGES",
+			"ComponentName":"JUN - ADJS",
+			"Weight":0
+		},
+		{
+			"ParentName":"JUN - JUL",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN - JUL",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN - AUG",
+			"ComponentName":"JUN - JUL",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN - AUG",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN - SEP",
+			"ComponentName":"JUN - AUG",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN - SEP",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN - ADJS",
+			"ComponentName":"JUN - SEP",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN - ADJS",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUN - ADJS",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"{JUL RANGES",
+			"ComponentName":"JUL - AUG",
+			"Weight":0
+		},
+		{
+			"ParentName":"{JUL RANGES",
+			"ComponentName":"JUL - SEP",
+			"Weight":0
+		},
+		{
+			"ParentName":"{JUL RANGES",
+			"ComponentName":"JUL - ADJS",
+			"Weight":0
+		},
+		{
+			"ParentName":"JUL - AUG",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL - AUG",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL - SEP",
+			"ComponentName":"JUL - AUG",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL - SEP",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL - ADJS",
+			"ComponentName":"JUL - SEP",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL - ADJS",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"JUL - ADJS",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"{AUG RANGES",
+			"ComponentName":"AUG - SEP",
+			"Weight":0
+		},
+		{
+			"ParentName":"{AUG RANGES",
+			"ComponentName":"AUG - ADJS",
+			"Weight":0
+		},
+		{
+			"ParentName":"AUG - SEP",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG - SEP",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG - ADJS",
+			"ComponentName":"AUG - SEP",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG - ADJS",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG - ADJS",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"{SEP RANGES",
+			"ComponentName":"Sep + Audit Adj",
+			"Weight":0
+		},
+		{
+			"ParentName":"Sep + Audit Adj",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep + Audit Adj",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep + Audit Adj",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Beginning",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"AuditAdj",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Adjustment",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Adjustment2",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL MO incl BEG/ADJ/ANNUAL",
+			"ComponentName":"Annual",
+			"Weight":1
+		},
+		{
+			"ParentName":"{MISC ROLLUPS",
+			"ComponentName":"MAY ROY",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MISC ROLLUPS",
+			"ComponentName":"AUG STUB PERIOD",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MISC ROLLUPS",
+			"ComponentName":"NOV+DEC",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MISC ROLLUPS",
+			"ComponentName":"{EASTER ROLLUPS",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MISC ROLLUPS",
+			"ComponentName":"12-MO excl BEGINNING",
+			"Weight":0
+		},
+		{
+			"ParentName":"{MISC ROLLUPS",
+			"ComponentName":"{OTHER",
+			"Weight":0
+		},
+		{
+			"ParentName":"MAY ROY",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY ROY",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY ROY",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY ROY",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAY ROY",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG STUB PERIOD",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG STUB PERIOD",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG STUB PERIOD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"AUG STUB PERIOD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV+DEC",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"NOV+DEC",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"{EASTER ROLLUPS",
+			"ComponentName":"EASTER - MAR/APR",
+			"Weight":0
+		},
+		{
+			"ParentName":"{EASTER ROLLUPS",
+			"ComponentName":"QTR 2 EASTER (FY07/FY06/FY04/FY03)",
+			"Weight":0
+		},
+		{
+			"ParentName":"{EASTER ROLLUPS",
+			"ComponentName":"QTR 3 EASTER (FY07/FY06/FY04/FY03)",
+			"Weight":0
+		},
+		{
+			"ParentName":"{EASTER ROLLUPS",
+			"ComponentName":"YTD EASTER",
+			"Weight":0
+		},
+		{
+			"ParentName":"EASTER - MAR/APR",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"EASTER - MAR/APR",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 2 EASTER (FY07/FY06/FY04/FY03)",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 2 EASTER (FY07/FY06/FY04/FY03)",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 2 EASTER (FY07/FY06/FY04/FY03)",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 3 EASTER (FY07/FY06/FY04/FY03)",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 3 EASTER (FY07/FY06/FY04/FY03)",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"QTR 3 EASTER (FY07/FY06/FY04/FY03)",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"YTD EASTER",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"YTD EASTER",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"YTD EASTER",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"YTD EASTER",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"YTD EASTER",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"YTD EASTER",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"12-MO excl BEGINNING",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"12-MO excl BEGINNING",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"12-MO excl BEGINNING",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"12-MO excl BEGINNING",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"12-MO excl BEGINNING",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"12-MO excl BEGINNING",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"12-MO excl BEGINNING",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"12-MO excl BEGINNING",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"12-MO excl BEGINNING",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"12-MO excl BEGINNING",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"12-MO excl BEGINNING",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"12-MO excl BEGINNING",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"Oct+1",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"Nov+1",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"Dec+1",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"Jan+1",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"Feb+1",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"Mar+1",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"Apr+1",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"May+1",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"Jun+1",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"Aug+1",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"Sep+1",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"Oct orig SAP-GL",
+			"Weight":1
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY17 5YR PLAN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY18 5YR PLAN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY19 5YR PLAN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY20 5YR PLAN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY21 5YR PLAN",
+			"Weight":0
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"MONTH.subsets/12 mo-FY.json",
+		"MONTH.subsets/12month.json",
+		"MONTH.subsets/12 month plus beginning.json",
+		"MONTH.subsets/12 YTD Months.json",
+		"MONTH.subsets/All N Elements.json",
+		"MONTH.subsets/BalS Periods.json",
+		"MONTH.subsets/BOY.json",
+		"MONTH.subsets/Current & Previous Period.json",
+		"MONTH.subsets/Current Month.json",
+		"MONTH.subsets/Default.json",
+		"MONTH.subsets/Fiscal Year.json",
+		"MONTH.subsets/FY plus months.json",
+		"MONTH.subsets/Jan-Sep.json",
+		"MONTH.subsets/Level 0 - Fiscal Year.json",
+		"MONTH.subsets/Mo & YTD.json",
+		"MONTH.subsets/Mos. without Beginning.json",
+		"MONTH.subsets/Next_Current_Previous Period.json",
+		"MONTH.subsets/Next Month.json",
+		"MONTH.subsets/Oct-Dec and Beg.json",
+		"MONTH.subsets/Previous Month.json",
+		"MONTH.subsets/YTD - ALL Months.json",
+		"MONTH.subsets/Z-Beginning.json",
+		"MONTH.subsets/Z-F02_Dec-Sep.json",
+		"MONTH.subsets/Z-F02_Nov-Sep.json",
+		"MONTH.subsets/Z-F03_Jan-Sep.json",
+		"MONTH.subsets/Z-F04_Feb-Sep.json",
+		"MONTH.subsets/Z-F04_Forecast.json",
+		"MONTH.subsets/Z-F05_Mar-Sep.json",
+		"MONTH.subsets/Z-F06_Apr-Sep.json",
+		"MONTH.subsets/Z-F07_May-Sep.json",
+		"MONTH.subsets/Z-F08_Jun-Sep.json",
+		"MONTH.subsets/Z-F09_Jul-Sep.json",
+		"MONTH.subsets/Z-F10_Aug-Sep.json",
+		"MONTH.subsets/Z-F11_Sep.json",
+		"MONTH.subsets/Z-Jul.json",
+		"MONTH.subsets/Z01_Oct.json",
+		"MONTH.subsets/Z02_Oct-Nov.json",
+		"MONTH.subsets/Z03_Oct-Dec.json",
+		"MONTH.subsets/Z04_Oct-Jan.json",
+		"MONTH.subsets/Z05_Oct-Feb.json",
+		"MONTH.subsets/Z06_Oct-Mar.json",
+		"MONTH.subsets/Z07_Oct-Apr.json",
+		"MONTH.subsets/Z08_Oct-May.json",
+		"MONTH.subsets/Z09_Oct-Jun.json",
+		"MONTH.subsets/Z10_Oct-Jul.json",
+		"MONTH.subsets/Z11_Oct-Aug.json",
+		"MONTH.subsets/Z12_Oct-Sep.json",
+		"MONTH.subsets/Z_Jul.json",
+		"MONTH.subsets/Z_YR-END.json",
+		"MONTH.subsets/Za_Nov-Mar.json",
+		"MONTH.subsets/Zb_Nov-Apr.json",
+		"MONTH.subsets/Zc_Nov-May.json",
+		"MONTH.subsets/Zd_Nov-Jun.json",
+		"MONTH.subsets/Ze_Nov-Jul.json",
+		"MONTH.subsets/Zf_Nov-Aug.json",
+		"MONTH.subsets/Zg_Nov-Sep.json",
+		"MONTH.subsets/zz_# UNDER CONSTRUCTION - GP-GL Load from one Category to Another_DataLoad.json",
+		"MONTH.subsets/zz_@D365_GL - Copy from Category to Category.json",
+		"MONTH.subsets/zz_@D365_GL - Copy from Category to Category (D2C).json",
+		"MONTH.subsets/zz_@D365_GL - Copy from Category to Category_ZeroOut.json",
+		"MONTH.subsets/zz_@D365_GL - Copy from CC to CC.json",
+		"MONTH.subsets/zz_@D365_GL - Export Data.json",
+		"MONTH.subsets/zz_D365_GL - Export Data.json",
+		"MONTH.subsets/zz_DATA - Copy GP-GL 10 to 52_SourceView.json",
+		"MONTH.subsets/zzSKUDATA_to_GPGL.json"
+	]
+}

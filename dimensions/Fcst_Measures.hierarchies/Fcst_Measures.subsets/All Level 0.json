@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"All Level 0",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {TM1FILTERBYLEVEL(TM1SUBSETALL([Fcst_Measures].[Fcst_Measures]) , 0)}"
+}

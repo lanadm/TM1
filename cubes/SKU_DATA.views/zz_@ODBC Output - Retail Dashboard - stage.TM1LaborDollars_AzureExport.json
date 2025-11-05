@@ -1,0 +1,43 @@
+{
+	"@type":"MDXView",
+	"Name":"zz_@ODBC Output - Retail Dashboard - stage.TM1LaborDollars_AzureExport",
+	"MDX@Code.link":"zz_@ODBC Output - Retail Dashboard - stage.TM1LaborDollars_AzureExport.mdx",
+	"Meta": {
+		"Aliases": {
+			"[Lskus].[Lskus]": "Name",
+			"[CATEGORY].[CATEGORY]": "MEMBER_NAME",
+			"[Lchannel].[Lchannel]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"SubsetName": "ODBC Year",
+				"IsPublic": true
+			},
+			"[Lskus].[Lskus]": {
+				"SubsetName": "Retail Selling Metrics",
+				"IsPublic": true
+			},
+			"[CATEGORY].[CATEGORY]": {
+				"SubsetName": "Actual",
+				"IsPublic": true
+			},
+			"[WEEK].[WEEK]": {
+				"SubsetName": "FY 24 Weeks - Rollups",
+				"IsPublic": true
+			},
+			"[LOCATIONS].[LOCATIONS]": {
+				"SubsetName": "FY23 - District Totals for Store and Express",
+				"IsPublic": true
+			}
+		}
+	}
+}

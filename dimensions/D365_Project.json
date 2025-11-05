@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"D365_Project",
+	"Hierarchies@Code.links":
+	[
+		"D365_Project.hierarchies/D365_Project.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('D365_Project')/Hierarchies('D365_Project')"
+	}
+}

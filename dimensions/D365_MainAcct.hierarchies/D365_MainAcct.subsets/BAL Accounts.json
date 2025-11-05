@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"BAL Accounts",
+	"Expression":"{ EXCEPT( {TM1FILTERBYLEVEL( {FILTER( {TM1SUBSETALL( [D365_MainAcct] )}, [D365_MainAcct].[BalAcct] = \"BAL\")}, 0)}, { [D365_MainAcct].[Current Earnings], [D365_MainAcct].[Holder - AR], [D365_MainAcct].[Retained Earnings Unapp] }) }"
+}

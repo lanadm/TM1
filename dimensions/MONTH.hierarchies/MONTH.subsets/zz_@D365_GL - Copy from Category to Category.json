@@ -1,0 +1,43 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@D365_GL - Copy from Category to Category",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Oct')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Nov')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Dec')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Jan')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Feb')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Mar')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Apr')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('May')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Jun')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Jul')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Aug')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Sep')"
+		}
+	]
+}

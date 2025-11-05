@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"Old_Channels",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('C')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('I')"
+		}
+	]
+}

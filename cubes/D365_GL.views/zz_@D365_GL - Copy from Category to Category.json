@@ -1,0 +1,81 @@
+{
+	"@type":"NativeView",
+	"Name":"zz_@D365_GL - Copy from Category to Category",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Subsets('zz_@D365_GL - Copy from Category to Category')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Subsets('zz_@D365_GL - Copy from Category to Category')"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Subsets('zz_@D365_GL - Copy from Category to Category')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 25')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Subsets('zz_@D365_GL - Copy from Category to Category')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Oct')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')/Subsets('zz_@D365_GL - Copy from Category to Category')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')/Elements('Actual')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('D365_Project')/Hierarchies('D365_Project')/Subsets('zz_@D365_GL - Copy from Category to Category')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('D365_Project')/Hierarchies('D365_Project')/Elements('000')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Subsets('zz_@D365_GL - Copy from Category to Category')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('01')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"",
+	"ViewExtractSkipConsolidatedValues": false,
+	"ViewExtractSkipRuleValues": true,
+	"ViewExtractSkipZeroes": true
+}

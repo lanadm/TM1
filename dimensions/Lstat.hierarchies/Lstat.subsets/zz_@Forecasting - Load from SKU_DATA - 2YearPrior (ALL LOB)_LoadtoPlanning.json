@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Forecasting - Load from SKU_DATA - 2YearPrior (ALL LOB)_LoadtoPlanning",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Quantity')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Selling Metrics Transactions')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount Promo')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Usage Qty')"
+		}
+	]
+}

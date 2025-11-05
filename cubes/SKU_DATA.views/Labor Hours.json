@@ -1,0 +1,149 @@
+{
+	"@type":"NativeView",
+	"Name":"Labor Hours",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lstat')/Hierarchies('Lstat')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TOTAL LABOR DOLLARS')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TOTAL LABOR HOURS')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TOTAL LABOR DOLLARS X OT')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TOTAL LABOR HOURS X OT')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Hourly Labor Budget')"
+					},
+					{
+						"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Store View Labor')"
+					}
+				]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Subsets('Fiscal Year by Week FY 24')"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Subsets('Default')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Actual')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lskus')/Hierarchies('Lskus')"
+				},
+				"Alias":"Name",
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('Consumer Retail Rollup')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('1')"
+					},
+					{
+						"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('2')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('1')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('ALL CHANNELS')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('CONSUMER RETAIL')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('CONSUMER LUNCH')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B2B GIFTING')"
+					},
+					{
+						"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B2B CATERING')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('CONSUMER RETAIL')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Subsets('Default')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 24')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')"
+				},
+				"Alias":"Name",
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('THE HONEY BAKED HAM COMPANY LLC')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('THE HONEY BAKED HAM COMPANY LLC')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":true,
+	"SuppressEmptyRows":true,
+	"FormatString":""
+}

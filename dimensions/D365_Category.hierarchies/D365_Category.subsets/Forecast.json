@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Forecast",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {DRILLDOWNMEMBER({[D365_Category].[D365_Category].[Forecast]} , {[D365_Category].[D365_Category].[Forecast]} , RECURSIVE)}"
+}

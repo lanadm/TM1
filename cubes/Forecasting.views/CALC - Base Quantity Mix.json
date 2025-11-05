@@ -1,0 +1,46 @@
+{
+	"@type":"MDXView",
+	"Name":"CALC - Base Quantity Mix",
+	"MDX@Code.link":"CALC - Base Quantity Mix.mdx",
+	"Meta": {
+		"Aliases": {
+			"[YEAR].[YEAR]": "MEMBER_NAME",
+			"[Lskus].[Lskus]": "Finance Desc",
+			"[CATEGORY].[CATEGORY]": "MEMBER_NAME",
+			"[Lchannel].[Lchannel]": "Name",
+			"[Plan_Week].[Plan_Week]": "MEMBER_NAME",
+			"[LOCATIONS].[LOCATIONS]": "Name"
+		},
+		"ExpandAboves": {
+			"[LRP_Initiatives].[LRP_Initiatives]": false,
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[Fcst_Measures].[Fcst_Measures]": false,
+			"[Plan_Week].[Plan_Week]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {
+			"[LRP_Initiatives].[LRP_Initiatives]": {
+				"Expression": "{[LRP_Initiatives].[LRP_Initiatives].MEMBERS}"
+			},
+			"[YEAR].[YEAR]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[CATEGORY].[CATEGORY]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[Plan_Week].[Plan_Week]": {
+				"SubsetName": "FY 26 Weeks with Total",
+				"IsPublic": true
+			},
+			"[LOCATIONS].[LOCATIONS]": {
+				"SubsetName": "Default",
+				"IsPublic": false
+			}
+		}
+	}
+}

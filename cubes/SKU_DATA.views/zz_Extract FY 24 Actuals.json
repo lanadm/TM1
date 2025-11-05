@@ -1,0 +1,30 @@
+{
+	"@type":"MDXView",
+	"Name":"zz_Extract FY 24 Actuals",
+	"MDX@Code.link":"zz_Extract FY 24 Actuals.mdx",
+	"Meta": {
+		"Aliases": {
+			"[Lskus].[Lskus]": "Name",
+			"[LOCATIONS].[LOCATIONS]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[CATEGORY].[CATEGORY]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			}
+		}
+	}
+}

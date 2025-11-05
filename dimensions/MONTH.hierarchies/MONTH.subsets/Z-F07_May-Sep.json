@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"Z-F07_May-Sep",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('May')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Jun')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Jul')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Aug')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Sep')"
+		}
+	]
+}

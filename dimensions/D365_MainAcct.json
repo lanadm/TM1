@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"D365_MainAcct",
+	"Hierarchies@Code.links":
+	[
+		"D365_MainAcct.hierarchies/D365_MainAcct.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')"
+	}
+}

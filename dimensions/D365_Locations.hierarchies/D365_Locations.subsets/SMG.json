@@ -1,0 +1,20 @@
+{
+	"@type":"Subset",
+	"Name":"SMG",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('SMG_TOTAL')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('SMG_FRANCHISE')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('SMG_RETAIL')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('SMG_D2C')"
+		}
+	]
+}

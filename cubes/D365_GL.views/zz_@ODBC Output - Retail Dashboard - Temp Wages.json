@@ -1,0 +1,43 @@
+{
+	"@type":"MDXView",
+	"Name":"zz_@ODBC Output - Retail Dashboard - Temp Wages",
+	"MDX@Code.link":"zz_@ODBC Output - Retail Dashboard - Temp Wages.mdx",
+	"Meta": {
+		"Aliases": {
+			"[D365_MainAcct].[D365_MainAcct]": "Name",
+			"[D365_Project].[D365_Project]": "Name",
+			"[D365_Product].[D365_Product]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[MONTH].[MONTH]": false,
+			"[D365_MainAcct].[D365_MainAcct]": false,
+			"[D365_Category].[D365_Category]": false,
+			"[D365_Project].[D365_Project]": false,
+			"[D365_Locations].[D365_Locations]": false,
+			"[D365_Product].[D365_Product]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"SubsetName": "ODBC Year",
+				"IsPublic": true
+			},
+			"[MONTH].[MONTH]": {
+				"SubsetName": "12month",
+				"IsPublic": true
+			},
+			"[D365_Category].[D365_Category]": {
+				"SubsetName": "Actual & Budget",
+				"IsPublic": true
+			},
+			"[D365_Project].[D365_Project]": {
+				"SubsetName": "All Projects",
+				"IsPublic": true
+			},
+			"[D365_Product].[D365_Product]": {
+				"SubsetName": "All Product Codes",
+				"IsPublic": true
+			}
+		}
+	}
+}

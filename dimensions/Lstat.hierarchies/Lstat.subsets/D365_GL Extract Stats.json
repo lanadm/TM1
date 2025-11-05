@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"D365_GL Extract Stats",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('GROSS SALES')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Discount Promo')"
+		}
+	]
+}

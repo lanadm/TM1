@@ -1,0 +1,55 @@
+{
+	"@type":"NativeView",
+	"Name":"zz_ODBC Output - Retail Dashboard - Temp Wages_AzureExport - FY24 Budget",
+	"Columns":[],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Subsets('ODBC Year- Next')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Subsets('12month')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')/Subsets('Budget')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('D365_Project')/Hierarchies('D365_Project')/Subsets('All Projects')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Subsets('All Product Codes')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Subsets('District Totals for Store and Express FY23')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Subsets('Temp Wages')"
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"",
+	"ViewExtractSkipConsolidatedValues": false
+}

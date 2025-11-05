@@ -1,0 +1,3381 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Lstat",
+	"Elements":
+	[
+		{
+			"Name":"}All Stats",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NET",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"RTNS AND ALLWNC",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"RTNS AND ALLWNC - PROMO",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Holder - R&A",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"RTNS AND ALLWNC - NONPROMO",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NET (incl GC Redemption Variance)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"GROSS SALES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Gross",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"RTNS AND ALLOW (incl GC Redemp Var)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Rtns and Allow",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Reshipments",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Discount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Discount Promo",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GC REDEMPTION VARIANCE",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Discount GC Redemp",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Discount GCRV True-Up",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"{SELLING METRICS STATS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Selling Metrics Receipts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Selling Metrics GC Sold Trans",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"RSM SALES + GC SOLD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Selling Metrics Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Selling Metrics GC Sold",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TOTAL QUANTITY",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Usage Qty",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TOTAL UNITS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Usage Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TOTAL HAM",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Purchased Pounds",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Purchase Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cost",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ham Transactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TOTAL TRANSACTIONS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Selling Metrics Transactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Orders",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"}Rule Calculations",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sales Pounds",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Pounds (Calc)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Average Sales Weight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ham Price per lb",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Weight Variance $",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Lbs/Qty",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Average Ticket",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"}Other Stats",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Freight Rev",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cost of Goods",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Promo Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Inv Dollars",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Inv Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mix% Budgeted",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Lift% Budgeted",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cost - Credit",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Extended Cost",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Labor Budget",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"# of Items",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Package Count",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Items Per Order",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Items Per Recipient",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Recipients per Order",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"$ per Recipient",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Average Order",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freight Rev per Order",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Holder - R&A - load",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freight Cost",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freight Qty",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Store View Net",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Store View Labor",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Overall Satisfaction (OSAT)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OSAT TOTAL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OSAT 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT PRODUCT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OSAT 5 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT 4 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT 3 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT 2 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT 1 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OSAT YTD 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT YTD 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT YTD 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT YTD 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT YTD 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OSAT PTD 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT PTD 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT PTD 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT PTD 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT PTD 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT TTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OSAT TTD 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT TTD 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT TTD 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT TTD 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OSAT TTD 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Quality of items Ordered (QoIO)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"QoIO TOTAL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"QoIO 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO PRODUCT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"QoIO 5 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO 4 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO 3 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO 2 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO 1 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"QoIO YTD 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO YTD 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO YTD 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO YTD 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO YTD 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"QoIO PTD 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO PTD 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO PTD 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO PTD 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO PTD 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO TTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"QoIO TTD 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO TTD 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO TTD 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO TTD 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QoIO TTD 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Time Waited To Be Served (TW2BS)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TW2BS TOTAL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TW2BS 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TW2BS 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TW2BS 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TW2BS 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TW2BS 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TW2BS N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Overall Value",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"VALUE TOTAL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Value 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Value 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Value 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Value 4 & 5",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Value 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Value 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE PRODUCT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"VALUE 5 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE 4 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE 3 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE 2 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE 1 * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"VALUE YTD 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE YTD 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE YTD 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE YTD 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE YTD 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"VALUE PTD 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE PTD 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE PTD 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE PTD 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE PTD 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE TTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"VALUE TTD 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE TTD 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE TTD 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE TTD 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VALUE TTD 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Speed of Receiving Order (SoRO)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SoRO TOTAL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SoRO 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SoRO 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SoRO 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SoRO 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SoRO 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SoRO N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ham  Evaluation Stats",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Number of Hams Evaluated",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ham Evaluation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ham Eval %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"D2C Analytics",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sessions - Traffic",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Conversion Rate",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Web Orders",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS Data",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"BOPIS Net Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS Gross Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS Promo Discounts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS Non Promo Discounts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS Returns",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS Sales Usage Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS Sales Quantity Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS Sales Usage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS Sales Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS CMS Ext Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS Transactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS Items",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS Transaction Amt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS IPT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPIS Same Day Data",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SD BOPIS Net Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPIS Gross Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPIS Promo Discounts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPIS Non Promo Discounts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPIS Returns",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPIS Sales Usage Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPIS Sales Quantity Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPIS Sales Usage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPIS Sales Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPIS CMS Ext Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPIS Transactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPIS Items",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPIS Transaction Amt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPIS IPT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC Data",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"BOPAC Net Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC Gross Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC Promo Discounts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC Non Promo Discounts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC Returns",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC Sales Usage Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC Sales Quantity Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC Sales Usage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC Sales Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC CMS Ext Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC Transactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC Items",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC Transaction Amt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC IPT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOPAC Same Day Data",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SD BOPAC Net Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPAC Gross Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPAC Promo Discounts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPAC Non Promo Discounts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPAC Returns",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPAC Sales Usage Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPAC Sales Quantity Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPAC Sales Usage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPAC Sales Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPAC CMS Ext Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPAC Transactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPAC Items",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPAC Transaction Amt",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SD BOPAC IPT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"QAD Scores",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IPT Statistics",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"IPT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IPT Transactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"IPT Items",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Recipients",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Asst Mgr - Wgs",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL LABOR HOURS (Hourly & Mgr)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"All LABOR DOLLARS (Hourly & Mgr)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Hourly Wgs - Reg (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - Vacation (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - OT (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - Holiday (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - Double Time (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - Sick (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - CA SPL (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - Paid Lunch Award (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TOTAL LABOR DOLLARS X OT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TOTAL LABOR HOURS X OT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TOTAL LABOR DOLLARS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Hourly Wgs - Regular",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - Vacation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - OT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - Holiday",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - Double Time",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - Sick",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - CA SPL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - Paid Lunch Award",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TOTAL LABOR HOURS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Regular Hrs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Vacation Hrs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OT Hrs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Holiday Hrs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Double Time Hrs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sick Hrs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CA SPL Hrs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Paid Lunch Award Hrs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Asst Mgr - Hours",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Regular Hrs (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Vacation Hrs (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OT Hrs (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Holiday Hrs (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Double Time Hrs (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sick Hrs (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CA SPL Hrs (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Paid Lunch Award Hrs (Asst Mgr)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Temp Labor Hrs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hourly Wgs - Temp Labor",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"{Purchasing Stats",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Standard Cost",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budgeted Standard",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Reforecasted Standard",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Average of Unit Cost",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Case Count",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Average Purchase Weight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Purchase Weight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GL Jrnl Entry Adjust",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Deliver On Time (DOT)",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DOT TOTAL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DOT N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Web Orders Test",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOT YES",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOT NO",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOT YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DOT YTD YES",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOT YTD NO",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOT PTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DOT TTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DOT PTD YES",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOT PTD NO",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOT TTD YES",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOT TTD NO",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOT PRODUCT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DOT YES * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOT NO * N",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecasting Stats",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Avg Weight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"COGS Usage",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"NET",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"RTNS AND ALLWNC - PROMO",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"RTNS AND ALLWNC - NONPROMO",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"NET (incl GC Redemption Variance)",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"GC REDEMPTION VARIANCE",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"{SELLING METRICS STATS",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"{Purchasing Stats",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"RSM SALES + GC SOLD",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"TOTAL QUANTITY",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"TOTAL UNITS",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"TOTAL HAM",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"TOTAL TRANSACTIONS",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"}Rule Calculations",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Stats",
+			"ComponentName":"}Other Stats",
+			"Weight":0
+		},
+		{
+			"ParentName":"NET",
+			"ComponentName":"GROSS SALES",
+			"Weight":1
+		},
+		{
+			"ParentName":"NET",
+			"ComponentName":"RTNS AND ALLWNC",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLWNC",
+			"ComponentName":"Rtns and Allow",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLWNC",
+			"ComponentName":"Reshipments",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLWNC",
+			"ComponentName":"Discount",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLWNC",
+			"ComponentName":"Discount Promo",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLWNC",
+			"ComponentName":"Holder - R&A",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLWNC - PROMO",
+			"ComponentName":"Discount Promo",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLWNC - PROMO",
+			"ComponentName":"Holder - R&A",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLWNC - NONPROMO",
+			"ComponentName":"Rtns and Allow",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLWNC - NONPROMO",
+			"ComponentName":"Reshipments",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLWNC - NONPROMO",
+			"ComponentName":"Discount",
+			"Weight":1
+		},
+		{
+			"ParentName":"NET (incl GC Redemption Variance)",
+			"ComponentName":"GROSS SALES",
+			"Weight":1
+		},
+		{
+			"ParentName":"NET (incl GC Redemption Variance)",
+			"ComponentName":"RTNS AND ALLOW (incl GC Redemp Var)",
+			"Weight":1
+		},
+		{
+			"ParentName":"GROSS SALES",
+			"ComponentName":"Gross",
+			"Weight":1
+		},
+		{
+			"ParentName":"GROSS SALES",
+			"ComponentName":"GL Jrnl Entry Adjust",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLOW (incl GC Redemp Var)",
+			"ComponentName":"Rtns and Allow",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLOW (incl GC Redemp Var)",
+			"ComponentName":"Reshipments",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLOW (incl GC Redemp Var)",
+			"ComponentName":"Discount",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLOW (incl GC Redemp Var)",
+			"ComponentName":"Discount Promo",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLOW (incl GC Redemp Var)",
+			"ComponentName":"Discount GC Redemp",
+			"Weight":1
+		},
+		{
+			"ParentName":"RTNS AND ALLOW (incl GC Redemp Var)",
+			"ComponentName":"Discount GCRV True-Up",
+			"Weight":1
+		},
+		{
+			"ParentName":"GC REDEMPTION VARIANCE",
+			"ComponentName":"Discount GC Redemp",
+			"Weight":1
+		},
+		{
+			"ParentName":"GC REDEMPTION VARIANCE",
+			"ComponentName":"Discount GCRV True-Up",
+			"Weight":1
+		},
+		{
+			"ParentName":"{SELLING METRICS STATS",
+			"ComponentName":"Selling Metrics Receipts",
+			"Weight":0
+		},
+		{
+			"ParentName":"{SELLING METRICS STATS",
+			"ComponentName":"Selling Metrics Transactions",
+			"Weight":0
+		},
+		{
+			"ParentName":"{SELLING METRICS STATS",
+			"ComponentName":"Selling Metrics Sales",
+			"Weight":0
+		},
+		{
+			"ParentName":"{SELLING METRICS STATS",
+			"ComponentName":"Selling Metrics GC Sold Trans",
+			"Weight":0
+		},
+		{
+			"ParentName":"{SELLING METRICS STATS",
+			"ComponentName":"Selling Metrics GC Sold",
+			"Weight":0
+		},
+		{
+			"ParentName":"RSM SALES + GC SOLD",
+			"ComponentName":"Selling Metrics Sales",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSM SALES + GC SOLD",
+			"ComponentName":"Selling Metrics GC Sold",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL QUANTITY",
+			"ComponentName":"Quantity",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL QUANTITY",
+			"ComponentName":"Usage Qty",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL UNITS",
+			"ComponentName":"Units",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL UNITS",
+			"ComponentName":"Usage Units",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL HAM",
+			"ComponentName":"Purchased Pounds",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL HAM",
+			"ComponentName":"Purchase Units",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL HAM",
+			"ComponentName":"Cost",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL HAM",
+			"ComponentName":"Ham Transactions",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL TRANSACTIONS",
+			"ComponentName":"Selling Metrics Transactions",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL TRANSACTIONS",
+			"ComponentName":"Orders",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Rule Calculations",
+			"ComponentName":"Sales Pounds",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Rule Calculations",
+			"ComponentName":"Sales Pounds (Calc)",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Rule Calculations",
+			"ComponentName":"Average Sales Weight",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Rule Calculations",
+			"ComponentName":"Ham Price per lb",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Rule Calculations",
+			"ComponentName":"Weight Variance $",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Rule Calculations",
+			"ComponentName":"Lbs/Qty",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Rule Calculations",
+			"ComponentName":"Average Ticket",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Avg Weight",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"COGS Usage",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Freight Rev",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Cost of Goods",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Promo Units",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Inv Dollars",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Inv Quantity",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Mix% Budgeted",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Lift% Budgeted",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Cost - Credit",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Extended Cost",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Hourly Labor Budget",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"# of Items",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Package Count",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Items Per Order",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Items Per Recipient",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Recipients per Order",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"$ per Recipient",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Average Order",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Freight Rev per Order",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Holder - R&A - load",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Sales Price",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Freight Cost",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Freight Qty",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Store View Net",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Store View Labor",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Deliver On Time (DOT)",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Overall Satisfaction (OSAT)",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Quality of items Ordered (QoIO)",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Time Waited To Be Served (TW2BS)",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Overall Value",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Speed of Receiving Order (SoRO)",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Ham  Evaluation Stats",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"D2C Analytics",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"BOPIS Data",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"BOPAC Data",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"QAD Scores",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"IPT Statistics",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Recipients",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Asst Mgr - Wgs",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"TOTAL LABOR DOLLARS X OT",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"TOTAL LABOR HOURS X OT",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"TOTAL LABOR DOLLARS",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"TOTAL LABOR HOURS",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Other Stats",
+			"ComponentName":"Asst Mgr - Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Overall Satisfaction (OSAT)",
+			"ComponentName":"OSAT TOTAL",
+			"Weight":0
+		},
+		{
+			"ParentName":"Overall Satisfaction (OSAT)",
+			"ComponentName":"OSAT N",
+			"Weight":0
+		},
+		{
+			"ParentName":"Overall Satisfaction (OSAT)",
+			"ComponentName":"OSAT PRODUCT",
+			"Weight":0
+		},
+		{
+			"ParentName":"Overall Satisfaction (OSAT)",
+			"ComponentName":"OSAT YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"Overall Satisfaction (OSAT)",
+			"ComponentName":"OSAT PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"Overall Satisfaction (OSAT)",
+			"ComponentName":"OSAT TTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"OSAT TOTAL",
+			"ComponentName":"OSAT 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT TOTAL",
+			"ComponentName":"OSAT 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT TOTAL",
+			"ComponentName":"OSAT 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT TOTAL",
+			"ComponentName":"OSAT 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT TOTAL",
+			"ComponentName":"OSAT 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT PRODUCT",
+			"ComponentName":"OSAT 5 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"OSAT PRODUCT",
+			"ComponentName":"OSAT 4 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"OSAT PRODUCT",
+			"ComponentName":"OSAT 3 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"OSAT PRODUCT",
+			"ComponentName":"OSAT 2 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"OSAT PRODUCT",
+			"ComponentName":"OSAT 1 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"OSAT YTD",
+			"ComponentName":"OSAT YTD 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT YTD",
+			"ComponentName":"OSAT YTD 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT YTD",
+			"ComponentName":"OSAT YTD 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT YTD",
+			"ComponentName":"OSAT YTD 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT YTD",
+			"ComponentName":"OSAT YTD 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT PTD",
+			"ComponentName":"OSAT PTD 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT PTD",
+			"ComponentName":"OSAT PTD 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT PTD",
+			"ComponentName":"OSAT PTD 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT PTD",
+			"ComponentName":"OSAT PTD 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT PTD",
+			"ComponentName":"OSAT PTD 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT TTD",
+			"ComponentName":"OSAT TTD 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT TTD",
+			"ComponentName":"OSAT TTD 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT TTD",
+			"ComponentName":"OSAT TTD 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT TTD",
+			"ComponentName":"OSAT TTD 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"OSAT TTD",
+			"ComponentName":"OSAT TTD 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quality of items Ordered (QoIO)",
+			"ComponentName":"QoIO TOTAL",
+			"Weight":0
+		},
+		{
+			"ParentName":"Quality of items Ordered (QoIO)",
+			"ComponentName":"QoIO N",
+			"Weight":0
+		},
+		{
+			"ParentName":"Quality of items Ordered (QoIO)",
+			"ComponentName":"QoIO PRODUCT",
+			"Weight":0
+		},
+		{
+			"ParentName":"Quality of items Ordered (QoIO)",
+			"ComponentName":"QoIO YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"Quality of items Ordered (QoIO)",
+			"ComponentName":"QoIO PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"Quality of items Ordered (QoIO)",
+			"ComponentName":"QoIO TTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"QoIO TOTAL",
+			"ComponentName":"QoIO 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO TOTAL",
+			"ComponentName":"QoIO 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO TOTAL",
+			"ComponentName":"QoIO 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO TOTAL",
+			"ComponentName":"QoIO 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO TOTAL",
+			"ComponentName":"QoIO 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO PRODUCT",
+			"ComponentName":"QoIO 5 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"QoIO PRODUCT",
+			"ComponentName":"QoIO 4 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"QoIO PRODUCT",
+			"ComponentName":"QoIO 3 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"QoIO PRODUCT",
+			"ComponentName":"QoIO 2 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"QoIO PRODUCT",
+			"ComponentName":"QoIO 1 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"QoIO YTD",
+			"ComponentName":"QoIO YTD 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO YTD",
+			"ComponentName":"QoIO YTD 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO YTD",
+			"ComponentName":"QoIO YTD 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO YTD",
+			"ComponentName":"QoIO YTD 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO YTD",
+			"ComponentName":"QoIO YTD 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO PTD",
+			"ComponentName":"QoIO PTD 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO PTD",
+			"ComponentName":"QoIO PTD 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO PTD",
+			"ComponentName":"QoIO PTD 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO PTD",
+			"ComponentName":"QoIO PTD 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO PTD",
+			"ComponentName":"QoIO PTD 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO TTD",
+			"ComponentName":"QoIO TTD 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO TTD",
+			"ComponentName":"QoIO TTD 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO TTD",
+			"ComponentName":"QoIO TTD 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO TTD",
+			"ComponentName":"QoIO TTD 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"QoIO TTD",
+			"ComponentName":"QoIO TTD 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Time Waited To Be Served (TW2BS)",
+			"ComponentName":"TW2BS TOTAL",
+			"Weight":0
+		},
+		{
+			"ParentName":"Time Waited To Be Served (TW2BS)",
+			"ComponentName":"TW2BS N",
+			"Weight":0
+		},
+		{
+			"ParentName":"TW2BS TOTAL",
+			"ComponentName":"TW2BS 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"TW2BS TOTAL",
+			"ComponentName":"TW2BS 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"TW2BS TOTAL",
+			"ComponentName":"TW2BS 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"TW2BS TOTAL",
+			"ComponentName":"TW2BS 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"TW2BS TOTAL",
+			"ComponentName":"TW2BS 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Overall Value",
+			"ComponentName":"VALUE TOTAL",
+			"Weight":0
+		},
+		{
+			"ParentName":"Overall Value",
+			"ComponentName":"VALUE N",
+			"Weight":0
+		},
+		{
+			"ParentName":"Overall Value",
+			"ComponentName":"VALUE PRODUCT",
+			"Weight":0
+		},
+		{
+			"ParentName":"Overall Value",
+			"ComponentName":"VALUE YTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"Overall Value",
+			"ComponentName":"VALUE PTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"Overall Value",
+			"ComponentName":"VALUE TTD",
+			"Weight":0
+		},
+		{
+			"ParentName":"VALUE TOTAL",
+			"ComponentName":"Value 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE TOTAL",
+			"ComponentName":"Value 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE TOTAL",
+			"ComponentName":"Value 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE TOTAL",
+			"ComponentName":"Value 4 & 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Value 4 & 5",
+			"ComponentName":"Value 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Value 4 & 5",
+			"ComponentName":"Value 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE PRODUCT",
+			"ComponentName":"VALUE 5 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"VALUE PRODUCT",
+			"ComponentName":"VALUE 4 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"VALUE PRODUCT",
+			"ComponentName":"VALUE 3 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"VALUE PRODUCT",
+			"ComponentName":"VALUE 2 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"VALUE PRODUCT",
+			"ComponentName":"VALUE 1 * N",
+			"Weight":0
+		},
+		{
+			"ParentName":"VALUE YTD",
+			"ComponentName":"VALUE YTD 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE YTD",
+			"ComponentName":"VALUE YTD 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE YTD",
+			"ComponentName":"VALUE YTD 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE YTD",
+			"ComponentName":"VALUE YTD 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE YTD",
+			"ComponentName":"VALUE YTD 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE PTD",
+			"ComponentName":"VALUE PTD 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE PTD",
+			"ComponentName":"VALUE PTD 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE PTD",
+			"ComponentName":"VALUE PTD 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE PTD",
+			"ComponentName":"VALUE PTD 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE PTD",
+			"ComponentName":"VALUE PTD 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE TTD",
+			"ComponentName":"VALUE TTD 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE TTD",
+			"ComponentName":"VALUE TTD 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE TTD",
+			"ComponentName":"VALUE TTD 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE TTD",
+			"ComponentName":"VALUE TTD 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"VALUE TTD",
+			"ComponentName":"VALUE TTD 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Speed of Receiving Order (SoRO)",
+			"ComponentName":"SoRO TOTAL",
+			"Weight":0
+		},
+		{
+			"ParentName":"Speed of Receiving Order (SoRO)",
+			"ComponentName":"SoRO N",
+			"Weight":0
+		},
+		{
+			"ParentName":"SoRO TOTAL",
+			"ComponentName":"SoRO 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"SoRO TOTAL",
+			"ComponentName":"SoRO 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"SoRO TOTAL",
+			"ComponentName":"SoRO 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"SoRO TOTAL",
+			"ComponentName":"SoRO 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"SoRO TOTAL",
+			"ComponentName":"SoRO 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Ham  Evaluation Stats",
+			"ComponentName":"Number of Hams Evaluated",
+			"Weight":0
+		},
+		{
+			"ParentName":"Ham  Evaluation Stats",
+			"ComponentName":"Ham Evaluation",
+			"Weight":0
+		},
+		{
+			"ParentName":"Ham  Evaluation Stats",
+			"ComponentName":"Ham Eval %",
+			"Weight":1
+		},
+		{
+			"ParentName":"D2C Analytics",
+			"ComponentName":"Sessions - Traffic",
+			"Weight":0
+		},
+		{
+			"ParentName":"D2C Analytics",
+			"ComponentName":"Conversion Rate",
+			"Weight":0
+		},
+		{
+			"ParentName":"D2C Analytics",
+			"ComponentName":"Web Orders",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS Net Sales",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS Gross Sales",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS Promo Discounts",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS Non Promo Discounts",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS Returns",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS Sales Usage Units",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS Sales Quantity Units",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS Sales Usage",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS Sales Quantity",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS CMS Ext Price",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS Transactions",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS Items",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS Transaction Amt",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS IPT",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Data",
+			"ComponentName":"BOPIS Same Day Data",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS Net Sales",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS Gross Sales",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS Promo Discounts",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS Non Promo Discounts",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS Returns",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS Sales Usage Units",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS Sales Quantity Units",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS Sales Usage",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS Sales Quantity",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS CMS Ext Price",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS Transactions",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS Items",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS Transaction Amt",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPIS Same Day Data",
+			"ComponentName":"SD BOPIS IPT",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC Net Sales",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC Gross Sales",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC Promo Discounts",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC Non Promo Discounts",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC Returns",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC Sales Usage Units",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC Sales Quantity Units",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC Sales Usage",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC Sales Quantity",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC CMS Ext Price",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC Transactions",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC Items",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC Transaction Amt",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC IPT",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Data",
+			"ComponentName":"BOPAC Same Day Data",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC Net Sales",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC Gross Sales",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC Promo Discounts",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC Non Promo Discounts",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC Returns",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC Sales Usage Units",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC Sales Quantity Units",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC Sales Usage",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC Sales Quantity",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC CMS Ext Price",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC Transactions",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC Items",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC Transaction Amt",
+			"Weight":0
+		},
+		{
+			"ParentName":"BOPAC Same Day Data",
+			"ComponentName":"SD BOPAC IPT",
+			"Weight":0
+		},
+		{
+			"ParentName":"IPT Statistics",
+			"ComponentName":"IPT",
+			"Weight":0
+		},
+		{
+			"ParentName":"IPT Statistics",
+			"ComponentName":"IPT Transactions",
+			"Weight":0
+		},
+		{
+			"ParentName":"IPT Statistics",
+			"ComponentName":"IPT Items",
+			"Weight":0
+		},
+		{
+			"ParentName":"Asst Mgr - Wgs",
+			"ComponentName":"Hourly Wgs - Reg (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Asst Mgr - Wgs",
+			"ComponentName":"Hourly Wgs - OT (Asst Mgr)",
+			"Weight":0
+		},
+		{
+			"ParentName":"Asst Mgr - Wgs",
+			"ComponentName":"Hourly Wgs - Vacation (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Asst Mgr - Wgs",
+			"ComponentName":"Hourly Wgs - Holiday (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Asst Mgr - Wgs",
+			"ComponentName":"Hourly Wgs - Double Time (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Asst Mgr - Wgs",
+			"ComponentName":"Hourly Wgs - Sick (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Asst Mgr - Wgs",
+			"ComponentName":"Hourly Wgs - CA SPL (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Asst Mgr - Wgs",
+			"ComponentName":"Hourly Wgs - Paid Lunch Award (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"Regular Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"Vacation Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"OT Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"Holiday Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"Double Time Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"Sick Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"CA SPL Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"Paid Lunch Award Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"Regular Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"Vacation Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"OT Hrs (Asst Mgr)",
+			"Weight":0
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"Holiday Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"Double Time Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"Sick Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"CA SPL Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LABOR HOURS (Hourly & Mgr)",
+			"ComponentName":"Paid Lunch Award Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - Regular",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - Vacation",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - OT",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - Holiday",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - Double Time",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - Sick",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - CA SPL",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - Paid Lunch Award",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - Reg (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - Vacation (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - OT (Asst Mgr)",
+			"Weight":0
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - Holiday (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - Double Time (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - Sick (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - CA SPL (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"All LABOR DOLLARS (Hourly & Mgr)",
+			"ComponentName":"Hourly Wgs - Paid Lunch Award (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS X OT",
+			"ComponentName":"Hourly Wgs - Regular",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS X OT",
+			"ComponentName":"Hourly Wgs - Vacation",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS X OT",
+			"ComponentName":"Hourly Wgs - Holiday",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS X OT",
+			"ComponentName":"Hourly Wgs - Sick",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS X OT",
+			"ComponentName":"Hourly Wgs - CA SPL",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS X OT",
+			"ComponentName":"Regular Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS X OT",
+			"ComponentName":"Vacation Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS X OT",
+			"ComponentName":"Holiday Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS X OT",
+			"ComponentName":"Sick Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS X OT",
+			"ComponentName":"CA SPL Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS",
+			"ComponentName":"Hourly Wgs - Regular",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS",
+			"ComponentName":"Hourly Wgs - Vacation",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS",
+			"ComponentName":"Hourly Wgs - OT",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS",
+			"ComponentName":"Hourly Wgs - Holiday",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS",
+			"ComponentName":"Hourly Wgs - Double Time",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS",
+			"ComponentName":"Hourly Wgs - Sick",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS",
+			"ComponentName":"Hourly Wgs - CA SPL",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS",
+			"ComponentName":"Hourly Wgs - Paid Lunch Award",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR DOLLARS",
+			"ComponentName":"Hourly Wgs - Temp Labor",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS",
+			"ComponentName":"Regular Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS",
+			"ComponentName":"Vacation Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS",
+			"ComponentName":"OT Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS",
+			"ComponentName":"Holiday Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS",
+			"ComponentName":"Double Time Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS",
+			"ComponentName":"Sick Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS",
+			"ComponentName":"CA SPL Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS",
+			"ComponentName":"Paid Lunch Award Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL LABOR HOURS",
+			"ComponentName":"Temp Labor Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Asst Mgr - Hours",
+			"ComponentName":"Regular Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Asst Mgr - Hours",
+			"ComponentName":"Vacation Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Asst Mgr - Hours",
+			"ComponentName":"OT Hrs (Asst Mgr)",
+			"Weight":0
+		},
+		{
+			"ParentName":"Asst Mgr - Hours",
+			"ComponentName":"Holiday Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Asst Mgr - Hours",
+			"ComponentName":"Double Time Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Asst Mgr - Hours",
+			"ComponentName":"Sick Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Asst Mgr - Hours",
+			"ComponentName":"CA SPL Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Asst Mgr - Hours",
+			"ComponentName":"Paid Lunch Award Hrs (Asst Mgr)",
+			"Weight":1
+		},
+		{
+			"ParentName":"{Purchasing Stats",
+			"ComponentName":"Extended Cost",
+			"Weight":1
+		},
+		{
+			"ParentName":"{Purchasing Stats",
+			"ComponentName":"Standard Cost",
+			"Weight":1
+		},
+		{
+			"ParentName":"{Purchasing Stats",
+			"ComponentName":"Budgeted Standard",
+			"Weight":1
+		},
+		{
+			"ParentName":"{Purchasing Stats",
+			"ComponentName":"Reforecasted Standard",
+			"Weight":1
+		},
+		{
+			"ParentName":"{Purchasing Stats",
+			"ComponentName":"Average of Unit Cost",
+			"Weight":1
+		},
+		{
+			"ParentName":"{Purchasing Stats",
+			"ComponentName":"Total Case Count",
+			"Weight":1
+		},
+		{
+			"ParentName":"{Purchasing Stats",
+			"ComponentName":"Average Purchase Weight",
+			"Weight":1
+		},
+		{
+			"ParentName":"{Purchasing Stats",
+			"ComponentName":"Total Purchase Weight",
+			"Weight":1
+		},
+		{
+			"ParentName":"Deliver On Time (DOT)",
+			"ComponentName":"DOT TOTAL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Deliver On Time (DOT)",
+			"ComponentName":"DOT N",
+			"Weight":1
+		},
+		{
+			"ParentName":"Deliver On Time (DOT)",
+			"ComponentName":"DOT PRODUCT",
+			"Weight":1
+		},
+		{
+			"ParentName":"Deliver On Time (DOT)",
+			"ComponentName":"DOT YTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"Deliver On Time (DOT)",
+			"ComponentName":"DOT PTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"Deliver On Time (DOT)",
+			"ComponentName":"DOT TTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"DOT TOTAL",
+			"ComponentName":"DOT YES",
+			"Weight":1
+		},
+		{
+			"ParentName":"DOT TOTAL",
+			"ComponentName":"DOT NO",
+			"Weight":1
+		},
+		{
+			"ParentName":"DOT YTD",
+			"ComponentName":"DOT YTD YES",
+			"Weight":1
+		},
+		{
+			"ParentName":"DOT YTD",
+			"ComponentName":"DOT YTD NO",
+			"Weight":1
+		},
+		{
+			"ParentName":"DOT PTD",
+			"ComponentName":"DOT PTD YES",
+			"Weight":1
+		},
+		{
+			"ParentName":"DOT PTD",
+			"ComponentName":"DOT PTD NO",
+			"Weight":1
+		},
+		{
+			"ParentName":"DOT TTD",
+			"ComponentName":"DOT TTD YES",
+			"Weight":1
+		},
+		{
+			"ParentName":"DOT TTD",
+			"ComponentName":"DOT TTD NO",
+			"Weight":1
+		},
+		{
+			"ParentName":"DOT PRODUCT",
+			"ComponentName":"DOT YES * N",
+			"Weight":1
+		},
+		{
+			"ParentName":"DOT PRODUCT",
+			"ComponentName":"DOT NO * N",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecasting Stats",
+			"ComponentName":"Gross",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecasting Stats",
+			"ComponentName":"Discount",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecasting Stats",
+			"ComponentName":"Discount Promo",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecasting Stats",
+			"ComponentName":"Quantity",
+			"Weight":1
+		},
+		{
+			"ParentName":"Forecasting Stats",
+			"ComponentName":"Usage Qty",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Lstat.subsets/All level 0.json",
+		"Lstat.subsets/Average Sales Weight.json",
+		"Lstat.subsets/BOPIS & BOPAC N Level.json",
+		"Lstat.subsets/COGS Usage.json",
+		"Lstat.subsets/Complete Tree.json",
+		"Lstat.subsets/Cost.json",
+		"Lstat.subsets/Cost Lbs Rvw.json",
+		"Lstat.subsets/D365_GL Extract Stats.json",
+		"Lstat.subsets/Default.json",
+		"Lstat.subsets/Forecasting - Load Metrics.json",
+		"Lstat.subsets/Forecasting - PY Load Metrics.json",
+		"Lstat.subsets/GP-GL Extract Stats.json",
+		"Lstat.subsets/Gross & Price.json",
+		"Lstat.subsets/Gross Discount Qty Units.json",
+		"Lstat.subsets/Gross Qty Usage.json",
+		"Lstat.subsets/Labor Hours & Wages.json",
+		"Lstat.subsets/Labor Wages & Hours.json",
+		"Lstat.subsets/Make It A Meal Stats.json",
+		"Lstat.subsets/ODBC Forecast Stats.json",
+		"Lstat.subsets/Planning Data Load List.json",
+		"Lstat.subsets/Planning Metrics.json",
+		"Lstat.subsets/Planning Metrics - D2C.json",
+		"Lstat.subsets/Purchasing Stats.json",
+		"Lstat.subsets/Selling Metrics.json",
+		"Lstat.subsets/SKUDATA_LiveSKU_stat.json",
+		"Lstat.subsets/Stat Extract to Plan.json",
+		"Lstat.subsets/Time and Speed.json",
+		"Lstat.subsets/Total Labor Dollars.json",
+		"Lstat.subsets/Total Quantity.json",
+		"Lstat.subsets/Z-3P_Wk_Stat.json",
+		"Lstat.subsets/Z-3P_Wk_Statb.json",
+		"Lstat.subsets/Z-All N Lstats.json",
+		"Lstat.subsets/Z-All Rev Stats.json",
+		"Lstat.subsets/Z-AllStats excl Inven.json",
+		"Lstat.subsets/Z-All Stats excl Rtl Selling Metrics.json",
+		"Lstat.subsets/Z-InventoryStats.json",
+		"Lstat.subsets/Z-QueryOrder.json",
+		"Lstat.subsets/Z-Rtl Sell Metrics.json",
+		"Lstat.subsets/Z_BudgetCopy.json",
+		"Lstat.subsets/Z_COG.json",
+		"Lstat.subsets/z_Disc-GCredemp.json",
+		"Lstat.subsets/Z_Discounts.json",
+		"Lstat.subsets/Z_Gr_Qty_UsgQ_Unt.json",
+		"Lstat.subsets/Z_Gross.json",
+		"Lstat.subsets/Z_GROSS-RTNS AND ALLWNC.json",
+		"Lstat.subsets/Z_NET.json",
+		"Lstat.subsets/Z_Qty_Usage_Unt.json",
+		"Lstat.subsets/Z_Quantity.json",
+		"Lstat.subsets/Z_Rtns and Allow.json",
+		"Lstat.subsets/Z_Units.json",
+		"Lstat.subsets/ZeroList_noLabor.json",
+		"Lstat.subsets/zMS_Extract to Planning.json",
+		"Lstat.subsets/zz_#MS - Purchasing Data - Move from Standard Cost to Extended Cost.json",
+		"Lstat.subsets/zz_@D365_GL - Copy from SKU_DATA.json",
+		"Lstat.subsets/zz_@D365_GL - Copy from SKU_DATA (D2C).json",
+		"Lstat.subsets/zz_@D365_GL - Copy from SKU_DATA (Franchise).json",
+		"Lstat.subsets/zz_@D365_GL - Copy from SKU_DATA (HBH California).json",
+		"Lstat.subsets/zz_@D365_GL - Copy from SKU_DATA (HB Retail incl CA).json",
+		"Lstat.subsets/zz_@D365_GL - Copy from SKU_DATA (Retail).json",
+		"Lstat.subsets/zz_@D365_GL - Copy from SKU_DATA (Retail Operations Only).json",
+		"Lstat.subsets/zz_@D365_GL - Copy from SKU_DATA - COGS Usage.json",
+		"Lstat.subsets/zz_@D365_GL - Copy from SKU_DATA - COGS Usage (CA).json",
+		"Lstat.subsets/zz_@D365_GL - Copy from SKU_DATA - COGS Usage (D2C).json",
+		"Lstat.subsets/zz_@D365_GL - Copy from SKU_DATA - COGS Usage (Retail).json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (ALL LOB)_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (California Only)_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (Franchise Only)_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (Retail Only)_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (Specific CC).json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (ALL LOB).json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (ALL LOB)_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (California Only) - Adhoc CCs_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (California Only)_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (Franchise Only)_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (Retail Only).json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (Retail Only)_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (Specific CC).json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear - Adhoc CCs_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (ALL LOB)_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (California Only)_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (Franchise Only)_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (Retail Only)_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (Specific CC).json",
+		"Lstat.subsets/zz_@Planning - Load from SKU_DATA (California Only)_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@Planning - Load from SKU_DATA_LoadtoPlanning.json",
+		"Lstat.subsets/zz_@SKU_DATA - Copy from Category to Category.json",
+		"Lstat.subsets/zz_@SKU_DATA - Copy from Category to Category (D2C).json",
+		"Lstat.subsets/zz_@SKU_DATA - Copy from Category to Category (Franchise).json",
+		"Lstat.subsets/zz_@SKU_DATA - Copy from Category to Category (HBHCA Franchise).json",
+		"Lstat.subsets/zz_@SKU_DATA - Copy from Category to Category (HBH California)_Load.json",
+		"Lstat.subsets/zz_@SKU_DATA - Copy from Category to Category (HB Retail incl CA).json",
+		"Lstat.subsets/zz_@SKU_DATA - Copy from Category to Category (Retail).json",
+		"Lstat.subsets/zz_@SKU_DATA - Copy from CC to CC.json",
+		"Lstat.subsets/zz_@SKU_DATA - Copy from CC to CC - Periods Only.json",
+		"Lstat.subsets/zz_@SKU_DATA - Copy Pricing from week 1 to all other weeks.json",
+		"Lstat.subsets/zz_@SKU_DATA - Load Actual to Forecast_Load.json",
+		"Lstat.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HB Dir-to-Consumer_Load.json",
+		"Lstat.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HBH California_Load.json",
+		"Lstat.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast FY 24 Weeks 27-53 - Temp_Load.json",
+		"Lstat.subsets/zz_DATA - QTY - Load QTY from SKU_DATA - Budget (backup)_Source.json",
+		"Lstat.subsets/zz_DATA - QTY - Load QTY from SKU_DATA - Budget_Source.json",
+		"Lstat.subsets/zz_DATA - SKU DATA - Copy by Location_Category_week_SourceView.json",
+		"Lstat.subsets/zz_DATA - TEST QTY - Load Qty from Sku_Data - Budget_Source.json",
+		"Lstat.subsets/zz_DATA - Zero Out SKU_3P_Wkv2_ZeroOut2.json",
+		"Lstat.subsets/zz_DATA - Zero Out SKU_3P_Wkv2b_ZeroOut2b.json",
+		"Lstat.subsets/zz_SKU_DATA - Extract Data.json",
+		"Lstat.subsets/zzSKUDATA_to_GPGL.json"
+	]
+}

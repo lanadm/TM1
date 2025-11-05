@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"Actual & Budget",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')/Elements('Actual')"
+		},
+		{
+			"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')/Elements('Budget')"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Forecasting - Load Specific CC",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('52114313')"
+		}
+	]
+}

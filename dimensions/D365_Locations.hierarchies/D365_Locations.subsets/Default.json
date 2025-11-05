@@ -1,0 +1,383 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THE HONEY BAKED HAM COMPANY LLC X FRANCO')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THE HONEY BAKED HAM COMPANY LLC X INT X CONT')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HBH LLC INC GIFTING OFFSET')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THE HONEY BAKED HAM COMPANY LLC X INT')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HBH OBS')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB RETAIL & FRANCHISE OVERHEAD')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB RETAIL & E-COMM & OVHD')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB RETAIL & FRAN')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB FRANCHISE LESS HEAVENLY')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('ALL OVERHEAD')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB RETAIL ALL NEW STORES')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('RETAIL OPERATIONS-STORE-ACTIVE & PUR')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('RETAIL OPERATIONS-STORE-ACTIVE & PUR & DIRECT OVHD')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('RETAIL OPERATIONS-STORE-ACTIVE LESS CONTINGENCY')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('RETAIL OPERATIONS-STORE-PUR-ACTIVE')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('RETAIL OPERATIONS-STORE-PUR-FY18 VIEW')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB E-COMMERCE')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB OVERHEAD X INT X CONT')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB OVERHEAD X CONT')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('OTHER X CONT')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('INTEGRATION/STRATEGIC')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB OVERHEAD X INTEGRATION')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THE HONEY BAKED HAM COMPANY LLC X INTEGRATION')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THE HONEY BAKED HAM COMPANY - CORE')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THE HONEY BAKED HAM COMPANY - CORE INCL GIFTING')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('REGION ATL - CHRIS CUMMINGS - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('DISTRICT 1 - MICHAEL WARD - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('DISTRICT 10 - KARL MERKLE - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('DISTRICT 11 - DOUG KREY - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('DISTRICT 13 - ERIC DELBRUGGE - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('DISTRICT 2 - MATT REDER - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('DISTRICT 3 - ANDY ANDURLAKIS - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('DISTRICT 4 - CHRIS GIESLER - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('DISTRICT 5 - LISA GRAY - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('DISTRICT 7 - HAROLD MCCLELLAN - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('REGION EAST - MICHELLE ANDERSON - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('DISTRICT 8 - KIM GEBHARDT - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('DISTRICT 9 - JOE STURINO - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('REGION - BILLY GRIFFETH - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('REGION - GARY CRAWLEY - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('REGION - OTHER - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('TOTAL DISTRICTS - TOTAL APR18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('TOTAL FRAN DISTRICTS - STORE')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('TOTAL FRAN DISTRICTS - STORE & PUR')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('TOTAL MARKETS FRANCHISE-FY19')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('FRANCHISE-SAME-BY-STATE TOTAL')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('GEORGIA-HB X E-COMM')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('OHIO-HB X E-COMM')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('GEORGIA-HB E-COMM')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('OHIO-HB E-COMM')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB ALL COMPANY BY STATE ROLLUP')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB ALL COMPANY BY STATE ROLLUP-C')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB ALL COMPANY BY STATE ROLLUP-F')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB ALL COMPANY BY STATE ROLLUP-E')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB RETAIL STATE ROLLUP INCLUDING GIFTING')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('DISTRIBUTION CENTERS-HB')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20711534 - TN-Jackson Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20711545 - FL-Gainesville Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20711573 - GA-Newnan Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20711594 - NE-Omaha Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20711595 - GA-Brunswick Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20711599 - FL-Port Richey Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20711628 - GA-Columbus Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20711634 - CO-Ft Collins Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20711635 - NC-Jacksonville Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20711653 - GA-Locust Grove Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20711911 - TN-Murfreesboro Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20711915 - SC-Florence Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20711922 - MO-Columbia Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20712703 - NJ-Lawrenceville Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20732208 - OH-Solon Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20732504 - VA-Stafford Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20732535 - OH-Boardman Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20752117 - TX-El Paso Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20752127 - MI-Sterling Heights Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20762600 - OR-Beaverton Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20762602 - OR-Johns Landing Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('20752130 - MI-Ann Arbor Combined')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('CONSOLIDATED GEORGIA CONTRIBUTION')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('CONSOLIDATED OHIO CONTRIBUTION')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('CONSOLIDATED MICHIGAN CONTRIBUTION')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('CONSOLIDATED FOODS CONTRIBUTION')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('GC054')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HBH52')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('CONSOLIDATED HBH OF GA')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB FRANCHISE-FORMER')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('CONS HBH OF GA')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THE GEORGIA HBH FRANCHISE HOLDING COMPANY LLC')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('{BY STATE ROLLUPS')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('{GP DATABASES')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HBH HOLDINGS LLC')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THE FRANCHISE HOLDING COMPANY, LLC')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THE HH FRANCHISE COMPANY, LLC')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THE GEORGIA HBH FRANCHISE HOLDING COMPANY, LLC')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HHF ROLLUP (FOR HH PRESIDENT)')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('TOTAL MARKETS-FY19')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('TOTAL MARKETS-G-FY19')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('TOTAL MARKETS-Store Only-FY19')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('NO COUPON TEST')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('TOTAL CA ROYALTY')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('PACKER - TOTAL FY18')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('PACKER - TOTAL FY19')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('10111011')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('67')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('79')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('81')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('88')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('384')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('385')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('871')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('876')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('52112021')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('52500081')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('new store rollup')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('Cost Location-fran')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('OHIO CONTRIBUTION - HISTORY')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('MICHIGAN CONTRIBUTION - HISTORY')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HBH INCL MI/OH OVHD')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('Master Budget Template')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('CHECK INTEGRATION-IT')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('Holland Production Rollup')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('TOTAL FRANCHISE CONSTANT')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('TOTAL RETAIL CONSTANT')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THREE LUNCH LOCATIONS')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('SUPPLY CHAIN (ALTERNATIVE)')"
+		}
+	]
+}

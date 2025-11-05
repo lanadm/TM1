@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"All N Elements",
+	"Expression":"{TM1FILTERBYLEVEL( {TM1SUBSETALL( [MONTH] )}, 0)}"
+}

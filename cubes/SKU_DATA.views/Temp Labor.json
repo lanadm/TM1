@@ -1,0 +1,40 @@
+{
+	"@type":"MDXView",
+	"Name":"Temp Labor",
+	"MDX@Code.link":"Temp Labor.mdx",
+	"Meta": {
+		"Aliases": {
+			"[Lskus].[Lskus]": "Name",
+			"[LOCATIONS].[LOCATIONS]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[Lskus].[Lskus]": {
+				"Expression": "{[Lskus].[Lskus].[Consumer Retail Rollup], [Lskus].[Lskus].[1], [Lskus].[Lskus].[2]}"
+			},
+			"[CATEGORY].[CATEGORY]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[Lchannel].[Lchannel]": {
+				"Expression": "{[Lchannel].[Lchannel].[ALL CHANNELS], [Lchannel].[Lchannel].[CONSUMER RETAIL], [Lchannel].[Lchannel].[CONSUMER LUNCH], [Lchannel].[Lchannel].[B2B GIFTING], [Lchannel].[Lchannel].[B2B CATERING]}"
+			},
+			"[WEEK].[WEEK]": {
+				"SubsetName": "FY23 Weeks",
+				"IsPublic": true
+			}
+		}
+	}
+}

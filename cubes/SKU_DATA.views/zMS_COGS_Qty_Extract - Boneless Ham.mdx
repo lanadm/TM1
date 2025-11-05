@@ -1,0 +1,1 @@
+SELECT {[YEAR].[YEAR].[FY 24]}*{[CATEGORY].[CATEGORY].[Budget]}*{TM1SubsetToSet([LOCATIONS].[LOCATIONS],"COGS - Retail Operations - HB","public")}*{[Lskus].[Lskus].[BONELESS HAM]}*{TM1SubsetToSet([WEEK].[WEEK],"Months - FY24","public")}*{[Lstat].[Lstat].[Quantity]} ON 0, {TM1SubsetToSet([Lchannel].[Lchannel],"COGS Sales","public")} ON 1 FROM [SKU_DATA]

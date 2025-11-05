@@ -1,0 +1,38 @@
+{
+	"@type":"MDXView",
+	"Name":"TTM - Franchise",
+	"MDX@Code.link":"TTM - Franchise.mdx",
+	"Meta": {
+		"Aliases": {
+			"[D365_MainAcct].[D365_MainAcct]": "Name",
+			"[D365_Category].[D365_Category]": "MEMBER_NAME",
+			"[D365_Project].[D365_Project]": "Name",
+			"[D365_Locations].[D365_Locations]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[MONTH].[MONTH]": false,
+			"[D365_MainAcct].[D365_MainAcct]": false,
+			"[D365_Category].[D365_Category]": false,
+			"[D365_Project].[D365_Project]": false,
+			"[D365_Locations].[D365_Locations]": false,
+			"[D365_Product].[D365_Product]": false
+		},
+		"ContextSets": {
+			"[D365_MainAcct].[D365_MainAcct]": {
+				"Expression": "{[D365_MainAcct].[D365_MainAcct].[4030]}"
+			},
+			"[D365_Category].[D365_Category]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[D365_Project].[D365_Project]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[D365_Product].[D365_Product]": {
+				"Expression": "{[D365_Product].[D365_Product].[ALL PRODUCT CODES], [D365_Product].[D365_Product].[HAM], [D365_Product].[D365_Product].[TURKEY], [D365_Product].[D365_Product].[A/O CENTER-OF-TABLE], [D365_Product].[D365_Product].[CASUAL ENTREES], [D365_Product].[D365_Product].[LUNCH], [D365_Product].[D365_Product].[MEAL COMPLETERS], [D365_Product].[D365_Product].[MEAL ADDONS], [D365_Product].[D365_Product].[GIFTING BUNDLES], [D365_Product].[D365_Product].[BASKETS/BOXES/CLUBS], [D365_Product].[D365_Product].[PARTY TRAYS/BUFFETS], [D365_Product].[D365_Product].[FREIGHT], [D365_Product].[D365_Product].[MISCELLANEOUS], [D365_Product].[D365_Product].[00], [D365_Product].[D365_Product].[88], [D365_Product].[D365_Product].[89], [D365_Product].[D365_Product].[90], [D365_Product].[D365_Product].[91], [D365_Product].[D365_Product].[92], [D365_Product].[D365_Product].[93], [D365_Product].[D365_Product].[99], [D365_Product].[D365_Product].[99_1], [D365_Product].[D365_Product].[99_2], [D365_Product].[D365_Product].[99_3], [D365_Product].[D365_Product].[99_4]}"
+			}
+		}
+	}
+}

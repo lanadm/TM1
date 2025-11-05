@@ -1,0 +1,91 @@
+{
+	"@type":"NativeView",
+	"Name":"zz_@Forecasting - Copy from CC to CC (all)",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Subsets('zz_@Forecasting - Copy from CC to CC (all)')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('LRP_Initiatives')/Hierarchies('LRP_Initiatives')/Subsets('zz_@Forecasting - Copy from CC to CC (all)')"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Subsets('zz_@Forecasting - Copy from CC to CC (all)')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 26')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Subsets('zz_@Forecasting - Copy from CC to CC (all)')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 1 FY 26')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Subsets('zz_@Forecasting - Copy from CC to CC (all)')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Budget')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Subsets('zz_@Forecasting - Copy from CC to CC (all)')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('52117016')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Subsets('zz_@Forecasting - Copy from CC to CC (all)')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('Cost Channel')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Subsets('zz_@Forecasting - Copy from CC to CC (all)')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('100100')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"",
+	"ViewExtractSkipConsolidatedValues": true,
+	"ViewExtractSkipRuleValues": true,
+	"ViewExtractSkipZeroes": true
+}

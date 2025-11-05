@@ -1,0 +1,25 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Forecasting - Load to SKU_DATA (Retail Only)",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('Transactions')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('SKU Quantity')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('Usage Quantity')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('Discount')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('Discount Promo')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('Gross')"
+		}
+	]
+}

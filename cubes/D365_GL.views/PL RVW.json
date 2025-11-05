@@ -1,0 +1,285 @@
+{
+	"@type":"NativeView",
+	"Name":"PL RVW",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('MONTH')/Hierarchies('MONTH')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('SEP YTD')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('YEAR')/Hierarchies('YEAR')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 23')"
+					},
+					{
+						"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 22')"
+					}
+				]
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')/Elements('Actual')"
+					},
+					{
+						"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')/Elements('Budget')"
+					},
+					{
+						"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')/Elements('Forecast 9')"
+					}
+				]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')"
+				},
+				"Alias":"Name",
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL GROSS REVENUE')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('RETURNS/ALLOWANCES')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL NET REVENUE')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL COST OF GOODS')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL GROSS PROFIT')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL SELLING EXPENSE')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL WGS/BONUSES/PR TAX/BENEFITS')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL G & A EXPENSE')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('INCOME FROM OPERATIONS')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('NON-OPERATING INCOME/EXPENSE')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('NET INCOME')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('{CONTROLLABLE PL ROLLUPS')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CONTROLLABLE GROSS REVENUE')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CONTROLLABLE RETURNS/ALLOWANCES')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CONTROLLABLE NET REVENUE')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CONTROLLABLE COST OF GOODS')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CONTROLLABLE GROSS PROFIT')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CONTROLLABLE SELLING EXPENSE')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CONTROLLABLE WAGE/BONUS EXPENSE')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CONTROLLABLE G&A EXPENSE')"
+					},
+					{
+						"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CONTROLLABLE INCOME FROM OPERATIONS')"
+					}
+				]
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')"
+				},
+				"Alias":"Name",
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THE HONEY BAKED HAM COMPANY LLC')"
+					},
+					{
+						"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB RETAIL')"
+					},
+					{
+						"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB DIR-TO-CONSUMER')"
+					},
+					{
+						"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB OVERHEAD')"
+					},
+					{
+						"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB FRANCHISE')"
+					},
+					{
+						"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB OTHER')"
+					},
+					{
+						"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HBH California LLC')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THE HONEY BAKED HAM COMPANY LLC')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('D365_Project')/Hierarchies('D365_Project')/Subsets('Default')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('D365_Project')/Hierarchies('D365_Project')/Elements('ALL PROJECTS')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('ALL PRODUCT CODES')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('HAM')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('TURKEY')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('A/O CENTER-OF-TABLE')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('CASUAL ENTREES')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('LUNCH')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('MEAL COMPLETERS')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('MEAL ADDONS')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('GIFTING BUNDLES')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('BASKETS/BOXES/CLUBS')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('PARTY TRAYS/BUFFETS')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('FREIGHT')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('MISCELLANEOUS')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('00')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('88')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('89')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('90')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('91')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('92')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('93')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('99')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('99_1')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('99_2')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('99_3')"
+					},
+					{
+						"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('99_4')"
+					}
+				]
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('ALL PRODUCT CODES')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":true,
+	"SuppressEmptyRows":true,
+	"FormatString":"0.#########"
+}

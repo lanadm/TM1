@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Forecasting - Copy from CC to CC (all)",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 26')"
+		}
+	]
+}

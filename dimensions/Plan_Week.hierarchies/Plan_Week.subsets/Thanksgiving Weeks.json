@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"Thanksgiving Weeks",
+	"Expression":"{FILTER( {TM1SUBSETALL( [Plan_Week] )}, [Plan_Week].[Holiday Weeks] = \"Thanksgiving FY 22\")}"
+}

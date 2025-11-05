@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {EXCEPT([D365_Category].[D365_Category].MEMBERS , {[D365_Category].[D365_Category].[ALL CATEGORIES],[D365_Category].[D365_Category].[{All Categories]} , ALL)}"
+}

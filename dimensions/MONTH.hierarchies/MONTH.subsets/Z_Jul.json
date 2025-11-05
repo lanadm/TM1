@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Z_Jul",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Jul')"
+		}
+	]
+}

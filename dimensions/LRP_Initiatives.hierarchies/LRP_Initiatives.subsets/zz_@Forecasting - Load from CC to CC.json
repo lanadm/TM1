@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Forecasting - Load from CC to CC",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('LRP_Initiatives')/Hierarchies('LRP_Initiatives')/Elements('Base Data')"
+		}
+	]
+}

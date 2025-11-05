@@ -1,0 +1,36 @@
+{
+	"@type":"MDXView",
+	"Name":"zMS_Extract to D365_GL Budget - HB Retail",
+	"MDX@Code.link":"zMS_Extract to D365_GL Budget - HB Retail.mdx",
+	"Meta": {
+		"Aliases": {},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"Expression": "{[YEAR].[YEAR].[FY 24]}"
+			},
+			"[Lskus].[Lskus]": {
+				"SubsetName": "All Level 0 - No Desc",
+				"IsPublic": true
+			},
+			"[CATEGORY].[CATEGORY]": {
+				"Expression": "{[CATEGORY].[CATEGORY].[ALL FORECASTS^Forecast 6]}"
+			},
+			"[WEEK].[WEEK]": {
+				"Expression": "{EXCEPT(TM1SubsetToSet([WEEK].[WEEK] , \"FY24 12 Months\" , \"public\") , {[WEEK].[WEEK].[FISCAL YEAR FY 24^OCT FY 24],[WEEK].[WEEK].[FISCAL YEAR FY 24^NOV FY 24],[WEEK].[WEEK].[FISCAL YEAR FY 24^DEC FY 24],[WEEK].[WEEK].[FISCAL YEAR FY 24^JAN FY 24],[WEEK].[WEEK].[FISCAL YEAR FY 24^FEB FY 24],[WEEK].[WEEK].[FISCAL YEAR FY 24^MAR FY 24]})}"
+			},
+			"[LOCATIONS].[LOCATIONS]": {
+				"SubsetName": "ALL HB RETAIL",
+				"IsPublic": true
+			}
+		}
+	}
+}

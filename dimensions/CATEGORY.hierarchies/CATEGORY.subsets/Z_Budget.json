@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Z_Budget",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Budget')"
+		}
+	]
+}

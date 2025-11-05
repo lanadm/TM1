@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Rollup-All Channels",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('ALL CHANNELS')"
+		}
+	]
+}

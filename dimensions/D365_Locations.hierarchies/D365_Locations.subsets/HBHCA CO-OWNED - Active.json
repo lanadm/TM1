@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"HBHCA CO-OWNED - Active",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {ORDER(TM1FILTERBYPATTERN(DISTINCT({[D365_Locations].[D365_Locations].[HBHCA CO-OWNED],DESCENDANTS([D365_Locations].[D365_Locations].[HBHCA CO-OWNED] , 99 , LEAVES)}) , \"66*\" , \"Name\") , IIF([D365_Locations].[D365_Locations].CURRENTMEMBER.PROPERTIES(\"Name\") = \"\" , [D365_Locations].[D365_Locations].CURRENTMEMBER.PROPERTIES(\"MEMBER_CAPTION\") , [D365_Locations].[D365_Locations].CURRENTMEMBER.PROPERTIES(\"Name\")) , BASC)}"
+}

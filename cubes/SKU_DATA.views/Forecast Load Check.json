@@ -1,0 +1,54 @@
+{
+	"@type":"MDXView",
+	"Name":"Forecast Load Check",
+	"MDX@Code.link":"Forecast Load Check.mdx",
+	"Meta": {
+		"Aliases": {
+			"[Lchannel].[Lchannel]": "Name",
+			"[WEEK].[WEEK]": "MEMBER_NAME",
+			"[LOCATIONS].[LOCATIONS]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[Lskus].[Lskus]": {
+				"SubsetName": "Total Sales by Family Groups Excl Donations",
+				"IsPublic": true
+			},
+			"[Lchannel].[Lchannel]": {
+				"SubsetName": "All Channels",
+				"IsPublic": true
+			},
+			"[Lstat].[Lstat]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[LOCATIONS].[LOCATIONS]": {
+				"SubsetName": "The Honey Baked Ham Company LLC",
+				"IsPublic": true
+			}
+		},
+		"CalculatedMembers": {
+			"[CATEGORY].[CATEGORY]": [
+				{
+					"MemberID": "[CATEGORY].[CATEGORY].[Actual - Forecast]",
+					"Caption": "Actual - Forecast",
+					"Anchor": "[CATEGORY].[CATEGORY].[Forecast]",
+					"Parent": "[CATEGORY].[CATEGORY].[ALL CATEGORIES]",
+					"InsertionPosition": "AFTER"
+				}
+			]
+		}
+	}
+}

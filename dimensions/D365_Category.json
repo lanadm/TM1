@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"D365_Category",
+	"Hierarchies@Code.links":
+	[
+		"D365_Category.hierarchies/D365_Category.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')"
+	}
+}

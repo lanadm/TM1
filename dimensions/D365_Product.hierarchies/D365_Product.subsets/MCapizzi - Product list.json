@@ -1,0 +1,38 @@
+{
+	"@type":"Subset",
+	"Name":"MCapizzi - Product list",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('BUDGETED PRODUCT LINES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('NEW PRODUCT GROUPS')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('5 PRODUCT-LINE')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('OTHER PRODUCTS EXCL RTL DEL FEES')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('ALL PRODUCT CODES X RTL DEL')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('PROTEIN')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('OTHER TO SUM')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('RETAIL')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('HAM & MISC')"
+		},
+		{
+			"@id":"Dimensions('D365_Product')/Hierarchies('D365_Product')/Elements('ALL LESS HAM')"
+		}
+	]
+}

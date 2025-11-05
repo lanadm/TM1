@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"HB Direct-to-Consumer - N Level",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {TM1SORT(TM1FILTERBYLEVEL(TM1DRILLDOWNMEMBER(TM1FILTERBYPATTERN(TM1SUBSETALL([LOCATIONS]) , \"hb dir-to-consumer\") , ALL , RECURSIVE) , 0) , ASC)}"
+}

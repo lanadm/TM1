@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Forecasting - Load from week to week for cost centers - CurrYear Stats",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 41 FY 26')"
+		}
+	]
+}

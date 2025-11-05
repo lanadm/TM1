@@ -1,0 +1,26 @@
+{
+	"@type":"Subset",
+	"Name":"Z-3P_Wk_Stat",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('309713')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('308956')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('309780')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('309791')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('307961')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('450015')"
+		}
+	]
+}

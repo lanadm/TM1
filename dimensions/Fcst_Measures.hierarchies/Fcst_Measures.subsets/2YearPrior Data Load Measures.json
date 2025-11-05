@@ -1,0 +1,14 @@
+{
+	"@type":"Subset",
+	"Name":"2YearPrior Data Load Measures",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('2YearPrior Transactions')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('2YearPrior Quantity')"
+		}
+	]
+}

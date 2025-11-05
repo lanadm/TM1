@@ -1,0 +1,19 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Forecasting - Load from SKU_DATA - CurrYear - Adhoc CCs_LoadtoPlanning",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 28 FY 26')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 29 FY 26')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 30 FY 26')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 31 FY 26')"
+		}
+	]
+}

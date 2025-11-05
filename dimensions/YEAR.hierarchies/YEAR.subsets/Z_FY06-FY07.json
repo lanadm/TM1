@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"Z_FY06-FY07",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 06')"
+		},
+		{
+			"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 07')"
+		}
+	]
+}

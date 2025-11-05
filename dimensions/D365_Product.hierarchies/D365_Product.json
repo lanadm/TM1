@@ -1,0 +1,1743 @@
+{
+	"@type":"Hierarchy",
+	"Name":"D365_Product",
+	"Elements":
+	[
+		{
+			"Name":"{All Product Rollups",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"BUDGETED PRODUCT LINES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SIDES AND DESSERTS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OTHER BUDGETED PRODUCTS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"BASKETS/BOXES/CLUBS/GC FRT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NEW PRODUCT GROUPS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"HAM LARGE GATHERINGS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"HAM SMALL GATHERINGS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"BBQ ROAST AND PORK",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"BEEF AND CHICKEN",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"BREAKFAST",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"RIBS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"APPETIZERS AND BREADS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DESSERTS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SIDES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CONDIMENTS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SWEETS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SOUPS AND BONES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ACCESSORIES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"GENERAL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL PRODUCT CODES X RTL DEL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"PROTEIN",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OTHER TO SUM",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OTHER GP ITEMS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"RETAIL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"LUNCH/BUFFETS/PARTY TRAYS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"LUNCH AND BUFFETS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"BUFFETS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"PARTY TRAYS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"HAM & MISC",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL LESS HAM",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"5 PRODUCT-LINE",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OH_Report",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SLICES AND DINNERS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OTHER PRODUCTS EXCL RTL DEL FEES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"OTHER PRODUCTS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"RETAIL DELIVERY FEES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL PRODUCT CODES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"HAM",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SPIRAL SLICE HAM",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"01",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"02",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"03",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BONELESS HAM",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"04",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"05",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TURKEY",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TURKEY BREAST",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"07",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"09",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"WHOLE TURKEY",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"A/O CENTER-OF-TABLE",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CASUAL ENTREES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SLICES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BBQ",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DINNERS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OTHER CASUAL ENTREES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"31",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LUNCH",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"33",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"34",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"35",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"36",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"37",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"39",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"40",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MEAL COMPLETERS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"41",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"43",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"45",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"47",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"49",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"51",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MEAL ADDONS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"53",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"55",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"57",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"59",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"61",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GIFTING BUNDLES",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BASKETS/BOXES/CLUBS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"63",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"65",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"67",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"69",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PARTY TRAYS/BUFFETS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"32",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"71",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"73",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"75",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"77",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"78",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"79",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"80",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"81",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FREIGHT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"83",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"85",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"87",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MISCELLANEOUS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"00",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"88",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"89",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"90",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"91",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"92",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"93",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"99",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"99_1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"99_2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"99_3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"99_4",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"{All Product Rollups",
+			"ComponentName":"BUDGETED PRODUCT LINES",
+			"Weight":1
+		},
+		{
+			"ParentName":"{All Product Rollups",
+			"ComponentName":"NEW PRODUCT GROUPS",
+			"Weight":1
+		},
+		{
+			"ParentName":"{All Product Rollups",
+			"ComponentName":"OTHER PRODUCTS EXCL RTL DEL FEES",
+			"Weight":1
+		},
+		{
+			"ParentName":"{All Product Rollups",
+			"ComponentName":"ALL PRODUCT CODES X RTL DEL",
+			"Weight":1
+		},
+		{
+			"ParentName":"{All Product Rollups",
+			"ComponentName":"PROTEIN",
+			"Weight":1
+		},
+		{
+			"ParentName":"{All Product Rollups",
+			"ComponentName":"OTHER TO SUM",
+			"Weight":1
+		},
+		{
+			"ParentName":"{All Product Rollups",
+			"ComponentName":"RETAIL",
+			"Weight":1
+		},
+		{
+			"ParentName":"{All Product Rollups",
+			"ComponentName":"HAM & MISC",
+			"Weight":1
+		},
+		{
+			"ParentName":"{All Product Rollups",
+			"ComponentName":"ALL LESS HAM",
+			"Weight":1
+		},
+		{
+			"ParentName":"{All Product Rollups",
+			"ComponentName":"5 PRODUCT-LINE",
+			"Weight":1
+		},
+		{
+			"ParentName":"{All Product Rollups",
+			"ComponentName":"OH_Report",
+			"Weight":1
+		},
+		{
+			"ParentName":"BUDGETED PRODUCT LINES",
+			"ComponentName":"HAM",
+			"Weight":1
+		},
+		{
+			"ParentName":"BUDGETED PRODUCT LINES",
+			"ComponentName":"TURKEY BREAST",
+			"Weight":1
+		},
+		{
+			"ParentName":"BUDGETED PRODUCT LINES",
+			"ComponentName":"WHOLE TURKEY",
+			"Weight":1
+		},
+		{
+			"ParentName":"BUDGETED PRODUCT LINES",
+			"ComponentName":"LUNCH/BUFFETS/PARTY TRAYS",
+			"Weight":1
+		},
+		{
+			"ParentName":"BUDGETED PRODUCT LINES",
+			"ComponentName":"SIDES AND DESSERTS",
+			"Weight":1
+		},
+		{
+			"ParentName":"BUDGETED PRODUCT LINES",
+			"ComponentName":"OTHER BUDGETED PRODUCTS",
+			"Weight":1
+		},
+		{
+			"ParentName":"SIDES AND DESSERTS",
+			"ComponentName":"45",
+			"Weight":1
+		},
+		{
+			"ParentName":"SIDES AND DESSERTS",
+			"ComponentName":"47",
+			"Weight":1
+		},
+		{
+			"ParentName":"SIDES AND DESSERTS",
+			"ComponentName":"49",
+			"Weight":1
+		},
+		{
+			"ParentName":"SIDES AND DESSERTS",
+			"ComponentName":"51",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER BUDGETED PRODUCTS",
+			"ComponentName":"A/O CENTER-OF-TABLE",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER BUDGETED PRODUCTS",
+			"ComponentName":"SLICES AND DINNERS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER BUDGETED PRODUCTS",
+			"ComponentName":"BREAKFAST",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER BUDGETED PRODUCTS",
+			"ComponentName":"MEAL ADDONS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER BUDGETED PRODUCTS",
+			"ComponentName":"APPETIZERS AND BREADS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER BUDGETED PRODUCTS",
+			"ComponentName":"OTHER CASUAL ENTREES",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER BUDGETED PRODUCTS",
+			"ComponentName":"BBQ",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER BUDGETED PRODUCTS",
+			"ComponentName":"GIFTING BUNDLES",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER BUDGETED PRODUCTS",
+			"ComponentName":"BASKETS/BOXES/CLUBS/GC FRT",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER BUDGETED PRODUCTS",
+			"ComponentName":"MISCELLANEOUS",
+			"Weight":1
+		},
+		{
+			"ParentName":"BASKETS/BOXES/CLUBS/GC FRT",
+			"ComponentName":"63",
+			"Weight":1
+		},
+		{
+			"ParentName":"BASKETS/BOXES/CLUBS/GC FRT",
+			"ComponentName":"65",
+			"Weight":1
+		},
+		{
+			"ParentName":"BASKETS/BOXES/CLUBS/GC FRT",
+			"ComponentName":"67",
+			"Weight":1
+		},
+		{
+			"ParentName":"BASKETS/BOXES/CLUBS/GC FRT",
+			"ComponentName":"69",
+			"Weight":1
+		},
+		{
+			"ParentName":"BASKETS/BOXES/CLUBS/GC FRT",
+			"ComponentName":"87",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"HAM LARGE GATHERINGS",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"HAM SMALL GATHERINGS",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"TURKEY BREAST",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"WHOLE TURKEY",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"BBQ ROAST AND PORK",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"BEEF AND CHICKEN",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"SLICES AND DINNERS",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"BREAKFAST",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"RIBS",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"LUNCH",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"APPETIZERS AND BREADS",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"DESSERTS",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"SIDES",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"CONDIMENTS",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"SWEETS",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"SOUPS AND BONES",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"GIFTING BUNDLES",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"ACCESSORIES",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"PARTY TRAYS",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"BUFFETS",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"RETAIL DELIVERY FEES",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW PRODUCT GROUPS",
+			"ComponentName":"GENERAL",
+			"Weight":1
+		},
+		{
+			"ParentName":"HAM LARGE GATHERINGS",
+			"ComponentName":"01",
+			"Weight":1
+		},
+		{
+			"ParentName":"HAM LARGE GATHERINGS",
+			"ComponentName":"02",
+			"Weight":1
+		},
+		{
+			"ParentName":"HAM LARGE GATHERINGS",
+			"ComponentName":"03",
+			"Weight":1
+		},
+		{
+			"ParentName":"HAM SMALL GATHERINGS",
+			"ComponentName":"04",
+			"Weight":1
+		},
+		{
+			"ParentName":"HAM SMALL GATHERINGS",
+			"ComponentName":"05",
+			"Weight":1
+		},
+		{
+			"ParentName":"BBQ ROAST AND PORK",
+			"ComponentName":"15",
+			"Weight":1
+		},
+		{
+			"ParentName":"BBQ ROAST AND PORK",
+			"ComponentName":"17",
+			"Weight":1
+		},
+		{
+			"ParentName":"BBQ ROAST AND PORK",
+			"ComponentName":"27",
+			"Weight":1
+		},
+		{
+			"ParentName":"BBQ ROAST AND PORK",
+			"ComponentName":"29",
+			"Weight":1
+		},
+		{
+			"ParentName":"BEEF AND CHICKEN",
+			"ComponentName":"19",
+			"Weight":1
+		},
+		{
+			"ParentName":"BEEF AND CHICKEN",
+			"ComponentName":"31",
+			"Weight":1
+		},
+		{
+			"ParentName":"BREAKFAST",
+			"ComponentName":"32",
+			"Weight":1
+		},
+		{
+			"ParentName":"RIBS",
+			"ComponentName":"25",
+			"Weight":1
+		},
+		{
+			"ParentName":"APPETIZERS AND BREADS",
+			"ComponentName":"41",
+			"Weight":1
+		},
+		{
+			"ParentName":"APPETIZERS AND BREADS",
+			"ComponentName":"43",
+			"Weight":1
+		},
+		{
+			"ParentName":"DESSERTS",
+			"ComponentName":"45",
+			"Weight":1
+		},
+		{
+			"ParentName":"DESSERTS",
+			"ComponentName":"47",
+			"Weight":1
+		},
+		{
+			"ParentName":"DESSERTS",
+			"ComponentName":"49",
+			"Weight":1
+		},
+		{
+			"ParentName":"SIDES",
+			"ComponentName":"51",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONDIMENTS",
+			"ComponentName":"53",
+			"Weight":1
+		},
+		{
+			"ParentName":"SWEETS",
+			"ComponentName":"55",
+			"Weight":1
+		},
+		{
+			"ParentName":"SOUPS AND BONES",
+			"ComponentName":"57",
+			"Weight":1
+		},
+		{
+			"ParentName":"SOUPS AND BONES",
+			"ComponentName":"59",
+			"Weight":1
+		},
+		{
+			"ParentName":"ACCESSORIES",
+			"ComponentName":"61",
+			"Weight":1
+		},
+		{
+			"ParentName":"ACCESSORIES",
+			"ComponentName":"63",
+			"Weight":1
+		},
+		{
+			"ParentName":"ACCESSORIES",
+			"ComponentName":"65",
+			"Weight":1
+		},
+		{
+			"ParentName":"ACCESSORIES",
+			"ComponentName":"99",
+			"Weight":1
+		},
+		{
+			"ParentName":"GENERAL",
+			"ComponentName":"00",
+			"Weight":1
+		},
+		{
+			"ParentName":"GENERAL",
+			"ComponentName":"67",
+			"Weight":1
+		},
+		{
+			"ParentName":"GENERAL",
+			"ComponentName":"69",
+			"Weight":1
+		},
+		{
+			"ParentName":"GENERAL",
+			"ComponentName":"83",
+			"Weight":1
+		},
+		{
+			"ParentName":"GENERAL",
+			"ComponentName":"85",
+			"Weight":1
+		},
+		{
+			"ParentName":"GENERAL",
+			"ComponentName":"87",
+			"Weight":1
+		},
+		{
+			"ParentName":"GENERAL",
+			"ComponentName":"88",
+			"Weight":1
+		},
+		{
+			"ParentName":"GENERAL",
+			"ComponentName":"89",
+			"Weight":1
+		},
+		{
+			"ParentName":"GENERAL",
+			"ComponentName":"90",
+			"Weight":1
+		},
+		{
+			"ParentName":"GENERAL",
+			"ComponentName":"91",
+			"Weight":1
+		},
+		{
+			"ParentName":"GENERAL",
+			"ComponentName":"92",
+			"Weight":1
+		},
+		{
+			"ParentName":"GENERAL",
+			"ComponentName":"93",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES X RTL DEL",
+			"ComponentName":"ALL PRODUCT CODES",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES X RTL DEL",
+			"ComponentName":"RETAIL DELIVERY FEES",
+			"Weight":-1
+		},
+		{
+			"ParentName":"PROTEIN",
+			"ComponentName":"HAM",
+			"Weight":1
+		},
+		{
+			"ParentName":"PROTEIN",
+			"ComponentName":"TURKEY",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER TO SUM",
+			"ComponentName":"A/O CENTER-OF-TABLE",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER TO SUM",
+			"ComponentName":"CASUAL ENTREES",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER TO SUM",
+			"ComponentName":"MEAL ADDONS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER TO SUM",
+			"ComponentName":"OTHER GP ITEMS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER GP ITEMS",
+			"ComponentName":"GIFTING BUNDLES",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER GP ITEMS",
+			"ComponentName":"BASKETS/BOXES/CLUBS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER GP ITEMS",
+			"ComponentName":"PARTY TRAYS/BUFFETS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER GP ITEMS",
+			"ComponentName":"FREIGHT",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER GP ITEMS",
+			"ComponentName":"MISCELLANEOUS",
+			"Weight":1
+		},
+		{
+			"ParentName":"RETAIL",
+			"ComponentName":"ALL PRODUCT CODES",
+			"Weight":1
+		},
+		{
+			"ParentName":"RETAIL",
+			"ComponentName":"LUNCH/BUFFETS/PARTY TRAYS",
+			"Weight":-1
+		},
+		{
+			"ParentName":"LUNCH/BUFFETS/PARTY TRAYS",
+			"ComponentName":"LUNCH AND BUFFETS",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH/BUFFETS/PARTY TRAYS",
+			"ComponentName":"PARTY TRAYS",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH AND BUFFETS",
+			"ComponentName":"LUNCH",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH AND BUFFETS",
+			"ComponentName":"BUFFETS",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH AND BUFFETS",
+			"ComponentName":"RETAIL DELIVERY FEES",
+			"Weight":1
+		},
+		{
+			"ParentName":"BUFFETS",
+			"ComponentName":"77",
+			"Weight":1
+		},
+		{
+			"ParentName":"BUFFETS",
+			"ComponentName":"78",
+			"Weight":1
+		},
+		{
+			"ParentName":"BUFFETS",
+			"ComponentName":"79",
+			"Weight":1
+		},
+		{
+			"ParentName":"BUFFETS",
+			"ComponentName":"80",
+			"Weight":1
+		},
+		{
+			"ParentName":"PARTY TRAYS",
+			"ComponentName":"71",
+			"Weight":1
+		},
+		{
+			"ParentName":"PARTY TRAYS",
+			"ComponentName":"73",
+			"Weight":1
+		},
+		{
+			"ParentName":"PARTY TRAYS",
+			"ComponentName":"75",
+			"Weight":1
+		},
+		{
+			"ParentName":"HAM & MISC",
+			"ComponentName":"HAM",
+			"Weight":1
+		},
+		{
+			"ParentName":"HAM & MISC",
+			"ComponentName":"MISCELLANEOUS",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LESS HAM",
+			"ComponentName":"ALL PRODUCT CODES",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL LESS HAM",
+			"ComponentName":"HAM",
+			"Weight":-1
+		},
+		{
+			"ParentName":"5 PRODUCT-LINE",
+			"ComponentName":"HAM",
+			"Weight":1
+		},
+		{
+			"ParentName":"5 PRODUCT-LINE",
+			"ComponentName":"TURKEY BREAST",
+			"Weight":1
+		},
+		{
+			"ParentName":"5 PRODUCT-LINE",
+			"ComponentName":"SLICES AND DINNERS",
+			"Weight":1
+		},
+		{
+			"ParentName":"5 PRODUCT-LINE",
+			"ComponentName":"LUNCH",
+			"Weight":1
+		},
+		{
+			"ParentName":"5 PRODUCT-LINE",
+			"ComponentName":"OTHER PRODUCTS",
+			"Weight":1
+		},
+		{
+			"ParentName":"5 PRODUCT-LINE",
+			"ComponentName":"FREIGHT",
+			"Weight":1
+		},
+		{
+			"ParentName":"OH_Report",
+			"ComponentName":"HAM",
+			"Weight":1
+		},
+		{
+			"ParentName":"OH_Report",
+			"ComponentName":"TURKEY BREAST",
+			"Weight":1
+		},
+		{
+			"ParentName":"OH_Report",
+			"ComponentName":"SLICES AND DINNERS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OH_Report",
+			"ComponentName":"LUNCH",
+			"Weight":1
+		},
+		{
+			"ParentName":"OH_Report",
+			"ComponentName":"OTHER PRODUCTS EXCL RTL DEL FEES",
+			"Weight":1
+		},
+		{
+			"ParentName":"OH_Report",
+			"ComponentName":"RETAIL DELIVERY FEES",
+			"Weight":-1
+		},
+		{
+			"ParentName":"OH_Report",
+			"ComponentName":"ALL PRODUCT CODES",
+			"Weight":1
+		},
+		{
+			"ParentName":"SLICES AND DINNERS",
+			"ComponentName":"SLICES",
+			"Weight":1
+		},
+		{
+			"ParentName":"SLICES AND DINNERS",
+			"ComponentName":"DINNERS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER PRODUCTS EXCL RTL DEL FEES",
+			"ComponentName":"OTHER PRODUCTS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER PRODUCTS EXCL RTL DEL FEES",
+			"ComponentName":"RETAIL DELIVERY FEES",
+			"Weight":-1
+		},
+		{
+			"ParentName":"OTHER PRODUCTS",
+			"ComponentName":"WHOLE TURKEY",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER PRODUCTS",
+			"ComponentName":"A/O CENTER-OF-TABLE",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER PRODUCTS",
+			"ComponentName":"BBQ",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER PRODUCTS",
+			"ComponentName":"OTHER CASUAL ENTREES",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER PRODUCTS",
+			"ComponentName":"MEAL COMPLETERS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER PRODUCTS",
+			"ComponentName":"MEAL ADDONS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER PRODUCTS",
+			"ComponentName":"GIFTING BUNDLES",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER PRODUCTS",
+			"ComponentName":"BASKETS/BOXES/CLUBS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER PRODUCTS",
+			"ComponentName":"PARTY TRAYS/BUFFETS",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER PRODUCTS",
+			"ComponentName":"FREIGHT",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER PRODUCTS",
+			"ComponentName":"MISCELLANEOUS",
+			"Weight":1
+		},
+		{
+			"ParentName":"RETAIL DELIVERY FEES",
+			"ComponentName":"81",
+			"Weight":1
+		},
+		{
+			"ParentName":"RETAIL DELIVERY FEES",
+			"ComponentName":"83",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES",
+			"ComponentName":"HAM",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES",
+			"ComponentName":"TURKEY",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES",
+			"ComponentName":"A/O CENTER-OF-TABLE",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES",
+			"ComponentName":"CASUAL ENTREES",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES",
+			"ComponentName":"LUNCH",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES",
+			"ComponentName":"MEAL COMPLETERS",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES",
+			"ComponentName":"MEAL ADDONS",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES",
+			"ComponentName":"GIFTING BUNDLES",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES",
+			"ComponentName":"BASKETS/BOXES/CLUBS",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES",
+			"ComponentName":"PARTY TRAYS/BUFFETS",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES",
+			"ComponentName":"FREIGHT",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL PRODUCT CODES",
+			"ComponentName":"MISCELLANEOUS",
+			"Weight":1
+		},
+		{
+			"ParentName":"HAM",
+			"ComponentName":"SPIRAL SLICE HAM",
+			"Weight":1
+		},
+		{
+			"ParentName":"HAM",
+			"ComponentName":"BONELESS HAM",
+			"Weight":1
+		},
+		{
+			"ParentName":"SPIRAL SLICE HAM",
+			"ComponentName":"01",
+			"Weight":1
+		},
+		{
+			"ParentName":"SPIRAL SLICE HAM",
+			"ComponentName":"02",
+			"Weight":1
+		},
+		{
+			"ParentName":"SPIRAL SLICE HAM",
+			"ComponentName":"03",
+			"Weight":1
+		},
+		{
+			"ParentName":"BONELESS HAM",
+			"ComponentName":"04",
+			"Weight":1
+		},
+		{
+			"ParentName":"BONELESS HAM",
+			"ComponentName":"05",
+			"Weight":1
+		},
+		{
+			"ParentName":"TURKEY",
+			"ComponentName":"TURKEY BREAST",
+			"Weight":1
+		},
+		{
+			"ParentName":"TURKEY",
+			"ComponentName":"WHOLE TURKEY",
+			"Weight":1
+		},
+		{
+			"ParentName":"TURKEY BREAST",
+			"ComponentName":"07",
+			"Weight":1
+		},
+		{
+			"ParentName":"TURKEY BREAST",
+			"ComponentName":"09",
+			"Weight":1
+		},
+		{
+			"ParentName":"WHOLE TURKEY",
+			"ComponentName":"11",
+			"Weight":1
+		},
+		{
+			"ParentName":"WHOLE TURKEY",
+			"ComponentName":"13",
+			"Weight":1
+		},
+		{
+			"ParentName":"A/O CENTER-OF-TABLE",
+			"ComponentName":"15",
+			"Weight":1
+		},
+		{
+			"ParentName":"A/O CENTER-OF-TABLE",
+			"ComponentName":"17",
+			"Weight":1
+		},
+		{
+			"ParentName":"A/O CENTER-OF-TABLE",
+			"ComponentName":"19",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASUAL ENTREES",
+			"ComponentName":"SLICES",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASUAL ENTREES",
+			"ComponentName":"BBQ",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASUAL ENTREES",
+			"ComponentName":"DINNERS",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASUAL ENTREES",
+			"ComponentName":"OTHER CASUAL ENTREES",
+			"Weight":1
+		},
+		{
+			"ParentName":"SLICES",
+			"ComponentName":"21",
+			"Weight":1
+		},
+		{
+			"ParentName":"SLICES",
+			"ComponentName":"24",
+			"Weight":1
+		},
+		{
+			"ParentName":"BBQ",
+			"ComponentName":"25",
+			"Weight":1
+		},
+		{
+			"ParentName":"BBQ",
+			"ComponentName":"27",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS",
+			"ComponentName":"22",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER CASUAL ENTREES",
+			"ComponentName":"29",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER CASUAL ENTREES",
+			"ComponentName":"31",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH",
+			"ComponentName":"33",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH",
+			"ComponentName":"34",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH",
+			"ComponentName":"35",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH",
+			"ComponentName":"36",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH",
+			"ComponentName":"37",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH",
+			"ComponentName":"39",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH",
+			"ComponentName":"40",
+			"Weight":1
+		},
+		{
+			"ParentName":"MEAL COMPLETERS",
+			"ComponentName":"41",
+			"Weight":1
+		},
+		{
+			"ParentName":"MEAL COMPLETERS",
+			"ComponentName":"43",
+			"Weight":1
+		},
+		{
+			"ParentName":"MEAL COMPLETERS",
+			"ComponentName":"45",
+			"Weight":1
+		},
+		{
+			"ParentName":"MEAL COMPLETERS",
+			"ComponentName":"47",
+			"Weight":1
+		},
+		{
+			"ParentName":"MEAL COMPLETERS",
+			"ComponentName":"49",
+			"Weight":1
+		},
+		{
+			"ParentName":"MEAL COMPLETERS",
+			"ComponentName":"51",
+			"Weight":1
+		},
+		{
+			"ParentName":"MEAL ADDONS",
+			"ComponentName":"53",
+			"Weight":1
+		},
+		{
+			"ParentName":"MEAL ADDONS",
+			"ComponentName":"55",
+			"Weight":1
+		},
+		{
+			"ParentName":"MEAL ADDONS",
+			"ComponentName":"57",
+			"Weight":1
+		},
+		{
+			"ParentName":"MEAL ADDONS",
+			"ComponentName":"59",
+			"Weight":1
+		},
+		{
+			"ParentName":"MEAL ADDONS",
+			"ComponentName":"61",
+			"Weight":1
+		},
+		{
+			"ParentName":"GIFTING BUNDLES",
+			"ComponentName":"23",
+			"Weight":1
+		},
+		{
+			"ParentName":"BASKETS/BOXES/CLUBS",
+			"ComponentName":"63",
+			"Weight":1
+		},
+		{
+			"ParentName":"BASKETS/BOXES/CLUBS",
+			"ComponentName":"65",
+			"Weight":1
+		},
+		{
+			"ParentName":"BASKETS/BOXES/CLUBS",
+			"ComponentName":"67",
+			"Weight":1
+		},
+		{
+			"ParentName":"BASKETS/BOXES/CLUBS",
+			"ComponentName":"69",
+			"Weight":1
+		},
+		{
+			"ParentName":"PARTY TRAYS/BUFFETS",
+			"ComponentName":"32",
+			"Weight":1
+		},
+		{
+			"ParentName":"PARTY TRAYS/BUFFETS",
+			"ComponentName":"71",
+			"Weight":1
+		},
+		{
+			"ParentName":"PARTY TRAYS/BUFFETS",
+			"ComponentName":"73",
+			"Weight":1
+		},
+		{
+			"ParentName":"PARTY TRAYS/BUFFETS",
+			"ComponentName":"75",
+			"Weight":1
+		},
+		{
+			"ParentName":"PARTY TRAYS/BUFFETS",
+			"ComponentName":"77",
+			"Weight":1
+		},
+		{
+			"ParentName":"PARTY TRAYS/BUFFETS",
+			"ComponentName":"78",
+			"Weight":1
+		},
+		{
+			"ParentName":"PARTY TRAYS/BUFFETS",
+			"ComponentName":"79",
+			"Weight":1
+		},
+		{
+			"ParentName":"PARTY TRAYS/BUFFETS",
+			"ComponentName":"80",
+			"Weight":1
+		},
+		{
+			"ParentName":"PARTY TRAYS/BUFFETS",
+			"ComponentName":"81",
+			"Weight":1
+		},
+		{
+			"ParentName":"FREIGHT",
+			"ComponentName":"83",
+			"Weight":1
+		},
+		{
+			"ParentName":"FREIGHT",
+			"ComponentName":"85",
+			"Weight":1
+		},
+		{
+			"ParentName":"FREIGHT",
+			"ComponentName":"87",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISCELLANEOUS",
+			"ComponentName":"00",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISCELLANEOUS",
+			"ComponentName":"88",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISCELLANEOUS",
+			"ComponentName":"89",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISCELLANEOUS",
+			"ComponentName":"90",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISCELLANEOUS",
+			"ComponentName":"91",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISCELLANEOUS",
+			"ComponentName":"92",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISCELLANEOUS",
+			"ComponentName":"93",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISCELLANEOUS",
+			"ComponentName":"99",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISCELLANEOUS",
+			"ComponentName":"99_1",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISCELLANEOUS",
+			"ComponentName":"99_2",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISCELLANEOUS",
+			"ComponentName":"99_3",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISCELLANEOUS",
+			"ComponentName":"99_4",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"D365_Product.subsets/All Level 0.json",
+		"D365_Product.subsets/All Level 0 (No Desc).json",
+		"D365_Product.subsets/All Product Codes.json",
+		"D365_Product.subsets/Budget Reporting Categories.json",
+		"D365_Product.subsets/COGS Zero Products.json",
+		"D365_Product.subsets/Default.json",
+		"D365_Product.subsets/MCapizzi - Product list.json",
+		"D365_Product.subsets/Top Rollup with Codes.json",
+		"D365_Product.subsets/zz_@D365_GL - Copy from Category to Category.json",
+		"D365_Product.subsets/zz_@D365_GL - Copy from Category to Category (D2C).json",
+		"D365_Product.subsets/zz_@D365_GL - Copy from Category to Category_ZeroOut.json",
+		"D365_Product.subsets/zz_@D365_GL - Copy from CC to CC.json",
+		"D365_Product.subsets/zz_@D365_GL - Export Data.json",
+		"D365_Product.subsets/zz_D365_GL - Export Data.json"
+	]
+}

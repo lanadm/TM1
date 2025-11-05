@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"D365_Locations",
+	"Hierarchies@Code.links":
+	[
+		"D365_Locations.hierarchies/D365_Locations.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')"
+	}
+}

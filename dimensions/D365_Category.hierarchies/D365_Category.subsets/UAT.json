@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"UAT",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Category')/Hierarchies('D365_Category')/Elements('UAT')"
+		}
+	]
+}

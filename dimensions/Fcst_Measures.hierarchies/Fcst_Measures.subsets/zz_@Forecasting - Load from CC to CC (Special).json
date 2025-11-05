@@ -1,0 +1,25 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Forecasting - Load from CC to CC (Special)",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('Base Gross')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('CurrYear Quantity')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('CurrYear Transactions')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('CurrYear Discount')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('CurrYear Discount Promo')"
+		},
+		{
+			"@id":"Dimensions('Fcst_Measures')/Hierarchies('Fcst_Measures')/Elements('CurrYear Usage Qty')"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"HBRetail",
+	"Alias":"Name",
+	"Expression":"{TM1SORT(\r{TM1FILTERBYLEVEL( {TM1DRILLDOWNMEMBER( {TM1FILTERBYPATTERN( {TM1SUBSETALL( [D365_Locations] )}, \"HB RETAIL\")}, ALL, RECURSIVE )}, 0)},ASC \r)}"
+}

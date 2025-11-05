@@ -1,0 +1,20 @@
+{
+	"@type":"MDXView",
+	"Name":"zMS_COGS_Qty_Extract - Boneless Ham",
+	"MDX@Code.link":"zMS_COGS_Qty_Extract - Boneless Ham.mdx",
+	"Meta": {
+		"Aliases": {
+			"[LOCATIONS].[LOCATIONS]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[Lstat].[Lstat]": false,
+			"[LOCATIONS].[LOCATIONS]": false
+		},
+		"ContextSets": {}
+	}
+}

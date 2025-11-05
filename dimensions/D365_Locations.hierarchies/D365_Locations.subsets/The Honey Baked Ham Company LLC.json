@@ -1,0 +1,29 @@
+{
+	"@type":"Subset",
+	"Name":"The Honey Baked Ham Company LLC",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('THE HONEY BAKED HAM COMPANY LLC')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB RETAIL')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB DIR-TO-CONSUMER')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB OVERHEAD')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB FRANCHISE')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HB OTHER')"
+		},
+		{
+			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('HBH California LLC')"
+		}
+	]
+}

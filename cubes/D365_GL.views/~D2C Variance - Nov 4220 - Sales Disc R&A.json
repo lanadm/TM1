@@ -1,0 +1,44 @@
+{
+	"@type":"MDXView",
+	"Name":"~D2C Variance - Nov 4220 - Sales Disc R&A",
+	"MDX@Code.link":"~D2C Variance - Nov 4220 - Sales Disc R&A.mdx",
+	"Meta": {
+		"Aliases": {
+			"[MONTH].[MONTH]": "MEMBER_NAME",
+			"[D365_MainAcct].[D365_MainAcct]": "Name",
+			"[D365_Category].[D365_Category]": "MEMBER_NAME",
+			"[D365_Project].[D365_Project]": "Name",
+			"[D365_Locations].[D365_Locations]": "Name",
+			"[D365_Product].[D365_Product]": "Name"
+		},
+		"ExpandAboves": {
+			"[MONTH].[MONTH]": false,
+			"[YEAR].[YEAR]": false,
+			"[D365_MainAcct].[D365_MainAcct]": false,
+			"[D365_Category].[D365_Category]": false,
+			"[D365_Project].[D365_Project]": false,
+			"[D365_Locations].[D365_Locations]": false,
+			"[D365_Product].[D365_Product]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[D365_MainAcct].[D365_MainAcct]": {
+				"Expression": "{[D365_MainAcct].[D365_MainAcct].[4220]}"
+			},
+			"[D365_Category].[D365_Category]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[D365_Project].[D365_Project]": {
+				"SubsetName": "All Level 0",
+				"IsPublic": true
+			},
+			"[D365_Product].[D365_Product]": {
+				"Expression": "{[D365_Product].[D365_Product].[ALL PRODUCT CODES]}"
+			}
+		}
+	}
+}

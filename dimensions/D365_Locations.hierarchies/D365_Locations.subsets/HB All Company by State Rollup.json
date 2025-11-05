@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"HB All Company by State Rollup",
+	"Alias":"Name",
+	"Expression":"{ DRILLDOWNMEMBER( {TM1FILTERBYPATTERN( {TM1SUBSETALL( [D365_Locations] )}, \"HB ALL COMPANY BY STATE ROLLUP\")}, {[D365_Locations].[HB ALL COMPANY BY STATE ROLLUP]} ) }"
+}

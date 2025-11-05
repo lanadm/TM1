@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"Z03_Oct-Dec",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Oct')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Nov')"
+		},
+		{
+			"@id":"Dimensions('MONTH')/Hierarchies('MONTH')/Elements('Dec')"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Catalog Financial Distribution",
+	"Alias":"Name",
+	"Expression":"{TM1FILTERBYLEVEL( {TM1DRILLDOWNMEMBER( {TM1FILTERBYPATTERN( {TM1SUBSETALL( [D365_LOCATIONS] )}, \"HBH California LLC\")}, ALL, RECURSIVE )}, 0)}"
+}

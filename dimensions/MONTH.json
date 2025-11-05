@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"MONTH",
+	"Hierarchies@Code.links":
+	[
+		"MONTH.hierarchies/MONTH.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('MONTH')/Hierarchies('MONTH')"
+	}
+}

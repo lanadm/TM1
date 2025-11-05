@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Retail Operations-HB (Level 0)",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {TM1SORT(TM1FILTERBYLEVEL(TM1DRILLDOWNMEMBER(TM1FILTERBYPATTERN(TM1SUBSETALL([LOCATIONS]) , \"retail operations-hb\") , ALL , RECURSIVE) , 0) , ASC)}"
+}

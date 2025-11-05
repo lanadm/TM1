@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"District Totals for Store and Seasonal FY25_T3",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {TM1DRILLDOWNMEMBER(TM1FILTERBYPATTERN(TM1SUBSETALL([D365_Locations]) , \"DISTRICT TOTAL FOR STORE AND SEASONAL FY25_T3\") , ALL , RECURSIVE)}"
+}

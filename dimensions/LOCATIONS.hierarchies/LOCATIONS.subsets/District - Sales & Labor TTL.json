@@ -1,0 +1,62 @@
+{
+	"@type":"Subset",
+	"Name":"District - Sales & Labor TTL",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 1 - MICHAEL WARD')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 2 - MATT REDER')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 3 - ERIC SONNY')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 5 - LISA GRAY')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 7 - CERRON COLLINS')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 9 - DOROTHY BONAVENTURE')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 10 - DAVE KAROL')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 11 - DOUG KREY')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 12 - STEVE ALLEN')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 13 - HAROLD MCCLELLAN')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 14 - EVELYN LAINEZ')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 15 - JASON TUCKER')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 16 - MARCOS SOTO')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 18 - NORM HENNINGER')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 19 - MUNDI SILVERS')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 20 - BECKY GRIDER')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 22 - MICHAEL BRAY')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT - Sales & Trans Rollup')"
+		}
+	]
+}
