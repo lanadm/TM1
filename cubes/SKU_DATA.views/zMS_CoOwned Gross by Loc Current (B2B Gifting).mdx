@@ -1,1 +1,0 @@
-SELECT {TM1SubsetToSet([YEAR].[YEAR],"Current Year","public")}*{[CATEGORY].[CATEGORY].[Actual]}*{TM1SubsetToSet([LOCATIONS].[LOCATIONS],"CoOwned","public")}*{TM1SubsetToSet([Lskus].[Lskus],"Sales Pounds SKU Groupings","public")}*{TM1SubsetToSet([WEEK].[WEEK],"Current Week","public")}*{[Lstat].[Lstat].[Gross]} ON 0, {[Lchannel].[Lchannel].[B2B GIFTING]} ON 1 FROM [SKU_DATA]

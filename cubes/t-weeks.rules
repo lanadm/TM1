@@ -1,0 +1,8 @@
+
+
+
+
+
+FEEDERS;
+
+[] => DB('PERCENT_OF_YEAR',!WeekbyYear,!WEEK#,'Value');

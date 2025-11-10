@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"COGS Zero Products",
-	"Alias":"MEMBER_NAME",
-	"Expression":"TM1IGNORE_BADTUPLES {EXCEPT(TM1FILTERBYLEVEL(TM1SUBSETALL([D365_Product].[D365_Product]) , 0) , {[D365_Product].[D365_Product].[OH_Report^ALL PRODUCT CODES^MISCELLANEOUS^99]} , ALL)}"
-}

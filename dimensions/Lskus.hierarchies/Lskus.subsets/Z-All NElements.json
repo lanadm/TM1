@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Z-All NElements",
-	"Expression":"{TM1SORT( {TM1FILTERBYLEVEL( {TM1SUBSETALL( [Lskus] )}, 0)}, ASC)}"
-}

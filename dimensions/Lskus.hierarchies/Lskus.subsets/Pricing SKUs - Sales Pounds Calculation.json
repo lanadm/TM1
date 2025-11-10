@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Pricing SKUs - Sales Pounds Calculation",
-	"Alias":"Name",
-	"Expression":"TM1IGNORE_BADTUPLES {EXCEPT(TM1FILTERBYPATTERN(TM1SUBSETALL([Lskus].[Lskus]) , \"*101000*\" , \"Name\") , {[Lskus].[Lskus].[{TOP HIERARCHIES AND GROUPS^TOTAL SALES BY FAMILY GROUPS^MISCELLANEOUS^MISC^1010000],[Lskus].[Lskus].[{TOP HIERARCHIES AND GROUPS^TOTAL SALES BY FAMILY GROUPS^MISCELLANEOUS^MISC^1010005]}),[Lskus].[Lskus].[101200],[Lskus].[Lskus].[100114],[Lskus].[Lskus].[100115],[Lskus].[Lskus].[100116],[Lskus].[Lskus].[110103]}"
-}

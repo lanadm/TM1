@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"FranCo CMS Stores",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1700')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1900')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1908')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1909')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1910')"
+		}
+	]
+}

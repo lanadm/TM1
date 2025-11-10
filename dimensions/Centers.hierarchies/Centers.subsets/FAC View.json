@@ -1,0 +1,28 @@
+{
+	"@type":"Subset",
+	"Name":"FAC View",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('FRANCO ACQUISITION COMPANY')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('GA HH FRANCHISE BUSINESS')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('MICHIGAN HH FRANCHISE BUSINESS')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('MISC HH FRANCHISE BUSINESS')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('HH FRANCHISE OVERHEAD')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('HH FRANCHISE ROLLUP (FOR HH PRESIDENT)')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('FAC BY REGION')"
+		}
+	]
+}

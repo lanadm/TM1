@@ -1,0 +1,64 @@
+{
+	"@type":"Hierarchy",
+	"Name":"CenterName",
+	"Elements":
+	[
+		{
+			"Name":"FY 04",
+			"Type":"String"
+		},
+		{
+			"Name":"FY 03",
+			"Type":"String"
+		},
+		{
+			"Name":"FY 02",
+			"Type":"String"
+		},
+		{
+			"Name":"FY 01",
+			"Type":"String"
+		},
+		{
+			"Name":"FY 00",
+			"Type":"String"
+		},
+		{
+			"Name":"FY 99",
+			"Type":"String"
+		},
+		{
+			"Name":"FY 98",
+			"Type":"String"
+		},
+		{
+			"Name":"FY 97",
+			"Type":"String"
+		},
+		{
+			"Name":"FY 96",
+			"Type":"String"
+		},
+		{
+			"Name":"FY 95",
+			"Type":"String"
+		},
+		{
+			"Name":"FY 94",
+			"Type":"String"
+		},
+		{
+			"Name":"FY 93",
+			"Type":"String"
+		},
+		{
+			"Name":"GP_Location",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"CenterName.subsets/Default.json",
+		"CenterName.subsets/FY93-FY03.json"
+	]
+}

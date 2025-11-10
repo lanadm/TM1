@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"WeekbyYear",
+	"Hierarchies@Code.links":
+	[
+		"WeekbyYear.hierarchies/WeekbyYear.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('WeekbyYear')/Hierarchies('WeekbyYear')"
+	}
+}

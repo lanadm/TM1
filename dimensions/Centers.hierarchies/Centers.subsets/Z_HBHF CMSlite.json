@@ -1,0 +1,17 @@
+{
+	"@type":"Subset",
+	"Name":"Z_HBHF CMSlite",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1573')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1903')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1904')"
+		}
+	]
+}

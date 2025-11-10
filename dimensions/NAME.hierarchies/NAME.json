@@ -1,0 +1,96 @@
+{
+	"@type":"Hierarchy",
+	"Name":"NAME",
+	"Elements":
+	[
+		{
+			"Name":"Name",
+			"Type":"String"
+		},
+		{
+			"Name":"Short Name",
+			"Type":"String"
+		},
+		{
+			"Name":"Ctr Name",
+			"Type":"String"
+		},
+		{
+			"Name":"GP_Location",
+			"Type":"String"
+		},
+		{
+			"Name":"GP_Lctn_9-2005",
+			"Type":"String"
+		},
+		{
+			"Name":"GP_Lctn_5-2015",
+			"Type":"String"
+		},
+		{
+			"Name":"GP_Lctn_MIOH",
+			"Type":"String"
+		},
+		{
+			"Name":"GP_Lctn_E-Comm",
+			"Type":"String"
+		},
+		{
+			"Name":"Bill Fran",
+			"Type":"String"
+		},
+		{
+			"Name":"Month Name",
+			"Type":"String"
+		},
+		{
+			"Name":"Calendar Mo Name",
+			"Type":"String"
+		},
+		{
+			"Name":"Selling Metrics Name",
+			"Type":"String"
+		},
+		{
+			"Name":"Selling Metrics TranType",
+			"Type":"String"
+		},
+		{
+			"Name":"Selling Metrics TranType-3digit",
+			"Type":"String"
+		},
+		{
+			"Name":"Main Acct Num",
+			"Type":"String"
+		},
+		{
+			"Name":"Main Acct Name",
+			"Type":"String"
+		},
+		{
+			"Name":"Prod Acct Num",
+			"Type":"String"
+		},
+		{
+			"Name":"Prod Acct Name",
+			"Type":"String"
+		},
+		{
+			"Name":"SAP_Ctr#",
+			"Type":"String"
+		},
+		{
+			"Name":"SAP_Ctr_Name",
+			"Type":"String"
+		},
+		{
+			"Name":"SAP_Acct#",
+			"Type":"String"
+		},
+		{
+			"Name":"SAP_Acct_Name",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":[]
+}

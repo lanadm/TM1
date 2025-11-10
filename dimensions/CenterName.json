@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"CenterName",
+	"Hierarchies@Code.links":
+	[
+		"CenterName.hierarchies/CenterName.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('CenterName')/Hierarchies('CenterName')"
+	}
+}

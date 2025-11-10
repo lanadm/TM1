@@ -1,0 +1,46 @@
+{
+	"@type":"Subset",
+	"Name":"Oregon Ctrs",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1606001')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1606002')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1606004')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1606006')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1606007')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1606008')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1640021')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1630099')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1650000')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1650110')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1650400')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1650550')"
+		},
+		{
+			"@id":"Dimensions('Centers')/Hierarchies('Centers')/Elements('1650604')"
+		}
+	]
+}

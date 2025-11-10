@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"All Channels",
-	"Alias":"Name",
-	"Expression":"{ DRILLDOWNMEMBER( {[Lchannel].[ALL CHANNELS]}, {[Lchannel].[ALL CHANNELS]} ) }"
-}

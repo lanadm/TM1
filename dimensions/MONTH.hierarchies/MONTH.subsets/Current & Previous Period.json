@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Current & Previous Period",
-	"Expression":"{UNION(\r{FILTER( {TM1SUBSETALL( [MONTH] )}, [MONTH].[Current] = \"Current\")},\r{FILTER( {TM1SUBSETALL( [MONTH] )}, [MONTH].[Current] = \"Previous\")}\r)}"
-}

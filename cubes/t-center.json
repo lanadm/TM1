@@ -1,0 +1,21 @@
+{
+	"@type":"Cube",
+	"Name":"t-center",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Centers')"
+		},
+		{
+			"@id":"Dimensions('CenterName')"
+		}
+	],
+	"MeasuresDimension":
+	{
+		"@id":"Dimensions('CenterName')"
+	},
+	"Views@Code.links":
+	[
+		"t-center.views/Default.json"
+	]
+}
