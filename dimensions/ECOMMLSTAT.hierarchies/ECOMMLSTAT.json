@@ -1,0 +1,136 @@
+{
+	"@type":"Hierarchy",
+	"Name":"ECOMMLSTAT",
+	"Elements":
+	[
+		{
+			"Name":"B2B-Product Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-Discount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-Ext Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-Standard Freight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-Rush Freight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-Total B2B Revenue",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"B2B-Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-Skus",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-Orders",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-GC Product Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-GC Discount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-GC Ext Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-GC Standard Freight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-GC Rush Freight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-Total GC B2B Revenue",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"B2B-GC Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-GC Skus",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B-GC Orders",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GROSS PRODUCT/FREIGHT SALES",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"B2B-Total B2B Revenue",
+			"ComponentName":"B2B-Ext Price",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B-Total B2B Revenue",
+			"ComponentName":"B2B-Standard Freight",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B-Total B2B Revenue",
+			"ComponentName":"B2B-Rush Freight",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B-Total GC B2B Revenue",
+			"ComponentName":"B2B-GC Ext Price",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B-Total GC B2B Revenue",
+			"ComponentName":"B2B-GC Standard Freight",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B-Total GC B2B Revenue",
+			"ComponentName":"B2B-GC Rush Freight",
+			"Weight":1
+		},
+		{
+			"ParentName":"GROSS PRODUCT/FREIGHT SALES",
+			"ComponentName":"B2B-Product Price",
+			"Weight":1
+		},
+		{
+			"ParentName":"GROSS PRODUCT/FREIGHT SALES",
+			"ComponentName":"B2B-Standard Freight",
+			"Weight":1
+		},
+		{
+			"ParentName":"GROSS PRODUCT/FREIGHT SALES",
+			"ComponentName":"B2B-Rush Freight",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"ECOMMLSTAT.subsets/All N Level.json",
+		"ECOMMLSTAT.subsets/Default.json"
+	]
+}

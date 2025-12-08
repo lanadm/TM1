@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"District - Sales & Trans Rollup",
-	"Alias":"Name",
-	"Expression":"TM1IGNORE_BADTUPLES {EXCEPT(DISTINCT(DESCENDANTS([LOCATIONS].[LOCATIONS].[DISTRICT - Sales & Trans Rollup])) , {[LOCATIONS].[LOCATIONS].[DISTRICT - Sales & Trans Rollup]} , ALL)}"
-}

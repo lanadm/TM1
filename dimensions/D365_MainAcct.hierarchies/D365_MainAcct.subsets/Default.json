@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Default",
-	"Alias":"Name",
-	"Expression":"TM1IGNORE_BADTUPLES {[D365_MainAcct].[D365_MainAcct].MEMBERS}"
-}

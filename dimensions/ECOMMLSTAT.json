@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"ECOMMLSTAT",
+	"Hierarchies@Code.links":
+	[
+		"ECOMMLSTAT.hierarchies/ECOMMLSTAT.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')"
+	}
+}

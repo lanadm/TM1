@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"FY plus months",
-	"Alias":"MEMBER_NAME",
-	"Expression":"TM1IGNORE_BADTUPLES {EXCEPT(DRILLDOWNMEMBER({[MONTH].[MONTH].[FISCAL YEAR]} , {[MONTH].[MONTH].[FISCAL YEAR]} , RECURSIVE) , {[MONTH].[MONTH].[FISCAL YEAR^Beginning],[MONTH].[MONTH].[FISCAL YEAR^AuditAdj],[MONTH].[MONTH].[FISCAL YEAR^Adjustment2]} , ALL)}"
-}

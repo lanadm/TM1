@@ -1,0 +1,42 @@
+{
+	"@type":"MDXView",
+	"Name":"Default",
+	"MDX@Code.link":"Default.mdx",
+	"Meta": {
+		"Aliases": {
+			"[Lskus].[Lskus]": "Name",
+			"[Lchannel].[Lchannel]": "Name"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[ECOMMLSTAT].[ECOMMLSTAT]": false,
+			"[Lskus].[Lskus]": false,
+			"[CATEGORY].[CATEGORY]": false,
+			"[Lchannel].[Lchannel]": false,
+			"[WEEK].[WEEK]": false,
+			"[ECOMMCUST].[ECOMMCUST]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"SubsetName": "All Years",
+				"IsPublic": true
+			},
+			"[Lskus].[Lskus]": {
+				"SubsetName": "Sales-RSM-GCs",
+				"IsPublic": true
+			},
+			"[CATEGORY].[CATEGORY]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[Lchannel].[Lchannel]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[ECOMMCUST].[ECOMMCUST]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			}
+		}
+	}
+}

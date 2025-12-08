@@ -230,6 +230,10 @@
 		{
 			"Name":"Fcst - Base",
 			"Type":"Numeric"
+		},
+		{
+			"Name":"FY25_Reload",
+			"Type":"Numeric"
 		}
 	],
 	"Edges":
@@ -248,6 +252,11 @@
 			"ParentName":"{All Category Rollups",
 			"ComponentName":"ALL FORECASTS",
 			"Weight":0
+		},
+		{
+			"ParentName":"{All Category Rollups",
+			"ComponentName":"FY25_Reload",
+			"Weight":1
 		},
 		{
 			"ParentName":"{All Category Rollups",

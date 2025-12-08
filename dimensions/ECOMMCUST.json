@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"ECOMMCUST",
+	"Hierarchies@Code.links":
+	[
+		"ECOMMCUST.hierarchies/ECOMMCUST.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('ECOMMCUST')/Hierarchies('ECOMMCUST')"
+	}
+}

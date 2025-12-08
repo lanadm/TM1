@@ -1,0 +1,147 @@
+{
+	"@type":"NativeView",
+	"Name":"Data Check",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('GROSS PRODUCT/FREIGHT SALES')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-Total B2B Revenue')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-Total GC B2B Revenue')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-GC Ext Price')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-GC Standard Freight')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-GC Rush Freight')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-Discount')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-Ext Price')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-Standard Freight')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-Rush Freight')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-Quantity')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-Skus')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-Orders')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-GC Product Price')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-GC Discount')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-GC Ext Price')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-GC Standard Freight')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-GC Rush Freight')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-GC Quantity')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-GC Skus')"
+					},
+					{
+						"@id":"Dimensions('ECOMMLSTAT')/Hierarchies('ECOMMLSTAT')/Elements('B2B-GC Orders')"
+					}
+				]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Subsets('Fiscal Year by Week FY 24')"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Subsets('Default')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Actual')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Subsets('All Years')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 24')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('ECOMMCUST')/Hierarchies('ECOMMCUST')/Subsets('Default')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('ECOMMCUST')/Hierarchies('ECOMMCUST')/Elements('TOTAL CUSTOMERS')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Subsets('Default')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('ALL CHANNELS')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Subsets('Sales-RSM-GCs')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TOTAL SALES BY FAMILY GROUPS')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":true,
+	"SuppressEmptyRows":true,
+	"FormatString":"0.#########"
+}

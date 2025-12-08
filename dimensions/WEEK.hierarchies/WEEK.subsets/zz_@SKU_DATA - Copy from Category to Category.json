@@ -4,21 +4,6 @@
 	"Elements":
 	[
 		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 1 - 10/05/25')"
-		},
-		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 2 - 10/12/25')"
-		},
-		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 3 - 10/19/25')"
-		},
-		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 4 - 10/26/25')"
-		},
-		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 5 - 11/02/25')"
-		},
-		{
 			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 6 - 11/09/25')"
 		},
 		{
