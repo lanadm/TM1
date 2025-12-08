@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Planning - Copy from Scenario to Scenario_Load",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 1')"
+		}
+	]
+}

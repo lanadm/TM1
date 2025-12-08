@@ -1,0 +1,94 @@
+{
+	"@type":"Cube",
+	"Name":"Labor_Planning",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('YEAR')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')"
+		},
+		{
+			"@id":"Dimensions('LOCATIONS')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')"
+		}
+	],
+	"Rules@Code.link":"Labor_Planning.rules",
+	"Views@Code.links":
+	[
+		"Labor_Planning.views/Avg Wage.json",
+		"Labor_Planning.views/Catering - Catering Hours.json",
+		"Labor_Planning.views/Catering Hours Per Item.json",
+		"Labor_Planning.views/Catering Portion Pounds.json",
+		"Labor_Planning.views/Catering Portion Weight.json",
+		"Labor_Planning.views/Default.json",
+		"Labor_Planning.views/Gifting Hours Per Item.json",
+		"Labor_Planning.views/Greater of Activity or Minimum Hours.json",
+		"Labor_Planning.views/Ham Portion.json",
+		"Labor_Planning.views/Ham Portion Hours Each.json",
+		"Labor_Planning.views/Hours for Ham Portioning.json",
+		"Labor_Planning.views/Hours for Turkey Portioning.json",
+		"Labor_Planning.views/Lunch Item Build.json",
+		"Labor_Planning.views/Lunch Prep Time Per Item.json",
+		"Labor_Planning.views/Lunch Production Hours.json",
+		"Labor_Planning.views/Minimum Staffed Hours.json",
+		"Labor_Planning.views/Other Channels Total Hours.json",
+		"Labor_Planning.views/Portions Half Hams to Glaze.json",
+		"Labor_Planning.views/Portions Ham Yield.json",
+		"Labor_Planning.views/Portions Total Ham Weight.json",
+		"Labor_Planning.views/Portions Total Hours.json",
+		"Labor_Planning.views/Portions Total Turkey Weight.json",
+		"Labor_Planning.views/Portions Turkey Breast to Glaze.json",
+		"Labor_Planning.views/Production Boneless Ham Hours.json",
+		"Labor_Planning.views/Production Boneless Ham Hours Each.json",
+		"Labor_Planning.views/Production Half Ham Hours.json",
+		"Labor_Planning.views/Production Half Ham Hours Each.json",
+		"Labor_Planning.views/Production Quarter Ham Cutting Hours.json",
+		"Labor_Planning.views/Production Quarter Ham Cutting Hours Each.json",
+		"Labor_Planning.views/Production Quarter Ham Cutting Percentage.json",
+		"Labor_Planning.views/Production Quarter Ham Hours.json",
+		"Labor_Planning.views/Production Quarter Ham Hours Each.json",
+		"Labor_Planning.views/Production Quarter Hams to Cut.json",
+		"Labor_Planning.views/Production Total Half Ham.json",
+		"Labor_Planning.views/Production Total Hours.json",
+		"Labor_Planning.views/Production Total Turkey Breast.json",
+		"Labor_Planning.views/Production Turkey Breast Hours.json",
+		"Labor_Planning.views/Production Turkey Breast Hours Each.json",
+		"Labor_Planning.views/PY Avg Wage.json",
+		"Labor_Planning.views/Sandiwich Portion Weight.json",
+		"Labor_Planning.views/Sandwich Portion Pounds.json",
+		"Labor_Planning.views/SKU_DATA Import.json",
+		"Labor_Planning.views/Slices Half Hams to Glaze.json",
+		"Labor_Planning.views/Slices Half Ham Weight.json",
+		"Labor_Planning.views/Slices Ham Quantity.json",
+		"Labor_Planning.views/Slices Ham Slicing Hours.json",
+		"Labor_Planning.views/Slices Ham Slicing Hours Each.json",
+		"Labor_Planning.views/Slices Ham Weight Needed.json",
+		"Labor_Planning.views/Slices Ham Yield.json",
+		"Labor_Planning.views/Slices Total Hours.json",
+		"Labor_Planning.views/Slices Turkey Breasts to Glaze.json",
+		"Labor_Planning.views/Slices Turkey Slicing Hours.json",
+		"Labor_Planning.views/Slices Turkey Slicing Hours Each.json",
+		"Labor_Planning.views/Slices Turkey Weight Needed.json",
+		"Labor_Planning.views/Total Ham Weight.json",
+		"Labor_Planning.views/Total Labor Dollars.json",
+		"Labor_Planning.views/Total Labor Hours.json",
+		"Labor_Planning.views/Total Portion Pounds.json",
+		"Labor_Planning.views/Total Portions.json",
+		"Labor_Planning.views/Transactions Catering Hours Per Transaction.json",
+		"Labor_Planning.views/Transactions Lunch Hours.json",
+		"Labor_Planning.views/Transactions Lunch Hours Per Transaction.json",
+		"Labor_Planning.views/Transactions Retail Hours.json",
+		"Labor_Planning.views/Transactions Retail Hours Per Transaction.json",
+		"Labor_Planning.views/Turkey Portion.json",
+		"Labor_Planning.views/Turkey Portion Hours Each.json",
+		"Labor_Planning.views/Turkey Quantity.json",
+		"Labor_Planning.views/zMS - Zero Planning 1.json"
+	]
+}

@@ -1,0 +1,94 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('{All Scenarios')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning Scenarios')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 1')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 2')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 3')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 4')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 5')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 6')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 7')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 8')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 9')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 10')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Final Planning')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Budget Scenarios')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Budget 1')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Budget 2')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Budget 3')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Forecast Scenarios')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Rev Fcst')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Forecast 1')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Forecast 2')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Forecast 3')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Forecast 4')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Forecast 5')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Forecast 6')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Forecast 7')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Forecast 8')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Forecast 9')"
+		},
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Forecast 10')"
+		}
+	]
+}

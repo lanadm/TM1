@@ -1,0 +1,53 @@
+{
+	"@type":"Process",
+	"Name":"Labor_Planning - Load from SKU_DATA - Avg Weight",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"Labor_Planning - Load from SKU_DATA - Avg Weight.ti",
+	"DataSource":
+	{
+		"Type":"TM1CubeView",
+		"dataSourceNameForServer":"SKU_DATA",
+		"dataSourceNameForClient":"SKU_DATA",
+		"view":"Labor_Planning - Load from SKU Data - Avg Weight"
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"vFiscalYear",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vLocations",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vLskus",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vWeek",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vValue",
+			"Type":"Numeric",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"UID": "172934045900052"
+}

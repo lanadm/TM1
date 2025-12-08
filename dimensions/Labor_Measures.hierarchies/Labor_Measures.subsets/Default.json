@@ -1,0 +1,436 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('All Planning Labor Measures')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Minimum Staffed Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Portions')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Half Ham Avg Weight')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Turkey Avg Weight')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Catering Portion Weight')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Sandwich Portion Weight')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Portions: Percent Ham')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Portions: Ham Yield')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Ham Portion Hours Each')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Turkey Portion Hours Each')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Portions: Total Ham Weight')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Portions: Half Hams to Glaze')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Portions: Total Turkey Weight')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Portions: Turkey Breast to Glaze')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Total Portion Pounds')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Sandwich Portion Pounds')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Catering Portion Pounds')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Turkey Portion')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Ham Portion')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Total Portions')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Sandwiches')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Total Catering Portions')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Buffets')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Meat Party Trays')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Ham Percent')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Avg Weight')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Ham Yield')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Ham Slicing Hours Each')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Turkey Slicing Hours Each')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Ham Weight Needed')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Half Ham Weight')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Half Hams to Glaze')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Turkey Weight Needed')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Turkey Breasts to Glaze')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Turkey Quantity')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('By-the-Slice')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Ham Quantity')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Quarter Ham')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Boneless Ham')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Half Ham Hours Each')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Quarter Ham Hours Each')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Quarter Ham Cutting Percentage')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Quarter Hams to Cut')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Quarter Ham Cutting Hours Each')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Boneless Ham Hours Each')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Turkey Breast Hours Each')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Total Half Ham')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Individual Half Ham')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Half Hams to Glaze')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Portions: Half Hams to Glaze')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Total Turkey Breast')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Turkey Breast')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Portions: Turkey Breast to Glaze')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Turkey Breasts to Glaze')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Transactional')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Retail Transactions')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Lunch Transactions')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Catering Transactions')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Transactions: Retail Hours Per Transaction')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Transactions: Lunch Hours Per Transaction')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Transactions: Catering Hours Per Transaction')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Other Channel Production')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Lunch Total Quantity')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Gifting Total Quantity')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Catering Total Quantity')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Lunch: Item Build')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Lunch: Prep Time Per Item')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Gifting: Gifting Hours Per Item')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Catering: Catering Hours Per Item')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Front of House')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Activitied Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('FOH: Total Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('FOH: Set Up')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('FOH: Clean Up')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('FOH: Sampler')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('FOH: Hambassador')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('FOH: Line Director')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('FOH: Phone Associate')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('FOH: Sandwich Maker')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('FOH: Inventory Control Specialist')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('FOH: Supervisor')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('FOH: Other FOH 1')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('FOH: Other FOH 2')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('FOH: Other FOH 3')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Other Channels: Total Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Lunch: Production Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Gifting: Gifting Production Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Catering: Catering Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Transactions: Total Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Transactions: Retail Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Transactions: Lunch Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Transactions: Catering Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Total Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Ham Slicing Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Slices: Turkey Slicing Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Portions: Total Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Hours for Ham Portioning')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Hours for Turkey Portioning')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Total Labor Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Hours: Before Management Adjustments')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Greater of Activity or Minimum Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('BOH: Total Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('BOH: Set Up')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('BOH: Clean Up')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('BOH: Other')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('BOH: Receiving')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('BOH: Supervisor')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('BOH: Express Product Transfer')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('BOH: Other BOH 1')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('BOH: Other BOH 2')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('BOH: Other BOH 3')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Outside: Total Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Outside: Pre-Paid')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Outside: Blizting')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Outside: Catering Delivery')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Outside: SGA Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Outside: Seasonal Training')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Outside: Year Round Training')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Outside: Express Set Up / Take Down')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Outside: Other Outside 1')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Outside: Other Outside 2')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Outside: Other Outside 3')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Total Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Half Ham Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Quarter Ham Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Quarter Ham Cutting Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Boneless Ham Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Turkey Breast Hours')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Production: Hours from Express')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('GM Hours Coverage')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('AGM Hours Coverage')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('SS Out of Store')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Dollars')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Hourly Wgs - Regular')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Regular Hrs')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Avg Wage')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('PY Avg Wage')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Wage Rate Change')"
+		},
+		{
+			"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Elements('Total Labor Dollars')"
+		}
+	]
+}

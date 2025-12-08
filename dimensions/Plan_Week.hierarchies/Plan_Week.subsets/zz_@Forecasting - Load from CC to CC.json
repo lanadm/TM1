@@ -1,0 +1,163 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Forecasting - Load from CC to CC",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 1 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 2 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 3 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 4 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 5 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 6 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 7 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 8 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 9 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 10 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 11 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 12 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 13 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 14 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 15 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 16 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 17 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 18 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 19 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 20 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 21 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 22 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 23 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 24 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 25 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 26 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 27 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 28 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 29 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 30 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 31 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 32 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 33 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 34 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 35 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 36 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 37 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 38 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 39 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 40 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 41 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 42 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 43 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 44 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 45 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 46 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 47 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 48 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 49 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 50 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 51 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 52 FY 26')"
+		}
+	]
+}

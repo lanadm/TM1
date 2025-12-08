@@ -1,0 +1,589 @@
+#==================================================================================================
+skipcheck;
+#==================================================================================================
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Propagation
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Minimum Staffed Hours:
+
+#     Allow Input to Minimum Staffed Hours 52116800 & 52116700.
+['Minimum Staffed Hours', {'52116800', '52116700'}] = stet;
+
+#    Propagate Minimum Staffed Hours for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Minimum Staffed Hours'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Minimum Staffed Hours', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Minimum Staffed Hours', '52116700'],
+		stet ));
+
+
+
+# Sandwich Portion Weight:
+
+#     Allow Input to Sandwich Portion Weight 52116800 & 52116700.
+['Sandwich Portion Weight', {'52116800', '52116700'}] = stet;
+
+#    Propagate Sandwich Portion Weight for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Sandwich Portion Weight'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Sandwich Portion Weight', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Sandwich Portion Weight', '52116700'],
+		stet ));
+
+
+# Catering Portion Weight:
+
+#     Allow Input to Catering Portion Weight 52116800 & 52116700.
+['Catering Portion Weight', {'52116800', '52116700'}] = stet;
+
+#    Propagate Catering Portion Weight for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Catering Portion Weight'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Catering Portion Weight', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Catering Portion Weight', '52116700'],
+		stet ));
+
+
+
+# Portions: Ham Yield:
+
+#     Allow Input to Portions: Ham Yield 52116800 & 52116700.
+['Portions: Ham Yield', {'52116800', '52116700'}] = stet;
+
+#    Propagate Portions: Ham Yield for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Portions: Ham Yield'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Portions: Ham Yield', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Portions: Ham Yield', '52116700'],
+		stet ));
+
+
+# Ham Portion Hours Each:
+
+#     Allow Input to Ham Portion Hours Each 52116800 & 52116700.
+['Ham Portion Hours Each', {'52116800', '52116700'}] = stet;
+
+#    Propagate Ham Portion Hours Each for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Ham Portion Hours Each'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Ham Portion Hours Each', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Ham Portion Hours Each', '52116700'],
+		stet ));
+
+
+# Turkey Portion Hours Each:
+
+#     Allow Input to Turkey Portion Hours Each 52116800 & 52116700.
+['Turkey Portion Hours Each', {'52116800', '52116700'}] = stet;
+
+#    Propagate Turkey Portion Hours Each for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Turkey Portion Hours Each'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Turkey Portion Hours Each', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Turkey Portion Hours Each', '52116700'],
+		stet ));
+
+
+# Slices: Ham Yield:
+
+#     Allow Input to Slices: Ham Yield 52116800 & 52116700.
+['Slices: Ham Yield', {'52116800', '52116700'}] = stet;
+
+#    Propagate Slices: Ham Yield for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Slices: Ham Yield'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Slices: Ham Yield', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Slices: Ham Yield', '52116700'],
+		stet ));
+
+
+# Slices: Ham Slicing Hours Each:
+
+#     Allow Input to Slices: Ham Slicing Hours Each 52116800 & 52116700.
+['Slices: Ham Slicing Hours Each', {'52116800', '52116700'}] = stet;
+
+#    Propagate Slices: Ham Slicing Hours Each for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Slices: Ham Slicing Hours Each'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Slices: Ham Slicing Hours Each', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Slices: Ham Slicing Hours Each', '52116700'],
+		stet ));
+
+
+# Slices: Turkey Slicing Hours Each:
+
+#     Allow Input to Slices: Turkey Slicing Hours Each 52116800 & 52116700.
+['Slices: Turkey Slicing Hours Each', {'52116800', '52116700'}] = stet;
+
+#    Propagate Slices: Turkey Slicing Hours Each for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Slices: Turkey Slicing Hours Each'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Slices: Turkey Slicing Hours Each', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Slices: Turkey Slicing Hours Each', '52116700'],
+		stet ));
+
+
+# Production: Half Ham Hours Each:
+
+#     Allow Input to Production: Half Ham Hours Each 52116800 & 52116700.
+['Production: Half Ham Hours Each', {'52116800', '52116700'}] = stet;
+
+#    Propagate Production: Half Ham Hours Each for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Production: Half Ham Hours Each'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Production: Half Ham Hours Each', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Production: Half Ham Hours Each', '52116700'],
+		stet ));
+
+
+# Production: Quarter Ham Hours Each:
+
+#     Allow Input to Production: Quarter Ham Hours Each 52116800 & 52116700.
+['Production: Quarter Ham Hours Each', {'52116800', '52116700'}] = stet;
+
+#    Propagate Production: Quarter Ham Hours Each for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Production: Quarter Ham Hours Each'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Production: Quarter Ham Hours Each', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Production: Quarter Ham Hours Each', '52116700'],
+		stet ));
+
+
+# Production: Quarter Ham Cutting Percentage:
+
+#     Allow Input to Production: Quarter Ham Cutting Percentage 52116800 & 52116700.
+['Production: Quarter Ham Cutting Percentage', {'52116800', '52116700'}] = stet;
+
+#    Propagate Production: Quarter Ham Cutting Percentage for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Production: Quarter Ham Cutting Percentage'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Production: Quarter Ham Cutting Percentage', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Production: Quarter Ham Cutting Percentage', '52116700'],
+		stet ));
+
+
+# Production: Quarter Ham Cutting Hours Each:
+
+#     Allow Input to Production: Quarter Ham Cutting Hours Each 52116800 & 52116700.
+['Production: Quarter Ham Cutting Hours Each', {'52116800', '52116700'}] = stet;
+
+#    Propagate Production: Quarter Ham Cutting Hours Each for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Production: Quarter Ham Cutting Hours Each'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Production: Quarter Ham Cutting Hours Each', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Production: Quarter Ham Cutting Hours Each', '52116700'],
+		stet ));
+
+
+# Production: Boneless Ham Hours Each:
+
+#     Allow Input to Production: Boneless Ham Hours Each 52116800 & 52116700.
+['Production: Boneless Ham Hours Each', {'52116800', '52116700'}] = stet;
+
+#    Propagate Production: Boneless Ham Hours Each for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Production: Boneless Ham Hours Each'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Production: Boneless Ham Hours Each', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Production: Boneless Ham Hours Each', '52116700'],
+		stet ));
+
+
+
+# Production: Turkey Breast Hours Each:
+
+#     Allow Input to Production: Turkey Breast Hours Each 52116800 & 52116700.
+['Production: Turkey Breast Hours Each', {'52116800', '52116700'}] = stet;
+
+#    Propagate Production: Turkey Breast Hours Each for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Production: Turkey Breast Hours Each'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Production: Turkey Breast Hours Each', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Production: Turkey Breast Hours Each', '52116700'],
+		stet ));
+
+
+# Transactions: Retail Hours Per Transaction:
+
+#     Allow Input to Transactions: Retail Hours Per Transaction 52116800 & 52116700.
+['Transactions: Retail Hours Per Transaction', {'52116800', '52116700'}] = stet;
+
+#    Propagate Transactions: Retail Hours Per Transaction for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Transactions: Retail Hours Per Transaction'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Transactions: Retail Hours Per Transaction', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Transactions: Retail Hours Per Transaction', '52116700'],
+		stet ));
+
+
+# Transactions: Lunch Hours Per Transaction:
+
+#     Allow Input to Transactions: Lunch Hours Per Transaction 52116800 & 52116700.
+['Transactions: Lunch Hours Per Transaction', {'52116800', '52116700'}] = stet;
+
+#    Propagate Transactions: Lunch Hours Per Transaction for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Transactions: Lunch Hours Per Transaction'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Transactions: Lunch Hours Per Transaction', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Transactions: Lunch Hours Per Transaction', '52116700'],
+		stet ));
+
+
+# Transactions: Catering Hours Per Transaction:
+
+#     Allow Input to Transactions: Catering Hours Per Transaction 52116800 & 52116700.
+['Transactions: Catering Hours Per Transaction', {'52116800', '52116700'}] = stet;
+
+#    Propagate Transactions: Catering Hours Per Transaction for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Transactions: Catering Hours Per Transaction'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Transactions: Catering Hours Per Transaction', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Transactions: Catering Hours Per Transaction', '52116700'],
+		stet ));
+
+
+# Lunch: Item Build:
+
+#     Allow Input to Lunch: Item Build 52116800 & 52116700.
+['Lunch: Item Build', {'52116800', '52116700'}] = stet;
+
+#    Propagate Lunch: Item Build for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Lunch: Item Build'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Lunch: Item Build', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Lunch: Item Build', '52116700'],
+		stet ));
+
+
+# Lunch: Prep Time Per Item:
+
+#     Allow Input to Lunch: Prep Time Per Item 52116800 & 52116700.
+['Lunch: Prep Time Per It em', {'52116800', '52116700'}] = stet;
+
+#    Propagate Lunch: Prep Time Per Item for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Lunch: Prep Time Per Item'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Lunch: Prep Time Per Item', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Lunch: Prep Time Per Item', '52116700'],
+		stet ));
+
+
+# Gifting: Gifting Hours Per Item:
+
+#     Allow Input to Gifting: Gifting Hours Per Item 52116800 & 52116700.
+['Gifting: Gifting Hours Per It em', {'52116800', '52116700'}] = stet;
+
+#    Propagate Gifting: Gifting Hours Per Item for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Gifting: Gifting Hours Per Item'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Gifting: Gifting Hours Per Item', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Gifting: Gifting Hours Per Item', '52116700'],
+		stet ));
+
+
+# Catering: Catering Hours Per Item:
+
+#     Allow Input to Catering: Catering Hours Per Item 52116800 & 52116700.
+['Catering: Catering Hours Per It em', {'52116800', '52116700'}] = stet;
+
+#    Propagate Catering: Catering Hours Per Item for 52116800 to all Express Stores, and 52116700 to all CompanyOwned Stores.
+['Catering: Catering Hours Per Item'] =
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'Express', ['Catering: Catering Hours Per Item', '52116800'],
+		IF( DB( '}ElementAttributes_LOCATIONS', !LOCATIONS, 'Plan_StoreType' ) @= 'CompanyOwned', ['Catering: Catering Hours Per Item', '52116700'],
+		stet ));
+
+
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Calculations
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#     Calculation Sandwich Portion Pounds as Sandwiches multiplied by Sandwich Portion Weight.
+['Sandwich Portion Pounds'] = N: ['Sandwiches'] * ['Sandwich Portion Weight'];
+
+#     Calculation Catering Portion Pounds as Total Catering Portions multiplied by Catering Portion Weight.
+['Catering Portion Pounds'] = N: ['Total Catering Portions'] * ['Catering Portion Weight'];
+
+#     Calculation Total Ham Weight as (Total Portion Pounds * Percent Ham) / Ham Yield
+['Portions: Total Ham Weight'] = N:( ['Total Portion Pounds'] * ['Portions: Percent Ham'] ) \ ['Portions: Ham Yield'] ;
+
+#     Calculation Half Hams to Glaze as (Total Ham Weight / Half Ham Avg Weight
+['Portions: Half Hams to Glaze'] = N: ['Portions: Total Ham Weight'] \ ['Half Ham Avg Weight'] ;
+
+#     Calculation Total Turkey Weight as (1 - Ham Yield) * Total Portion Pounds
+['Portions: Total Turkey Weight'] = N: ( 1 - ['Portions: Percent Ham'] ) * ['Total Portion Pounds'] ;
+
+#     Calculation Turkey Breast to Glaze as Total Turkey Weight / Turkey Avg Weight
+['Portions:Turkey Breast to Glaze'] = N: ['Portions: Total Turkey Weight'] \ ['Turkey Avg Weight'] ;
+
+#     Calculation Ham Portion as Total Portions * Portions: Percent Ham
+['Ham Portion'] = N:['Total Portions'] * ['Portions: Percent Ham'] ;
+
+#     Calculation Hours for Ham Portioning as Ham Portion * Ham Portion Hours Each
+['Hours for Ham Portioning'] = N:['Ham Portion'] * ['Ham Portion Hours Each'] ;
+
+#     Calculation Hours for Turkey Portioning as Turkey Portion * Turkey Portion Hours Each
+['Hours for Turkey Portioning'] = N:['Turkey Portion'] * ['Turkey Portion Hours Each'] ;
+
+#     Calculation Slices: Ham Quantity as By-the-Slice * Slices: Ham Percent
+['Slices: Ham Quantity'] = N: ['By-the-Slice'] * ['Slices: Ham Percent'] ;
+
+#     Calculation Slices: Ham Weight Needed as Ham Quantity / Slices Avg Weight
+['Slices: Ham Weight Needed'] = N: ['Slices: Ham Quantity'] \ ['Slices: Avg Weight'] ;
+
+#     Calculation Slices: Half Ham Weight as Slices: Ham Weight Needed / Slices: Ham Yield
+['Slices: Half Ham Weight'] = N: ['Slices: Ham Weight Needed'] \ ['Slices: Ham Yield'] ;
+
+#     Calculation Slices: Half Hams to Glaze as Slices: Half Ham Weight / Half Ham Avg Weight
+['Slices: Half Hams to Glaze'] = N: ['Slices: Half Ham Weight'] \ ['Half Ham Avg Weight'] ;
+
+#     Calculation Slices: Turkey Weight Needed as Slices: Avg Weight multiplied by Turkey Quantity
+['Slices: Turkey Weight Needed'] = N: ['Slices: Avg Weight'] * ['Turkey Quantity'] ;
+
+#     Calculation Slices: Turkey Breasts to Glaze as Slices: Turkey Weight Needed / Turkey Avg Weight
+['Slices: Turkey Breasts to Glaze'] = N: ['Slices: Turkey Weight Needed'] \ ['Turkey Avg Weight'];
+
+#     Calculation Slices: Ham Slicing Hours as Slices: Ham Quantity * Slices: Ham Slicing Hours Each
+['Slices: Ham Slicing Hours'] = N: ['Slices: Ham Quantity'] * ['Slices: Ham Slicing Hours Each'] ;
+
+#     Calculation Slices: Turkey Slicing Hours as Turkey Quantity * Slices: Turkey Slicing Hours Each
+['Slices: Turkey Slicing Hours'] = N: ['Turkey Quantity'] * ['Slices: Turkey Slicing Hours Each'] ;
+
+#     Calculation Production: Half Ham Hours as Production: Total Half Ham multiplied by Production: Half Ham Hours Each
+['Production: Half Ham Hours'] = N: ['Production: Total Half Ham'] * ['Production: Half Ham Hours Each'] ;
+
+#     Calculation Production: Quarter Ham Hours as Quarter Ham multiplied by Production: Quarter Ham Hours Each
+['Production: Quarter Ham Hours'] = N: ['Quarter Ham'] * ['Production: Quarter Ham Hours Each'] ;
+
+#     Calculation Production: Quarter Hams to Cut as Quarter Ham multiplied by Production: Quarter ham Cutting Percentage
+['Production: Quarter Hams to Cut'] = N: ['Quarter Ham'] * ['Production: Quarter Ham Cutting Percentage'] ;
+
+#     Calculation Production: Quarter Ham Cutting Hours as Production: Quarter hams to Cut * Production: Quarter Ham Cutting Hours Each
+['Production: Quarter Ham Cutting Hours'] = N: ['Production: Quarter Hams to Cut'] * ['Production: Quarter Ham Cutting Hours Each'] ;
+
+#     Calculation Production: Boneless Ham Hours as Boneless Ham * Production: Boneless Ham Hours Each
+['Production: Boneless Ham Hours'] = N: ['Boneless Ham'] * ['Production: Boneless Ham Hours Each'] ;
+
+#     Calculation Production: Turkey Breast Hours as Production: Total Turkey Breast * Production: Turkey Breast Hours Each
+['Production: Turkey Breast Hours'] = N: ['Production: Total Turkey Breast'] * ['Production: Turkey Breast Hours Each'] ;
+
+#     Calculation Transactions: Retail Hours as Retail Transactions * Transactions: Retail Hours
+['Transactions: Retail Hours'] = N: ['Retail Transactions'] * ['Transactions: Retail Hours Per Transaction'] ;
+
+#     Calculation Transactions: Lunch Hours as Lunch Transactions multiplied by Transactions: Lunch Hours per Transaction
+['Transactions: Lunch Hours'] = N: ['Lunch Transactions'] * ['Transactions: Lunch Hours Per Transaction'] ;
+
+#     Calculation Transactions: Catering Hours as Catering Transactions multiplied by Transactions: Catering Hours per Transaction
+['Transactions: Catering Hours'] = N: ['Catering Transactions'] * ['Transactions: Catering Hours Per Transaction'] ;
+
+#     Calculation Lunch: Production Hours as Lunch Total Quantity * Lunch: Item Build plus Lunch Total Quantity * Lunch Prep Time per Item
+['Lunch: Production Hours'] = N: ( ['Lunch Total Quantity'] * ['Lunch: Item Build'] ) + ( ['Lunch Total Quantity'] * ['Lunch: Prep Time Per Item'] ) ;
+
+#     Calculation Gifting: Gifting Production Hours as Gifting Total Quantity * Gifting: Gifting Hours Per Item
+['Gifting: Gifting Production Hours'] = N: ['Gifting Total Quantity'] * ['Gifting: Gifting Hours Per Item'] ;
+
+#     Calculation Catering: Catering Hours as Catering Total Quantity * Catering: Catering Hours Per Item
+['Catering: Catering Hours'] = N: ['Catering Total Quantity'] * ['Catering: Catering Hours Per Item'] ;
+
+#     Calculation PY Avg Wage as Hourly Wgs - Regular / Regular Hrs
+['PY Avg Wage'] = N: ['Hourly Wgs - Regular'] \ ['Regular Hrs'] ;
+
+#     Calculation Total Labor Dollars as Total Labor Hours * Avg Wage
+['Total Labor Dollars'] = N: ['Total Labor Hours'] * ['Avg Wage'] ;
+
+#     Calculation Greater of Activity or Minimum Hours as the larger of Minimum Staffed Hours or Activited HOurs
+['Greater of Activity or Minimum Hours'] = N: IF( ['Activitied Hours'] > ['Minimum Staffed Hours'], ['Activitied Hours'], ['Minimum Staffed Hours'] );
+
+
+
+#==================================================================================================
+feeders;
+#==================================================================================================
+
+# Sandwich Portion Pounds Feeders
+['Sandwiches'] => ['Sandwich Portion Pounds'];
+['Sandwich Portion Weight'] => ['Sandwich Portion Pounds'];
+
+# Catering Portion Pounds Feeders
+['Buffets'] => ['Catering Portion Pounds'];
+['Meat Party Trays'] => ['Catering Portion Pounds'];
+['Catering Portion Weight'] => ['Catering Portion Pounds'];
+
+# Portions: Total Ham Weight Feeders
+['Sandwich Portion Pounds'] => ['Portions: Total Ham Weight'] ;
+['Catering Portion Pounds'] => ['Portions: Total Ham Weight'] ;
+['Portions: Percent Ham'] => ['Portions: Total Ham Weight'] ;
+['Portions: Ham Yield'] => ['Portions: Total Ham Weight'] ;
+
+# Portions: Half Hams to Glaze Feeders
+['Portions: Total Ham Weight'] => ['Portions: Half Hams to Glaze'];
+['Half Ham Avg Weight'] => ['Portions: Half Hams to Glaze'] ;
+
+# Portions:Total Turkey Weight Feeders
+['Portions: Percent Ham'] => ['Portions: Total Turkey Weight'] ;
+['Total Portion Pounds'] => ['Portions: Total Turkey Weight'] ;
+
+# Portions: Turkey Breast to Glaze Feeders
+
+['Portions: Total Turkey Weight'] => ['Portions: Turkey Breast to Glaze'] ;
+['Turkey Avg Weight'] => ['Portions: Turkey Breast to Glaze'] ;
+
+# Ham Portion Feeders
+['Sandwiches'] => ['Ham Portion'];
+['Buffets'] => ['Ham Portion'];
+['Meat Party Trays'] => ['Ham Portion'];
+['Portions: Percent Ham'] => ['Ham Portion'];
+
+# Hours for Ham Portioning Feeders
+['Ham Portion'] => ['Hours for Ham Portioning'] ;
+['Ham Portion Hours Each'] => ['Hours for Ham Portioning'];
+
+# Turkey Portion Feeders
+['Sandwiches'] => ['Turkey Portion'];
+['Buffets'] => ['Turkey Portion'];
+['Meat Party Trays'] => ['Turkey Portion'];
+
+# Hours for Turkey Portioning Feeders
+['Ham Portion'] => ['Hours for Turkey Portioning'] ;
+['Turkey Portion'] => ['Hours for Turkey Portioning'] ;
+['Turkey Portion Hours Each'] => ['Hours for Turkey Portioning'];
+
+# Slices: Ham Quantity Feeders
+['By-the-Slice'] => ['Slices: Ham Quantity'];
+['Slices: Ham Percent'] => ['Slices: Ham Quantity'];
+
+# Slices: Ham Weight Needed Feeders
+['Slices: Ham Quantity'] => ['Slices: Ham Weight Needed'] ;
+['Slices: Avg Weight'] => ['Slices: Ham Weight Needed'] ;
+
+# Slices: Half Ham Weight Feeders
+['Slices: Ham Weight Needed'] => ['Slices: Half Ham Weight'] ;
+['Slices: Ham Yield'] => ['Slices: Half Ham Weight'] ;
+
+# Slices: Half Hams to Glaze Feeders
+['Slices: Half Ham Weight'] => ['Slices: Half Hams to Glaze'] ;
+['Half Ham Avg Weight'] => ['Slices: Half Hams to Glaze'] ;
+
+# Slices: Turkey Weight Needed Feeders
+['Slices: Avg Weight'] => ['Slices: Turkey Weight Needed'] ;
+['By-the-Slice'] => ['Slices: Turkey Weight Needed'] ;
+['Slices: Ham Quantity'] => ['Slices: Turkey Weight Needed'] ;
+
+# Slices: Turkey Breasts to Glaze Feeders
+['Slices: Turkey Weight Needed'] => ['Slices: Turkey Breasts to Glaze'] ;
+['Turkey Avg Weight'] => ['Slices: Turkey Breasts to Glaze'] ;
+
+# Slices: Ham Slicing Hours Feeders
+['Slices: Ham Quantity'] => ['Slices: Ham Slicing Hours'] ;
+['Slices: Ham Slicing Hours Each'] => ['Slices: Ham Slicing Hours'] ;
+
+# Slices: Turkey Slicing Hours Feeders
+['By-the-Slice'] => ['Slices: Turkey Slicing Hours'] ;
+['Slices: Ham Quantity'] => ['Slices: Turkey Slicing Hours'] ;
+['Slices: Turkey Slicing Hours Each'] => ['Slices: Turkey Slicing Hours'] ;
+
+# Production: Half Ham Hours Feeders
+['Individual Half Ham'] => ['Production: Half Ham Hours'] ;
+['Hours for Ham Portioning'] => ['Production: Half Ham Hours'] ;
+['Slices: Half Hams to Glaze'] => ['Production: Half Ham Hours'];
+['Production: Half Ham Hours Each'] => ['Production: Half Ham Hours'] ;
+
+# Production: Quarter Ham Hours Feeders
+['Quarter Ham'] => ['Production: Quarter Ham Hours'] ;
+['Production: Quarter ham Hours Each'] => ['Production: Quarter Ham Hours'] ;
+
+# Production: Quarter Ham Cutting Percentage Feeders
+['Quarter Ham'] => ['Production: Quarter Ham Cutting Percentage'] ;
+['Production: Quarter Ham Cutting Percentage'] => ['Production: Quarter Ham Cutting Percentage'] ;
+
+# Production: Quarter Hams to Cut Feeders
+['Quarter Ham'] => ['Production: Quarter Hams to Cut'] ;
+['Production: Quarter Ham Cutting Percentage'] => ['Production: Quarter Hams to Cut'] ;
+
+# Production: Quarter Ham Cutting Hours Feeders
+['Production: Quarter Hams to Cut'] => ['Production: Quarter Ham Cutting Hours'] ;
+['Production: Quarter Ham Cutting Hours Each'] => ['Production: Quarter Ham Cutting Hours'] ;
+
+# Production: Boneless Ham Hours Feeders
+['Boneless Ham'] => ['Production: Boneless Ham Hours'] ;
+['Production: Boneless Ham Hours Each'] => ['Production: Boneless Ham Hours'] ;
+
+# Production: Turkey Breast Hours Feeders
+['Production: Total Turkey Breast'] => ['Production: Turkey Breast Hours'] ;
+['Production: Turkey Breast Hours Each'] => ['Production: Turkey Breast Hours'] ;
+
+# Transactions: Retail Hours Feeders
+['Retail Transactions'] => ['Transactions: Retail Hours'] ;
+['Transactions: Retail Hours Per Transaction'] => ['Transactions: Retail Hours'] ;
+
+# Transactions: Lunch Hours Feeders
+['Lunch Transactions'] => ['Transactions: Lunch Hours'] ;
+['Transactions: Lunch Hours Per Transaction'] => ['Transactions: Lunch Hours'] ;
+
+# Transactions: Catering Hours Feeders
+['Catering Transactions'] => ['Transactions: Catering Hours'] ;
+['Transactions: Catering Hours Per Transaction'] => ['Transactions: Catering Hours'] ;
+
+# Lunch: Production Hours Feeders
+['Lunch Total Quantity'] => ['Lunch: Production Hours'] ;
+['Lunch: Item Build'] => ['Lunch: Production Hours'] ;
+['Lunch: Prep Time Per Item'] => ['Lunch: Production Hours'] ;
+
+# Gifting: Gifting Production Hours Feeders
+['Gifting Total Quantity'] => ['Gifting: Gifting Production Hours'] ;
+['Gifting: Gifting Hours Per Item'] => ['Gifting: Gifting Production Hours'] ;
+
+# Catering: Catering Hours Feeders
+['Catering Total Quantity'] => ['Catering: Catering Hours'] ;
+['Catering: Catering Hours Per Item'] => ['Catering: Catering Hours'] ;
+
+# PY Avg Wage Feeders
+['Hourly Wgs - Regular'] => ['PY Avg Wage'] ;
+['Regular Hrs'] => ['PY Avg Wage'] ;
+
+# Total Labor Dollars Feeders
+['PY Avg Wage'] => ['Total Labor Dollars'] ;
+['Wage Rate Change'] => ['Total Labor Dollars'] ;
+['SS Out of Store'] => ['Total Labor Dollars'] ;
+['AGM Hours Coverage'] => ['Total Labor Dollars'] ;
+['GM Hours Coverage'] => ['Total Labor Dollars'] ;
+['Production: Hours from Express'] => ['Total Labor Dollars'] ;
+['Production: Turkey Breast Hours'] => ['Total Labor Dollars'] ;
+['Production: Boneless Ham Hours'] => ['Total Labor Dollars'] ;
+['Production: Quarter Ham Cutting Hours'] => ['Total Labor Dollars'] ;
+['Production: Half Ham Hours'] => ['Total Labor Dollars'] ;
+['Outside: Other Outside 3'] => ['Total Labor Dollars'] ;
+['Outside: Other Outside 2'] => ['Total Labor Dollars'] ;
+['Outside: Other Outside 1'] => ['Total Labor Dollars'] ;
+['Outside: Express Set Up / Take Down'] => ['Total Labor Dollars'] ;
+['Outside: Year Round Training'] => ['Total Labor Dollars'] ;
+['Outside: Seasonal Training'] => ['Total Labor Dollars'] ;
+['Outside: SGA Hours'] => ['Total Labor Dollars'] ;
+['Outside: Catering Delivery']=> ['Total Labor Dollars'] ;
+['Outside: Blizting'] => ['Total Labor Dollars'] ;
+['Outside: Pre-Paid'] => ['Total Labor Dollars'] ;
+['BOH: Other BOH 3'] => ['Total Labor Dollars'] ;
+['BOH: Other BOH 2'] => ['Total Labor Dollars'] ;
+['BOH: Other BOH 1'] => ['Total Labor Dollars'] ;
+['BOH: Express Product Transfer'] => ['Total Labor Dollars'] ;
+['BOH: Supervisor'] => ['Total Labor Dollars'] ;
+['BOH: Receiving'] => ['Total Labor Dollars'] ;
+['BOH: Other'] => ['Total Labor Dollars'] ;
+['BOH: Clean Up'] => ['Total Labor Dollars'] ;
+['BOH: Set Up'] => ['Total Labor Dollars'] ;
+['Greater of Activity or Minimum Hours'] => ['Total Labor Dollars'] ;
+
+# Greater of Activity or Minimum Hours Feeders
+['Minimum Staffed Hours'] => ['Greater of Activity or Minimum Hours'] ;
+['FOH: Set Up'] => ['Greater of Activity or Minimum Hours'] ;
+['FOH: Clean Up'] => ['Greater of Activity or Minimum Hours'] ;
+['FOH: Sampler'] => ['Greater of Activity or Minimum Hours'] ;
+['FOH: Hambassador'] => ['Greater of Activity or Minimum Hours'] ;
+['FOH: Line Director'] => ['Greater of Activity or Minimum Hours'] ;
+['FOH: Phone Associate'] => ['Greater of Activity or Minimum Hours'] ;
+['FOH: Sandwich Maker'] => ['Greater of Activity or Minimum Hours'] ;
+['FOH: Inventory Control Specialist'] => ['Greater of Activity or Minimum Hours'] ;
+['FOH: Supervisor'] => ['Greater of Activity or Minimum Hours'] ;
+['FOH: Other FOH 1'] => ['Greater of Activity or Minimum Hours'] ;
+['FOH: Other FOH 2'] => ['Greater of Activity or Minimum Hours'] ;
+['Lunch: Production Hours'] => ['Greater of Activity or Minimum Hours'] ;
+['Gifting: Gifting Production Hours'] => ['Greater of Activity or Minimum Hours'] ;
+['Catering: Catering Hours'] => ['Greater of Activity or Minimum Hours'] ;
+['Transactions: Retail Hours'] => ['Greater of Activity or Minimum Hours'] ;
+['Transactions: Lunch Hours'] => ['Greater of Activity or Minimum Hours'] ;
+['Transactions: Catering Hours'] => ['Greater of Activity or Minimum Hours'] ;
+['Slices: Ham Slicing Hours'] => ['Greater of Activity or Minimum Hours'] ;
+['Slices: Turkey Slicing Hours'] => ['Greater of Activity or Minimum Hours'] ;
+['Hours for Ham Portioning'] => ['Greater of Activity or Minimum Hours'] ;
+['Hours for Turkey Portioning'] => ['Greater of Activity or Minimum Hours'] ;
+
+
+
+
+
+
+
+
+

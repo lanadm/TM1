@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"All N Level",
-	"Expression":"{TM1SORT( {TM1FILTERBYLEVEL( {TM1SUBSETALL( [ECOMMLSTAT] )}, 0)}, ASC)}"
-}

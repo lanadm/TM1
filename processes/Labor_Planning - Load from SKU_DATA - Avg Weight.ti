@@ -1,0 +1,38 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+OldCubeLogChanges = CUBEGETLOGCHANGES('Labor_Planning');
+CUBESETLOGCHANGES('Labor_Planning', 1);
+#****End: Generated Statements****
+
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+vNewCategory='Planning 1';
+vMeasures=
+if( vLskus @= 'Half Ham', 'Half Ham Avg Weight',
+if( vLskus @= 'Turkey Breast', 'Turkey Avg Weight',
+'SKU MISSING' ));
+#****End: Generated Statements****
+
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+vNewCategory='Planning 1';
+vMeasures=
+if( vLskus @= 'Half Ham', 'Half Ham Avg Weight',
+if( vLskus @= 'Turkey Breast', 'Turkey Avg Weight',
+'SKU MISSING' ));
+if (VALUE_IS_STRING=1, CellPutS(SVALUE,'Labor_Planning',vFiscalYear,vWeek,vNewCategory,vLocations,vMeasures), CellPutN(NVALUE, 'Labor_Planning', vFiscalYear,vWeek,vNewCategory,vLocations,vMeasures));
+#****End: Generated Statements****
+
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+CUBESETLOGCHANGES('Labor_Planning', OldCubeLogChanges);
+#****End: Generated Statements****
+
+#endregion

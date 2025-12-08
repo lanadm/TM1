@@ -1,0 +1,292 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Plan_Scenario",
+	"Elements":
+	[
+		{
+			"Name":"{All Scenarios",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Planning Scenarios",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Planning 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Planning 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Planning 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Planning 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Planning 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Planning 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Planning 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Planning 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Planning 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Planning 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Final Planning",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget Scenarios",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Budget 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast Scenarios",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Rev Fcst",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TESTING",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"{All Scenarios",
+			"ComponentName":"Planning Scenarios",
+			"Weight":0
+		},
+		{
+			"ParentName":"{All Scenarios",
+			"ComponentName":"Budget Scenarios",
+			"Weight":0
+		},
+		{
+			"ParentName":"{All Scenarios",
+			"ComponentName":"Forecast Scenarios",
+			"Weight":0
+		},
+		{
+			"ParentName":"{All Scenarios",
+			"ComponentName":"TESTING",
+			"Weight":1
+		},
+		{
+			"ParentName":"Planning Scenarios",
+			"ComponentName":"Planning 1",
+			"Weight":0
+		},
+		{
+			"ParentName":"Planning Scenarios",
+			"ComponentName":"Planning 2",
+			"Weight":0
+		},
+		{
+			"ParentName":"Planning Scenarios",
+			"ComponentName":"Planning 3",
+			"Weight":0
+		},
+		{
+			"ParentName":"Planning Scenarios",
+			"ComponentName":"Planning 4",
+			"Weight":0
+		},
+		{
+			"ParentName":"Planning Scenarios",
+			"ComponentName":"Planning 5",
+			"Weight":0
+		},
+		{
+			"ParentName":"Planning Scenarios",
+			"ComponentName":"Planning 6",
+			"Weight":0
+		},
+		{
+			"ParentName":"Planning Scenarios",
+			"ComponentName":"Planning 7",
+			"Weight":0
+		},
+		{
+			"ParentName":"Planning Scenarios",
+			"ComponentName":"Planning 8",
+			"Weight":0
+		},
+		{
+			"ParentName":"Planning Scenarios",
+			"ComponentName":"Planning 9",
+			"Weight":0
+		},
+		{
+			"ParentName":"Planning Scenarios",
+			"ComponentName":"Planning 10",
+			"Weight":0
+		},
+		{
+			"ParentName":"Planning Scenarios",
+			"ComponentName":"Final Planning",
+			"Weight":1
+		},
+		{
+			"ParentName":"Budget Scenarios",
+			"ComponentName":"Budget 1",
+			"Weight":0
+		},
+		{
+			"ParentName":"Budget Scenarios",
+			"ComponentName":"Budget 2",
+			"Weight":0
+		},
+		{
+			"ParentName":"Budget Scenarios",
+			"ComponentName":"Budget 3",
+			"Weight":0
+		},
+		{
+			"ParentName":"Forecast Scenarios",
+			"ComponentName":"Rev Fcst",
+			"Weight":0
+		},
+		{
+			"ParentName":"Forecast Scenarios",
+			"ComponentName":"Forecast 1",
+			"Weight":0
+		},
+		{
+			"ParentName":"Forecast Scenarios",
+			"ComponentName":"Forecast 2",
+			"Weight":0
+		},
+		{
+			"ParentName":"Forecast Scenarios",
+			"ComponentName":"Forecast 3",
+			"Weight":0
+		},
+		{
+			"ParentName":"Forecast Scenarios",
+			"ComponentName":"Forecast 4",
+			"Weight":0
+		},
+		{
+			"ParentName":"Forecast Scenarios",
+			"ComponentName":"Forecast 5",
+			"Weight":0
+		},
+		{
+			"ParentName":"Forecast Scenarios",
+			"ComponentName":"Forecast 6",
+			"Weight":0
+		},
+		{
+			"ParentName":"Forecast Scenarios",
+			"ComponentName":"Forecast 7",
+			"Weight":0
+		},
+		{
+			"ParentName":"Forecast Scenarios",
+			"ComponentName":"Forecast 8",
+			"Weight":0
+		},
+		{
+			"ParentName":"Forecast Scenarios",
+			"ComponentName":"Forecast 9",
+			"Weight":0
+		},
+		{
+			"ParentName":"Forecast Scenarios",
+			"ComponentName":"Forecast 10",
+			"Weight":0
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Plan_Scenario.subsets/All Level 0.json",
+		"Plan_Scenario.subsets/All Scenarios.json",
+		"Plan_Scenario.subsets/Default.json",
+		"Plan_Scenario.subsets/zz_@Planning - Copy from Scenario to Scenario_Load.json",
+		"Plan_Scenario.subsets/zz_@Planning - Load to SKU_DATA (Franchise Only)_LoadtoSKU_DATA.json",
+		"Plan_Scenario.subsets/zz_@Planning - Load to SKU_DATA (Franchise Only) w Adjustment_LoadtoSKU_DATA.json",
+		"Plan_Scenario.subsets/zz_@Planning - Load to SKU_DATA (HBHCA Franchise Only) w Adjustment_LoadtoSKU_DATA.json",
+		"Plan_Scenario.subsets/zz_@Planning - Load to SKU_DATA (HBH California)_LoadtoSKU_DATA.json",
+		"Plan_Scenario.subsets/zz_@Planning - Load to SKU_DATA (HBH California) w Adjustment_LoadtoSKU_DATA.json",
+		"Plan_Scenario.subsets/zz_@Planning - Load to SKU_DATA (HB Retail incl CA)_LoadtoSKU_DATA.json",
+		"Plan_Scenario.subsets/zz_@Planning - Load to SKU_DATA (Retail Only)_LoadtoSKU_DATA.json",
+		"Plan_Scenario.subsets/zz_@Planning - Load to SKU_DATA (Retail Operations-HB Only)_LoadtoSKU_DATA.json",
+		"Plan_Scenario.subsets/zz_@Planning - Load to SKU_DATA (Specific Cost Centers)_LoadtoSKU_DATA.json",
+		"Plan_Scenario.subsets/zz_Planning - Create Source View for Data Copy_CopyData.json"
+	]
+}

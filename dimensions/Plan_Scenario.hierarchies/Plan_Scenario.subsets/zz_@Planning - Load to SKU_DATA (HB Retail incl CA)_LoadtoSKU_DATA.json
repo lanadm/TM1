@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Planning - Load to SKU_DATA (HB Retail incl CA)_LoadtoSKU_DATA",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 1')"
+		}
+	]
+}

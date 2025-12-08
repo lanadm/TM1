@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"HBH California LLC - N Level with Parent",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {[LOCATIONS].[LOCATIONS].[HBH California LLC],TM1FILTERBYLEVEL(TM1DRILLDOWNMEMBER(TM1FILTERBYPATTERN(TM1SUBSETALL([LOCATIONS]) , \"HBH California LLC\") , ALL , RECURSIVE) , 0)}"
+}

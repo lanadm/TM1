@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"YTD Compare Weeks",
-	"Alias":"MEMBER_NAME",
-	"Expression":"TM1IGNORE_BADTUPLES {UNION(UNION(TM1SubsetToSet([WEEK].[WEEK] , \"FY 26 Weeks - Leaves\" , \"public\") , TM1SubsetToSet([WEEK].[WEEK] , \"FY 25 Weeks - Leaves\" , \"public\")) , TM1SubsetToSet([WEEK].[WEEK] , \"FY 24 Weeks\" , \"public\"))}"
-}

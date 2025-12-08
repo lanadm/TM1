@@ -1,0 +1,58 @@
+{
+	"@type":"NativeView",
+	"Name":"Default",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Subsets('HB Retail - N Level')"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Labor_Measures')/Hierarchies('Labor_Measures')/Subsets('Default')"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Subsets('Default')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 23')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Subsets('FY 23 Weeks')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 1 FY 23')"
+			}
+		},
+		{
+			"Subset":
+			{
+				"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Subsets('Default')"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 1')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":true,
+	"SuppressEmptyRows":true,
+	"FormatString":"0.#########"
+}

@@ -1,0 +1,1280 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Labor_Measures",
+	"Elements":
+	[
+		{
+			"Name":"All Planning Labor Measures",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Minimum Staffed Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Portions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Half Ham Avg Weight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Turkey Avg Weight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Catering Portion Weight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sandwich Portion Weight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Portions: Percent Ham",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Portions: Ham Yield",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ham Portion Hours Each",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Turkey Portion Hours Each",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Portions: Total Ham Weight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Portions: Total Turkey Weight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Portion Pounds",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sandwich Portion Pounds",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Catering Portion Pounds",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Turkey Portion",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Ham Portion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Portions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sandwiches",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Catering Portions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Buffets",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Meat Party Trays",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slices",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Slices: Ham Percent",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slices: Avg Weight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slices: Ham Yield",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slices: Ham Slicing Hours Each",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slices: Turkey Slicing Hours Each",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slices: Ham Weight Needed",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slices: Half Ham Weight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slices: Turkey Weight Needed",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Turkey Quantity",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"By-the-Slice",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slices: Ham Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Quarter Ham",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Boneless Ham",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Half Ham Hours Each",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Quarter Ham Hours Each",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Quarter Ham Cutting Percentage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Quarter Hams to Cut",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Quarter Ham Cutting Hours Each",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Boneless Ham Hours Each",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Turkey Breast Hours Each",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Total Half Ham",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Individual Half Ham",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slices: Half Hams to Glaze",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Portions: Half Hams to Glaze",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Total Turkey Breast",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Turkey Breast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Portions: Turkey Breast to Glaze",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slices: Turkey Breasts to Glaze",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Transactional",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Retail Transactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Lunch Transactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Catering Transactions",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Transactions: Retail Hours Per Transaction",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Transactions: Lunch Hours Per Transaction",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Transactions: Catering Hours Per Transaction",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other Channel Production",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Lunch Total Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gifting Total Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Catering Total Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Lunch: Item Build",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Lunch: Prep Time Per Item",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gifting: Gifting Hours Per Item",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Catering: Catering Hours Per Item",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hours",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Front of House",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Activitied Hours",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FOH: Total Hours",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FOH: Set Up",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FOH: Clean Up",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FOH: Sampler",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FOH: Hambassador",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FOH: Line Director",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FOH: Phone Associate",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FOH: Sandwich Maker",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FOH: Inventory Control Specialist",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FOH: Supervisor",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FOH: Other FOH 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FOH: Other FOH 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FOH: Other FOH 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other Channels: Total Hours",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Lunch: Production Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gifting: Gifting Production Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Catering: Catering Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Transactions: Total Hours",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Transactions: Retail Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Transactions: Lunch Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Transactions: Catering Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slices: Total Hours",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Slices: Ham Slicing Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Slices: Turkey Slicing Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Portions: Total Hours",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Hours for Ham Portioning",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Hours for Turkey Portioning",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Labor Hours",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Hours: Before Management Adjustments",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Greater of Activity or Minimum Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOH: Total Hours",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"BOH: Set Up",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOH: Clean Up",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOH: Other",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOH: Receiving",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOH: Supervisor",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOH: Express Product Transfer",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOH: Other BOH 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOH: Other BOH 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOH: Other BOH 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Outside: Total Hours",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Outside: Pre-Paid",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Outside: Blizting",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Outside: Catering Delivery",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Outside: SGA Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Outside: Seasonal Training",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Outside: Year Round Training",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Outside: Express Set Up / Take Down",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Outside: Other Outside 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Outside: Other Outside 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Outside: Other Outside 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Total Hours",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Production: Half Ham Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Quarter Ham Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Quarter Ham Cutting Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Boneless Ham Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Turkey Breast Hours",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production: Hours from Express",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GM Hours Coverage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AGM Hours Coverage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SS Out of Store",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dollars",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Hourly Wgs - Regular",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Regular Hrs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Avg Wage",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"PY Avg Wage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wage Rate Change",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Labor Dollars",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"All Planning Labor Measures",
+			"ComponentName":"Minimum Staffed Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"All Planning Labor Measures",
+			"ComponentName":"Portions",
+			"Weight":0
+		},
+		{
+			"ParentName":"All Planning Labor Measures",
+			"ComponentName":"Slices",
+			"Weight":0
+		},
+		{
+			"ParentName":"All Planning Labor Measures",
+			"ComponentName":"Production",
+			"Weight":0
+		},
+		{
+			"ParentName":"All Planning Labor Measures",
+			"ComponentName":"Transactional",
+			"Weight":0
+		},
+		{
+			"ParentName":"All Planning Labor Measures",
+			"ComponentName":"Other Channel Production",
+			"Weight":0
+		},
+		{
+			"ParentName":"All Planning Labor Measures",
+			"ComponentName":"Hours",
+			"Weight":0
+		},
+		{
+			"ParentName":"All Planning Labor Measures",
+			"ComponentName":"Dollars",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Half Ham Avg Weight",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Turkey Avg Weight",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Catering Portion Weight",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Sandwich Portion Weight",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Portions: Percent Ham",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Portions: Ham Yield",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Ham Portion Hours Each",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Turkey Portion Hours Each",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Portions: Total Ham Weight",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Portions: Half Hams to Glaze",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Portions: Total Turkey Weight",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Portions: Turkey Breast to Glaze",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Total Portion Pounds",
+			"Weight":0
+		},
+		{
+			"ParentName":"Portions",
+			"ComponentName":"Turkey Portion",
+			"Weight":0
+		},
+		{
+			"ParentName":"Total Portion Pounds",
+			"ComponentName":"Sandwich Portion Pounds",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Portion Pounds",
+			"ComponentName":"Catering Portion Pounds",
+			"Weight":1
+		},
+		{
+			"ParentName":"Turkey Portion",
+			"ComponentName":"Ham Portion",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Turkey Portion",
+			"ComponentName":"Total Portions",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Portions",
+			"ComponentName":"Sandwiches",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Portions",
+			"ComponentName":"Total Catering Portions",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Catering Portions",
+			"ComponentName":"Buffets",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Catering Portions",
+			"ComponentName":"Meat Party Trays",
+			"Weight":1
+		},
+		{
+			"ParentName":"Slices",
+			"ComponentName":"Slices: Ham Percent",
+			"Weight":0
+		},
+		{
+			"ParentName":"Slices",
+			"ComponentName":"Slices: Avg Weight",
+			"Weight":0
+		},
+		{
+			"ParentName":"Slices",
+			"ComponentName":"Slices: Ham Yield",
+			"Weight":0
+		},
+		{
+			"ParentName":"Slices",
+			"ComponentName":"Slices: Ham Slicing Hours Each",
+			"Weight":0
+		},
+		{
+			"ParentName":"Slices",
+			"ComponentName":"Slices: Turkey Slicing Hours Each",
+			"Weight":0
+		},
+		{
+			"ParentName":"Slices",
+			"ComponentName":"Slices: Ham Weight Needed",
+			"Weight":0
+		},
+		{
+			"ParentName":"Slices",
+			"ComponentName":"Slices: Half Ham Weight",
+			"Weight":0
+		},
+		{
+			"ParentName":"Slices",
+			"ComponentName":"Slices: Half Hams to Glaze",
+			"Weight":0
+		},
+		{
+			"ParentName":"Slices",
+			"ComponentName":"Slices: Turkey Weight Needed",
+			"Weight":0
+		},
+		{
+			"ParentName":"Slices",
+			"ComponentName":"Slices: Turkey Breasts to Glaze",
+			"Weight":0
+		},
+		{
+			"ParentName":"Slices",
+			"ComponentName":"Turkey Quantity",
+			"Weight":0
+		},
+		{
+			"ParentName":"Turkey Quantity",
+			"ComponentName":"By-the-Slice",
+			"Weight":1
+		},
+		{
+			"ParentName":"Turkey Quantity",
+			"ComponentName":"Slices: Ham Quantity",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Production",
+			"ComponentName":"Quarter Ham",
+			"Weight":0
+		},
+		{
+			"ParentName":"Production",
+			"ComponentName":"Boneless Ham",
+			"Weight":0
+		},
+		{
+			"ParentName":"Production",
+			"ComponentName":"Production: Half Ham Hours Each",
+			"Weight":0
+		},
+		{
+			"ParentName":"Production",
+			"ComponentName":"Production: Quarter Ham Hours Each",
+			"Weight":0
+		},
+		{
+			"ParentName":"Production",
+			"ComponentName":"Production: Quarter Ham Cutting Percentage",
+			"Weight":0
+		},
+		{
+			"ParentName":"Production",
+			"ComponentName":"Production: Quarter Hams to Cut",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production",
+			"ComponentName":"Production: Quarter Ham Cutting Hours Each",
+			"Weight":0
+		},
+		{
+			"ParentName":"Production",
+			"ComponentName":"Production: Boneless Ham Hours Each",
+			"Weight":0
+		},
+		{
+			"ParentName":"Production",
+			"ComponentName":"Production: Turkey Breast Hours Each",
+			"Weight":0
+		},
+		{
+			"ParentName":"Production",
+			"ComponentName":"Production: Total Half Ham",
+			"Weight":0
+		},
+		{
+			"ParentName":"Production",
+			"ComponentName":"Production: Total Turkey Breast",
+			"Weight":0
+		},
+		{
+			"ParentName":"Production: Total Half Ham",
+			"ComponentName":"Individual Half Ham",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production: Total Half Ham",
+			"ComponentName":"Slices: Half Hams to Glaze",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production: Total Half Ham",
+			"ComponentName":"Portions: Half Hams to Glaze",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production: Total Turkey Breast",
+			"ComponentName":"Turkey Breast",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production: Total Turkey Breast",
+			"ComponentName":"Portions: Turkey Breast to Glaze",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production: Total Turkey Breast",
+			"ComponentName":"Slices: Turkey Breasts to Glaze",
+			"Weight":1
+		},
+		{
+			"ParentName":"Transactional",
+			"ComponentName":"Retail Transactions",
+			"Weight":0
+		},
+		{
+			"ParentName":"Transactional",
+			"ComponentName":"Lunch Transactions",
+			"Weight":0
+		},
+		{
+			"ParentName":"Transactional",
+			"ComponentName":"Catering Transactions",
+			"Weight":0
+		},
+		{
+			"ParentName":"Transactional",
+			"ComponentName":"Transactions: Retail Hours Per Transaction",
+			"Weight":0
+		},
+		{
+			"ParentName":"Transactional",
+			"ComponentName":"Transactions: Lunch Hours Per Transaction",
+			"Weight":0
+		},
+		{
+			"ParentName":"Transactional",
+			"ComponentName":"Transactions: Catering Hours Per Transaction",
+			"Weight":0
+		},
+		{
+			"ParentName":"Other Channel Production",
+			"ComponentName":"Lunch Total Quantity",
+			"Weight":0
+		},
+		{
+			"ParentName":"Other Channel Production",
+			"ComponentName":"Gifting Total Quantity",
+			"Weight":0
+		},
+		{
+			"ParentName":"Other Channel Production",
+			"ComponentName":"Catering Total Quantity",
+			"Weight":0
+		},
+		{
+			"ParentName":"Other Channel Production",
+			"ComponentName":"Lunch: Item Build",
+			"Weight":0
+		},
+		{
+			"ParentName":"Other Channel Production",
+			"ComponentName":"Lunch: Prep Time Per Item",
+			"Weight":0
+		},
+		{
+			"ParentName":"Other Channel Production",
+			"ComponentName":"Gifting: Gifting Hours Per Item",
+			"Weight":0
+		},
+		{
+			"ParentName":"Other Channel Production",
+			"ComponentName":"Catering: Catering Hours Per Item",
+			"Weight":0
+		},
+		{
+			"ParentName":"Hours",
+			"ComponentName":"Front of House",
+			"Weight":0
+		},
+		{
+			"ParentName":"Hours",
+			"ComponentName":"Total Labor Hours",
+			"Weight":0
+		},
+		{
+			"ParentName":"Front of House",
+			"ComponentName":"Activitied Hours",
+			"Weight":0
+		},
+		{
+			"ParentName":"Activitied Hours",
+			"ComponentName":"FOH: Total Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Activitied Hours",
+			"ComponentName":"Other Channels: Total Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Activitied Hours",
+			"ComponentName":"Transactions: Total Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Activitied Hours",
+			"ComponentName":"Slices: Total Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Activitied Hours",
+			"ComponentName":"Portions: Total Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"FOH: Total Hours",
+			"ComponentName":"FOH: Set Up",
+			"Weight":1
+		},
+		{
+			"ParentName":"FOH: Total Hours",
+			"ComponentName":"FOH: Clean Up",
+			"Weight":1
+		},
+		{
+			"ParentName":"FOH: Total Hours",
+			"ComponentName":"FOH: Sampler",
+			"Weight":1
+		},
+		{
+			"ParentName":"FOH: Total Hours",
+			"ComponentName":"FOH: Hambassador",
+			"Weight":1
+		},
+		{
+			"ParentName":"FOH: Total Hours",
+			"ComponentName":"FOH: Line Director",
+			"Weight":1
+		},
+		{
+			"ParentName":"FOH: Total Hours",
+			"ComponentName":"FOH: Phone Associate",
+			"Weight":1
+		},
+		{
+			"ParentName":"FOH: Total Hours",
+			"ComponentName":"FOH: Sandwich Maker",
+			"Weight":1
+		},
+		{
+			"ParentName":"FOH: Total Hours",
+			"ComponentName":"FOH: Inventory Control Specialist",
+			"Weight":1
+		},
+		{
+			"ParentName":"FOH: Total Hours",
+			"ComponentName":"FOH: Supervisor",
+			"Weight":1
+		},
+		{
+			"ParentName":"FOH: Total Hours",
+			"ComponentName":"FOH: Other FOH 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"FOH: Total Hours",
+			"ComponentName":"FOH: Other FOH 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"FOH: Total Hours",
+			"ComponentName":"FOH: Other FOH 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Other Channels: Total Hours",
+			"ComponentName":"Lunch: Production Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Other Channels: Total Hours",
+			"ComponentName":"Gifting: Gifting Production Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Other Channels: Total Hours",
+			"ComponentName":"Catering: Catering Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Transactions: Total Hours",
+			"ComponentName":"Transactions: Retail Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Transactions: Total Hours",
+			"ComponentName":"Transactions: Lunch Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Transactions: Total Hours",
+			"ComponentName":"Transactions: Catering Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Slices: Total Hours",
+			"ComponentName":"Slices: Ham Slicing Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Slices: Total Hours",
+			"ComponentName":"Slices: Turkey Slicing Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Portions: Total Hours",
+			"ComponentName":"Hours for Ham Portioning",
+			"Weight":1
+		},
+		{
+			"ParentName":"Portions: Total Hours",
+			"ComponentName":"Hours for Turkey Portioning",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Labor Hours",
+			"ComponentName":"Hours: Before Management Adjustments",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Labor Hours",
+			"ComponentName":"GM Hours Coverage",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Labor Hours",
+			"ComponentName":"AGM Hours Coverage",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Labor Hours",
+			"ComponentName":"SS Out of Store",
+			"Weight":1
+		},
+		{
+			"ParentName":"Hours: Before Management Adjustments",
+			"ComponentName":"Greater of Activity or Minimum Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Hours: Before Management Adjustments",
+			"ComponentName":"BOH: Total Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Hours: Before Management Adjustments",
+			"ComponentName":"Outside: Total Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Hours: Before Management Adjustments",
+			"ComponentName":"Production: Total Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"BOH: Total Hours",
+			"ComponentName":"BOH: Set Up",
+			"Weight":1
+		},
+		{
+			"ParentName":"BOH: Total Hours",
+			"ComponentName":"BOH: Clean Up",
+			"Weight":1
+		},
+		{
+			"ParentName":"BOH: Total Hours",
+			"ComponentName":"BOH: Other",
+			"Weight":1
+		},
+		{
+			"ParentName":"BOH: Total Hours",
+			"ComponentName":"BOH: Receiving",
+			"Weight":1
+		},
+		{
+			"ParentName":"BOH: Total Hours",
+			"ComponentName":"BOH: Supervisor",
+			"Weight":1
+		},
+		{
+			"ParentName":"BOH: Total Hours",
+			"ComponentName":"BOH: Express Product Transfer",
+			"Weight":1
+		},
+		{
+			"ParentName":"BOH: Total Hours",
+			"ComponentName":"BOH: Other BOH 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"BOH: Total Hours",
+			"ComponentName":"BOH: Other BOH 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"BOH: Total Hours",
+			"ComponentName":"BOH: Other BOH 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Outside: Total Hours",
+			"ComponentName":"Outside: Pre-Paid",
+			"Weight":1
+		},
+		{
+			"ParentName":"Outside: Total Hours",
+			"ComponentName":"Outside: Blizting",
+			"Weight":1
+		},
+		{
+			"ParentName":"Outside: Total Hours",
+			"ComponentName":"Outside: Catering Delivery",
+			"Weight":1
+		},
+		{
+			"ParentName":"Outside: Total Hours",
+			"ComponentName":"Outside: SGA Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Outside: Total Hours",
+			"ComponentName":"Outside: Seasonal Training",
+			"Weight":1
+		},
+		{
+			"ParentName":"Outside: Total Hours",
+			"ComponentName":"Outside: Year Round Training",
+			"Weight":1
+		},
+		{
+			"ParentName":"Outside: Total Hours",
+			"ComponentName":"Outside: Express Set Up / Take Down",
+			"Weight":1
+		},
+		{
+			"ParentName":"Outside: Total Hours",
+			"ComponentName":"Outside: Other Outside 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Outside: Total Hours",
+			"ComponentName":"Outside: Other Outside 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Outside: Total Hours",
+			"ComponentName":"Outside: Other Outside 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production: Total Hours",
+			"ComponentName":"Production: Half Ham Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production: Total Hours",
+			"ComponentName":"Production: Quarter Ham Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production: Total Hours",
+			"ComponentName":"Production: Quarter Ham Cutting Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production: Total Hours",
+			"ComponentName":"Production: Boneless Ham Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production: Total Hours",
+			"ComponentName":"Production: Turkey Breast Hours",
+			"Weight":1
+		},
+		{
+			"ParentName":"Production: Total Hours",
+			"ComponentName":"Production: Hours from Express",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dollars",
+			"ComponentName":"Hourly Wgs - Regular",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dollars",
+			"ComponentName":"Regular Hrs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dollars",
+			"ComponentName":"Avg Wage",
+			"Weight":0
+		},
+		{
+			"ParentName":"Dollars",
+			"ComponentName":"Total Labor Dollars",
+			"Weight":0
+		},
+		{
+			"ParentName":"Avg Wage",
+			"ComponentName":"PY Avg Wage",
+			"Weight":1
+		},
+		{
+			"ParentName":"Avg Wage",
+			"ComponentName":"Wage Rate Change",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Labor_Measures.subsets/Default.json"
+	]
+}

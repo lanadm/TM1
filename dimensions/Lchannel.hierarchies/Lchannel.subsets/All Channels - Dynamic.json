@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"All Channels - Dynamic",
-	"Expression":"{ HIERARCHIZE( {TM1SUBSETALL( [Lchannel] )} ) }"
-}

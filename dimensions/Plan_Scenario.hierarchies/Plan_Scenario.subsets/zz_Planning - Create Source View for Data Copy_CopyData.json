@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_Planning - Create Source View for Data Copy_CopyData",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Plan_Scenario')/Hierarchies('Plan_Scenario')/Elements('Planning 1')"
+		}
+	]
+}
