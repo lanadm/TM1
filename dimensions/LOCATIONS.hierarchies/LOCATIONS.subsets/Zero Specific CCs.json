@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Zero Specific CCs",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('52114301')"
+		}
+	]
+}

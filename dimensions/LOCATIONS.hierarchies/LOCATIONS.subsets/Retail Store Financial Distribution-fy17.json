@@ -944,9 +944,6 @@
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 4108')"
 		},
 		{
-			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 4110')"
-		},
-		{
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 4201')"
 		},
 		{

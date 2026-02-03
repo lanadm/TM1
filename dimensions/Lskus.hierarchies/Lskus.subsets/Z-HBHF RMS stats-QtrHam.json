@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Z-HBHF RMS stats-QtrHam",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('QUARTER HAM')"
+		}
+	]
+}

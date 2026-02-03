@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Inactive MI",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {DRILLDOWNMEMBER({[Lskus].[Lskus].[Inactive MI]} , {[Lskus].[Lskus].[Inactive MI]} , RECURSIVE)}"
+}

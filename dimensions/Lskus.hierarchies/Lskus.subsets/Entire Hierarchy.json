@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Entire Hierarchy",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {TM1DRILLDOWNMEMBER(DRILLUPMEMBER([Lskus].[Lskus].LEVELS(0).MEMBERS , {[Lskus].[Lskus].[{TOP HIERARCHIES AND GROUPS]}), {[Lskus].[Lskus].[{TOP HIERARCHIES AND GROUPS]}, RECURSIVE)}"
+}

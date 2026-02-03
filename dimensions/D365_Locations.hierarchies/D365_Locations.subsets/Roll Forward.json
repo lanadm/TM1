@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Roll Forward",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {EXCEPT(TM1FILTERBYPATTERN(TM1SUBSETALL([D365_Locations].[D365_Locations]) , \"*roll forward*\" , \"Name\") , {[D365_Locations].[D365_Locations].[CoOwned Stores - Other^CoOwned Stores - Roll Forward]} , ALL)}"
+}

@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"All Level 0 - Purchasing Description",
+	"Alias":"Purchasing Description",
+	"Expression":"TM1IGNORE_BADTUPLES {TM1SORT(TM1FILTERBYLEVEL(TM1SUBSETALL([Lskus]) , 0) , ASC)}"
+}

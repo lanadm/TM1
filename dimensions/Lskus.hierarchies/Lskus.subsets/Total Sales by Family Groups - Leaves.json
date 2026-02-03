@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Total Sales by Family Groups - Leaves",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {EXCEPT(DISTINCT({[Lskus].[Lskus].[TOTAL SALES BY FAMILY GROUPS],DESCENDANTS([Lskus].[Lskus].[TOTAL SALES BY FAMILY GROUPS] , 99 , LEAVES)}) , {[Lskus].[Lskus].[{TOP HIERARCHIES AND GROUPS^TOTAL SALES BY FAMILY GROUPS]} , ALL)}"
+}

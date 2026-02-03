@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Franchise SSS Leaves",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {EXCEPT(DISTINCT({{[LOCATIONS].[LOCATIONS].[Franchise SSS]},DESCENDANTS([LOCATIONS].[LOCATIONS].[Franchise SSS] , 99 , LEAVES)}) , {[LOCATIONS].[LOCATIONS].[Franchise SSS]} , ALL)}"
+}

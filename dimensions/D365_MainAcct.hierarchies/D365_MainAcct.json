@@ -5058,6 +5058,94 @@
 		{
 			"Name":"1393",
 			"Type":"Numeric"
+		},
+		{
+			"Name":"9487",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"9087",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"{ReportWORQ",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TOTAL SELLING/WGS/G&A EXP",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"RW - TOTAL SELLING EXPENSE",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"RW - ADVERTISING & MARKETING",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"PRODUCT DEVELOPMENT",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"RW - TOTAL HOURLY WGS/BONUS/TEMPWGS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"RW - HOURLY WGS/BONUS/TEMPWGS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{UAT Intercompany",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"1201",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2103",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2110",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"4005",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"5005",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"3205_Adj",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"3205_TTL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"7313",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2477",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"3040",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"3045",
+			"Type":"Numeric"
 		}
 	],
 	"Edges":
@@ -5100,6 +5188,16 @@
 		{
 			"ParentName":"{ALL ROLLUPS",
 			"ComponentName":"{MISC ACCOUNT ROLLUPS",
+			"Weight":0
+		},
+		{
+			"ParentName":"{ALL ROLLUPS",
+			"ComponentName":"{ReportWORQ",
+			"Weight":1
+		},
+		{
+			"ParentName":"{ALL ROLLUPS",
+			"ComponentName":"{UAT Intercompany",
 			"Weight":0
 		},
 		{
@@ -5540,6 +5638,16 @@
 		{
 			"ParentName":"COMMON STOCK",
 			"ComponentName":"3025",
+			"Weight":1
+		},
+		{
+			"ParentName":"COMMON STOCK",
+			"ComponentName":"3040",
+			"Weight":1
+		},
+		{
+			"ParentName":"COMMON STOCK",
+			"ComponentName":"3045",
 			"Weight":1
 		},
 		{
@@ -6100,6 +6208,11 @@
 		{
 			"ParentName":"CONTROLLABLE BAD DEBT EXPENSE FY23",
 			"ComponentName":"7312",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONTROLLABLE BAD DEBT EXPENSE FY23",
+			"ComponentName":"7313",
 			"Weight":1
 		},
 		{
@@ -8340,6 +8453,11 @@
 		{
 			"ParentName":"STORE ALL OTHER G & A EXPENSE",
 			"ComponentName":"9486",
+			"Weight":1
+		},
+		{
+			"ParentName":"STORE ALL OTHER G & A EXPENSE",
+			"ComponentName":"9487",
 			"Weight":1
 		},
 		{
@@ -11049,6 +11167,11 @@
 		},
 		{
 			"ParentName":"ACCRUED EXPENSES",
+			"ComponentName":"2477",
+			"Weight":1
+		},
+		{
+			"ParentName":"ACCRUED EXPENSES",
 			"ComponentName":"2478",
 			"Weight":1
 		},
@@ -11424,7 +11547,7 @@
 		},
 		{
 			"ParentName":"OTHER RETAINED EARNINGS",
-			"ComponentName":"3205",
+			"ComponentName":"3205_TTL",
 			"Weight":1
 		},
 		{
@@ -12229,6 +12352,11 @@
 		},
 		{
 			"ParentName":"OTHER EXPENSE",
+			"ComponentName":"9087",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER EXPENSE",
 			"ComponentName":"9090",
 			"Weight":1
 		},
@@ -12640,6 +12768,11 @@
 		{
 			"ParentName":"CONTROLLABLE BAD DEBT EXPENSE",
 			"ComponentName":"7312",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONTROLLABLE BAD DEBT EXPENSE",
+			"ComponentName":"7313",
 			"Weight":1
 		},
 		{
@@ -17249,6 +17382,11 @@
 		},
 		{
 			"ParentName":"ALL N ELEMENTS (FOR CONTROL TOTALS ONLY)",
+			"ComponentName":"9487",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL N ELEMENTS (FOR CONTROL TOTALS ONLY)",
 			"ComponentName":"9490",
 			"Weight":1
 		},
@@ -19549,6 +19687,11 @@
 		},
 		{
 			"ParentName":"CLEARING ACCOUNTS",
+			"ComponentName":"9487",
+			"Weight":1
+		},
+		{
+			"ParentName":"CLEARING ACCOUNTS",
 			"ComponentName":"9490",
 			"Weight":1
 		},
@@ -21505,6 +21648,11 @@
 		{
 			"ParentName":"BAD DEBT EXPENSE",
 			"ComponentName":"7312",
+			"Weight":1
+		},
+		{
+			"ParentName":"BAD DEBT EXPENSE",
+			"ComponentName":"7313",
 			"Weight":1
 		},
 		{
@@ -23659,6 +23807,11 @@
 		},
 		{
 			"ParentName":"PL Accounts",
+			"ComponentName":"9487",
+			"Weight":1
+		},
+		{
+			"ParentName":"PL Accounts",
 			"ComponentName":"9490",
 			"Weight":1
 		},
@@ -23761,11 +23914,234 @@
 			"ParentName":"ERRORS",
 			"ComponentName":"1415",
 			"Weight":1
+		},
+		{
+			"ParentName":"{ReportWORQ",
+			"ComponentName":"TOTAL SELLING/WGS/G&A EXP",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL SELLING/WGS/G&A EXP",
+			"ComponentName":"RW - TOTAL SELLING EXPENSE",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL SELLING/WGS/G&A EXP",
+			"ComponentName":"RW - TOTAL HOURLY WGS/BONUS/TEMPWGS",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL SELLING/WGS/G&A EXP",
+			"ComponentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL SELLING EXPENSE",
+			"ComponentName":"PRODUCTION/SELLING SUPPLIES",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL SELLING EXPENSE",
+			"ComponentName":"CHARGE CARD DISCOUNTS",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL SELLING EXPENSE",
+			"ComponentName":"RW - ADVERTISING & MARKETING",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - ADVERTISING & MARKETING",
+			"ComponentName":"MEDIA",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - ADVERTISING & MARKETING",
+			"ComponentName":"CREATIVE DESIGN/DEVELOPMENT",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - ADVERTISING & MARKETING",
+			"ComponentName":"LOCAL STORE MARKETING",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - ADVERTISING & MARKETING",
+			"ComponentName":"INTERNET",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - ADVERTISING & MARKETING",
+			"ComponentName":"CONSUMER RESEARCH",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - ADVERTISING & MARKETING",
+			"ComponentName":"PRODUCT DEVELOPMENT",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - ADVERTISING & MARKETING",
+			"ComponentName":"AGENCY FEES",
+			"Weight":1
+		},
+		{
+			"ParentName":"PRODUCT DEVELOPMENT",
+			"ComponentName":"7813",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL HOURLY WGS/BONUS/TEMPWGS",
+			"ComponentName":"RW - HOURLY WGS/BONUS/TEMPWGS",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - HOURLY WGS/BONUS/TEMPWGS",
+			"ComponentName":"6110",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - HOURLY WGS/BONUS/TEMPWGS",
+			"ComponentName":"6112",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - HOURLY WGS/BONUS/TEMPWGS",
+			"ComponentName":"6125",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - HOURLY WGS/BONUS/TEMPWGS",
+			"ComponentName":"6128",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - HOURLY WGS/BONUS/TEMPWGS",
+			"ComponentName":"6170",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"TRAINING",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"ASSOCIATE EXPENSE",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"TRAVEL",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"RENT",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"UTILITIES",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"TELEPHONE",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"REPAIRS & MAINTENANCE",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"LEGAL",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"PROFESSIONAL FEES",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"TAXES & LICENSES",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"OFFICE EXPENSE",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"CONTRACTED SERVICES",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"DONATIONS",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"DUES & SUBSCRIPTIONS",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"MISCELLANEOUS",
+			"Weight":1
+		},
+		{
+			"ParentName":"RW - TOTAL G&A EXP w/o Depr & Amortization",
+			"ComponentName":"BANK SERVICE CHARGE",
+			"Weight":1
+		},
+		{
+			"ParentName":"{UAT Intercompany",
+			"ComponentName":"1201",
+			"Weight":1
+		},
+		{
+			"ParentName":"{UAT Intercompany",
+			"ComponentName":"2103",
+			"Weight":1
+		},
+		{
+			"ParentName":"{UAT Intercompany",
+			"ComponentName":"2110",
+			"Weight":1
+		},
+		{
+			"ParentName":"{UAT Intercompany",
+			"ComponentName":"4005",
+			"Weight":1
+		},
+		{
+			"ParentName":"{UAT Intercompany",
+			"ComponentName":"5005",
+			"Weight":1
+		},
+		{
+			"ParentName":"3205_TTL",
+			"ComponentName":"3205",
+			"Weight":1
+		},
+		{
+			"ParentName":"3205_TTL",
+			"ComponentName":"3205_Adj",
+			"Weight":1
 		}
 	],
 	"Subsets@Code.links":
 	[
+		"D365_MainAcct.subsets/2620 - Property Tax Accrual.json",
 		"D365_MainAcct.subsets/4230 & 4231.json",
+		"D365_MainAcct.subsets/5210 - Inventory Usage (COGS).json",
+		"D365_MainAcct.subsets/Accounts - Reverse Sign.json",
 		"D365_MainAcct.subsets/All Level 0.json",
 		"D365_MainAcct.subsets/All Level 0 (no desc).json",
 		"D365_MainAcct.subsets/BAL Accounts.json",
@@ -23773,6 +24149,7 @@
 		"D365_MainAcct.subsets/BalSheet-Rvw RtndEarn.json",
 		"D365_MainAcct.subsets/BalSheet Top Rollups.json",
 		"D365_MainAcct.subsets/Controllable Gross Rev and Income from Ops.json",
+		"D365_MainAcct.subsets/CONTROLLABLE WAGEBONUS EXPENSE FY23.json",
 		"D365_MainAcct.subsets/Default.json",
 		"D365_MainAcct.subsets/Gross & R&A.json",
 		"D365_MainAcct.subsets/Load Budget except SKU_Data elements.json",
@@ -23782,8 +24159,10 @@
 		"D365_MainAcct.subsets/SKU Accounts.json",
 		"D365_MainAcct.subsets/Temp Wages.json",
 		"D365_MainAcct.subsets/zz_@D365_GL - Copy from Category to Category.json",
+		"D365_MainAcct.subsets/zz_@D365_GL - Copy from Category to Category (D2C).json",
 		"D365_MainAcct.subsets/zz_@D365_GL - Copy from Category to Category_ZeroOut.json",
-		"D365_MainAcct.subsets/zz_@D365_GL - Zero for SKU_DATA Load (HB Retail incl CA).json",
+		"D365_MainAcct.subsets/zz_@D365_GL - Copy from CC to CC.json",
+		"D365_MainAcct.subsets/zz_@D365_GL - Export Data.json",
 		"D365_MainAcct.subsets/zz_D365_GL - Export Data.json"
 	]
 }

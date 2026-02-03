@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"PLDist_FY25_Adhoc",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('66500230')"
+		}
+	]
+}

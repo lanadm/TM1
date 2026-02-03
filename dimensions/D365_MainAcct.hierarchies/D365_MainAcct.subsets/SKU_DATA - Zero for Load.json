@@ -18,6 +18,9 @@
 		},
 		{
 			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('4040')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('4016')"
 		}
 	]
 }

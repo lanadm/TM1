@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"DISTRICT REGION TOTALS - FY25_FEB",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {DISTINCT({DESCENDANTS([D365_Locations].[D365_Locations].[DISTRICT REGION TOTALS - FY25_FEB])})}"
+}

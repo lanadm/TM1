@@ -1037,9 +1037,6 @@
 			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 4110')"
 		},
 		{
-			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 4113')"
-		},
-		{
 			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 4128')"
 		},
 		{
@@ -1083,9 +1080,6 @@
 		},
 		{
 			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 8202')"
-		},
-		{
-			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 8305')"
 		},
 		{
 			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 8402')"

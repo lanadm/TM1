@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"All Stores",
-	"Expression":"{TM1SUBSETALL( [storenum] )}"
-}

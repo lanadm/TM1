@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"Default2",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TOTAL OF ALL SKUS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TOTAL GIFTING')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('RETAIL SELLING METRICS')"
+		}
+	]
+}

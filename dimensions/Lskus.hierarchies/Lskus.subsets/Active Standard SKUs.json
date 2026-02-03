@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Active Standard SKUs",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {DISTINCT(DESCENDANTS([Lskus].[Lskus].[Active Standard SKUs] , 99 , LEAVES))}"
+}

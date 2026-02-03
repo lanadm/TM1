@@ -1073,9 +1073,6 @@
 			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 4110')"
 		},
 		{
-			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 4113')"
-		},
-		{
 			"@id":"Dimensions('D365_Locations')/Hierarchies('D365_Locations')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 4128')"
 		},
 		{

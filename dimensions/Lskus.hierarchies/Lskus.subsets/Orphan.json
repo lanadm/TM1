@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Orphan",
+	"Alias":"Name",
+	"Expression":"{TM1DRILLDOWNMEMBER( {TM1FILTERBYPATTERN( {TM1SUBSETALL( [Lskus] )}, \"orphan*\")}, ALL, RECURSIVE )}"
+}

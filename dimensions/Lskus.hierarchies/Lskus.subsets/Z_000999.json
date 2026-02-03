@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Z_000999",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('000999')"
+		}
+	]
+}

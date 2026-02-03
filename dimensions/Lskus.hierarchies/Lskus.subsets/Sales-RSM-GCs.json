@@ -1,0 +1,17 @@
+{
+	"@type":"Subset",
+	"Name":"Sales-RSM-GCs",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('TOTAL SALES BY FAMILY GROUPS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('RETAIL SELLING METRICS')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('GIFT CERTIFICATES BY TYPE')"
+		}
+	]
+}
