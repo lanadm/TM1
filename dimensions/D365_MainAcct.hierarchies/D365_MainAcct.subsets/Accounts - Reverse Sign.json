@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Accounts - Reverse Sign",
-	"Alias":"Name",
-	"Expression":"TM1IGNORE_BADTUPLES {FILTER({TM1FILTERBYLEVEL(TM1SUBSETALL([D365_MainAcct].[D365_MainAcct]) , 0)}, (INSTR(1, [D365_MainAcct].[D365_MainAcct].CURRENTMEMBER.PROPERTIES(\"PosNeg\"), \"Neg\", 1) >= 1))}"
-}

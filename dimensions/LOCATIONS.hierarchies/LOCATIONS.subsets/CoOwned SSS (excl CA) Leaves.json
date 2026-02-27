@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"CoOwned SSS (excl CA) Leaves",
-	"Alias":"MEMBER_NAME",
-	"Expression":"TM1IGNORE_BADTUPLES {EXCEPT(DISTINCT({{[LOCATIONS].[LOCATIONS].[CoOwned SSS (excl CA)]},DESCENDANTS([LOCATIONS].[LOCATIONS].[CoOwned SSS (excl CA)] , 99 , LEAVES)}) , {[LOCATIONS].[LOCATIONS].[CoOwned SSS (excl CA)]} , ALL)}"
-}

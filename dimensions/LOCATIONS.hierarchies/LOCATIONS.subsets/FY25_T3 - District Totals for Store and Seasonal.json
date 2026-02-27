@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"FY25_T3 - District Totals for Store and Seasonal",
-	"Alias":"MEMBER_NAME",
-	"Expression":"TM1IGNORE_BADTUPLES {DISTINCT(DESCENDANTS([LOCATIONS].[LOCATIONS].[DISTRICT TOTAL FOR STORE AND SEASONAL FY25_T3]))}"
-}

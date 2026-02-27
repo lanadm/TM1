@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"2620 - Property Tax Accrual",
-	"Alias":"MEMBER_NAME",
-	"Expression":"TM1IGNORE_BADTUPLES {[D365_MainAcct].[D365_MainAcct].MEMBERS}"
-}

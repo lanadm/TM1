@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Forecasting - Copy from CC to CC (all)",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 26 FY 26')"
+		},
+		{
+			"@id":"Dimensions('Plan_Week')/Hierarchies('Plan_Week')/Elements('WEEK 27 FY 26')"
+		}
+	]
+}

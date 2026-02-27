@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"prime rib",
-	"Alias":"Name",
-	"Expression":"TM1IGNORE_BADTUPLES {{TM1FILTERBYPATTERN(TM1SubsetAll([Lskus].[Lskus]),\"*prime rib*\",\"Name\")}}"
-}
