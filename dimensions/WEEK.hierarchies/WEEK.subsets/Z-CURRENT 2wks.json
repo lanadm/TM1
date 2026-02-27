@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"Z-CURRENT 2wks",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 20 - 02/15/15')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 21 - 02/22/15')"
+		}
+	]
+}

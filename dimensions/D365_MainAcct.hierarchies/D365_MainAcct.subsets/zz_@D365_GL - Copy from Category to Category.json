@@ -2711,6 +2711,45 @@
 		},
 		{
 			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('3045')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('3105')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('2747')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('2748')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('2749')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('2854')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('2855')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('2856')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('2857')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('2858')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Revenue')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Cost of Goods Sold')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Selling, General & Administrative')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Depreciation & Amortization')"
 		}
 	]
 }

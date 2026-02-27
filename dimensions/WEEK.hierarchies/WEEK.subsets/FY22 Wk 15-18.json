@@ -1,0 +1,19 @@
+{
+	"@type":"Subset",
+	"Name":"FY22 Wk 15-18",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 15 - 01/09/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 16 - 01/16/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 17 - 01/23/22')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 18 - 01/30/22')"
+		}
+	]
+}

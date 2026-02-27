@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@D365_GL - Copy from Category to Category",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 26')"
+		}
+	]
+}

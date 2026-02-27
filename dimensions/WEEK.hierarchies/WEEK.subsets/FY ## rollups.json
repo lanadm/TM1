@@ -1,0 +1,19 @@
+{
+	"@type":"Subset",
+	"Name":"FY ## rollups",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('FY18 GP')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('FY19 GP')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('FY20 GP')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('FY21 GP')"
+		}
+	]
+}

@@ -48222,6 +48222,98 @@
 		{
 			"Name":"201196",
 			"Type":"Numeric"
+		},
+		{
+			"Name":"TTL Sales and Transactions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"1017",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"4800",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"726433",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"185656",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"910314",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"6511",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"6008",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"6019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"4099",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"4266",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"5139",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"727475",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"727478",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"729595",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"4709",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"729039",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"729342",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"4517",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"1104",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"729139",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"724905",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"729548",
+			"Type":"Numeric"
 		}
 	],
 	"Edges":
@@ -84923,6 +85015,11 @@
 		},
 		{
 			"ParentName":"LUNCH ADDONS (PRODUCT)",
+			"ComponentName":"1017",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH ADDONS (PRODUCT)",
 			"ComponentName":"2156",
 			"Weight":1
 		},
@@ -94773,6 +94870,11 @@
 		},
 		{
 			"ParentName":"MISC",
+			"ComponentName":"185656",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
 			"ComponentName":"185668",
 			"Weight":1
 		},
@@ -95358,6 +95460,11 @@
 		},
 		{
 			"ParentName":"MISC",
+			"ComponentName":"726433",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
 			"ComponentName":"727473",
 			"Weight":1
 		},
@@ -95559,6 +95666,11 @@
 		{
 			"ParentName":"MISC",
 			"ComponentName":"910080",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
+			"ComponentName":"910314",
 			"Weight":1
 		},
 		{
@@ -97114,6 +97226,91 @@
 		{
 			"ParentName":"NEXT DAY FREIGHT",
 			"ComponentName":"931700",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"6511",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"6008",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"6019",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"4099",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"4266",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"5139",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"727475",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"727478",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"729595",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"4709",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"729039",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"729342",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"4517",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"1104",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"729139",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"724905",
+			"Weight":1
+		},
+		{
+			"ParentName":"ORPHAN",
+			"ComponentName":"729548",
 			"Weight":1
 		},
 		{
@@ -120733,6 +120930,11 @@
 		},
 		{
 			"ParentName":"WHOLE HAM (PRODUCT)",
+			"ComponentName":"4800",
+			"Weight":1
+		},
+		{
+			"ParentName":"WHOLE HAM (PRODUCT)",
 			"ComponentName":"000004",
 			"Weight":1
 		},
@@ -121808,7 +122010,7 @@
 		},
 		{
 			"ParentName":"{TOP HIERARCHIES AND GROUPS",
-			"ComponentName":"TOTAL SALES BY FAMILY GROUPS EXCL DONATIONS",
+			"ComponentName":"TTL Sales and Transactions",
 			"Weight":1
 		},
 		{
@@ -121870,6 +122072,16 @@
 			"ParentName":"{TOTAL CLASSIFICATIONS",
 			"ComponentName":"TOTAL SALES BY CLASSIFICATION",
 			"Weight":0
+		},
+		{
+			"ParentName":"TTL Sales and Transactions",
+			"ComponentName":"TOTAL SALES BY FAMILY GROUPS EXCL DONATIONS",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Sales and Transactions",
+			"ComponentName":"RETAIL SELLING METRICS",
+			"Weight":1
 		}
 	],
 	"DefaultMemberName":"TOTAL SALES BY FAMILY GROUPS EXCL DONATIONS",
@@ -121882,9 +122094,14 @@
 		"Lskus.subsets/All Level 0.json",
 		"Lskus.subsets/All Level 0 - No Desc.json",
 		"Lskus.subsets/All Level 0 - Purchasing Description.json",
+		"Lskus.subsets/All Level 0 w Desc.json",
 		"Lskus.subsets/All Net Sales Skus.json",
 		"Lskus.subsets/All N Level.json",
+		"Lskus.subsets/B2B Catering.json",
+		"Lskus.subsets/B2B Gifting.json",
 		"Lskus.subsets/California SKUs.json",
+		"Lskus.subsets/Consumer Lunch.json",
+		"Lskus.subsets/Consumer Retail.json",
 		"Lskus.subsets/Cost Input.json",
 		"Lskus.subsets/D365_GL SKU Extract.json",
 		"Lskus.subsets/Default.json",
@@ -121925,6 +122142,7 @@
 		"Lskus.subsets/Total Sales by Family Groups - Leaves only.json",
 		"Lskus.subsets/Total Sales by Family Groups excl don.json",
 		"Lskus.subsets/Total Sales by Family Groups Excl Donations.json",
+		"Lskus.subsets/TTL Sales and Transactions.json",
 		"Lskus.subsets/Z-3P_Wk_Stat.json",
 		"Lskus.subsets/Z-All GCs.json",
 		"Lskus.subsets/Z-All NElements.json",

@@ -17676,10 +17676,6 @@
 			"Type":"Consolidated"
 		},
 		{
-			"Name":"DISTRICT 18 - NORM HENNINGER - SEASONAL FY25_T3",
-			"Type":"Consolidated"
-		},
-		{
 			"Name":"DISTRICT 19 - MUNDI SILVERS - SEASONAL FY25_T3",
 			"Type":"Consolidated"
 		},
@@ -17720,10 +17716,6 @@
 			"Type":"Consolidated"
 		},
 		{
-			"Name":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
-			"Type":"Consolidated"
-		},
-		{
 			"Name":"DISTRICT 14 - EVELYN LAINEZ - STORE FY25_T3",
 			"Type":"Consolidated"
 		},
@@ -17733,10 +17725,6 @@
 		},
 		{
 			"Name":"DISTRICT 16 - MARCOS SOTO - STORE FY25_T3",
-			"Type":"Consolidated"
-		},
-		{
-			"Name":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
 			"Type":"Consolidated"
 		},
 		{
@@ -17788,10 +17776,6 @@
 			"Type":"Consolidated"
 		},
 		{
-			"Name":"DISTRICT 12 - STEVE ALLEN - TOTAL FY25_T3",
-			"Type":"Consolidated"
-		},
-		{
 			"Name":"DISTRICT 14 - EVELYN LAINEZ - TOTAL FY25_T3",
 			"Type":"Consolidated"
 		},
@@ -17801,10 +17785,6 @@
 		},
 		{
 			"Name":"DISTRICT 16 - MARCOS SOTO - TOTAL FY25_T3",
-			"Type":"Consolidated"
-		},
-		{
-			"Name":"DISTRICT 18 - NORM HENNINGER - TOTAL FY25_T3",
 			"Type":"Consolidated"
 		},
 		{
@@ -17957,18 +17937,6 @@
 		},
 		{
 			"Name":"DISTRICT 5 - LISA GRAY",
-			"Type":"Consolidated"
-		},
-		{
-			"Name":"DISTRICT 12 - STEVE ALLEN",
-			"Type":"Consolidated"
-		},
-		{
-			"Name":"DISTRICT 17 - OPEN",
-			"Type":"Consolidated"
-		},
-		{
-			"Name":"DISTRICT 18 - NORM HENNINGER",
 			"Type":"Consolidated"
 		},
 		{
@@ -18136,10 +18104,6 @@
 			"Type":"Consolidated"
 		},
 		{
-			"Name":"DISTRICT 12 - STEVE ALLEN - SEASONAL FY25_T3",
-			"Type":"Consolidated"
-		},
-		{
 			"Name":"DISTRICT 13 - MARK LESTER - TOTAL FY25_T3",
 			"Type":"Consolidated"
 		},
@@ -18296,22 +18260,6 @@
 			"Type":"Consolidated"
 		},
 		{
-			"Name":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
-			"Type":"Consolidated"
-		},
-		{
-			"Name":"DISTRICT 6 - BRIAN AKERS - SEASONAL FY25_T3",
-			"Type":"Consolidated"
-		},
-		{
-			"Name":"DISTRICT 6 - BRIAN AKERS - TOTAL FY25_T3",
-			"Type":"Consolidated"
-		},
-		{
-			"Name":"DISTRICT 6 - BRIAN AKERS",
-			"Type":"Consolidated"
-		},
-		{
 			"Name":"20711826",
 			"Type":"Numeric"
 		},
@@ -18417,6 +18365,166 @@
 		},
 		{
 			"Name":"52315085",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DISTRICT 6 - ANGIE MAGGI - TOTAL FY25_T3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DISTRICT 6 - ANGIE MAGGI - SEASONAL FY25_T3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DISTRICT 6 - ANGIE MAGGI",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DISTRICT 12 - NORMAN HENNINGER - TOTAL FY25_T3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DISTRICT 12 - NORMAN HENNINGER - SEASONAL FY25_T3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DISTRICT 12 - NORMAN HENNINGER",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"20711829",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DISTRICT 18 - ASHLEY GARRISON - TOTAL FY25_T3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DISTRICT 18 - ASHLEY GARRISON - SEASONAL FY25_T3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DISTRICT 18 - ASHLEY GARRISON",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"HBH Consolidated",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"20782903",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20782904",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"{Distribution Center",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Total DC",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Brown",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CASH-WA",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CHENEY TTL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Feesers",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"I-Supply",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"KUNA Foodservice",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"McDonald",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Quirch TTL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"SGC FOODSERVICE",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Tapia Brothers TTL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CHENEY - Punta Gorda",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CHENEY - Riviera Beach",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CHENEY - Statesville",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Quirch - Houston",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Quirch - Vineland",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Quirch - Winter Haven",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Tapia Brothers - Fresno",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Tapia Brothers - Maywood",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Tapia Brothers - Phoenix",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Tapia Brothers - Vegas",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"20712453",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20177676",
 			"Type":"Numeric"
 		}
 	],
@@ -18549,8 +18657,8 @@
 		},
 		{
 			"ParentName":"{HBH ROLLUPS",
-			"ComponentName":"THE HONEY BAKED HAM COMPANY LLC",
-			"Weight":0
+			"ComponentName":"HBH Consolidated",
+			"Weight":1
 		},
 		{
 			"ParentName":"{HBH ROLLUPS",
@@ -40534,6 +40642,11 @@
 		},
 		{
 			"ParentName":"KENTUCKY-FRAN-SAME",
+			"ComponentName":"20711829",
+			"Weight":1
+		},
+		{
+			"ParentName":"KENTUCKY-FRAN-SAME",
 			"ComponentName":"20732500",
 			"Weight":1
 		},
@@ -48788,6 +48901,16 @@
 			"Weight":1
 		},
 		{
+			"ParentName":"CALIFORNIA-ALL-F",
+			"ComponentName":"20782903",
+			"Weight":1
+		},
+		{
+			"ParentName":"CALIFORNIA-ALL-F",
+			"ComponentName":"20782904",
+			"Weight":1
+		},
+		{
 			"ParentName":"COLORADO-ALL-F",
 			"ComponentName":"20711637",
 			"Weight":1
@@ -49410,6 +49533,11 @@
 		{
 			"ParentName":"KENTUCKY-ALL-F",
 			"ComponentName":"20711828",
+			"Weight":1
+		},
+		{
+			"ParentName":"KENTUCKY-ALL-F",
+			"ComponentName":"20711829",
 			"Weight":1
 		},
 		{
@@ -59019,13 +59147,8 @@
 		},
 		{
 			"ParentName":"{MISC ROLLUPS",
-			"ComponentName":"HBH BUYER LLC",
-			"Weight":1
-		},
-		{
-			"ParentName":"{MISC ROLLUPS",
-			"ComponentName":"HBH INTERMEDIATE HOLDINGS LLC",
-			"Weight":1
+			"ComponentName":"{Distribution Center",
+			"Weight":0
 		},
 		{
 			"ParentName":"{MISC ROLLUPS",
@@ -59040,12 +59163,7 @@
 		{
 			"ParentName":"{MISC ROLLUPS",
 			"ComponentName":"HB Retail incl CA",
-			"Weight":1
-		},
-		{
-			"ParentName":"{MISC ROLLUPS",
-			"ComponentName":"HB Retail and Distribution Centers",
-			"Weight":1
+			"Weight":0
 		},
 		{
 			"ParentName":"{MISC ROLLUPS",
@@ -59055,7 +59173,7 @@
 		{
 			"ParentName":"{MISC ROLLUPS",
 			"ComponentName":"HB D2C W CA",
-			"Weight":1
+			"Weight":0
 		},
 		{
 			"ParentName":"{MISC ROLLUPS",
@@ -59175,7 +59293,7 @@
 		{
 			"ParentName":"{MISC ROLLUPS",
 			"ComponentName":"Purchasing Rollups",
-			"Weight":1
+			"Weight":0
 		},
 		{
 			"ParentName":"{MISC ROLLUPS",
@@ -59185,7 +59303,7 @@
 		{
 			"ParentName":"{MISC ROLLUPS",
 			"ComponentName":"Testing Location",
-			"Weight":1
+			"Weight":0
 		},
 		{
 			"ParentName":"HBH HOLDINGS LLC",
@@ -72719,6 +72837,11 @@
 		},
 		{
 			"ParentName":"THE HBH FRANCHISE COMPANY LLC",
+			"ComponentName":"20711829",
+			"Weight":1
+		},
+		{
+			"ParentName":"THE HBH FRANCHISE COMPANY LLC",
 			"ComponentName":"20711937",
 			"Weight":1
 		},
@@ -75750,6 +75873,16 @@
 		{
 			"ParentName":"HBHF CALIFORNIA",
 			"ComponentName":"20782900",
+			"Weight":1
+		},
+		{
+			"ParentName":"HBHF CALIFORNIA",
+			"ComponentName":"20782903",
+			"Weight":1
+		},
+		{
+			"ParentName":"HBHF CALIFORNIA",
+			"ComponentName":"20782904",
 			"Weight":1
 		},
 		{
@@ -83784,6 +83917,11 @@
 		},
 		{
 			"ParentName":"HBF20",
+			"ComponentName":"20711829",
+			"Weight":1
+		},
+		{
+			"ParentName":"HBF20",
 			"ComponentName":"20711900",
 			"Weight":1
 		},
@@ -85305,6 +85443,16 @@
 		{
 			"ParentName":"HBF20",
 			"ComponentName":"20782902",
+			"Weight":1
+		},
+		{
+			"ParentName":"HBF20",
+			"ComponentName":"20782903",
+			"Weight":1
+		},
+		{
+			"ParentName":"HBF20",
+			"ComponentName":"20782904",
 			"Weight":1
 		},
 		{
@@ -99985,6 +100133,11 @@
 		{
 			"ParentName":"HB FRANCHISE POP-UP",
 			"ComponentName":"20762614",
+			"Weight":1
+		},
+		{
+			"ParentName":"HB FRANCHISE POP-UP",
+			"ComponentName":"20782904",
 			"Weight":1
 		},
 		{
@@ -123138,6 +123291,16 @@
 			"Weight":1
 		},
 		{
+			"ParentName":"MARKET-FRAN - California",
+			"ComponentName":"20782903",
+			"Weight":1
+		},
+		{
+			"ParentName":"MARKET-FRAN - California",
+			"ComponentName":"20782904",
+			"Weight":1
+		},
+		{
 			"ParentName":"MARKET-FRAN - Charleston, SC",
 			"ComponentName":"20711623",
 			"Weight":1
@@ -123550,6 +123713,11 @@
 		{
 			"ParentName":"MARKET-FRAN - Lexington, KY",
 			"ComponentName":"20711828",
+			"Weight":1
+		},
+		{
+			"ParentName":"MARKET-FRAN - Lexington, KY",
+			"ComponentName":"20711829",
 			"Weight":1
 		},
 		{
@@ -124779,6 +124947,11 @@
 		},
 		{
 			"ParentName":"DISTRICT 26 - STORE",
+			"ComponentName":"20711829",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 26 - STORE",
 			"ComponentName":"20712702",
 			"Weight":1
 		},
@@ -125513,6 +125686,11 @@
 			"Weight":1
 		},
 		{
+			"ParentName":"DISTRICT 28 - STORE",
+			"ComponentName":"20782903",
+			"Weight":1
+		},
+		{
 			"ParentName":"DISTRICT 29 - STORE",
 			"ComponentName":"20732208",
 			"Weight":1
@@ -125864,6 +126042,11 @@
 		},
 		{
 			"ParentName":"DISTRICT 28 - EXPRESS",
+			"ComponentName":"20753403",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 28 - EXPRESS",
 			"ComponentName":"20762606",
 			"Weight":1
 		},
@@ -125879,7 +126062,7 @@
 		},
 		{
 			"ParentName":"DISTRICT 28 - EXPRESS",
-			"ComponentName":"20753403",
+			"ComponentName":"20782904",
 			"Weight":1
 		},
 		{
@@ -128300,6 +128483,16 @@
 		{
 			"ParentName":"CALIFORNIA-FRAN-SAME",
 			"ComponentName":"20782902",
+			"Weight":1
+		},
+		{
+			"ParentName":"CALIFORNIA-FRAN-SAME",
+			"ComponentName":"20782903",
+			"Weight":1
+		},
+		{
+			"ParentName":"CALIFORNIA-FRAN-SAME",
+			"ComponentName":"20782904",
 			"Weight":1
 		},
 		{
@@ -130844,6 +131037,11 @@
 		},
 		{
 			"ParentName":"HB FRANCHISE NEW STORES FY26",
+			"ComponentName":"20711829",
+			"Weight":1
+		},
+		{
+			"ParentName":"HB FRANCHISE NEW STORES FY26",
 			"ComponentName":"20711933",
 			"Weight":1
 		},
@@ -130905,6 +131103,11 @@
 		{
 			"ParentName":"HB FRANCHISE NEW STORES FY26",
 			"ComponentName":"20782902",
+			"Weight":1
+		},
+		{
+			"ParentName":"HB FRANCHISE NEW STORES FY26",
+			"ComponentName":"20782903",
 			"Weight":1
 		},
 		{
@@ -130979,7 +131182,7 @@
 		},
 		{
 			"ParentName":"TOTAL DISTRICTS - STORE FY25_T3",
-			"ComponentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
+			"ComponentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
 			"Weight":1
 		},
 		{
@@ -131009,7 +131212,7 @@
 		},
 		{
 			"ParentName":"TOTAL DISTRICTS - STORE FY25_T3",
-			"ComponentName":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
+			"ComponentName":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
 			"Weight":1
 		},
 		{
@@ -131039,7 +131242,7 @@
 		},
 		{
 			"ParentName":"TOTAL DISTRICTS - STORE FY25_T3",
-			"ComponentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
+			"ComponentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
 			"Weight":1
 		},
 		{
@@ -131084,7 +131287,7 @@
 		},
 		{
 			"ParentName":"TOTAL DISTRICTS - SEASONAL FY25_T3",
-			"ComponentName":"DISTRICT 6 - BRIAN AKERS - SEASONAL FY25_T3",
+			"ComponentName":"DISTRICT 6 - ANGIE MAGGI - SEASONAL FY25_T3",
 			"Weight":1
 		},
 		{
@@ -131114,7 +131317,7 @@
 		},
 		{
 			"ParentName":"TOTAL DISTRICTS - SEASONAL FY25_T3",
-			"ComponentName":"DISTRICT 12 - STEVE ALLEN - SEASONAL FY25_T3",
+			"ComponentName":"DISTRICT 12 - NORMAN HENNINGER - SEASONAL FY25_T3",
 			"Weight":1
 		},
 		{
@@ -131139,7 +131342,7 @@
 		},
 		{
 			"ParentName":"TOTAL DISTRICTS - SEASONAL FY25_T3",
-			"ComponentName":"DISTRICT 18 - NORM HENNINGER - SEASONAL FY25_T3",
+			"ComponentName":"DISTRICT 18 - ASHLEY GARRISON - SEASONAL FY25_T3",
 			"Weight":1
 		},
 		{
@@ -131365,16 +131568,6 @@
 		{
 			"ParentName":"DISTRICT 16 - MARCOS SOTO - SEASONAL FY25_T3",
 			"ComponentName":"52118720",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - SEASONAL FY25_T3",
-			"ComponentName":"52110128",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - SEASONAL FY25_T3",
-			"ComponentName":"52110129",
 			"Weight":1
 		},
 		{
@@ -131888,56 +132081,6 @@
 			"Weight":1
 		},
 		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
-			"ComponentName":"52114501",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
-			"ComponentName":"52114503",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
-			"ComponentName":"52117002",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
-			"ComponentName":"52117005",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
-			"ComponentName":"52117006",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
-			"ComponentName":"52117101",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
-			"ComponentName":"52117102",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
-			"ComponentName":"52117201",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
-			"ComponentName":"52117202",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
-			"ComponentName":"52117401",
-			"Weight":1
-		},
-		{
 			"ParentName":"DISTRICT 14 - EVELYN LAINEZ - STORE FY25_T3",
 			"ComponentName":"CA - Sacramento",
 			"Weight":1
@@ -132100,71 +132243,6 @@
 		{
 			"ParentName":"DISTRICT 16 - MARCOS SOTO - STORE FY25_T3",
 			"ComponentName":"CA - Chula Vista",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"ComponentName":"52110103",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"ComponentName":"52110104",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"ComponentName":"52110105",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"ComponentName":"52110106",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"ComponentName":"52110107",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"ComponentName":"52110109",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"ComponentName":"52110110",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"ComponentName":"52110111",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"ComponentName":"52110114",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"ComponentName":"52110901",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"ComponentName":"52110902",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"ComponentName":"52110903",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"ComponentName":"52110906",
 			"Weight":1
 		},
 		{
@@ -132354,7 +132432,7 @@
 		},
 		{
 			"ParentName":"DISTRICT TOTAL FOR STORE AND SEASONAL FY25_T3",
-			"ComponentName":"DISTRICT 6 - BRIAN AKERS - TOTAL FY25_T3",
+			"ComponentName":"DISTRICT 6 - ANGIE MAGGI - TOTAL FY25_T3",
 			"Weight":1
 		},
 		{
@@ -132384,7 +132462,7 @@
 		},
 		{
 			"ParentName":"DISTRICT TOTAL FOR STORE AND SEASONAL FY25_T3",
-			"ComponentName":"DISTRICT 12 - STEVE ALLEN - TOTAL FY25_T3",
+			"ComponentName":"DISTRICT 12 - NORMAN HENNINGER - TOTAL FY25_T3",
 			"Weight":1
 		},
 		{
@@ -132414,7 +132492,7 @@
 		},
 		{
 			"ParentName":"DISTRICT TOTAL FOR STORE AND SEASONAL FY25_T3",
-			"ComponentName":"DISTRICT 18 - NORM HENNINGER - TOTAL FY25_T3",
+			"ComponentName":"DISTRICT 18 - ASHLEY GARRISON - TOTAL FY25_T3",
 			"Weight":1
 		},
 		{
@@ -132533,16 +132611,6 @@
 			"Weight":1
 		},
 		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN - TOTAL FY25_T3",
-			"ComponentName":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN - TOTAL FY25_T3",
-			"ComponentName":"DISTRICT 12 - STEVE ALLEN - SEASONAL FY25_T3",
-			"Weight":1
-		},
-		{
 			"ParentName":"DISTRICT 14 - EVELYN LAINEZ - TOTAL FY25_T3",
 			"ComponentName":"DISTRICT 14 - EVELYN LAINEZ - STORE FY25_T3",
 			"Weight":1
@@ -132565,16 +132633,6 @@
 		{
 			"ParentName":"DISTRICT 16 - MARCOS SOTO - TOTAL FY25_T3",
 			"ComponentName":"DISTRICT 16 - MARCOS SOTO - SEASONAL FY25_T3",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - TOTAL FY25_T3",
-			"ComponentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER - TOTAL FY25_T3",
-			"ComponentName":"DISTRICT 18 - NORM HENNINGER - SEASONAL FY25_T3",
 			"Weight":1
 		},
 		{
@@ -132694,12 +132752,12 @@
 		},
 		{
 			"ParentName":"REGION - MICHELLE ANDERSON - STORE FY25_T3",
-			"ComponentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
+			"ComponentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
 			"Weight":1
 		},
 		{
 			"ParentName":"REGION - MICHELLE ANDERSON - STORE FY25_T3",
-			"ComponentName":"DISTRICT 12 - STEVE ALLEN - STORE FY25_T3",
+			"ComponentName":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
 			"Weight":1
 		},
 		{
@@ -132709,7 +132767,7 @@
 		},
 		{
 			"ParentName":"REGION - MICHELLE ANDERSON - STORE FY25_T3",
-			"ComponentName":"DISTRICT 18 - NORM HENNINGER - STORE FY25_T3",
+			"ComponentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
 			"Weight":1
 		},
 		{
@@ -132729,12 +132787,12 @@
 		},
 		{
 			"ParentName":"REGION - MICHELLE ANDERSON - SEASONAL FY25_T3",
-			"ComponentName":"DISTRICT 6 - BRIAN AKERS - SEASONAL FY25_T3",
+			"ComponentName":"DISTRICT 6 - ANGIE MAGGI - SEASONAL FY25_T3",
 			"Weight":1
 		},
 		{
 			"ParentName":"REGION - MICHELLE ANDERSON - SEASONAL FY25_T3",
-			"ComponentName":"DISTRICT 12 - STEVE ALLEN - SEASONAL FY25_T3",
+			"ComponentName":"DISTRICT 12 - NORMAN HENNINGER - SEASONAL FY25_T3",
 			"Weight":1
 		},
 		{
@@ -132744,7 +132802,7 @@
 		},
 		{
 			"ParentName":"REGION - MICHELLE ANDERSON - SEASONAL FY25_T3",
-			"ComponentName":"DISTRICT 18 - NORM HENNINGER - SEASONAL FY25_T3",
+			"ComponentName":"DISTRICT 18 - ASHLEY GARRISON - SEASONAL FY25_T3",
 			"Weight":1
 		},
 		{
@@ -132909,17 +132967,12 @@
 		},
 		{
 			"ParentName":"REGION - MICHELLE ANDERSON",
-			"ComponentName":"DISTRICT 6 - BRIAN AKERS",
+			"ComponentName":"DISTRICT 6 - ANGIE MAGGI",
 			"Weight":1
 		},
 		{
 			"ParentName":"REGION - MICHELLE ANDERSON",
-			"ComponentName":"DISTRICT 12 - STEVE ALLEN",
-			"Weight":1
-		},
-		{
-			"ParentName":"REGION - MICHELLE ANDERSON",
-			"ComponentName":"DISTRICT 17 - OPEN",
+			"ComponentName":"DISTRICT 12 - NORMAN HENNINGER",
 			"Weight":1
 		},
 		{
@@ -132929,7 +132982,7 @@
 		},
 		{
 			"ParentName":"REGION - MICHELLE ANDERSON",
-			"ComponentName":"DISTRICT 18 - NORM HENNINGER",
+			"ComponentName":"DISTRICT 18 - ASHLEY GARRISON",
 			"Weight":1
 		},
 		{
@@ -133525,136 +133578,6 @@
 		{
 			"ParentName":"DISTRICT 5 - LISA GRAY",
 			"ComponentName":"52110354",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN",
-			"ComponentName":"52114501",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN",
-			"ComponentName":"52114503",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN",
-			"ComponentName":"52114513",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN",
-			"ComponentName":"52117002",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN",
-			"ComponentName":"52117005",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN",
-			"ComponentName":"52117006",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN",
-			"ComponentName":"52117101",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN",
-			"ComponentName":"52117102",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN",
-			"ComponentName":"52117201",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN",
-			"ComponentName":"52117202",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN",
-			"ComponentName":"52117401",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110103",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110104",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110105",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110106",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110107",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110109",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110110",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110111",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110114",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110901",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110902",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110903",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110906",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110128",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 18 - NORM HENNINGER",
-			"ComponentName":"52110129",
 			"Weight":1
 		},
 		{
@@ -134539,6 +134462,11 @@
 		},
 		{
 			"ParentName":"FR DISTRICT 26 - SWEENEY",
+			"ComponentName":"20711829",
+			"Weight":1
+		},
+		{
+			"ParentName":"FR DISTRICT 26 - SWEENEY",
 			"ComponentName":"20712702",
 			"Weight":1
 		},
@@ -135318,6 +135246,16 @@
 			"Weight":1
 		},
 		{
+			"ParentName":"FR DISTRICT 28 - KILBURN",
+			"ComponentName":"20782903",
+			"Weight":1
+		},
+		{
+			"ParentName":"FR DISTRICT 28 - KILBURN",
+			"ComponentName":"20782904",
+			"Weight":1
+		},
+		{
 			"ParentName":"FR DISTRICT 29 - MERKLE",
 			"ComponentName":"20732208",
 			"Weight":1
@@ -135880,11 +135818,6 @@
 		{
 			"ParentName":"KIOSKS ROLLUP - INCLUDING HUB STORE 0512",
 			"ComponentName":"52110513",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 12 - STEVE ALLEN - SEASONAL FY25_T3",
-			"ComponentName":"52114513",
 			"Weight":1
 		},
 		{
@@ -138173,136 +138106,6 @@
 			"Weight":1
 		},
 		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
-			"ComponentName":"52110304",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
-			"ComponentName":"52110308",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
-			"ComponentName":"52110309",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
-			"ComponentName":"52110311",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
-			"ComponentName":"52110312",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
-			"ComponentName":"52110318",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
-			"ComponentName":"52110319",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
-			"ComponentName":"52110321",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
-			"ComponentName":"52110322",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
-			"ComponentName":"52110328",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
-			"ComponentName":"52110337",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - SEASONAL FY25_T3",
-			"ComponentName":"52110353",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - TOTAL FY25_T3",
-			"ComponentName":"DISTRICT 6 - BRIAN AKERS - STORE FY25_T3",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS - TOTAL FY25_T3",
-			"ComponentName":"DISTRICT 6 - BRIAN AKERS - SEASONAL FY25_T3",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS",
-			"ComponentName":"52110304",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS",
-			"ComponentName":"52110308",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS",
-			"ComponentName":"52110309",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS",
-			"ComponentName":"52110311",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS",
-			"ComponentName":"52110312",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS",
-			"ComponentName":"52110318",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS",
-			"ComponentName":"52110319",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS",
-			"ComponentName":"52110321",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS",
-			"ComponentName":"52110322",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS",
-			"ComponentName":"52110328",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS",
-			"ComponentName":"52110337",
-			"Weight":1
-		},
-		{
-			"ParentName":"DISTRICT 6 - BRIAN AKERS",
-			"ComponentName":"52110353",
-			"Weight":1
-		},
-		{
 			"ParentName":"C05",
 			"ComponentName":"52110354",
 			"Weight":1
@@ -138369,11 +138172,6 @@
 		},
 		{
 			"ParentName":"District HB Retail Unsalables",
-			"ComponentName":"DISTRICT 6 - BRIAN AKERS",
-			"Weight":1
-		},
-		{
-			"ParentName":"District HB Retail Unsalables",
 			"ComponentName":"DISTRICT 7 - CERRON COLLINS",
 			"Weight":1
 		},
@@ -138399,22 +138197,12 @@
 		},
 		{
 			"ParentName":"District HB Retail Unsalables",
-			"ComponentName":"DISTRICT 12 - STEVE ALLEN",
-			"Weight":1
-		},
-		{
-			"ParentName":"District HB Retail Unsalables",
 			"ComponentName":"DISTRICT 13 - MARK LESTER",
 			"Weight":1
 		},
 		{
 			"ParentName":"District HB Retail Unsalables",
 			"ComponentName":"DISTRICT 17 - ALEX BICKEL",
-			"Weight":1
-		},
-		{
-			"ParentName":"District HB Retail Unsalables",
-			"ComponentName":"DISTRICT 18 - NORM HENNINGER",
 			"Weight":1
 		},
 		{
@@ -138565,6 +138353,2821 @@
 		{
 			"ParentName":"CoOwned SSS (excl CA)",
 			"ComponentName":"CoOwn Seasonal SSS",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - TOTAL FY25_T3",
+			"ComponentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - TOTAL FY25_T3",
+			"ComponentName":"DISTRICT 6 - ANGIE MAGGI - SEASONAL FY25_T3",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
+			"ComponentName":"52110304",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
+			"ComponentName":"52110308",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
+			"ComponentName":"52110309",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
+			"ComponentName":"52110311",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
+			"ComponentName":"52110312",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
+			"ComponentName":"52110318",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
+			"ComponentName":"52110319",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
+			"ComponentName":"52110321",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
+			"ComponentName":"52110322",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
+			"ComponentName":"52110328",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - STORE FY25_T3",
+			"ComponentName":"52110337",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI - SEASONAL FY25_T3",
+			"ComponentName":"52110353",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI",
+			"ComponentName":"52110304",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI",
+			"ComponentName":"52110308",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI",
+			"ComponentName":"52110309",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI",
+			"ComponentName":"52110311",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI",
+			"ComponentName":"52110312",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI",
+			"ComponentName":"52110318",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI",
+			"ComponentName":"52110319",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI",
+			"ComponentName":"52110321",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI",
+			"ComponentName":"52110322",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI",
+			"ComponentName":"52110328",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI",
+			"ComponentName":"52110337",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 6 - ANGIE MAGGI",
+			"ComponentName":"52110353",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER - TOTAL FY25_T3",
+			"ComponentName":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER - TOTAL FY25_T3",
+			"ComponentName":"DISTRICT 12 - NORMAN HENNINGER - SEASONAL FY25_T3",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
+			"ComponentName":"52114501",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
+			"ComponentName":"52114503",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
+			"ComponentName":"52117002",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
+			"ComponentName":"52117005",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
+			"ComponentName":"52117006",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
+			"ComponentName":"52117101",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
+			"ComponentName":"52117102",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
+			"ComponentName":"52117201",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
+			"ComponentName":"52117202",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER - STORE FY25_T3",
+			"ComponentName":"52117401",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER - SEASONAL FY25_T3",
+			"ComponentName":"52114513",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER",
+			"ComponentName":"52114501",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER",
+			"ComponentName":"52114503",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER",
+			"ComponentName":"52114513",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER",
+			"ComponentName":"52117002",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER",
+			"ComponentName":"52117005",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER",
+			"ComponentName":"52117006",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER",
+			"ComponentName":"52117101",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER",
+			"ComponentName":"52117102",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER",
+			"ComponentName":"52117201",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER",
+			"ComponentName":"52117202",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 12 - NORMAN HENNINGER",
+			"ComponentName":"52117401",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"ComponentName":"52110103",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"ComponentName":"52110104",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"ComponentName":"52110105",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"ComponentName":"52110106",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"ComponentName":"52110107",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"ComponentName":"52110109",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"ComponentName":"52110110",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"ComponentName":"52110111",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"ComponentName":"52110114",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"ComponentName":"52110901",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"ComponentName":"52110902",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"ComponentName":"52110903",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"ComponentName":"52110906",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - TOTAL FY25_T3",
+			"ComponentName":"DISTRICT 18 - ASHLEY GARRISON - STORE FY25_T3",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - TOTAL FY25_T3",
+			"ComponentName":"DISTRICT 18 - ASHLEY GARRISON - SEASONAL FY25_T3",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - SEASONAL FY25_T3",
+			"ComponentName":"52110128",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON - SEASONAL FY25_T3",
+			"ComponentName":"52110129",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110103",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110104",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110105",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110106",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110107",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110109",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110110",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110111",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110114",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110901",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110902",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110903",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110906",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110128",
+			"Weight":1
+		},
+		{
+			"ParentName":"DISTRICT 18 - ASHLEY GARRISON",
+			"ComponentName":"52110129",
+			"Weight":1
+		},
+		{
+			"ParentName":"HBH Consolidated",
+			"ComponentName":"HBH BUYER LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"HBH Consolidated",
+			"ComponentName":"HBH INTERMEDIATE HOLDINGS LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"HBH Consolidated",
+			"ComponentName":"THE HONEY BAKED HAM COMPANY LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"{Distribution Center",
+			"ComponentName":"Total DC",
+			"Weight":0
+		},
+		{
+			"ParentName":"{Distribution Center",
+			"ComponentName":"HB Retail and Distribution Centers",
+			"Weight":0
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"Brown",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"CASH-WA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"CHENEY TTL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"Feesers",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"I-Supply",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"KUNA Foodservice",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"McDonald",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"Quirch TTL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"SGC FOODSERVICE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"Tapia Brothers TTL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"20732203",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"20732209",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"20732220",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"20732225",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"20732226",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"20732227",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"20732230",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"20732231",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"20732542",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"52118201",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"52118202",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"52118203",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"52118204",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"52118226",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"52118401",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"52118403",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"52118405",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"52118407",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"52118408",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brown",
+			"ComponentName":"52118413",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"52110417",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"52110418",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"52110701",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"52110705",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"52110706",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"52110707",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"52110710",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"52110712",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"20711566",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"20711594",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"20711634",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"20711637",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"20742108",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"20732514",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"20732526",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"20732527",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"20712453",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"20732544",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"20732545",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"52118101",
+			"Weight":1
+		},
+		{
+			"ParentName":"CASH-WA",
+			"ComponentName":"52118115",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY TTL",
+			"ComponentName":"CHENEY - Punta Gorda",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY TTL",
+			"ComponentName":"CHENEY - Riviera Beach",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY TTL",
+			"ComponentName":"CHENEY - Statesville",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20177676",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20711683",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20751725",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20751730",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20752102",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20752124",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20752126",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20732201",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20732204",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20732205",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20732206",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20732234",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20732240",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20732505",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20732508",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20732511",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20732520",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20732524",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20732533",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20712702",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20712703",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20712704",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20712706",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52114501",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52114502",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52114503",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52114504",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52114505",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52117201",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"20712701",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52118301",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52118302",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52118304",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52118305",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52118306",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52118501",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52118502",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52118503",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feesers",
+			"ComponentName":"52118505",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"20742118",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"20752127",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"20752130",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"20732208",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"20732216",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"20732221",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"20732239",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"20732501",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"20732506",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"20732509",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"20732521",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"20732525",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"20732535",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52114101",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52114103",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52114106",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52114107",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52114108",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52114110",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52114111",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52114112",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52114113",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52114127",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52114128",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52118402",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52118406",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52118409",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52118410",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52118411",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52118412",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52118414",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52118415",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52118416",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52118473",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52118474",
+			"Weight":1
+		},
+		{
+			"ParentName":"I-Supply",
+			"ComponentName":"52118475",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"52111305",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"52111306",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"52111307",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"52111308",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"52111309",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"52111315",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"52111317",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20751701",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20741702",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20741704",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20741705",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20741707",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20741708",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20741709",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20751717",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20751719",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20751720",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20751721",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20751724",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20751728",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20752105",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20742107",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20752115",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20752131",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20752134",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20732217",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20732218",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"20732536",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"52114104",
+			"Weight":1
+		},
+		{
+			"ParentName":"KUNA Foodservice",
+			"ComponentName":"52114601",
+			"Weight":1
+		},
+		{
+			"ParentName":"McDonald",
+			"ComponentName":"20752100",
+			"Weight":1
+		},
+		{
+			"ParentName":"McDonald",
+			"ComponentName":"20752111",
+			"Weight":1
+		},
+		{
+			"ParentName":"McDonald",
+			"ComponentName":"20752114",
+			"Weight":1
+		},
+		{
+			"ParentName":"McDonald",
+			"ComponentName":"20752135",
+			"Weight":1
+		},
+		{
+			"ParentName":"McDonald",
+			"ComponentName":"52114401",
+			"Weight":1
+		},
+		{
+			"ParentName":"McDonald",
+			"ComponentName":"52114700",
+			"Weight":1
+		},
+		{
+			"ParentName":"McDonald",
+			"ComponentName":"52114701",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch TTL",
+			"ComponentName":"Quirch - Houston",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch TTL",
+			"ComponentName":"Quirch - Vineland",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch TTL",
+			"ComponentName":"Quirch - Winter Haven",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52110202",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52110204",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52110210",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52110401",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52110402",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52110403",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52110404",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52110405",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52110406",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52110407",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52111003",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52111201",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52111214",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"20711926",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52111301",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"20711534",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"20711568",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"20711645",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"20711912",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"20711922",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"20752122",
+			"Weight":1
+		},
+		{
+			"ParentName":"SGC FOODSERVICE",
+			"ComponentName":"52114201",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers TTL",
+			"ComponentName":"Tapia Brothers - Fresno",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers TTL",
+			"ComponentName":"Tapia Brothers - Maywood",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers TTL",
+			"ComponentName":"Tapia Brothers - Phoenix",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers TTL",
+			"ComponentName":"Tapia Brothers - Vegas",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110301",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110306",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110307",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110309",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110310",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110313",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110316",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110317",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110323",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110325",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110328",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110329",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110332",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"52110354",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711521",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711544",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711545",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711551",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711559",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711571",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711579",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711598",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711599",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711615",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711633",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711674",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711680",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711685",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711905",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Punta Gorda",
+			"ComponentName":"20711906",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Riviera Beach",
+			"ComponentName":"52110304",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Riviera Beach",
+			"ComponentName":"52110308",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Riviera Beach",
+			"ComponentName":"52110311",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Riviera Beach",
+			"ComponentName":"52110312",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Riviera Beach",
+			"ComponentName":"52110318",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Riviera Beach",
+			"ComponentName":"52110319",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Riviera Beach",
+			"ComponentName":"52110321",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Riviera Beach",
+			"ComponentName":"52110322",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Riviera Beach",
+			"ComponentName":"52110337",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Riviera Beach",
+			"ComponentName":"20711624",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110103",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110104",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110105",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110106",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110107",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110109",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110110",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110111",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110114",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110201",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110203",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110206",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110208",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110209",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110211",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110212",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110215",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110901",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110902",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110903",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52110906",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711502",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711508",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711510",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711514",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711522",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711538",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711543",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711560",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711565",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711576",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711578",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711583",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711585",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711586",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711588",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711616",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711623",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711635",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711636",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711638",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711651",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711654",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711655",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711656",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711658",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711660",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711662",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711667",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711669",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711670",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711681",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711686",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711682",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711822",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711823",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711909",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711910",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711911",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711914",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711915",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711923",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711925",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711931",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711937",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20711948",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20732202",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20732224",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20732228",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20732232",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20732233",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20732512",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20732522",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"20732539",
+			"Weight":1
+		},
+		{
+			"ParentName":"CHENEY - Statesville",
+			"ComponentName":"52118506",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52110501",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52110502",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52110503",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52110505",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20711627",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52111001",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20711591",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20711597",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20711617",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20711664",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20711673",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20711913",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20711916",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20711920",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20711927",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20752110",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20752112",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20752113",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"20752123",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114301",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114302",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114303",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114304",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114305",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114306",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114307",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114308",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114309",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114310",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114311",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114313",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114314",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114315",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114316",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114317",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114331",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114332",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114333",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114334",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114335",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114336",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114337",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114340",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Houston",
+			"ComponentName":"52114344",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Vineland",
+			"ComponentName":"20762620",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Vineland",
+			"ComponentName":"20762621",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Vineland",
+			"ComponentName":"20762622",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Vineland",
+			"ComponentName":"20762623",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Vineland",
+			"ComponentName":"20712710",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Vineland",
+			"ComponentName":"52117002",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Vineland",
+			"ComponentName":"52117005",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Vineland",
+			"ComponentName":"52117006",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Vineland",
+			"ComponentName":"52117101",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Vineland",
+			"ComponentName":"52117102",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Vineland",
+			"ComponentName":"52117401",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110001",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110002",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110004",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110012",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110016",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110017",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110019",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110020",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110021",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110027",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110028",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110029",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110031",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110032",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110033",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110034",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110036",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110037",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110038",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110040",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711517",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711524",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110315",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110801",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110802",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110803",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110804",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110805",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"52110808",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711511",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711525",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711526",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711527",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711546",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711556",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711573",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711581",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711582",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711592",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711595",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711596",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711612",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711618",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711619",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711625",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711626",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711628",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711631",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711648",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711649",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711653",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711668",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711672",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711821",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711907",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711919",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711935",
+			"Weight":1
+		},
+		{
+			"ParentName":"Quirch - Winter Haven",
+			"ComponentName":"20711936",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Fresno",
+			"ComponentName":"66118907",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Fresno",
+			"ComponentName":"66118908",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Fresno",
+			"ComponentName":"66118911",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Fresno",
+			"ComponentName":"66118916",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Fresno",
+			"ComponentName":"66118917",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Fresno",
+			"ComponentName":"66118922",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Fresno",
+			"ComponentName":"66118923",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Fresno",
+			"ComponentName":"66118925",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Fresno",
+			"ComponentName":"66118960",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"20782832",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"20782856",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"20782857",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"20782858",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"20782859",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"20782890",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"20782891",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"20782892",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"20782893",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"20782900",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118903",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118904",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118905",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118906",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118910",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118914",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118915",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118920",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118921",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118939",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118966",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118967",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118968",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Maywood",
+			"ComponentName":"66118982",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Phoenix",
+			"ComponentName":"20752117",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Phoenix",
+			"ComponentName":"20732518",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Phoenix",
+			"ComponentName":"20732519",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Phoenix",
+			"ComponentName":"20732538",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Phoenix",
+			"ComponentName":"20732541",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Phoenix",
+			"ComponentName":"52117501",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Phoenix",
+			"ComponentName":"52118701",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Phoenix",
+			"ComponentName":"52118702",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Phoenix",
+			"ComponentName":"52118703",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Phoenix",
+			"ComponentName":"52118704",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Phoenix",
+			"ComponentName":"52118705",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Vegas",
+			"ComponentName":"52110601",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Vegas",
+			"ComponentName":"52110602",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Vegas",
+			"ComponentName":"52110603",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Vegas",
+			"ComponentName":"52110605",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Vegas",
+			"ComponentName":"52111102",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Vegas",
+			"ComponentName":"52111103",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Vegas",
+			"ComponentName":"52111105",
+			"Weight":1
+		},
+		{
+			"ParentName":"Tapia Brothers - Vegas",
+			"ComponentName":"20751735",
 			"Weight":1
 		}
 	],

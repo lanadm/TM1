@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SKU_DATA - Copy from Category to Category",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 14 - 01/04/26')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 15 - 01/11/26')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 16 - 01/18/26')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 17 - 01/25/26')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 18 - 02/01/26')"
+		}
+	]
+}

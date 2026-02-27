@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Consumer Retail",
+	"Alias":"Finance Desc",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('1')"
+		}
+	]
+}

@@ -34829,6 +34829,45 @@
 		},
 		{
 			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('Meal_400003')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('Meal_182665')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('Meal_181927')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('201195')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('002985')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('Meal_181925')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('Meal_181333')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('183187')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('201196')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('1017')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('4800')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('726433')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('185656')"
+		},
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('910314')"
 		}
 	]
 }

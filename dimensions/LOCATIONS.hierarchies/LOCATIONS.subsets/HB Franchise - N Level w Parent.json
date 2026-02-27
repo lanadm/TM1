@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"HB Franchise - N Level w Parent",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {DISTINCT({{[LOCATIONS].[LOCATIONS].[HB FRANCHISE]},DESCENDANTS([LOCATIONS].[LOCATIONS].[HB FRANCHISE] , 99 , LEAVES)})}"
+}

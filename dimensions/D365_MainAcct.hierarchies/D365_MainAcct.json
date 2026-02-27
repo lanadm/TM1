@@ -5146,6 +5146,70 @@
 		{
 			"Name":"3045",
 			"Type":"Numeric"
+		},
+		{
+			"Name":"3105",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2747",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2748",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2749",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2854",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2855",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2856",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2857",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2858",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"{Income Statement - Consolidated",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Gross Profit",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Revenue",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cost of Goods Sold",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Operating Income",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Selling, General & Administrative",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Depreciation & Amortization",
+			"Type":"Numeric"
 		}
 	],
 	"Edges":
@@ -5199,6 +5263,11 @@
 			"ParentName":"{ALL ROLLUPS",
 			"ComponentName":"{UAT Intercompany",
 			"Weight":0
+		},
+		{
+			"ParentName":"{ALL ROLLUPS",
+			"ComponentName":"{Income Statement - Consolidated",
+			"Weight":1
 		},
 		{
 			"ParentName":"{PL ROLLUPS",
@@ -5608,6 +5677,11 @@
 		{
 			"ParentName":"INITIAL ENTERPRISE VALUE",
 			"ComponentName":"3101",
+			"Weight":1
+		},
+		{
+			"ParentName":"INITIAL ENTERPRISE VALUE",
+			"ComponentName":"3105",
 			"Weight":1
 		},
 		{
@@ -10851,26 +10925,6 @@
 			"Weight":1
 		},
 		{
-			"ParentName":"LINE OF CREDIT",
-			"ComponentName":"2743",
-			"Weight":1
-		},
-		{
-			"ParentName":"LINE OF CREDIT",
-			"ComponentName":"2744",
-			"Weight":1
-		},
-		{
-			"ParentName":"LINE OF CREDIT",
-			"ComponentName":"2745",
-			"Weight":1
-		},
-		{
-			"ParentName":"LINE OF CREDIT",
-			"ComponentName":"2746",
-			"Weight":1
-		},
-		{
 			"ParentName":"BS - TAB - ACCOUNTS PAYABLE",
 			"ComponentName":"ACCOUNTS PAYABLE",
 			"Weight":1
@@ -11401,6 +11455,41 @@
 			"Weight":1
 		},
 		{
+			"ParentName":"3RD PARTY NOTES PAYABLE CP",
+			"ComponentName":"2743",
+			"Weight":1
+		},
+		{
+			"ParentName":"3RD PARTY NOTES PAYABLE CP",
+			"ComponentName":"2744",
+			"Weight":1
+		},
+		{
+			"ParentName":"3RD PARTY NOTES PAYABLE CP",
+			"ComponentName":"2745",
+			"Weight":1
+		},
+		{
+			"ParentName":"3RD PARTY NOTES PAYABLE CP",
+			"ComponentName":"2746",
+			"Weight":1
+		},
+		{
+			"ParentName":"3RD PARTY NOTES PAYABLE CP",
+			"ComponentName":"2747",
+			"Weight":1
+		},
+		{
+			"ParentName":"3RD PARTY NOTES PAYABLE CP",
+			"ComponentName":"2748",
+			"Weight":1
+		},
+		{
+			"ParentName":"3RD PARTY NOTES PAYABLE CP",
+			"ComponentName":"2749",
+			"Weight":1
+		},
+		{
 			"ParentName":"PAYABLE TO AFFILIATES",
 			"ComponentName":"2140",
 			"Weight":1
@@ -11486,6 +11575,36 @@
 			"Weight":1
 		},
 		{
+			"ParentName":"3RD PARTY NOTES PAYABLE LT",
+			"ComponentName":"2853",
+			"Weight":1
+		},
+		{
+			"ParentName":"3RD PARTY NOTES PAYABLE LT",
+			"ComponentName":"2854",
+			"Weight":1
+		},
+		{
+			"ParentName":"3RD PARTY NOTES PAYABLE LT",
+			"ComponentName":"2855",
+			"Weight":1
+		},
+		{
+			"ParentName":"3RD PARTY NOTES PAYABLE LT",
+			"ComponentName":"2856",
+			"Weight":1
+		},
+		{
+			"ParentName":"3RD PARTY NOTES PAYABLE LT",
+			"ComponentName":"2857",
+			"Weight":1
+		},
+		{
+			"ParentName":"3RD PARTY NOTES PAYABLE LT",
+			"ComponentName":"2858",
+			"Weight":1
+		},
+		{
 			"ParentName":"RELATED PARTY NOTES PAYABLE LT",
 			"ComponentName":"2735",
 			"Weight":1
@@ -11493,11 +11612,6 @@
 		{
 			"ParentName":"RELATED PARTY NOTES PAYABLE LT",
 			"ComponentName":"2852",
-			"Weight":1
-		},
-		{
-			"ParentName":"RELATED PARTY NOTES PAYABLE LT",
-			"ComponentName":"2853",
 			"Weight":1
 		},
 		{
@@ -24133,6 +24247,36 @@
 		{
 			"ParentName":"3205_TTL",
 			"ComponentName":"3205_Adj",
+			"Weight":1
+		},
+		{
+			"ParentName":"{Income Statement - Consolidated",
+			"ComponentName":"Gross Profit",
+			"Weight":1
+		},
+		{
+			"ParentName":"{Income Statement - Consolidated",
+			"ComponentName":"Operating Income",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gross Profit",
+			"ComponentName":"Revenue",
+			"Weight":1
+		},
+		{
+			"ParentName":"Gross Profit",
+			"ComponentName":"Cost of Goods Sold",
+			"Weight":1
+		},
+		{
+			"ParentName":"Operating Income",
+			"ComponentName":"Selling, General & Administrative",
+			"Weight":1
+		},
+		{
+			"ParentName":"Operating Income",
+			"ComponentName":"Depreciation & Amortization",
 			"Weight":1
 		}
 	],

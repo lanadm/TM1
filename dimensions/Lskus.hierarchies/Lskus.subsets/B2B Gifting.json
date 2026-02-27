@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"B2B Gifting",
+	"Alias":"Finance Desc",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lskus')/Hierarchies('Lskus')/Elements('3')"
+		}
+	]
+}

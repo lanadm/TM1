@@ -1,0 +1,28 @@
+{
+	"@type":"Subset",
+	"Name":"Z_FY93-FY99",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 99')"
+		},
+		{
+			"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 98')"
+		},
+		{
+			"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 97')"
+		},
+		{
+			"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 96')"
+		},
+		{
+			"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 95')"
+		},
+		{
+			"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 94')"
+		},
+		{
+			"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 93')"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"@type":"NativeView",
+	"Name":"Default",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('WeekbyYear')/Hierarchies('WeekbyYear')"
+				},
+				"Expression":"TM1SubsetAll([WeekbyYear])"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('WEEK#')/Hierarchies('WEEK#')"
+				},
+				"Expression":"TM1SubsetAll([WEEK#])"
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.#########"
+}

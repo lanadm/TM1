@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@Forecasting - Load from SKU_DATA - CurrYear (ALL LOB)",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 19 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 20 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 21 FY 27')"
+		}
+	]
+}

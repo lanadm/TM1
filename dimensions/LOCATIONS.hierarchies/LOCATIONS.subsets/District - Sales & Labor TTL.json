@@ -29,9 +29,6 @@
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 11 - DOUG KREY')"
 		},
 		{
-			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 12 - STEVE ALLEN')"
-		},
-		{
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 14 - EVELYN LAINEZ')"
 		},
 		{
@@ -39,9 +36,6 @@
 		},
 		{
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 16 - MARCOS SOTO')"
-		},
-		{
-			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 18 - NORM HENNINGER')"
 		},
 		{
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('DISTRICT 19 - MUNDI SILVERS')"

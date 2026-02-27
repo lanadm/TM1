@@ -1,0 +1,629 @@
+{
+	"@type":"Hierarchy",
+	"Name":"YEAR",
+	"Elements":
+	[
+		{
+			"Name":"{YEAR ROLLUPS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL YEARS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FY19 TO FY18",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"{OTHER",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"FY 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 09",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 08",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 07",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 06",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 05",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 04",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 03",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 02",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 01",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 00",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 99",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 98",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 97",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 96",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 95",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 94",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 93",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 16 5YR PLN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 17 5YR-FY18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 17 5YR-FY19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 17 5YR-FY20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 17 5YR-FY21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 18 5YR-FY18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 18 5YR-FY19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 18 5YR-FY20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 18 5YR-FY21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY19 FCST",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Testing Snapshot",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 30",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FY 29",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"{YEAR ROLLUPS",
+			"ComponentName":"ALL YEARS",
+			"Weight":1
+		},
+		{
+			"ParentName":"{YEAR ROLLUPS",
+			"ComponentName":"FY19 TO FY18",
+			"Weight":1
+		},
+		{
+			"ParentName":"{YEAR ROLLUPS",
+			"ComponentName":"{OTHER",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 09",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 08",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 07",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 06",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 05",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 04",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 03",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 02",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 01",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 00",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 99",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 98",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 97",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 96",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 95",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 94",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL YEARS",
+			"ComponentName":"FY 93",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 TO FY18",
+			"ComponentName":"FY 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"FY19 TO FY18",
+			"ComponentName":"FY 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY 16 5YR PLN",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY 17 5YR-FY18",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY 17 5YR-FY19",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY 17 5YR-FY20",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY 17 5YR-FY21",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY 18 5YR-FY18",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY 18 5YR-FY19",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY 18 5YR-FY20",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY 18 5YR-FY21",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"FY19 FCST",
+			"Weight":0
+		},
+		{
+			"ParentName":"{OTHER",
+			"ComponentName":"Testing Snapshot",
+			"Weight":0
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"YEAR.subsets/All Level 0.json",
+		"YEAR.subsets/All Years.json",
+		"YEAR.subsets/Budget Year.json",
+		"YEAR.subsets/C_FY04nFY03.json",
+		"YEAR.subsets/Current Year.json",
+		"YEAR.subsets/Default.json",
+		"YEAR.subsets/FY 26.json",
+		"YEAR.subsets/FY26 & FY25.json",
+		"YEAR.subsets/jwt_FY21-22.json",
+		"YEAR.subsets/Next Year.json",
+		"YEAR.subsets/ODBC Forecast Year.json",
+		"YEAR.subsets/ODBC Year.json",
+		"YEAR.subsets/ODBC Year- Next.json",
+		"YEAR.subsets/Previous Year.json",
+		"YEAR.subsets/YTD Compare Years.json",
+		"YEAR.subsets/Z_20-21.json",
+		"YEAR.subsets/Z_21-22.json",
+		"YEAR.subsets/Z_FY04.json",
+		"YEAR.subsets/Z_FY05.json",
+		"YEAR.subsets/Z_FY06.json",
+		"YEAR.subsets/Z_FY06-FY07.json",
+		"YEAR.subsets/Z_FY07.json",
+		"YEAR.subsets/Z_FY07-FY08.json",
+		"YEAR.subsets/Z_FY08.json",
+		"YEAR.subsets/Z_FY08-FY09.json",
+		"YEAR.subsets/Z_FY09.json",
+		"YEAR.subsets/Z_FY09-FY10.json",
+		"YEAR.subsets/Z_FY10.json",
+		"YEAR.subsets/Z_FY10-FY11.json",
+		"YEAR.subsets/Z_FY11.json",
+		"YEAR.subsets/Z_FY11-FY12.json",
+		"YEAR.subsets/Z_FY12.json",
+		"YEAR.subsets/Z_FY12-FY13.json",
+		"YEAR.subsets/Z_FY13.json",
+		"YEAR.subsets/Z_FY13-FY14.json",
+		"YEAR.subsets/Z_FY14.json",
+		"YEAR.subsets/Z_FY14-FY15.json",
+		"YEAR.subsets/Z_FY15.json",
+		"YEAR.subsets/Z_FY21.json",
+		"YEAR.subsets/Z_FY22.json",
+		"YEAR.subsets/Z_FY22-23.json",
+		"YEAR.subsets/Z_FY93-FY99.json",
+		"YEAR.subsets/Z_N Elements.json",
+		"YEAR.subsets/zz_#MS - Purchasing Data - Move from Standard Cost to Extended Cost.json",
+		"YEAR.subsets/zz_# UNDER CONSTRUCTION - GP-GL Load from one Category to Another_DataLoad.json",
+		"YEAR.subsets/zz_@D365_GL - Copy from Category to Category.json",
+		"YEAR.subsets/zz_@D365_GL - Copy from Category to Category (D2C).json",
+		"YEAR.subsets/zz_@D365_GL - Copy from Category to Category_ZeroOut.json",
+		"YEAR.subsets/zz_@D365_GL - Copy from CC to CC.json",
+		"YEAR.subsets/zz_@D365_GL - Copy from SKU_DATA.json",
+		"YEAR.subsets/zz_@D365_GL - Copy from SKU_DATA (D2C).json",
+		"YEAR.subsets/zz_@D365_GL - Copy from SKU_DATA (Franchise).json",
+		"YEAR.subsets/zz_@D365_GL - Copy from SKU_DATA (HBH California).json",
+		"YEAR.subsets/zz_@D365_GL - Copy from SKU_DATA (HB Retail incl CA).json",
+		"YEAR.subsets/zz_@D365_GL - Copy from SKU_DATA (Retail).json",
+		"YEAR.subsets/zz_@D365_GL - Copy from SKU_DATA (Retail Operations Only).json",
+		"YEAR.subsets/zz_@D365_GL - Copy from SKU_DATA - COGS Usage.json",
+		"YEAR.subsets/zz_@D365_GL - Copy from SKU_DATA - COGS Usage (CA).json",
+		"YEAR.subsets/zz_@D365_GL - Copy from SKU_DATA - COGS Usage (D2C).json",
+		"YEAR.subsets/zz_@D365_GL - Copy from SKU_DATA - COGS Usage (Retail).json",
+		"YEAR.subsets/zz_@D365_GL - Export Data.json",
+		"YEAR.subsets/zz_@Forecasting - Copy from CC to CC (all).json",
+		"YEAR.subsets/zz_@Forecasting - Load from Category to Category.json",
+		"YEAR.subsets/zz_@Forecasting - Load from CC to CC.json",
+		"YEAR.subsets/zz_@Forecasting - Load from CC to CC (Special).json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (ALL LOB)_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (California Only)_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (Franchise Only)_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (Retail Only)_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (Specific CC).json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (ALL LOB).json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (ALL LOB)_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (California Only) - Adhoc CCs_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (California Only)_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (Franchise Only)_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (Retail Only).json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (Retail Only)_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (Specific CC).json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear - Adhoc CCs_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (ALL LOB)_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (California Only)_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (Franchise Only)_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (Retail Only)_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (Specific CC).json",
+		"YEAR.subsets/zz_@Forecasting - Load from week to week for cost centers - CurrYear Stats.json",
+		"YEAR.subsets/zz_@Forecasting - Load to SKU_DATA (ALL LOB).json",
+		"YEAR.subsets/zz_@Forecasting - Load to SKU_DATA (California Only).json",
+		"YEAR.subsets/zz_@Forecasting - Load to SKU_DATA (Franchise Only).json",
+		"YEAR.subsets/zz_@Forecasting - Load to SKU_DATA (Retail Only).json",
+		"YEAR.subsets/zz_@Forecasting - Load to SKU_DATA (Retail Operations-HB Only).json",
+		"YEAR.subsets/zz_@Forecasting - Load to SKU_DATA (Specific CC List).json",
+		"YEAR.subsets/zz_@Forecasting - Move Transactions from Channel 1 to C or B 1-4.json",
+		"YEAR.subsets/zz_@Forecasting - Zero CurrYear Stats (ALL LOB)_ZeroOut.json",
+		"YEAR.subsets/zz_@Planning - Copy from Scenario to Scenario_Load.json",
+		"YEAR.subsets/zz_@Planning - Load from SKU_DATA (California Only)_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Planning - Load from SKU_DATA_LoadtoPlanning.json",
+		"YEAR.subsets/zz_@Planning - Load to SKU_DATA (Franchise Only)_LoadtoSKU_DATA.json",
+		"YEAR.subsets/zz_@Planning - Load to SKU_DATA (Franchise Only) w Adjustment_LoadtoSKU_DATA.json",
+		"YEAR.subsets/zz_@Planning - Load to SKU_DATA (HBHCA Franchise Only) w Adjustment_LoadtoSKU_DATA.json",
+		"YEAR.subsets/zz_@Planning - Load to SKU_DATA (HBH California)_LoadtoSKU_DATA.json",
+		"YEAR.subsets/zz_@Planning - Load to SKU_DATA (HBH California) w Adjustment_LoadtoSKU_DATA.json",
+		"YEAR.subsets/zz_@Planning - Load to SKU_DATA (HB Retail incl CA)_LoadtoSKU_DATA.json",
+		"YEAR.subsets/zz_@Planning - Load to SKU_DATA (Retail Only)_LoadtoSKU_DATA.json",
+		"YEAR.subsets/zz_@Planning - Load to SKU_DATA (Retail Operations-HB Only)_LoadtoSKU_DATA.json",
+		"YEAR.subsets/zz_@Planning - Load to SKU_DATA (Specific Cost Centers)_LoadtoSKU_DATA.json",
+		"YEAR.subsets/zz_@SKU_DATA - Copy from Category to Category.json",
+		"YEAR.subsets/zz_@SKU_DATA - Copy from Category to Category (D2C).json",
+		"YEAR.subsets/zz_@SKU_DATA - Copy from Category to Category (Franchise).json",
+		"YEAR.subsets/zz_@SKU_DATA - Copy from Category to Category (HBHCA Franchise).json",
+		"YEAR.subsets/zz_@SKU_DATA - Copy from Category to Category (HBH California)_Load.json",
+		"YEAR.subsets/zz_@SKU_DATA - Copy from Category to Category (HB Retail incl CA).json",
+		"YEAR.subsets/zz_@SKU_DATA - Copy from Category to Category (Retail).json",
+		"YEAR.subsets/zz_@SKU_DATA - Copy from Category to Category (Retail Operations-HB).json",
+		"YEAR.subsets/zz_@SKU_DATA - Copy from CC to CC.json",
+		"YEAR.subsets/zz_@SKU_DATA - Copy from CC to CC - Periods Only.json",
+		"YEAR.subsets/zz_@SKU_DATA - Copy Pricing from week 1 to all other weeks.json",
+		"YEAR.subsets/zz_@SKU_DATA - Extract Data.json",
+		"YEAR.subsets/zz_@SKU_DATA - Load Actual to Forecast_Load.json",
+		"YEAR.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HB Dir-to-Consumer_Load.json",
+		"YEAR.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HBH California_Load.json",
+		"YEAR.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast FY 24 Weeks 27-53 - Temp_Load.json",
+		"YEAR.subsets/zz_D365_GL - Export Data.json",
+		"YEAR.subsets/zz_DATA - Copy GP-GL 10 to 52_SourceView.json",
+		"YEAR.subsets/zz_DATA - QTY - Copy by Location_Category_Year_Weeknum_SourceView.json",
+		"YEAR.subsets/zz_DATA - QTY - Load QTY from SKU_DATA - Budget (backup)_Source.json",
+		"YEAR.subsets/zz_DATA - QTY - Load QTY from SKU_DATA - Budget_Source.json",
+		"YEAR.subsets/zz_DATA - SKU DATA - Copy by Location_Category_week_SourceView.json",
+		"YEAR.subsets/zz_DATA - TEST QTY - Load Qty from Sku_Data - Budget_Source.json",
+		"YEAR.subsets/zz_DATA - Zero Out SKU_3P_Wkv2_ZeroOut2.json",
+		"YEAR.subsets/zz_DATA - Zero Out SKU_3P_Wkv2b_ZeroOut2b.json",
+		"YEAR.subsets/zz_Planning - Create Source View for Data Copy_CopyData.json",
+		"YEAR.subsets/zz_SKU_DATA - Extract Data.json",
+		"YEAR.subsets/zzDataManager.json",
+		"YEAR.subsets/zzSKUDATA_to_GPGL.json"
+	]
+}

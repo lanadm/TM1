@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SKU_DATA - Copy from Category to Category (Retail Operations-HB)",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 10 - 12/07/25')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('Wk 11 - 12/14/25')"
+		}
+	]
+}

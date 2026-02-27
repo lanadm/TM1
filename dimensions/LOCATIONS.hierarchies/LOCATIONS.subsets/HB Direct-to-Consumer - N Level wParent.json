@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"HB Direct-to-Consumer - N Level wParent",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {{DISTINCT({[LOCATIONS].[LOCATIONS].[HB DIR-TO-CONSUMER], DESCENDANTS([LOCATIONS].[LOCATIONS].[HB DIR-TO-CONSUMER], 99 , LEAVES)})}}"
+}
