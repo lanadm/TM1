@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Distribution_Overhead",
-	"Alias":"Name",
-	"Expression":"{TM1SORT( {FILTER( {TM1SUBSETALL( [LOCATIONS] )}, [LOCATIONS].[Overhead_Distribution] = \"Y\")}, DESC)}"
-}

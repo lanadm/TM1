@@ -2,5 +2,5 @@
 	"@type":"Subset",
 	"Name":"Default",
 	"Alias":"Name",
-	"Expression":"TM1IGNORE_BADTUPLES {[D365_MainAcct].[D365_MainAcct].MEMBERS}"
+	"Expression":"TM1IGNORE_BADTUPLES {DRILLDOWNMEMBER({[D365_MainAcct].[D365_MainAcct].[Reported EBITDA]} , {[D365_MainAcct].[D365_MainAcct].[Reported EBITDA],[D365_MainAcct].[D365_MainAcct].[Net Income],[D365_MainAcct].[D365_MainAcct].[Operating Income],[D365_MainAcct].[D365_MainAcct].[Other Income/Expenses]} , RECURSIVE),DRILLDOWNMEMBER({[D365_MainAcct].[D365_MainAcct].[Balance Sheet]} , {[D365_MainAcct].[D365_MainAcct].[Balance Sheet]} , RECURSIVE)}"
 }

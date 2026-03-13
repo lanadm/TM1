@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Default",
-	"Alias":"Name",
-	"Expression":"TM1IGNORE_BADTUPLES {DRILLDOWNMEMBER({[LOCATIONS].[LOCATIONS].[HBH Consolidated]} , {[LOCATIONS].[LOCATIONS].[HBH Consolidated],[LOCATIONS].[LOCATIONS].[HBH Consolidated^THE HONEY BAKED HAM COMPANY LLC]} , RECURSIVE)}"
-}

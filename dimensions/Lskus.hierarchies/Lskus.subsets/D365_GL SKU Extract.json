@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"D365_GL SKU Extract",
-	"Alias":"MEMBER_NAME",
-	"Expression":"TM1IGNORE_BADTUPLES {ORDER(EXCEPT(TM1FILTERBYLEVEL(TM1DRILLDOWNMEMBER({[Lskus].[Lskus].[TOTAL SALES BY FAMILY GROUPS]} , ALL , RECURSIVE) , 0) , {[Lskus].[Lskus].[200200],[Lskus].[Lskus].[200204],[Lskus].[Lskus].[055857],[Lskus].[Lskus].[200142],[Lskus].[Lskus].[200143],[Lskus].[Lskus].[200144],[Lskus].[Lskus].[200203],[Lskus].[Lskus].[210133],[Lskus].[Lskus].[210147],[Lskus].[Lskus].[210230],[Lskus].[Lskus].[702915],[Lskus].[Lskus].[1059228],[Lskus].[Lskus].[1059300],[Lskus].[Lskus].[2020700],[Lskus].[Lskus].[2021000]}) , [Lskus].[Lskus].CURRENTMEMBER.PROPERTIES(\"MEMBER_NAME\") , BASC)}"
-}

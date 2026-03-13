@@ -5,15 +5,6 @@
 	"Elements":
 	[
 		{
-			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('BALANCE SHEET')"
-		},
-		{
-			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL ASSETS')"
-		},
-		{
-			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL LIABILITIES AND STOCKHOLDERS EQUITY')"
-		},
-		{
 			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('BALANCE SHEET FOR REPORT - BS TAB')"
 		},
 		{

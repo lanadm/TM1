@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"CO5",
-	"Alias":"Name",
-	"Expression":"TM1IGNORE_BADTUPLES {DRILLDOWNMEMBER({[LOCATIONS].[LOCATIONS].[CO5]} , {[LOCATIONS].[LOCATIONS].[CO5]} , RECURSIVE)}"
-}

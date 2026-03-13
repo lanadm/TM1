@@ -2740,16 +2740,34 @@
 			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('2858')"
 		},
 		{
-			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Revenue')"
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Compensation & Benefits')"
 		},
 		{
-			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Cost of Goods Sold')"
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Selling & Marketing Expenses')"
 		},
 		{
-			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Selling, General & Administrative')"
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Rent & Utilities')"
 		},
 		{
-			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Depreciation & Amortization')"
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Travel, Meals & Entertainment')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Equipment Rental')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Office Expenses')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Insurance Expenses')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Repair & Maintenance')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Other General & Admin Expenses')"
+		},
+		{
+			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('Legal & Other Professional Fees')"
 		}
 	]
 }

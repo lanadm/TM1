@@ -5,15 +5,6 @@
 	"Elements":
 	[
 		{
-			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('BALANCE SHEET')"
-		},
-		{
-			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL ASSETS')"
-		},
-		{
-			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CURRENT ASSETS')"
-		},
-		{
 			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('PROPERTY AND EQUIPMENT NET')"
 		},
 		{
@@ -41,12 +32,6 @@
 			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('OTHER ASSETS')"
 		},
 		{
-			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('TOTAL LIABILITIES AND STOCKHOLDERS EQUITY')"
-		},
-		{
-			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('CURRENT LIABILITIES')"
-		},
-		{
 			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('LONG TERM DEBT')"
 		},
 		{
@@ -60,9 +45,6 @@
 		},
 		{
 			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('OTHER LIABILITIES LT')"
-		},
-		{
-			"@id":"Dimensions('D365_MainAcct')/Hierarchies('D365_MainAcct')/Elements('STOCKHOLDERS EQUITY')"
 		}
 	]
 }

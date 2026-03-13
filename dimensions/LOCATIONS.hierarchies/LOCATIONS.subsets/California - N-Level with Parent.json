@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"California - N-Level with Parent",
-	"Alias":"Name",
-	"Expression":"TM1IGNORE_BADTUPLES {{DISTINCT({[LOCATIONS].[LOCATIONS].[HBH California LLC], DESCENDANTS([LOCATIONS].[LOCATIONS].[HBH California LLC], 99 , LEAVES)})}}"
-}
