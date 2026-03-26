@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"SP_DCItem",
+	"Hierarchies@Code.links":
+	[
+		"SP_DCItem.hierarchies/SP_DCItem.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('SP_DCItem')/Hierarchies('SP_DCItem')"
+	}
+}

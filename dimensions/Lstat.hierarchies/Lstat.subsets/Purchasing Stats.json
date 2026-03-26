@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Purchasing Stats",
-	"Alias":"MEMBER_NAME",
-	"Expression":"TM1IGNORE_BADTUPLES {EXCEPT(DRILLDOWNMEMBER({[Lstat].[Lstat].[{Purchasing Stats]} , {[Lstat].[Lstat].[{Purchasing Stats]} , RECURSIVE) , {[Lstat].[Lstat].[{Purchasing Stats]})}"
-}

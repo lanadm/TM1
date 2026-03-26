@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"All Level 0 wDesc",
+	"Alias":"SKU Description",
+	"Expression":"TM1IGNORE_BADTUPLES {ORDER(TM1FILTERBYLEVEL(TM1SUBSETALL([SP_SKU]) , 0) , [SP_SKU].CURRENTMEMBER.NAME , ASC)}"
+}

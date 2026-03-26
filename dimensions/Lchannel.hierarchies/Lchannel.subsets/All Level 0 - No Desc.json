@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"All Level 0 - No Desc",
-	"Alias":"MEMBER_NAME",
-	"Expression":"TM1IGNORE_BADTUPLES {TM1SORT(TM1FILTERBYLEVEL(TM1SUBSETALL([Lchannel]) , 0) , ASC)}"
-}

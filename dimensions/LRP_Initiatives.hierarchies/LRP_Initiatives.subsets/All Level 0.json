@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"All Level 0",
-	"Alias":"MEMBER_NAME",
-	"Expression":"TM1IGNORE_BADTUPLES {TM1FILTERBYLEVEL(TM1SUBSETALL([LRP_Initiatives].[LRP_Initiatives]) , 0)}"
-}

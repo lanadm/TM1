@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Planning Data Load List",
-	"Alias":"MEMBER_NAME",
-	"Expression":"TM1IGNORE_BADTUPLES {{[Lstat].[Lstat].[Selling Metrics Transactions], [Lstat].[Lstat].[Quantity], [Lstat].[Lstat].[Usage Qty], [Lstat].[Lstat].[Discount Promo], [Lstat].[Lstat].[Discount], [Lstat].[Lstat].[Gross]}}"
-}

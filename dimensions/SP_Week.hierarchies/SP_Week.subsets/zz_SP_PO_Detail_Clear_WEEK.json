@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"zz_SP_PO_Detail_Clear_WEEK",
+	"Expression":"{TM1FILTERBYLEVEL( {TM1SUBSETALL( [SP_Week].[SP_Week] )}, 0)}"
+}

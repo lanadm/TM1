@@ -1,0 +1,310 @@
+#region Prolog
+
+ 
+#========================================================= 
+# @SP_Inventory - Zero Adjustments
+#
+# Clears manual adjustment measures in SP_Inventory:
+#   - Current FY: StartWeek to 52
+#   - Next FY:    1 to 52
+# Leaves past weeks
+# Uses bpmControl cube for Start Week + Current FY + Next FY.
+#=========================================================
+
+sProcess = GetProcessName();
+
+IF( Trim( pRun ) @= '' );
+  pRun = 'Y';
+ENDIF;
+
+IF( Upper( Trim( pRun ) ) @<> 'Y' );
+    
+  strTS = TimSt(Now, '\Y-\m-\d \h:\i:\s');
+  ASCIIOutput('}tmp\SP_Inv_ClearAdj_skipped.csv', strTS, 'Skipped - pRun not Y');
+  ProcessQuit;
+    
+ENDIF;
+
+#----------------------------
+# Cubes
+#----------------------------
+strCubeTarget  = 'SP_Inventory';
+strCubeControl = 'bpmControl';
+
+#----------------------------
+# Target cube dimensions
+#----------------------------
+dimYear = 'YEAR';
+dimWeek = 'SP_Week';
+dimDC = 'SP_DistributionCenter';
+dimLoc = 'SP_Locations';
+dimSKU = 'SP_SKU';
+dimDCItem = 'SP_DCItem';
+dimMfgr = 'SP_Manufacturer';
+dimMeas = 'SP_Measures_Inventory';
+
+#----------------------------
+# Control cube intersections
+#----------------------------
+strCtlRowDim = 'bpmControl';
+strCtlColDim = 'bpmControl_Msr';
+
+strCtlRow_StartWeek = 'SP Load - Start Week';
+strCtlRow_CurrentFY = 'Current FY';
+strCtlRow_NextFY = 'Next FY';
+
+strCtlCol_Value = 'Value'; 
+
+#----------------------------
+# Read control values
+#----------------------------
+
+strTS = TimSt( Now, '\Y-\m-\d \h:\i:\s' );
+
+#--- Read Start Week as STRING, then convert to numeric
+strStartWeek = TRIM( CellGetS( strCubeControl, strCtlRow_StartWeek, strCtlCol_Value ) );
+
+IF( strStartWeek @= '' );
+  ASCIIOutput( '}tmp\SP_Inv_ClearAdj_errors.csv', strTS, 'Start week is blank' );
+  ProcessQuit;
+ENDIF;
+
+numStartWeek =StringToNumber( strStartWeek );
+
+#--- FY values are strings
+strFY_Current = TRIM( CellGetS( strCubeControl, strCtlRow_CurrentFY, strCtlCol_Value ) );
+strFY_Next = TRIM( CellGetS( strCubeControl, strCtlRow_NextFY, strCtlCol_Value ) );
+
+IF( numStartWeek <= 0 );
+  ASCIIOutput( '}tmp\SP_Inv_ClearAdj_errors.csv', strTS, 'Start week invalid', strStartWeek, NumberToString(numStartWeek) );
+  ProcessQuit;
+ENDIF;
+
+IF( strFY_Current @= '' % strFY_Next @= '' );
+  ASCIIOutput( '}tmp\SP_Inv_ClearAdj_errors.csv', strTS, 'FY values blank', strFY_Current, strFY_Next );
+  ProcessQuit;
+ENDIF;
+
+
+
+#----------------------------
+# View + subset names (reuse, don’t destroy each run)
+#----------------------------
+strView = 'zz_' | sProcess;
+
+strSubYear = 'zz_' | sProcess | '_YEAR';
+strSubWeek = 'zz_' | sProcess | '_WEEK';
+strSubDC = 'zz_' | sProcess | '_DC';
+strSubLoc = 'zz_' | sProcess | '_LOC';
+strSubSKU = 'zz_' | sProcess | '_SKU';
+strSubDCItem = 'zz_' | sProcess | '_DCITEM';
+strSubMfgr = 'zz_' | sProcess | '_MFGR';
+strSubMeas = 'zz_' | sProcess | '_MEAS';
+
+#----------------------------
+# Ensure subsets exist
+#----------------------------
+IF( SubsetExists( dimYear, strSubYear ) = 0 ); 
+    SubsetCreate( dimYear, strSubYear );   
+ENDIF;
+
+IF( SubsetExists( dimWeek, strSubWeek ) = 0 ); 
+    SubsetCreate( dimWeek, strSubWeek );   
+ENDIF;
+
+IF( SubsetExists( dimDC, strSubDC ) = 0 ); 
+    SubsetCreate( dimDC, strSubDC );     
+ENDIF;
+
+IF( SubsetExists( dimLoc, strSubLoc ) = 0 ); 
+    SubsetCreate( dimLoc, strSubLoc );    
+ENDIF;
+
+IF( SubsetExists( dimSKU, strSubSKU ) = 0 ); 
+    SubsetCreate( dimSKU, strSubSKU );    
+ENDIF;
+
+IF( SubsetExists( dimDCItem, strSubDCItem ) = 0 ); 
+    SubsetCreate( dimDCItem, strSubDCItem ); 
+ENDIF;
+
+IF( SubsetExists( dimMfgr, strSubMfgr ) = 0 ); 
+    SubsetCreate( dimMfgr, strSubMfgr );   
+ENDIF;
+
+IF( SubsetExists( dimMeas, strSubMeas ) = 0 ); 
+    SubsetCreate( dimMeas, strSubMeas );   
+ENDIF;
+
+#----------------------------
+# Populate "ALL LEAVES" subsets using MDX
+#----------------------------
+SubsetMDXSet( dimDC, strSubDC, '{ TM1FILTERBYLEVEL( {TM1SUBSETALL([' | dimDC | '])}, 0) }' );
+SubsetMDXSet( dimLoc, strSubLoc, '{ TM1FILTERBYLEVEL( {TM1SUBSETALL([' | dimLoc | '])}, 0) }' );
+SubsetMDXSet( dimSKU, strSubSKU, '{ TM1FILTERBYLEVEL( {TM1SUBSETALL([' | dimSKU | '])}, 0) }' );
+SubsetMDXSet( dimDCItem, strSubDCItem, '{ TM1FILTERBYLEVEL( {TM1SUBSETALL([' | dimDCItem | '])}, 0) }' );
+SubsetMDXSet( dimMfgr, strSubMfgr, '{ TM1FILTERBYLEVEL( {TM1SUBSETALL([' | dimMfgr | '])}, 0) }' );
+
+#----------------------------
+# Measures subset = ONLY manual adjustments
+#----------------------------
+SubsetDeleteAllElements( dimMeas, strSubMeas );
+
+SubsetElementInsert( dimMeas, strSubMeas, 'Demand_Adjust', 1 );
+SubsetElementInsert( dimMeas, strSubMeas, 'Case_Qty_Adjust', 2 );
+
+#----------------------------
+# Ensure view exists and assign all dimension subsets
+#----------------------------
+IF( ViewExists( strCubeTarget, strView ) = 0 );
+  ViewCreate( strCubeTarget, strView );
+ENDIF;
+
+ViewSubsetAssign( strCubeTarget, strView, dimYear, strSubYear );
+ViewSubsetAssign( strCubeTarget, strView, dimWeek, strSubWeek );
+ViewSubsetAssign( strCubeTarget, strView, dimDC, strSubDC );
+ViewSubsetAssign( strCubeTarget, strView, dimLoc, strSubLoc );
+ViewSubsetAssign( strCubeTarget, strView, dimSKU, strSubSKU );
+ViewSubsetAssign( strCubeTarget, strView, dimDCItem, strSubDCItem );
+ViewSubsetAssign( strCubeTarget, strView, dimMfgr, strSubMfgr );
+ViewSubsetAssign( strCubeTarget, strView, dimMeas, strSubMeas );
+
+#---------------------------------------------------------
+# Format week element (1 to 53)
+#---------------------------------------------------------
+# Build current week range: nStartWeek to 52
+# Then run CubeClearData for Current FY
+# Then build 1 to 52 and run for Next FY
+#---------------------------------------------------------
+
+# Ensure view exists
+IF( ViewExists( strCubeTarget, strView ) = 0 );
+  ViewCreate( strCubeTarget, strView );
+ENDIF;
+
+# Ensure ALL subsets exist 
+IF( SubsetExists( dimYear, strSubYear ) = 0 ); 
+    SubsetCreate( dimYear, strSubYear ); 
+ENDIF;
+
+IF( SubsetExists( dimWeek, strSubWeek ) = 0 ); 
+    SubsetCreate( dimWeek, strSubWeek ); 
+ENDIF;
+
+IF( SubsetExists( dimDC, strSubDC ) = 0 );   
+    SubsetCreate( dimDC, strSubDC );   
+ENDIF;
+
+IF( SubsetExists( dimLoc, strSubLoc ) = 0 );  
+    SubsetCreate( dimLoc, strSubLoc );  
+ENDIF;
+
+IF( SubsetExists( dimSKU, strSubSKU ) = 0 );  
+    SubsetCreate( dimSKU, strSubSKU );  
+ENDIF;
+
+IF( SubsetExists( dimDCItem, strSubDCItem ) = 0 ); 
+    SubsetCreate( dimDCItem, strSubDCItem ); 
+ENDIF;
+
+IF( SubsetExists( dimMfgr, strSubMfgr ) = 0 ); 
+    SubsetCreate( dimMfgr, strSubMfgr ); 
+ENDIF;
+
+IF( SubsetExists( dimMeas, strSubMeas ) = 0 ); 
+    SubsetCreate( dimMeas, strSubMeas ); 
+ENDIF;
+
+# Assign subsets to the view 
+ViewSubsetAssign( strCubeTarget, strView, dimYear, strSubYear );
+ViewSubsetAssign( strCubeTarget, strView, dimWeek, strSubWeek );
+ViewSubsetAssign( strCubeTarget, strView, dimDC, strSubDC );
+ViewSubsetAssign( strCubeTarget, strView, dimLoc, strSubLoc );
+ViewSubsetAssign( strCubeTarget, strView, dimSKU, strSubSKU );
+ViewSubsetAssign( strCubeTarget, strView, dimDCItem, strSubDCItem );
+ViewSubsetAssign( strCubeTarget, strView, dimMfgr, strSubMfgr );
+ViewSubsetAssign( strCubeTarget, strView, dimMeas,   strSubMeas );
+
+# Skip Rules and Zeroes
+ViewExtractSkipRuleValuesSet( strCubeTarget, strView, 1 );
+ViewExtractSkipZeroesSet( strCubeTarget, strView, 1 );
+
+
+
+#=========================================================
+# PASS 1: Current FY, StartWeek to 52
+#=========================================================
+SubsetDeleteAllElements( dimYear, strSubYear );
+
+SubsetElementInsert( dimYear, strSubYear, strFY_Current, 1 );
+
+SubsetDeleteAllElements( dimWeek, strSubWeek );
+
+numW = numStartWeek;
+
+WHILE( numW <= 52 );
+  strW = NumberToString( numW );
+    
+  IF( numW < 10 );
+    strW = '0' | strW;
+  ENDIF;
+
+  IF( DIMIX( dimWeek, strW ) > 0 );
+    SubsetElementInsert( dimWeek, strSubWeek, strW, 1 );
+      
+  ELSE;
+    strTS = TimSt(Now, '\Y-\m-\d \h:\i:\s');
+    ASCIIOutput( '}tmp\SP_Inv_ClearAdj_missing_week.csv', strTS, 'Missing week element', strW );
+      
+  ENDIF;
+
+  numW = numW + 1;
+    
+END;
+
+# Zero out the data using the created view
+ViewZeroOut( strCubeTarget, strView );
+
+
+
+#=========================================================
+# PASS 2: Next FY, 01..52
+#=========================================================
+
+SubsetDeleteAllElements( dimYear, strSubYear );
+
+SubsetElementInsert( dimYear, strSubYear, strFY_Next, 1 );
+
+SubsetDeleteAllElements( dimWeek, strSubWeek );
+
+numW = 1;
+
+WHILE( numW <= 52 );
+  strW = NumberToString( numW );
+    
+  IF( numW < 10 );
+    strW = '0' | strW;
+  ENDIF;
+
+  IF( DIMIX( dimWeek, strW ) > 0 );
+    SubsetElementInsert( dimWeek, strSubWeek, strW, 1 );
+      
+  ELSE;
+    strTS = TimSt(Now, '\Y-\m-\d \h:\i:\s');
+    ASCIIOutput( '}tmp\SP_Inv_ClearAdj_missing_week.csv', strTS, 'Missing week element', strW );
+      
+  ENDIF;
+
+  numW = numW + 1;
+    
+END;
+
+# Zero out the data using the created view
+ViewZeroOut( strCubeTarget, strView );
+
+strTS = TimSt(Now, '\Y-\m-\d \h:\i:\s');
+
+ASCIIOutput( '}tmp\SP_Inv_ClearAdj_done.csv', strTS, 'Cleared', strFY_Current, NumberToString(numStartWeek), '->52', strFY_Next, '01->52' );
+
+
+#endregion

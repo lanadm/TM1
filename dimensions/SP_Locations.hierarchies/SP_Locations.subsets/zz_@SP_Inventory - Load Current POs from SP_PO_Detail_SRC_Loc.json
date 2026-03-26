@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SP_Inventory - Load Current POs from SP_PO_Detail_SRC_Loc",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('SP_Locations')/Hierarchies('SP_Locations')/Elements('No Store')"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"SP_SKU",
+	"Hierarchies@Code.links":
+	[
+		"SP_SKU.hierarchies/SP_SKU.json",
+		"SP_SKU.hierarchies/SP_SKU_Category.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('SP_SKU')/Hierarchies('SP_SKU')"
+	}
+}

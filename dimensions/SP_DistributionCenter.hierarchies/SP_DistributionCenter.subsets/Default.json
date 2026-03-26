@@ -1,0 +1,65 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Total DC')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Brown Foodservice')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('CASH-WA')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Cheney Punta Gorda')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Cheney Riviera')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Cheney Statesville')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('DOT Foods')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Feesers')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('I-Supply')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('KUNA Foodservice')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('McDonald')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Quirch - Houston')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Quirch - Vineland')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Quirch - Winter Haven')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Springfield Grocer')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Tapia Fresno')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Tapia Las Vegas')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Tapia Maywood')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')/Elements('Tapia Phoenix')"
+		}
+	]
+}

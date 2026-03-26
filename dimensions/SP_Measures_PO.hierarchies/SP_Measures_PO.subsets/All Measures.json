@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"All Measures",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {[SP_Measures_PO].[SP_Measures_PO].MEMBERS}"
+}

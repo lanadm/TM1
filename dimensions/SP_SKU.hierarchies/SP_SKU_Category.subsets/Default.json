@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Alias":"SKU Description",
+	"Expression":"TM1IGNORE_BADTUPLES {DRILLDOWNMEMBER({[SP_SKU].[SP_SKU_Category].[TOTAL CATEGORY]} , {[SP_SKU].[SP_SKU_Category].[TOTAL CATEGORY]} , RECURSIVE)}"
+}

@@ -1,0 +1,17 @@
+{
+	"@type":"Subset",
+	"Name":"Forecast Measures",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('SP_Measures_Inventory')/Hierarchies('SP_Measures_Inventory')/Elements('Fcst - TTL Cases')"
+		},
+		{
+			"@id":"Dimensions('SP_Measures_Inventory')/Hierarchies('SP_Measures_Inventory')/Elements('Fcst - Cases')"
+		},
+		{
+			"@id":"Dimensions('SP_Measures_Inventory')/Hierarchies('SP_Measures_Inventory')/Elements('Fcst - POA Cases')"
+		}
+	]
+}

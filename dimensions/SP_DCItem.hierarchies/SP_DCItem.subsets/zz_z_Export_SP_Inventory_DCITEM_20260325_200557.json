@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"zz_z_Export_SP_Inventory_DCITEM_20260325_200557",
+	"Expression":"{TM1FILTERBYLEVEL( {TM1SUBSETALL( [SP_DCItem] )}, 0)}"
+}

@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SP_Inventory - Zero Adjustments_LOC",
+	"Expression":"{ TM1FILTERBYLEVEL( {TM1SUBSETALL([SP_Locations])}, 0) }"
+}

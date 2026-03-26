@@ -1,0 +1,41 @@
+{
+	"@type":"Cube",
+	"Name":"SP_PO_Detail",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('YEAR')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')"
+		},
+		{
+			"@id":"Dimensions('SP_Locations')"
+		},
+		{
+			"@id":"Dimensions('SP_SKU')"
+		},
+		{
+			"@id":"Dimensions('SP_DCItem')"
+		},
+		{
+			"@id":"Dimensions('SP_Manufacturer')"
+		},
+		{
+			"@id":"Dimensions('SP_PO')"
+		},
+		{
+			"@id":"Dimensions('SP_Measures_PO')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"SP_PO_Detail.views/Compare to Inventory.json",
+		"SP_PO_Detail.views/Default.json",
+		"SP_PO_Detail.views/POs by Distribution Center.json",
+		"SP_PO_Detail.views/PO Totals by Week.json"
+	]
+}

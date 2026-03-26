@@ -1,0 +1,216 @@
+#region Prolog
+
+#========================================================
+# Prolog
+#========================================================
+sProc = GetProcessName();
+
+#----------------------------
+# Cube / Dimensions
+#----------------------------
+sCube     = 'SP_PO_Detail';
+
+sDimYear = 'YEAR';
+sDimWeek = 'SP_Week';
+sDimDC = 'SP_DistributionCenter';
+sDimLoc = 'SP_Locations';
+sDimSKU = 'SP_SKU';
+sDimDCItem = 'SP_DCItem';
+sDimMfgr = 'SP_Manufacturer';
+sDimPO = 'SP_PO';
+sDimMeas = 'SP_Measures_PO';
+
+#----------------------------
+# Fixed elements / measures
+#----------------------------
+sNoStore = 'No Store';
+sMeasExpDate = 'PO_ExpectedDate';
+sMeasCaseQty = 'PO_Case_Qty';
+sMeasDOTorDir = 'DOT or Direct';
+
+#----------------------------
+# PO Parents (must exist)
+#----------------------------
+sPOParent_Direct = 'PO_Number_Direct';
+sPOParent_DOT = 'PO_Number_DOT';
+
+#----------------------------
+# Logs
+#----------------------------
+sLog_NoPO = '}tmp\SP_PO_Detail_NoPO_Skipped.csv';
+sLog_Invalid = '}tmp\SP_PO_Detail_InvalidKeys_Skipped.csv';
+sLog_POInsert = '}tmp\SP_PO_Detail_PO_Insert_Failed.csv';
+sLog_POFrom = '}tmp\SP_PO_Detail_Invalid_POFrom.csv';
+
+# Clear old logs
+IF( FileExists( sLog_NoPO ) = 1 );     
+    AsciiDelete( sLog_NoPO );     
+ENDIF;
+
+IF( FileExists( sLog_Invalid ) = 1 );  
+    AsciiDelete( sLog_Invalid );  
+ENDIF;
+
+IF( FileExists( sLog_POInsert ) = 1 ); 
+    AsciiDelete( sLog_POInsert ); 
+ENDIF;
+
+IF( FileExists( sLog_POFrom ) = 1 );   
+    AsciiDelete( sLog_POFrom );   
+ENDIF;
+
+# Headers
+ASCIIOutput( sLog_NoPO, 'Timestamp', 'ErrorType', 'Year', 'Week', 'DC', 'SKU', 'Mfgr', 'DCItem', 'ExpectedDate', 'Qty', 'RAW_PO', 'RAW_POFrom' );
+
+ASCIIOutput( sLog_Invalid, 'Timestamp', 'ErrorType', 'MissingKeys', 'Year', 'Week', 'DC', 'SKU', 'Mfgr', 'DCItem', 'PO','POFrom' );
+
+ASCIIOutput( sLog_POInsert, 'Timestamp', 'ErrorType', 'PO', 'POFrom', 'POParent', 'Year', 'Week', 'DC', 'SKU', 'Mfgr', 'DCItem' );
+
+ASCIIOutput( sLog_POFrom, 'Timestamp', 'ErrorType', 'PO', 'POFrom', 'Year', 'Week', 'DC', 'SKU', 'Mfgr', 'DCItem' );
+
+sTS = TimSt( Now, '\Y-\m-\d \h:\i:\s' );
+
+# Fail if PO parents missing
+IF( DIMIX(sDimPO, sPOParent_Direct) = 0 % DIMIX(sDimPO, sPOParent_DOT) = 0 );
+  ASCIIOutput( sLog_POInsert, TimSt(Now,'\Y-\m-\d \h:\i:\s'), 'PO_PARENT_MISSING', '', '', '', '', '', '', '', '', '' );
+  ProcessQuit;
+ENDIF;
+
+
+#endregion
+#region Metadata
+
+sTS = TimSt( Now, '\Y-\m-\d \h:\i:\s' );
+
+# Normalize fields we’ll need for logging context
+sYear = TRIM( vYear );
+sWeek = TRIM( vWeek );
+sDC = TRIM( vDC );
+sSKU = TRIM( vSKU );
+sMfgr = TRIM( vMfgr );
+sDCItem = TRIM( vDCItemNum );
+
+sPO = TRIM( vPO );
+nCaseQty = vPO_Qty;
+sPOFrom = TRIM( vPOFrom );
+sExpDate = TRIM( vExpectedDate );
+
+# # Basic cleanup (covers CHAR(160) too)
+# p = SCAN( CHAR(160), sPO );
+# WHILE( p > 0 );
+#   sPO = SUBST( sPO, 1, p-1 ) | SUBST( sPO, p+1, LONG( sPO ) -p );
+#   p = SCAN( CHAR(160), sPO );
+# END;
+# sPO = TRIM( sPO );
+
+# p = SCAN( CHAR(160), sPOFrom );
+# WHILE( p > 0 );
+#   sPOFrom = SUBST( sPOFrom, 1, p-1 ) | SUBST( sPOFrom, p+1, LONG( sPOFrom ) -p );
+#   p = SCAN( CHAR(160), sPOFrom );
+# END;
+# sPOFrom = TRIM( sPOFrom );
+
+# Treat literal 0 as blank
+# IF( sPO @= '0' % sPO @= '0.0' ); 
+#     sPO = ''; 
+# ENDIF;
+
+# No PO: log + skip
+# IF( sPO @= '' );
+#   ASCIIOutput( sLog_NoPO, sTS, 'NO_PO', sYear, sWeek, sDC, sSKU, sMfgr, sDCItem, sExpDate, NumberToString( nCaseQty ), vPO, vPOFrom );
+#   ItemSkip;
+# ENDIF;
+
+# Determine parent
+sPOFromU = Upper( sPOFrom );
+
+IF( sPOFromU @= 'DIRECT' );
+  sPOParent = sPOParent_Direct;
+  sDOTorDirect = 'Direct';
+    
+ELSEIF( sPOFromU @= 'DOT' );
+  sPOParent = sPOParent_DOT;
+  sDOTorDirect = 'DOT';
+    
+ELSE;
+  ASCIIOutput( sLog_POFrom, sTS, 'INVALID_POFROM', sPO, sPOFrom, sYear, sWeek, sDC, sSKU, sMfgr, sDCItem );
+  ItemSkip;
+ENDIF;
+
+# Ensure PO exists
+IF( DIMIX( sDimPO, sPO ) = 0 );
+  DimensionElementInsert( sDimPO, '', sPO, 'N' );
+ENDIF;
+
+# If still missing: log + skip
+IF( DIMIX( sDimPO, sPO ) = 0 );
+  ASCIIOutput( sLog_POInsert, sTS, 'PO_INSERT_FAILED', sPO, sPOFrom, sPOParent, sYear, sWeek, sDC, sSKU, sMfgr, sDCItem );
+  ItemSkip;
+ENDIF;
+
+# Ensure in correct rollup
+IF( ELISCOMP( sDimPO, sPOParent, sPO ) = 0 );
+  DimensionElementComponentAdd( sDimPO, sPOParent, sPO, 1 );
+ENDIF;
+
+
+
+#endregion
+#region Data
+
+sTS = TimSt( Now, '\Y-\m-\d \h:\i:\s' );
+
+# Normalize dims for cube write
+sYear = TRIM( vYear );
+sWeek = TRIM( vWeek );
+sDC = TRIM( vDC );
+sSKU = TRIM( vSKU );
+sMfgr = TRIM( vMfgr );
+sDCItem = TRIM( vDCItemNum );
+
+sPO = TRIM( vPO );
+nCaseQty = vPO_Qty;
+sPOFrom = TRIM( vPOFrom );
+sExpDate = TRIM( vExpectedDate );
+
+
+
+# # Validate required keys (log + skip)
+# sMissing = '';
+
+# IF( DIMIX( sDimYear,  sYear )   = 0 ); 
+#     sMissing = sMissing | 'YEAR=' | sYear | '; '; 
+# ENDIF;
+
+# IF( DIMIX( sDimWeek,  sWeek ) = 0 );
+#     sMissing = sMissing | 'WEEK=' | sWeek | '; '; 
+# ENDIF;
+
+# IF( DIMIX( sDimDC, sDC ) = 0 ); 
+#     sMissing = sMissing | 'DC=' | sDC | '; '; 
+# ENDIF;
+
+# IF( DIMIX( sDimSKU, sSKU ) = 0 ); 
+#     sMissing = sMissing | 'SKU=' | sSKU | '; '; 
+# ENDIF;
+
+# IF( DIMIX( sDimMfgr, sMfgr ) = 0 ); 
+#     sMissing = sMissing | 'MFGR=' | sMfgr | '; '; 
+# ENDIF;
+
+# IF( DIMIX( sDimDCItem, sDCItem ) = 0 ); 
+#     sMissing = sMissing | 'DCITEM=' | sDCItem | '; '; 
+# ENDIF;
+
+# IF( sMissing @<> '' );
+#   ASCIIOutput( sLog_Invalid, sTS, 'BAD_DIM_KEY', sMissing, sYear, sWeek, sDC, sSKU, sMfgr, sDCItem, sPO, sPOFrom );
+#   ItemSkip;
+# ENDIF;
+
+# Write measures
+CellPutS( sExpDate, sCube, sYear, sWeek, sDC, sNoStore, sSKU, sDCItem, sMfgr, sPO, sMeasExpDate );
+CellPutN( nCaseQty, sCube, sYear, sWeek, sDC, sNoStore, sSKU, sDCItem, sMfgr, sPO, sMeasCaseQty );
+CellPutS( sDOTorDirect, sCube, sYear, sWeek, sDC, sNoStore, sSKU, sDCItem, sMfgr, sPO, sMeasDOTorDir );
+
+
+#endregion

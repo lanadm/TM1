@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SP_Inventory - Load Current POs from SP_PO_Detail_SRC_MeasPO",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('SP_Measures_PO')/Hierarchies('SP_Measures_PO')/Elements('PO_Case_Qty')"
+		}
+	]
+}

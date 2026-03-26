@@ -1,0 +1,56 @@
+#region Prolog
+
+#====================================================================
+# @SP_Inventory - Update DOT# Attribute
+# Using the data from dbo.vSupplyPlanner_QOH_Inventory,  grab the DOT# and update every SKU
+#  - if the DOT# is filled in, write that to the attribute
+#  - if the DOT# is blank, blank the attribute. This is in case there was a number there previously. 
+#====================================================================
+
+
+#----------------------------
+# Dimension / Attribute variables
+#----------------------------
+strDimSKU = 'SP_SKU';
+strAttrDotItem = 'DOT#';
+
+
+
+#endregion
+#region Metadata
+
+# Normalize 
+strSKU = TRIM(vSKU);
+strDotRaw = TRIM(vDotItemNum);
+
+# skip if SKU not in dimension
+IF( DIMIX( 'SP_SKU', strSKU ) = 0 );
+    ItemSkip;
+ENDIF;
+
+# clean NBSP
+p = SCAN( CHAR( 160 ), strDotRaw );
+WHILE( p > 0 );
+    strDotRaw = SUBST( strDotRaw,1,p-1 ) | SUBST( strDotRaw, p+1, 999 );
+    p = SCAN( CHAR( 160 ), strDotRaw );
+END;
+
+# write DOT# attribute. If there's a DOT#, add it. Otherwise blank.
+IF( strDotRaw @<> '' );
+    
+    IF( ATTRS( 'SP_SKU', strSKU, 'DOT#' ) @<> strDotRaw );
+        AttrPutS( strDotRaw, 'SP_SKU', strSKU, 'DOT#' );
+    ENDIF;
+    
+ELSE;
+    
+    AttrPutS( '', 'SP_SKU', strSKU, 'DOT#' );
+    
+ENDIF;
+
+
+
+
+
+
+#endregion

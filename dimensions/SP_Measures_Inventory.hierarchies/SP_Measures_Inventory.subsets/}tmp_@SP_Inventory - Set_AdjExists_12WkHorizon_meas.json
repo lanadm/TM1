@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"}tmp_@SP_Inventory - Set_AdjExists_12WkHorizon_meas",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('SP_Measures_Inventory')/Hierarchies('SP_Measures_Inventory')/Elements('Demand_Adjust')"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"@type":"Process",
+	"Name":"@SP_Inventory - SP_Week_Build_Rolling_12Wk_Rollups",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"@SP_Inventory - SP_Week_Build_Rolling_12Wk_Rollups.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[],
+	"UID": "1773925152000",
+	"VariablesUIData": []
+}

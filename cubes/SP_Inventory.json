@@ -1,0 +1,40 @@
+{
+	"@type":"Cube",
+	"Name":"SP_Inventory",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('YEAR')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')"
+		},
+		{
+			"@id":"Dimensions('SP_DistributionCenter')"
+		},
+		{
+			"@id":"Dimensions('SP_Locations')"
+		},
+		{
+			"@id":"Dimensions('SP_SKU')"
+		},
+		{
+			"@id":"Dimensions('SP_DCItem')"
+		},
+		{
+			"@id":"Dimensions('SP_Manufacturer')"
+		},
+		{
+			"@id":"Dimensions('SP_Measures_Inventory')"
+		}
+	],
+	"Rules@Code.link":"SP_Inventory.rules",
+	"Views@Code.links":
+	[
+		"SP_Inventory.views/Compare to PO Detail.json",
+		"SP_Inventory.views/Current PO Total - For data clear.json",
+		"SP_Inventory.views/Default.json",
+		"SP_Inventory.views/Demand Breakdown - POA vs Fcst.json",
+		"SP_Inventory.views/Forecast.json"
+	]
+}

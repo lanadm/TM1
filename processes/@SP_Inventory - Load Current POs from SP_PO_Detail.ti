@@ -1,0 +1,331 @@
+#region Prolog
+
+#====================================================================
+# @SP_Inventory - Load Current POs from SP_PO_Detail
+# Loads current-week PO totals from SP_PO_Detail into SP_Inventory
+# Source:  SP_PO_Detail @ [Total POs, PO_Case_Qty]
+# Target:  SP_Inventory @ [Current_POs]
+# Year/Week driven by BpmControl:
+#   - "Current Year" -> "FY 26" format
+#   - "SP_Load - Start Week" -> "WK 22" format
+#====================================================================
+ 
+sProc = GetProcessName(); 
+
+sLogSkipped = '}tmp' | '\' | sProc | '_SKIPPED.csv';
+sLogError   = '}tmp' | '\' | sProc | '_ERROR.csv';
+
+
+
+#----------------------------
+# Safety switch
+#----------------------------
+sTS = TimSt( Now, '\Y-\m-\d \h:\i:\s' );
+
+IF( Upper( Trim( pRun ) ) @<> 'Y' );
+  ASCIIOutput( sLogSkipped, sTS, 'pRun is not Y' );
+  ProcessQuit;
+ENDIF;
+
+#----------------------------
+# Cube names
+#----------------------------
+
+sCubeSrc = 'SP_PO_Detail';
+sCubeTgt = 'SP_Inventory';
+
+#----------------------------
+# Dimension names
+#----------------------------
+
+dYear = 'YEAR';
+dWeek = 'SP_Week';
+dDC = 'SP_DistributionCenter';
+dLoc = 'SP_Locations';
+dSKU = 'SP_SKU';
+dDCItem = 'SP_DCItem';
+dMfgr = 'SP_Manufacturer';
+
+dPO = 'SP_PO';
+dMeasPO = 'SP_Measures_PO';
+dMeasInv = 'SP_Measures_Inventory';
+
+#----------------------------
+# Fixed elements / measures
+#----------------------------
+
+eLoc_NoStore = 'No Store';
+
+ePO_Total = 'Total POs';
+eMeasPO = 'PO_Case_Qty';
+
+eMeasInv = 'Current_POs';
+
+#----------------------------
+# bpmControl coordinates (ADJUST THESE TO YOUR MODEL)
+#----------------------------
+
+sControlCube = 'bpmControl';
+
+cCtl_CurrentYear = 'Current Year';
+cCtl_StartWeek = 'SP Load - Start Week'; 
+cCtl_ValueMeas = 'Value';
+
+#----------------------------
+# Read control values and check for errors
+#----------------------------
+
+sYearRaw = Trim( CellGetS( sControlCube, cCtl_CurrentYear, cCtl_ValueMeas ) );
+sWeekRaw = Trim( CellGetS( sControlCube, cCtl_StartWeek,   cCtl_ValueMeas ) );
+
+# sYearRaw = pYear;
+# sWeekRaw = pWeek;
+
+
+IF( sYearRaw @= '' );
+  ASCIIOutput( sLogError, sTS, 'Current Year is blank in BpmControl' );
+  ProcessQuit;
+ENDIF;
+
+IF( sWeekRaw @= '' );
+  ASCIIOutput( sLogError, sTS, 'Start Week is blank in BpmControl' );
+  ProcessQuit;
+ENDIF;
+
+nYear = StringToNumber( sYearRaw );
+nWeek = StringToNumber( sWeekRaw );
+
+IF( nYear <= 0 % nWeek <= 0 );
+  ASCIIOutput( sLogError, sTS, 'Invalid numeric year/week', sYearRaw, sWeekRaw );
+  ProcessQuit;
+ENDIF;
+
+# Format: "FY 26"
+sFY = 'FY ' | subst( NumberToString( nYear), 3, 2 );
+
+# Format: "WK 1"
+sWK = 'WK ' | NumberToString( nWeek );
+
+#----------------------------
+# Validate required elements exist
+#----------------------------
+
+sTS = TimSt( Now, '\Y-\m-\d \h:\i:\s' );
+
+IF( DimIx( dYear, sFY ) = 0 );
+  ASCIIOutput( sLogError, sTS, 'Year element not found', dYear, sFY );
+  ProcessQuit;
+ENDIF;
+
+IF( DimIx( dWeek, sWK ) = 0 );
+  ASCIIOutput( sLogError, sTS, 'Week element not found', dWeek, sWK );
+  ProcessQuit;
+ENDIF;
+
+IF( DimIx( dLoc, eLoc_NoStore ) = 0 );
+  ASCIIOutput( sLogError, sTS, 'Location element not found', dLoc, eLoc_NoStore );
+  ProcessQuit;
+ENDIF;
+
+IF( DimIx( dPO, ePO_Total ) = 0 );
+  ASCIIOutput( sLogError, sTS, 'PO element not found', dPO, ePO_Total );
+  ProcessQuit;
+ENDIF;
+
+IF( DimIx( dMeasPO, eMeasPO ) = 0 );
+  ASCIIOutput( sLogError, sTS, 'PO measure not found', dMeasPO, eMeasPO );
+  ProcessQuit;
+ENDIF;
+
+IF( DimIx( dMeasInv, eMeasInv ) = 0 );
+  ASCIIOutput( sLogError, sTS, 'Inventory measure not found', dMeasInv, eMeasInv );
+  ProcessQuit;
+ENDIF;
+
+#----------------------------
+# Build SOURCE view (SP_PO_Detail)
+#----------------------------
+
+sViewSrc = 'zz_' | sProc | '_SRC';
+
+# leaf subsets
+sSubDC = sViewSrc | '_DC';
+sSubSKU = sViewSrc | '_SKU';
+sSubDCItem = sViewSrc | '_DCItem';
+sSubMfgr = sViewSrc | '_Mfgr';
+
+# fixed/singleton subsets
+sSubYear = sViewSrc | '_Year';
+sSubWeek = sViewSrc | '_Week';
+sSubLoc = sViewSrc | '_Loc';
+sSubPO = sViewSrc | '_PO';
+sSubMeasPO = sViewSrc | '_MeasPO';
+
+    #~~~~~~~~~~~~~~~~~~
+    # Create/replace source view
+    #~~~~~~~~~~~~~~~~~~
+
+IF( ViewExists(sCubeSrc, sViewSrc) = 1 ); 
+    ViewDestroy(sCubeSrc, sViewSrc); 
+ENDIF;
+
+    #~~~~~~~~~~~~~~~~~~
+    # Create/Replace subset from MDX
+    #~~~~~~~~~~~~~~~~~~
+
+# Year
+IF( SubsetExists(dYear, sSubYear) = 1 ); 
+    SubsetDestroy(dYear, sSubYear); 
+ENDIF;
+
+SubsetCreate(dYear, sSubYear);
+SubsetElementInsert(dYear, sSubYear, sFY, 1);
+
+# Week
+IF( SubsetExists(dWeek, sSubWeek) = 1 ); 
+    SubsetDestroy(dWeek, sSubWeek); 
+ENDIF;
+
+SubsetCreate(dWeek, sSubWeek);
+SubsetElementInsert(dWeek, sSubWeek, sWK, 1);
+
+# Location
+IF( SubsetExists(dLoc, sSubLoc) = 1); 
+    SubsetDestroy(dLoc, sSubLoc); 
+ENDIF;
+
+SubsetCreate(dLoc, sSubLoc);
+SubsetElementInsert(dLoc, sSubLoc, eLoc_NoStore, 1);
+
+# PO
+IF( SubsetExists(dPO, sSubPO) = 1 ); 
+    SubsetDestroy(dPO, sSubPO); 
+ENDIF;
+
+SubsetCreate(dPO, sSubPO);
+SubsetElementInsert(dPO, sSubPO, ePO_Total, 1);
+
+# Measures_PO
+IF( SubsetExists(dMeasPO, sSubMeasPO) = 1 ); 
+    SubsetDestroy(dMeasPO, sSubMeasPO); 
+ENDIF;
+
+SubsetCreate(dMeasPO, sSubMeasPO);
+SubsetElementInsert(dMeasPO, sSubMeasPO, eMeasPO, 1);
+
+    #~~~~~~~~~~~~~~~~~~
+    # Leaf subsets via MDX
+    #~~~~~~~~~~~~~~~~~~
+
+# Distribution Center
+IF( SubsetExists(dDC, sSubDC) = 1 ); 
+    SubsetDestroy(dDC, sSubDC); 
+ENDIF;
+
+SubsetCreate(dDC, sSubDC);
+SubsetMDXSet(dDC, sSubDC, '{TM1FILTERBYLEVEL( {TM1SUBSETALL(['|dDC|'])}, 0 )}' );
+
+# SKU
+IF( SubsetExists(dSKU, sSubSKU) = 1 ); 
+    SubsetDestroy(dSKU, sSubSKU); 
+ENDIF;
+
+SubsetCreate(dSKU, sSubSKU);
+SubsetMDXSet(dSKU, sSubSKU, '{TM1FILTERBYLEVEL( {TM1SUBSETALL(['|dSKU|'])}, 0 )}' );
+
+# DC Item#
+IF( SubsetExists(dDCItem, sSubDCItem) = 1 ); 
+    SubsetDestroy(dDCItem, sSubDCItem); 
+ENDIF;
+
+SubsetCreate(dDCItem, sSubDCItem);
+SubsetMDXSet(dDCItem, sSubDCItem, '{TM1FILTERBYLEVEL( {TM1SUBSETALL(['|dDCItem|'])}, 0 )}' );
+
+# Manufacturer
+IF( SubsetExists(dMfgr, sSubMfgr) = 1 ); 
+    SubsetDestroy(dMfgr, sSubMfgr); 
+ENDIF;
+
+SubsetCreate(dMfgr, sSubMfgr);
+SubsetMDXSet(dMfgr, sSubMfgr, '{TM1FILTERBYLEVEL( {TM1SUBSETALL(['|dMfgr|'])}, 0 )}' );
+
+
+
+ViewCreate(sCubeSrc, sViewSrc);
+
+ViewSubsetAssign(sCubeSrc, sViewSrc, dYear,   sSubYear);
+ViewSubsetAssign(sCubeSrc, sViewSrc, dWeek,   sSubWeek);
+ViewSubsetAssign(sCubeSrc, sViewSrc, dDC,     sSubDC);
+ViewSubsetAssign(sCubeSrc, sViewSrc, dLoc,    sSubLoc);
+ViewSubsetAssign(sCubeSrc, sViewSrc, dSKU,    sSubSKU);
+ViewSubsetAssign(sCubeSrc, sViewSrc, dDCItem, sSubDCItem);
+ViewSubsetAssign(sCubeSrc, sViewSrc, dMfgr,   sSubMfgr);
+ViewSubsetAssign(sCubeSrc, sViewSrc, dPO,     sSubPO);
+ViewSubsetAssign(sCubeSrc, sViewSrc, dMeasPO, sSubMeasPO);
+
+# Performance flags
+ViewExtractSkipCalcsSet(sCubeSrc, sViewSrc, 0);
+ViewExtractSkipZeroesSet(sCubeSrc, sViewSrc, 1);
+
+# #----------------------------
+# # Clear target slice first (prevents stale Current_POs)
+##    - This clears out the target cube data prior to reloading. 
+##    - Because we run a zero process prior to running this,
+##      I don't think it will be needed but keeping just in case. 
+# #----------------------------
+
+#   sViewTgt = 'zz_' | sProc | '_TGT';
+
+#   sSubMeasInv = sViewTgt | '_MeasInv';
+
+#   IF( SubsetExists( dMeasInv, sSubMeasInv ) ); SubsetDestroy( dMeasInv, sSubMeasInv ); ENDIF;
+#   SubsetCreate( dMeasInv, sSubMeasInv );
+#   SubsetElementInsert( dMeasInv, sSubMeasInv, eMeasInv, 1 );
+
+#   IF( ViewExists(sCubeTgt, sViewTgt ) ); ViewDestroy( sCubeTgt, sViewTgt ); ENDIF;
+#   ViewCreate( sCubeTgt, sViewTgt );
+
+#   ViewSubsetAssign( sCubeTgt, sViewTgt, dYear,   sSubYear );
+#   ViewSubsetAssign( sCubeTgt, sViewTgt, dWeek,   sSubWeek );
+#   ViewSubsetAssign( sCubeTgt, sViewTgt, dDC,     sSubDC );
+#   ViewSubsetAssign( sCubeTgt, sViewTgt, dLoc,    sSubLoc );
+#   ViewSubsetAssign( sCubeTgt, sViewTgt, dSKU,    sSubSKU );
+#   ViewSubsetAssign( sCubeTgt, sViewTgt, dDCItem, sSubDCItem );
+#   ViewSubsetAssign( sCubeTgt, sViewTgt, dMfgr,   sSubMfgr );
+#   ViewSubsetAssign( sCubeTgt, sViewTgt, dMeasInv, sSubMeasInv );
+
+#   CubeClearData( sCubeTgt, sViewTgt );
+
+
+
+#----------------------------
+# Set datasource to SOURCE view
+#----------------------------
+DataSourceType = 'VIEW';
+DataSourceNameForServer = sCubeSrc;
+DataSourceNameForClient = sCubeSrc;
+DataSourceCubeView = sViewSrc;
+
+
+#endregion
+#region Data
+
+
+nVal = vValue;
+
+# Write into SP_Inventory at identical intersection, except:
+#   - No SP_PO dim (target doesn't have it)
+#   - Measure is SP_Measures_Inventory = Total_POs
+
+If( vValue <> 0 );
+    CellPutN( nVal, sCubeTgt, vYear, vWeek, vDC, vLocations, vSKU, vDCItem, vManufacturer, eMeasInv );
+ENDIF;
+
+
+#endregion
+#region Epilog
+
+
+
+
+#endregion

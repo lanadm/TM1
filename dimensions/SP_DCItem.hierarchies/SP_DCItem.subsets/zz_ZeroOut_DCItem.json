@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"zz_ZeroOut_DCItem",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {TM1FILTERBYLEVEL(TM1SUBSETALL([SP_DCItem].[SP_DCItem]) , 0)}"
+}

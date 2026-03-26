@@ -1,0 +1,28 @@
+{
+	"@type":"Process",
+	"Name":"@SP_SKU - Populate Category and Primary Attributes",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"@SP_SKU - Populate Category and Primary Attributes.ti",
+	"DataSource":
+	{
+		"Type":"TM1DimensionSubset",
+		"dataSourceNameForServer":"SP_SKU:SP_SKU",
+		"dataSourceNameForClient":"SP_SKU:SP_SKU",
+		"subset":"All Level 0"
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"vValue",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"UID": "1770998425000",
+	"VariablesUIData": [
+		"VarType=32\fColType=827\f"
+	]
+}

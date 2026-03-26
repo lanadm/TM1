@@ -1,0 +1,144 @@
+{
+	"@type":"Hierarchy",
+	"Name":"SP_Measures_Inventory",
+	"Elements":
+	[
+		{
+			"Name":"Case_Qty_OnHand",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Case_Qty_Adjust",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Late_POs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fcst - Cases",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fcst - POA Cases",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Case_Qty_Available",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fcst - TTL Cases",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Case_Qty_Allocated",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Case Ending Balance",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Fcst Detail",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Current_POs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Demand_Adjust",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Demand_Adjust_Lock_Flag",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Demand",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TTL Case Qty on Hand",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Updated Demand (Adjusted Only)",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Case Ending Balance",
+			"ComponentName":"Case_Qty_OnHand",
+			"Weight":1
+		},
+		{
+			"ParentName":"Case Ending Balance",
+			"ComponentName":"Late_POs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Case Ending Balance",
+			"ComponentName":"Current_POs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Case Ending Balance",
+			"ComponentName":"Case_Qty_Adjust",
+			"Weight":1
+		},
+		{
+			"ParentName":"Case Ending Balance",
+			"ComponentName":"Fcst - TTL Cases",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Case Ending Balance",
+			"ComponentName":"Demand_Adjust",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Fcst Detail",
+			"ComponentName":"Fcst - Cases",
+			"Weight":1
+		},
+		{
+			"ParentName":"Fcst Detail",
+			"ComponentName":"Fcst - POA Cases",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Demand",
+			"ComponentName":"Fcst - TTL Cases",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Demand",
+			"ComponentName":"Demand_Adjust",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Case Qty on Hand",
+			"ComponentName":"Case_Qty_OnHand",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Case Qty on Hand",
+			"ComponentName":"Case_Qty_Adjust",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"SP_Measures_Inventory.subsets/Forecast Measures.json",
+		"SP_Measures_Inventory.subsets/Manual Adjustments.json",
+		"SP_Measures_Inventory.subsets/zz_@SP_Inventory - Zero Adjustments_MEAS.json",
+		"SP_Measures_Inventory.subsets/zz_z_Export_SP_Inventory_MEAS_20260325_200557.json",
+		"SP_Measures_Inventory.subsets/zz_z_Export_SP_Inventory_MEAS_20260325_200607.json",
+		"SP_Measures_Inventory.subsets/zz_z_Export_SP_Inventory_MEAS_20260325_201050.json",
+		"SP_Measures_Inventory.subsets/}tmp_@SP_Inventory - Set_AdjExists_12WkHorizon_meas.json"
+	]
+}

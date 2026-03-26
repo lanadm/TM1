@@ -1,0 +1,43 @@
+#region Prolog
+
+strDim = 'SP_SKU';
+
+strHierCategory = 'SP_SKU_Category';
+strHierPrimary  = 'SKU Primary';
+
+strAttrCategory = 'Category_Assigned';
+strAttrPrimary  = 'Primary_Assigned';
+
+# Ensure attributes exist
+IF( DIMIX('}ElementAttributes_SP_SKU', strAttrCategory) = 0 );
+  AttrInsert(strDim, '', strAttrCategory, 'S');
+ENDIF;
+
+IF( DIMIX('}ElementAttributes_SP_SKU', strAttrPrimary) = 0 );
+  AttrInsert(strDim, '', strAttrPrimary, 'S');
+ENDIF;
+
+
+#endregion
+#region Data
+
+strDim = 'SP_SKU';
+
+strHierCategory = 'SP_SKU_Category';
+strHierPrimary  = 'SKU Primary';
+
+strAttrCategory = 'Category_Assigned';
+strAttrPrimary  = 'Primary_Assigned';
+
+vSKU = TRIM(vValue);
+
+vCatParent = ElementParent(strDim, strHierCategory, vSKU, 1);
+vPriParent = ElementParent(strDim, strHierPrimary,  vSKU, 1);
+
+AttrPutS(vCatParent, strDim, vSKU, strAttrCategory);
+AttrPutS(vPriParent, strDim, vSKU, strAttrPrimary);
+
+
+
+
+#endregion

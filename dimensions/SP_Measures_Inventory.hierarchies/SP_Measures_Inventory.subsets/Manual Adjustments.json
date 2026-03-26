@@ -1,0 +1,14 @@
+{
+	"@type":"Subset",
+	"Name":"Manual Adjustments",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('SP_Measures_Inventory')/Hierarchies('SP_Measures_Inventory')/Elements('Demand_Adjust')"
+		},
+		{
+			"@id":"Dimensions('SP_Measures_Inventory')/Hierarchies('SP_Measures_Inventory')/Elements('Case_Qty_Adjust')"
+		}
+	]
+}

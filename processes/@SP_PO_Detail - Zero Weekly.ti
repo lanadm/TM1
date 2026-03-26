@@ -1,0 +1,39 @@
+#region Prolog
+
+#========================================================= 
+# @SP_PO_Detail - Zero Weekly
+#
+# Completely clears all data in the cube in preparation for weekly load
+#  - This data is recreated each week. Previous week's data is no longer needed
+#=========================================================
+
+
+sCube = 'SP_PO_Detail';
+
+IF( Upper( Trim( pRun ) ) @<> 'Y' );
+   ProcessQuit;
+ENDIF;
+
+# NUKES all stored data (numeric + string) in the cube
+CubeClearData( sCube );
+
+ASCIIOutput( '}tmp\SP_PO_Detail_clear_done.csv',
+             TimSt( Now, '\Y-\m-\d \h:\i:\s' ),
+             sCube,
+             'CubeClearData',
+             'DONE' );
+
+ProcessQuit;
+
+
+
+#endregion
+#region Epilog
+
+
+
+
+
+
+
+#endregion

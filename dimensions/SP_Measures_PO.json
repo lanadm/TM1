@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"SP_Measures_PO",
+	"Hierarchies@Code.links":
+	[
+		"SP_Measures_PO.hierarchies/SP_Measures_PO.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('SP_Measures_PO')/Hierarchies('SP_Measures_PO')"
+	}
+}

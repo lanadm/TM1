@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"SP_DistributionCenter",
+	"Hierarchies@Code.links":
+	[
+		"SP_DistributionCenter.hierarchies/SP_DistributionCenter.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('SP_DistributionCenter')/Hierarchies('SP_DistributionCenter')"
+	}
+}

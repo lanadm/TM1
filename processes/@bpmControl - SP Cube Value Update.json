@@ -1,0 +1,14 @@
+{
+	"@type":"Process",
+	"Name":"@bpmControl - SP Cube Value Update",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"@bpmControl - SP Cube Value Update.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[],
+	"UID": "1773691225000",
+	"VariablesUIData": []
+}

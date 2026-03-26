@@ -1,0 +1,40 @@
+{
+	"@type":"Process",
+	"Name":"@SP_Inventory - Zero Forecast Data Weekly - Next Year",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"@SP_Inventory - Zero Forecast Data Weekly - Next Year.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pBpmControl",
+			"Prompt":"Grab parameters from bpmControl? Y/N",
+			"Value":"Y",
+			"Type":"String"
+		},
+		{
+			"Name":"pYear",
+			"Prompt":"Enter Year (FY XX)",
+			"Value":"FY 27",
+			"Type":"String"
+		},
+		{
+			"Name":"pStartWeek",
+			"Prompt":"Enter starting week (1-52)",
+			"Value":"1",
+			"Type":"String"
+		},
+		{
+			"Name":"pEndWeek",
+			"Prompt":"Enter ending week (1-52)",
+			"Value":"52",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "1771593147000",
+	"VariablesUIData": []
+}

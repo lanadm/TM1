@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"zz_SP_PO_Detail_Clear_DCITEM",
+	"Expression":"{TM1FILTERBYLEVEL( {TM1SUBSETALL( [SP_DCItem].[SP_DCItem] )}, 0)}"
+}

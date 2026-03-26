@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"SP_Locations",
+	"Hierarchies@Code.links":
+	[
+		"SP_Locations.hierarchies/SP_Locations.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('SP_Locations')/Hierarchies('SP_Locations')"
+	}
+}

@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SP_Inventory - Load Current POs from SP_PO_Detail_SRC_Mfgr",
+	"Expression":"{TM1FILTERBYLEVEL( {TM1SUBSETALL([SP_Manufacturer])}, 0 )}"
+}

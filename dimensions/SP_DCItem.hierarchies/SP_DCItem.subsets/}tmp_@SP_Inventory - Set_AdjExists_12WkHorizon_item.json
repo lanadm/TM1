@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"}tmp_@SP_Inventory - Set_AdjExists_12WkHorizon_item",
+	"Expression":"{TM1FILTERBYLEVEL({TM1SUBSETALL([SP_DCItem])},0)}"
+}

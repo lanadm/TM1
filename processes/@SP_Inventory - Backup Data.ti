@@ -1,0 +1,261 @@
+#region Prolog
+
+#====================================================================
+# @SP_Inventory - Backup Data
+# Backup SP_Inventory from:
+#   Current FY: Start Week -> Week 52
+#   Next FY   : all weeks
+# Control values read from bpmControl cube
+#====================================================================
+
+sProcess = GetProcessName();
+
+#----------------------------
+# Cubes / dimensions / view
+#----------------------------
+strCube = 'SP_Inventory';
+strView = 'zz_' | sProcess;
+
+strDimYear = 'YEAR';
+strDimWeek = 'SP_Week';
+strDimDC = 'SP_DistributionCenter';
+strDimLoc = 'SP_Locations';
+strDimSKU = 'SP_SKU';
+strDimDCItem = 'SP_DCItem';
+strDimMfgr = 'SP_Manufacturer';
+strDimMeas = 'SP_Measures_Inventory';
+
+#----------------------------
+# Control cube
+#----------------------------
+strCtlCube = 'bpmControl';
+strCtlMeasure = 'Value';
+
+strStartWeek = 'SP Load - Start Week';
+strCurrFY = 'Current FY';
+strNextFY = 'Next FY';
+
+#----------------------------
+# Output file
+#----------------------------
+
+strDate = TimSt( Now, '\Y-\m-\d' );
+strFile = '}tmp\Backups\SP_Inventory_Backup_' | strDate | '.csv';
+
+#----------------------------
+# Read control values
+# Value in bpmControl is stored as string
+#----------------------------
+strStartWeek = Trim( CellGetS( strCtlCube, strStartWeek, strCtlMeasure ) );
+strCurrFY = Trim( CellGetS( strCtlCube, strCurrFY, strCtlMeasure ) );
+strNextFY = Trim( CellGetS( strCtlCube, strNextFY, strCtlMeasure ) );
+
+strTS = TimSt( Now, '\Y-\m-\d \h:\i:\s' );
+
+IF( strStartWeek @= '' );
+  ASCIIOutput( '}tmp\SP_Inventory_Backup_Errors.csv', strTS, 'Start Week is blank' );
+  ProcessQuit;
+ENDIF;
+
+IF( strCurrFY @= '' % strNextFY @= '' );
+  ASCIIOutput( '}tmp\SP_Inventory_Backup_Errors.csv', strTS, 'Current FY or Next FY is blank', strCurrFY, strNextFY );
+  ProcessQuit;
+ENDIF;
+
+numStartWeek = Numbr( strStartWeek );
+
+IF( numStartWeek < 1 % numStartWeek > 52 );
+  ASCIIOutput( '}tmp\SP_Inventory_Backup_Errors.csv', strTS, 'Invalid Start Week', strStartWeek );
+  ProcessQuit;
+ENDIF;
+
+#----------------------------
+# Cleanup old view/subsets
+#----------------------------
+IF( ViewExists( strCube, strView ) = 1 );
+  ViewDestroy( strCube, strView );
+ENDIF;
+
+# Temporary subsets
+strSubYear   = 'zz_' | sProcess | '_Year';
+strSubWeek   = 'zz_' | sProcess | '_Week';
+strSubDC     = 'zz_' | sProcess | '_DC';
+strSubLoc    = 'zz_' | sProcess | '_Loc';
+strSubSKU    = 'zz_' | sProcess | '_SKU';
+strSubDCItem = 'zz_' | sProcess | '_DCItem';
+strSubMfgr   = 'zz_' | sProcess | '_Mfgr';
+strSubMeas   = 'zz_' | sProcess | '_Meas';
+
+IF( SubsetExists( strDimYear, strSubYear ) = 1 );   
+    SubsetDestroy( strDimYear, strSubYear ); 
+ENDIF;
+
+IF( SubsetExists( strDimWeek, strSubWeek ) = 1 );   
+    SubsetDestroy( strDimWeek, strSubWeek ); 
+ENDIF;
+
+IF( SubsetExists( strDimDC, strSubDC ) = 1 );       
+    SubsetDestroy( strDimDC, strSubDC ); 
+ENDIF;
+
+IF( SubsetExists( strDimLoc, strSubLoc ) = 1 );     
+    SubsetDestroy( strDimLoc, strSubLoc ); 
+ENDIF;
+
+IF( SubsetExists( strDimSKU, strSubSKU ) = 1 );     
+    SubsetDestroy( strDimSKU, strSubSKU ); 
+ENDIF;
+
+IF( SubsetExists( strDimDCItem, strSubDCItem ) = 1 ); 
+    SubsetDestroy( strDimDCItem, strSubDCItem ); 
+ENDIF;
+
+IF( SubsetExists( strDimMfgr, strSubMfgr ) = 1 );   
+    SubsetDestroy( strDimMfgr, strSubMfgr ); 
+ENDIF;
+
+IF( SubsetExists( strDimMeas, strSubMeas ) = 1 );   
+    SubsetDestroy( strDimMeas, strSubMeas ); 
+ENDIF;
+
+#----------------------------
+# Create subsets
+#----------------------------
+SubsetCreate( strDimYear, strSubYear );
+SubsetElementInsert( strDimYear, strSubYear, strCurrFY, 1 );
+SubsetElementInsert( strDimYear, strSubYear, strNextFY, 2 );
+
+SubsetCreate( strDimWeek, strSubWeek );
+
+# Current FY: start week to 52
+n = numStartWeek;
+
+WHILE( n <= 52 );
+
+   strWeek = 'Wk ' | NumberToString(n);
+
+   IF( Dimix( strDimWeek, strWeek ) > 0 );
+
+      IF( SubsetElementExists( strDimWeek, strSubWeek, strWeek ) = 0 );
+         SubsetElementInsert( strDimWeek, strSubWeek, strWeek, SubsetGetSize( strDimWeek, strSubWeek ) + 1 );
+      ENDIF;
+
+   ENDIF;
+
+   n = n + 1;
+
+END;
+
+# Next FY: all weeks
+n = 1;
+
+WHILE( n <= 52 );
+
+   strWeek = 'Wk ' | NumberToString(n);
+
+   IF( Dimix( strDimWeek, strWeek ) > 0 );
+
+      IF( SubsetElementExists( strDimWeek, strSubWeek, strWeek ) = 0 );
+         SubsetElementInsert( strDimWeek, strSubWeek, strWeek, SubsetGetSize( strDimWeek, strSubWeek ) + 1 );
+      ENDIF;
+
+   ENDIF;
+
+   n = n + 1;
+
+END;
+
+# All leaf elements for remaining dimensions
+SubsetCreateByMDX( strSubDC, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimDC | '])}, 0 )}' );
+SubsetCreateByMDX( strSubLoc, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimLoc | '])}, 0 )}' );
+SubsetCreateByMDX( strSubSKU, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimSKU | '])}, 0 )}' );
+SubsetCreateByMDX( strSubDCItem, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimDCItem | '])}, 0 )}' );
+SubsetCreateByMDX( strSubMfgr, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimMfgr | '])}, 0 )}' );
+SubsetCreateByMDX( strSubMeas, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimMeas | '])}, 0 )}' );
+
+#----------------------------
+# Create view
+#----------------------------
+ViewCreate( strCube, strView );
+
+ViewSubsetAssign( strCube, strView, strDimYear, strSubYear );
+ViewSubsetAssign( strCube, strView, strDimWeek, strSubWeek );
+ViewSubsetAssign( strCube, strView, strDimDC, strSubDC );
+ViewSubsetAssign( strCube, strView, strDimLoc, strSubLoc );
+ViewSubsetAssign( strCube, strView, strDimSKU, strSubSKU );
+ViewSubsetAssign( strCube, strView, strDimDCItem, strSubDCItem );
+ViewSubsetAssign( strCube, strView, strDimMfgr, strSubMfgr );
+ViewSubsetAssign( strCube, strView, strDimMeas, strSubMeas );
+
+ViewExtractSkipRuleValuesSet( strCube, strView, 0 );
+ViewExtractSkipZeroesSet( strCube, strView, 1 );
+ViewExtractSkipCalcsSet( strCube, strView, 1 );
+ViewExtractSkipConsolidatedStringsSet( strCube, strView, 1 );
+
+#----------------------------
+# Write header row
+#----------------------------
+ASCIIOutput( strFile, 'YEAR', 'SP_Week', 'SP_DistributionCenter', 'SP_Locations', 'SP_SKU', 'SP_DCItem', 'SP_Manufacturer', 'SP_Measures_Inventory', 'Value' );
+
+#----------------------------
+# Set data source
+#----------------------------
+DatasourceType = 'VIEW';
+DatasourceNameForServer = strCube;
+DatasourceCubeview = strView;
+
+
+
+#endregion
+#region Data
+
+ASCIIOutput( strFile, vYear, vWeek, vDC, vLoc, vSKU, vDCItem, vMfgr, vMeasure, vValue );
+
+
+#endregion
+#region Epilog
+
+IF( ViewExists( strCube, strView ) = 1 );
+  ViewDestroy( strCube, strView );
+ENDIF;
+
+IF( SubsetExists( strDimYear, strSubYear ) = 1 );     
+    SubsetDestroy( strDimYear, strSubYear ); 
+ENDIF;
+
+IF( SubsetExists( strDimWeek, strSubWeek ) = 1 );     
+    SubsetDestroy( strDimWeek, strSubWeek ); 
+ENDIF;
+
+IF( SubsetExists( strDimDC, strSubDC ) = 1 );         
+    SubsetDestroy( strDimDC, strSubDC ); 
+ENDIF;
+
+IF( SubsetExists( strDimLoc, strSubLoc ) = 1 );       
+    SubsetDestroy( strDimLoc, strSubLoc ); 
+ENDIF;
+
+IF( SubsetExists( strDimSKU, strSubSKU ) = 1 );       
+    SubsetDestroy( strDimSKU, strSubSKU ); 
+ENDIF;
+
+IF( SubsetExists( strDimDCItem, strSubDCItem ) = 1 ); 
+    SubsetDestroy( strDimDCItem, strSubDCItem ); 
+ENDIF;
+
+IF( SubsetExists( strDimMfgr, strSubMfgr ) = 1 );     
+    SubsetDestroy( strDimMfgr, strSubMfgr ); 
+ENDIF;
+
+IF( SubsetExists( strDimMeas, strSubMeas ) = 1 );     
+    SubsetDestroy( strDimMeas, strSubMeas ); 
+ENDIF;
+
+
+
+
+
+
+
+
+#endregion

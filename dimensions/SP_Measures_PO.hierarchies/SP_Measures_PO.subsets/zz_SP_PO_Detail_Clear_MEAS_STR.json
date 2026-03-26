@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"zz_SP_PO_Detail_Clear_MEAS_STR",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('SP_Measures_PO')/Hierarchies('SP_Measures_PO')/Elements('PO_ExpectedDate')"
+		},
+		{
+			"@id":"Dimensions('SP_Measures_PO')/Hierarchies('SP_Measures_PO')/Elements('DOT or Direct')"
+		}
+	]
+}

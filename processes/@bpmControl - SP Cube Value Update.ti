@@ -1,0 +1,70 @@
+#region Prolog
+
+#====================================================================
+# Process: z_bpmControl_Advance_SP_Load_Start_Week
+# Purpose: Advances bpmControl "SP Load - Start Week" by 1
+#          Rolls 52 -> 1
+#====================================================================
+
+#----------------------------
+# Constants
+#----------------------------
+strCube = 'bpmControl';
+strRow = 'SP Load - Start Week';
+strCol = 'Value';
+
+numMaxWeek = 52;
+
+#----------------------------
+# Variables
+#----------------------------
+strWeek = '';
+numWeek = 0;
+numNextWeek = 0;
+strTS = '';
+
+#----------------------------
+# Read current week (string)
+#----------------------------
+strWeek = Trim( CellGetS( strCube, strRow, strCol ) );
+
+IF( strWeek @= '' );
+   strTS = TimSt( Now, '\Y-\m-\d \h:\i:\s' );
+   ASCIIOutput( '}tmp\z_bpmControl_Advance_SP_Load_Start_Week_error.csv', strTS, 'Start week is blank', strCube, strRow, strCol );
+   ProcessQuit;
+ENDIF;
+
+#----------------------------
+# Convert to number
+#----------------------------
+numWeek = Numbr( strWeek );
+
+IF( numWeek <= 0 );
+   strTS = TimSt( Now, '\Y-\m-\d \h:\i:\s' );
+   ASCIIOutput( '}tmp\z_bpmControl_Advance_SP_Load_Start_Week_error.csv', strTS, 'Start week is invalid', strWeek );
+   ProcessQuit;
+ENDIF;
+
+#----------------------------
+# Advance week
+#----------------------------
+numNextWeek = numWeek + 1;
+
+IF( numNextWeek > numMaxWeek );
+   numNextWeek = 1;
+ENDIF;
+
+#----------------------------
+# Write back as string
+#----------------------------
+CellPutS( NumberToString( numNextWeek ), strCube, strRow, strCol );
+
+#----------------------------
+# Optional logging
+#----------------------------
+strTS = TimSt( Now, '\Y-\m-\d \h:\i:\s' );
+ASCIIOutput( '}tmp\z_bpmControl_Advance_SP_Load_Start_Week_log.csv', strTS, 'Updated SP Load - Start Week', 'Old Week', NumberToString( numWeek ), 'New Week', NumberToString( numNextWeek ) );
+
+
+
+#endregion

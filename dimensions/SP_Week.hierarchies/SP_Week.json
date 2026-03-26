@@ -1,0 +1,570 @@
+{
+	"@type":"Hierarchy",
+	"Name":"SP_Week",
+	"Elements":
+	[
+		{
+			"Name":"Total Year",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Wk 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 30",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 31",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 32",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 33",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 34",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 35",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 36",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 37",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 38",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 39",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 40",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 41",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 42",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 43",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 44",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 45",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 46",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 47",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 48",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 49",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 50",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 51",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 52",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Wk 53",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CurrYear Rolling",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NextYear ROlling",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 31",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 32",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 33",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 34",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 35",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 36",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 37",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 38",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 39",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 40",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 41",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 42",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 43",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 44",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 45",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 46",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 47",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 48",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 49",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 50",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 51",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 52",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Wk 53",
+			"Weight":1
+		},
+		{
+			"ParentName":"CurrYear Rolling",
+			"ComponentName":"Wk 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"CurrYear Rolling",
+			"ComponentName":"Wk 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"CurrYear Rolling",
+			"ComponentName":"Wk 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"CurrYear Rolling",
+			"ComponentName":"Wk 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"CurrYear Rolling",
+			"ComponentName":"Wk 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"CurrYear Rolling",
+			"ComponentName":"Wk 31",
+			"Weight":1
+		},
+		{
+			"ParentName":"CurrYear Rolling",
+			"ComponentName":"Wk 32",
+			"Weight":1
+		},
+		{
+			"ParentName":"CurrYear Rolling",
+			"ComponentName":"Wk 33",
+			"Weight":1
+		},
+		{
+			"ParentName":"CurrYear Rolling",
+			"ComponentName":"Wk 34",
+			"Weight":1
+		},
+		{
+			"ParentName":"CurrYear Rolling",
+			"ComponentName":"Wk 35",
+			"Weight":1
+		},
+		{
+			"ParentName":"CurrYear Rolling",
+			"ComponentName":"Wk 36",
+			"Weight":1
+		},
+		{
+			"ParentName":"CurrYear Rolling",
+			"ComponentName":"Wk 37",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"SP_Week.subsets/All Level 0.json",
+		"SP_Week.subsets/zz_@SP_Inventory - Load Current POs from SP_PO_Detail_SRC_Week.json",
+		"SP_Week.subsets/zz_@SP_Inventory - Zero Adjustments_WEEK.json",
+		"SP_Week.subsets/zz_SP_PO_Detail_Clear_WEEK.json",
+		"SP_Week.subsets/zz_z_Export_SP_Inventory_WEEK_20260325_200557.json",
+		"SP_Week.subsets/zz_z_Export_SP_Inventory_WEEK_20260325_200607.json",
+		"SP_Week.subsets/zz_z_Export_SP_Inventory_WEEK_20260325_201050.json",
+		"SP_Week.subsets/}tmp_@SP_Inventory - Set_AdjExists_12WkHorizon_wk.json"
+	]
+}

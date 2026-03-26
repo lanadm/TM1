@@ -1,5 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Z_N Elements",
-	"Expression":"{TM1FILTERBYLEVEL( {TM1SUBSETALL( [YEAR] )}, 0)}"
-}

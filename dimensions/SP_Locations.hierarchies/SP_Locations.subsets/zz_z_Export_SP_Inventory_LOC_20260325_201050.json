@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"zz_z_Export_SP_Inventory_LOC_20260325_201050",
+	"Expression":"{TM1FILTERBYLEVEL( {TM1SUBSETALL( [SP_Locations] )}, 0)}"
+}

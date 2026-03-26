@@ -1,0 +1,304 @@
+#region Prolog
+
+#========================================================= 
+# @SP_Inventory - Zero Forecast Data Weekly
+#
+# Clears Forecast Data Weekly for the current year from Start Week to 52
+# Leaves past weeks
+# Uses bpmControl cube for Start Week + Current FY + Next FY.
+#
+# If you are running this manually, and wish to used weeks other than what is in bpmControl:
+#     - Set pBpmControl Parameter = "N" and plug in your weeks/year when prompted.
+#=========================================================
+
+
+#-------------------------------------------------------------------
+# 1. Process / Cube / View
+#-------------------------------------------------------------------
+
+strProcessName = GETPROCESSNAME();
+
+strCube = 'SP_Inventory';
+strView = 'zz_' | strProcessName | '_ZeroOut';
+
+#-------------------------------------------------------------------
+# 2. Parameters (for manual run set as "N")
+#-------------------------------------------------------------------
+
+If (pBpmControl @= 'N');
+
+    strYear = TRIM(pYear);       
+    strStartWeek = TRIM(pStartWeek);  
+    strEndWeek = TRIM(pEndWeek);
+    
+ELSE;
+
+    #Use Year and Weeks from bpmControl cube
+    strYear = CellGetS( 'bpmControl', 'Current FY', 'Value' );
+    strStartWeek = CellGetS( 'bpmControl', 'SP Load - Start Week', 'Value' );
+    strEndWeek = CellGetS ( 'bpmControl', 'SP Load - End Week', 'Value' );
+    
+ENDIF;
+
+#-------------------------------------------------------------------
+# 4. Dimensions
+#------------------------------------------------------------------
+
+strDimYear = 'YEAR';
+strDimWeek = 'SP_Week';
+strDimDC = 'SP_DistributionCenter';
+strDimLoc = 'SP_Locations';
+strDimSKU = 'SP_SKU';
+strDimDCItem = 'SP_DCItem';
+strDimMfgr = 'SP_Manufacturer';
+strDimMeas = 'SP_Measures_Inventory';
+
+#-------------------------------------------------------------------
+# 5. Existing subsets 
+#-------------------------------------------------------------------
+
+strSubDC = 'zz_ZeroOut_DC';
+strSubSKU = 'zz_ZeroOut_SKU';
+strSubDCItem = 'zz_ZeroOut_DCItem';
+strSubMfgr = 'zz_ZeroOut_Mfgr';
+strSubMeasures = 'Forecast Measures';
+
+#-------------------------------------------------------------------
+# 6. Static elements
+#-------------------------------------------------------------------
+
+strLoc = 'No Store';
+
+#-------------------------------------------------------------------
+# 7. Week range as numbers
+#-------------------------------------------------------------------
+numStartWeek = NUMBR(strStartWeek);
+numEndWeek = NUMBR(strEndWeek);
+
+IF( numStartWeek = 0 % numEndWeek = 0 );
+    ASCIIOutput('}tmp\zeroout_params_bad.csv', strYear, strStartWeek, strEndWeek);
+    ProcessQuit;
+ENDIF;
+
+IF( numEndWeek < numStartWeek );
+    ASCIIOutput('}tmp\zeroout_params_bad.csv', strYear, strStartWeek, strEndWeek);
+    ProcessQuit;
+ENDIF;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# This section Creates a Zero Out View
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------
+# 8. Destroy view if exists, then create
+#-------------------------------------------------------------------
+
+IF(VIEWEXISTS(strCube, strView) = 1);
+    VIEWDESTROY(strCube, strView);
+ENDIF;
+
+VIEWCREATE(strCube, strView);
+
+# Extract settings
+VIEWEXTRACTSKIPCALCSSET(strCube, strView, 1);
+VIEWEXTRACTSKIPRULEVALUESSET(strCube, strView, 1);
+VIEWEXTRACTSKIPZEROESSET(strCube, strView, 1);
+
+#-------------------------------------------------------------------
+# 9. Make sure subsets exist
+#-------------------------------------------------------------------
+
+IF( SUBSETEXISTS(strDimDC, strSubDC) = 0 );
+    ASCIIOutput('}tmp\zeroout_missing_subset.csv', strDimDC, strSubDC);
+    ProcessQuit;
+ENDIF;
+
+IF( SUBSETEXISTS(strDimSKU, strSubSKU) = 0 );
+    ASCIIOutput('}tmp\zeroout_missing_subset.csv', strDimSKU, strSubSKU);
+    ProcessQuit;
+ENDIF;
+
+IF( SUBSETEXISTS(strDimDCItem, strSubDCItem) = 0 );
+    ASCIIOutput('}tmp\zeroout_missing_subset.csv', strDimDCItem, strSubDCItem);
+    ProcessQuit;
+ENDIF;
+
+IF( SUBSETEXISTS(strDimMfgr, strSubMfgr) = 0 );
+    ASCIIOutput('}tmp\zeroout_missing_subset.csv', strDimMfgr, strSubMfgr);
+    ProcessQuit;
+ENDIF;
+
+IF( SUBSETEXISTS(strDimMeas, strSubMeasures) = 0 );
+    ASCIIOutput('}tmp\zeroout_missing_subset.csv', strDimMeas, strSubMeasures);
+    ProcessQuit;
+ENDIF;
+
+
+
+#-------------------------------------------------------------------
+# 10. Helper: create unique temp subset name per dimension
+#-------------------------------------------------------------------
+
+i = 1;
+
+WHILE( TABDIM( strCube, i ) @<> '' );
+
+    strDim = TABDIM( strCube, i );
+
+    #---------------------------------------------
+    # LOCATION (single element)
+    #---------------------------------------------
+    IF( strDim @= strDimLoc );
+
+        strSubTmp = 'zz_' | strProcessName | '_Zero_' | strDim;
+
+        IF( SUBSETEXISTS( strDim, strSubTmp ) = 0 );
+            SUBSETCREATE( strDim, strSubTmp );
+        ENDIF;
+
+        SUBSETDELETEALLELEMENTS( strDim, strSubTmp );
+
+        IF( DIMIX( strDimLoc, strLoc ) = 0 );
+            ASCIIOutput( '}tmp\zeroout_missing_element.csv', 'LOC', strLoc );
+            ProcessQuit;
+        ENDIF;
+
+        SUBSETELEMENTINSERT( strDim, strSubTmp, strLoc, 1 );
+        VIEWSUBSETASSIGN( strCube, strView, strDim, strSubTmp );
+
+        #---------------------------------------------
+        # YEAR (single element)
+        #---------------------------------------------
+    ELSEIF( strDim @= strDimYear );
+
+        strSubTmp = 'zz_' | strProcessName | '_Zero_' | strDim;
+
+        IF( SUBSETEXISTS( strDim, strSubTmp ) = 0 );
+            SUBSETCREATE( strDim, strSubTmp );
+        ENDIF;
+
+        SUBSETDELETEALLELEMENTS( strDim, strSubTmp );
+
+        IF( DIMIX( strDimYear, strYear ) = 0 );
+            ASCIIOutput( '}tmp\zeroout_missing_element.csv', 'YEAR', strYear );
+            ProcessQuit;
+        ENDIF;
+
+        SUBSETELEMENTINSERT( strDim, strSubTmp, strYear, 1 );
+        VIEWSUBSETASSIGN( strCube, strView, strDim, strSubTmp );
+
+        #---------------------------------------------
+        # WEEK (range)
+        #---------------------------------------------
+    ELSEIF( strDim @= strDimWeek );
+
+        strSubTmp = 'zz_' | strProcessName | '_Zero_' | strDim;
+
+        IF( SUBSETEXISTS( strDim, strSubTmp ) = 0 );
+            SUBSETCREATE( strDim, strSubTmp );
+        ENDIF;
+
+        SUBSETDELETEALLELEMENTS( strDim, strSubTmp );
+
+        n = numStartWeek;
+        pos = 1;
+
+        WHILE( n <= numEndWeek );
+
+            # "1"
+            strWk1 = NUMBERTOSTRING( INT(n) );   
+
+            # "001"
+            tmp    = '00' | NUMBERTOSTRING( INT(n) );      
+
+            # "01"
+            strWk2 = SUBST( tmp, LONG(tmp) - 1, 2 );           
+
+            IF( DIMIX( strDimWeek, strWk1 ) > 0 );
+                SUBSETELEMENTINSERT( strDim, strSubTmp, strWk1, pos );
+                pos = pos + 1;
+
+            ELSEIF( DIMIX( strDimWeek, strWk2 ) > 0 );
+                SUBSETELEMENTINSERT( strDim, strSubTmp, strWk2, pos );
+                pos = pos + 1;
+
+            ELSE;
+                ASCIIOutput( '}tmp\zeroout_missing_element.csv', 'WEEK_NOT_FOUND', strWk1, strWk2 );
+                ProcessQuit;
+            ENDIF;
+
+            n = n + 1;
+
+        END;
+
+        VIEWSUBSETASSIGN( strCube, strView, strDimWeek, strSubTmp );
+
+        #---------------------------------------------
+        # DC / SKU / DCItem / Mfgr / Measures (existing subsets)
+        #---------------------------------------------
+    ELSEIF( strDim @= strDimDC );
+        VIEWSUBSETASSIGN( strCube, strView, strDim, strSubDC );
+
+    ELSEIF( strDim @= strDimSKU );
+        VIEWSUBSETASSIGN( strCube, strView, strDim, strSubSKU );
+
+    ELSEIF( strDim @= strDimDCItem );
+        VIEWSUBSETASSIGN( strCube, strView, strDim, strSubDCItem );
+
+    ELSEIF( strDim @= strDimMfgr );
+        VIEWSUBSETASSIGN( strCube, strView, strDim, strSubMfgr );
+
+    ELSEIF( strDim @= strDimMeas );
+        VIEWSUBSETASSIGN( strCube, strView, strDim, strSubMeasures );
+
+    ELSE;
+        ASCIIOutput( '}tmp\zeroout_unhandled_dim.csv', strCube, strDim );
+        ProcessQuit;
+    ENDIF;
+
+    i = i + 1;
+
+END;
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 11. Use the newly created zero out view to zero the associated values
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ASCIIOutput('}tmp\zeroout_run.csv', 'RUN', strYear, strStartWeek, strEndWeek, strCube, strView);
+
+VIEWZEROOUT(strCube, strView);
+
+#-------------------------------------------------------------------
+# 12. Once update is complete, destroy the view
+#-------------------------------------------------------------------
+VIEWDESTROY(strCube, strView);
+
+#-------------------------------------------------------------------
+# 13. Destroy the associated TEMP subsets we created (Year/Week/Loc only)
+#       and any other temp subsets created by this logic.
+#-------------------------------------------------------------------
+i = 1;
+WHILE( TABDIM(strCube, i) @<> '' );
+
+    strDim = TABDIM(strCube, i);
+    strSubTmp = 'zz_' | strProcessName | '_Zero_' | strDim;
+
+    IF( SUBSETEXISTS(strDim, strSubTmp) = 1 );
+        SUBSETDESTROY(strDim, strSubTmp);
+    ENDIF;
+
+    i = i + 1;
+
+END;
+
+
+
+
+
+
+#endregion
+#region Epilog
+
+
+
+#endregion

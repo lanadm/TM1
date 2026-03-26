@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"zz_SP_PO_Detail_Clear_SKU",
+	"Expression":"{TM1FILTERBYLEVEL( {TM1SUBSETALL( [SP_SKU].[SP_SKU] )}, 0)}"
+}

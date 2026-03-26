@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"}tmp_@SP_Inventory - Set_AdjExists_12WkHorizon_wk",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 26')"
+		}
+	]
+}

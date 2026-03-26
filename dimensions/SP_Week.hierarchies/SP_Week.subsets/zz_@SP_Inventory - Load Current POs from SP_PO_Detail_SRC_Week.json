@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SP_Inventory - Load Current POs from SP_PO_Detail_SRC_Week",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 26')"
+		}
+	]
+}

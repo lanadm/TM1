@@ -1,0 +1,3631 @@
+{
+	"@type":"Hierarchy",
+	"Name":"SP_Manufacturer",
+	"ElementsSortType":"ByName",
+	"ElementsSortSense":"Ascending",
+	"ComponentsSortType":"ByName",
+	"ComponentsSortSense":"Ascending",
+	"Elements":
+	[
+		{
+			"Name":"3M CORPORATION",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ABCO CLEANING PRODUCTS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AC LEGG",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ACS  INDUSTRIES (SCRUBBLE)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AEP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AEP INDUSTRIES INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Affiliated",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Affiliated Foods",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AJM PACKAGING CORPORATION",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"All Foils",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ALL FOILS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ALLIED WEST PAPER",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ALPHA BAKING COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AmerCare",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AMERCARE INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AMERICAN SPICE CO",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Anchor",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ANCHOR PACKAGE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ANCHOR PACKAGING",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ASK",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Atalanta Corporation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AXIS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AXIS REDISTRIBUTION LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AXXION",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"AZAR NUT COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B & G FOODS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BAGCRAFT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BAGCRAFT PACKAGING DIV OF NOVOLEX",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BAGCRAFT RJ SCHINNER",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BAKE'N JOY FOODS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bake N Joy",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BARBEQUE SELECT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BARON",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bay Valley",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BAY VALLEY FOODS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BBQ Select",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BEDWAY PRODUCE COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BERK ENTERPRISES INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BERKLEY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BERRY GLOBAL FILMS LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Berry Plastics",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BEST MAID",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Blount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BLOUNT FINE FOODS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BOC PLASTICS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BRIGHTON FARMS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BUCCANEER BROKERAGE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BUNZL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Burrnett & Sons",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Butterball",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BUTTERBALL LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"BUTTERFIELD FOODS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"C&H",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"C.F. Sauer",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"C.H. Gunther",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"C.H GUNTHER",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CALIFORNIA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Campbell Sales Company",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CAPITAL CITY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CARDINAL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CARGILL-SUGAR",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CARLISLE FOODSERVICE PRODUCTS CFS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cash-WA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CASSANDRA'S GOURMET CLASSICS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CATERLINE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CATERLITE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CBI",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CELCORE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CELLUCAP MANUFACTURING COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CF Sauer",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"C F SAUER FOODSERVICE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CG ROXANE LLC  aka crystal geyser",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CHARLEY & SONS INC DBA KACHWA FOOD GROUP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CHECKMATE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cheney Brothers",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CHENEY BROTHERS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CHIANTI",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CHRISTIE COOKIE CO (THE)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Christies Cookies",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CHURCH",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CLOROX SALES COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"COASTAL SUNBELT PRODUCE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"COCA-COLA USA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Coke",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"COMPANIONS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"COMPANIONS ESS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"COMPANIONS MRT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"COMPANS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CONTINENTAL COMMERCIAL PRODUCT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"COOPER-ATKINS CORPORATION",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CRYSTAL CLASSICS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CSF",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CUSTOM PRODUCE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"D&W",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"D&W FINE PACK",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DAILYS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DAILYS PREMIUM MEATS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dairy Fresh",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DARNEL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DART",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dart/Solo",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DART CONTAINER CORPORATION",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DAXWELL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DEB EL FOOD PRODUCTS CORP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DEEP RIVER SNACK",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Deep River Snacks",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIAMOND STRAW",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIAMOND STRAW INC.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIANNE'S FINE DESSERTS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DISCO",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DISPOZ-O PRODUCTS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DIXIE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOLE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOMINO",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOMINO FOODS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DR PEPPER SNAPPLE GROUP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DURABLE PACKAGING INTERNATIONAL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DURO",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DURO BAG MANUFACTURING CO DIV OF NOVOLEX",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ECOLAB INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ecosense",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ELKAY PLASTICS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"EMI",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"EMI Yoshi",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"EMI YOSHI INC.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Empress",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Empress Earth",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Engelman's",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ENGELMAN'S BAKERY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ENMOTION",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ENVISION",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ESSITY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ESSITY PRO HYGIENE NORAM",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"EVERGREEN INTERNATIONAL INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Evergreen Manufacturin",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Evergreen Manufacturing",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FABRI-KAL CORP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FARM FRESH PACKERS LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feesers",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Felbro Food Products",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fineline",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FIRST FOODS COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Flavorseal",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FLAVORSEAL CORP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FORDION PACKAGING",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FRENCH'S FOODS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"French's Foodservice",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Freshmark",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FRESH MARK INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FRESH MARK INC (HAM)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FRITO LAY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FRONT ROW PRODUCE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GARDNER PIE COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Gardner Pies",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GenPak",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GEORGIA-PACIFIC LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GEORGIA PACIFIC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GIELOW",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GOOD FOODS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GOURMET TABLE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GRAND A INTERNATIONAL CO. INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Grandma Hoerners",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GRANDMA HOERNERS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GREAT LAKES",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GREAT LAKES CHEESE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GREAT LAKES CHEESE CO INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Griffith Foods",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GRIFFITH LABS DIV OF CUSTOM CULINARY INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"GROWERS PRIDE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HANDGARDS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HANDGARDS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HANDGARDS INC.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HANDGRD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HANDI-FOIL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HANDI-FOIL OF AMERICA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Handi Foil",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HANDYWAC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HANDYWACKS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HANDY WACKS CORP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Handy Wacks Corporation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"H B H",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HEARTLAND SWEETENERS LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HEINZ",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HEINZ NORTH AMERICA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HERITAGE BAG COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HIDDEN VALLEY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Highland Market",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HILAND DAIRY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HONEYBAKE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HORMEL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HORMEL FOODS CORPORATION",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"H Valley",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"INDIANA SUGAR",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Indiana Sugars",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"INTEGRATED BAGGING SYSTEMS (IBS) DIV OF INTEPLAST",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"INTEPLA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Inteplast Group - IBS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"INTERFRESH",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Interplast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"INTERPLAST (PITT PLASTIC)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Interplast Group",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ISUPPLY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"J. HELLMAN PRODUCE  INC.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"J HELLMAN FROZEN FOODS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jobselect",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"JOFFREYS COFFEE & TEA COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"JRMI",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"JR PLASTICS CORP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"JUST FRESH PRODUCE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kaiser",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kapstone",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"KARAT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"KELLOGG'S",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"KELLOGGS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ken's",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"KEN'S FOODS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"KENS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"KENS FOODS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"KIKKOMAN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kikkomans",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"KIKOMAN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"King's Hawaiian",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"KINGS HAWAIIAN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kitchen Cuts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Knouse Foods",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kraft",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"KRAFT HEINZ COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LANCE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Land O Lakes",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LAND O LAKES INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LE BLEU CORPORATION",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Libby's",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LIFE GUARD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LIFE GUARD MFG",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LINEAGE GENEVA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LK PKG",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LK PLASTICS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LOLLICUP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Love & Quiches",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LOVE AND QUICHES LTD",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MARINA FOODS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MARZETTI",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"McCormick",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MCCORMICK & COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MCNAIRN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MDS FOODS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MICHAEL FOODS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Minors",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MISS VICKIES",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MONACO FOODS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MRS. VICKIES",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mrs Gerrys",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"MRS GERRYS KITCHEN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"NATIONAL CHECKING COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"NEMCO",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nestle",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"NESTLE USA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"NORPAK",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Novoflex (Bagcraft)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Novoflex (Waddington)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Novolex",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"NOWPAK",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"NowPak Inc.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OASIS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OCEAN MIST FARMS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ocean Spray",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OCEAN SPRAY CRANBERRIES INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OMEGA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OMEGA PLASTICS CORP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OPTIMA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"OVERHILL FARMS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PACIFIC CHEESE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PACIFIC COAST PRODUCERS PCP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PACKER",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pac Paper",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PACTIV",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PACTIV CORPORATION",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PACTIV LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PAPER CUTTERS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PAPER SOURCE CONVERTING",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Papetti's",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Papettis",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PEPSICO INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pictsweet Company",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PITT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PITT PLASTICS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PITT PLASTICS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pitt Plastics Inc.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"P L",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PLASTIFAR",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PLATINUM",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Portion Pak / Kraft",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRBWLPR",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PREMIUM WATERS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRIMESC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO-KAL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PROCTER & GAMBLE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PROMARK",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PRO PAK ENTERPRISES",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"R-3 INDIANAPOLIS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"R3 BUNZL/PAPERCRAFT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"R3 Redistribution",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"REGINA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Resers",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Restaurant Pride",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"RIPAC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"RIVER FRESH FARMS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"RJ SCHINNER CO INC.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"R J SCHINNER COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ROFSON ASSOCIATES INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Rotella's",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ROTELLA'S ITALIAN BAKERY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ROTELLAS ITALIAN BAKERY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ROYAL PAPER",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ROYAL PAPER PRODUCTS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sabert",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SABERT CORP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SANECK",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SANITEX",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SAN JAMAR INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SAVOR BRANDS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Savor Imports",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SCA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SCA Tissue North America",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SCHREIBE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Schreiber",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SCHRIEBER",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SENECA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SENECA FOODS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SGC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Shorr Packaging Corporation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SILVER SPRINGS BOTTLED WATER CO",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SIMONIZ USA INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SMITHFIELD'S FOODS INC (HAM)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SMITHFIELDS FOODS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SOFIDEL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SOFIDEL AMERICA CORPORATION",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SOFT TOUCH",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Solo",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Southern Champion",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SOUTHERN CHAMPION TRAY CO",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SPECIALTY PRODUCTS OF AMERICA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SPECTRUM PLASTI",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ST CLAIR FOODS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Stephen Gould",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"STEPHEN GOULD CORP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Stewart Sutherland",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"STEWART SUTHERLAND INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Stratas Foods LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sugar Foods",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SUGAR FOODS CORPORATION",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SUNBURST CHEMICALS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SWEET STREET",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sweet Street Desserts",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SWT BABY RAYS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TAPIA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tapia Brothers",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TAYLOR FARMS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TAYLOR FARMS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TCD PARTS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"THE INVENTURE GROUP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"THEOCHEM LABORATORIES INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"T MARZETTI FOODSERVICE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TORK",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TORKMATIC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Manufacturer",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Tyson",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tyson/REDLABEL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tyson Foods",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TYSON FOODS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TYSON FOODS INC (CHICKEN)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TYSON FOODS INC (HAM)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"UNILEVER BESTFOODS FOODSERVICE UBF",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"UNIPRO FOODSERVICE INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"UNITED SUGARS CORP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"UTZ QUALITY FOODS INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Vanee Foods",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VANEE FOODS COMPANY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VENTURA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VERDE PACK INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Vie de France",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VIE DE FRANCE YAMAZAKI INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"VOLK ENTERPRISES INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Vollrath",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"WADDINGTON NORTH AMERICA INC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"WARDLEY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"WARDLEY INDUSTRIAL INC.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"WESTROCK LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"WINCUP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"WNA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"WNA CATERLINE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Woeber",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"WOEBER FOODS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"WORLD CENTRIC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"World Horizon",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"YOSHI",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Z-General Products",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Z-General Supplies",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Zesta",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"3M CORPORATION",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ABCO CLEANING PRODUCTS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"AC LEGG",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ACS  INDUSTRIES (SCRUBBLE)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"AEP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"AEP INDUSTRIES INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Affiliated",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Affiliated Foods",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"AJM PACKAGING CORPORATION",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"All Foils",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ALL FOILS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ALLIED WEST PAPER",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ALPHA BAKING COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"AmerCare",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"AMERCARE INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"AMERICAN SPICE CO",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Anchor",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ANCHOR PACKAGE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ANCHOR PACKAGING",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ASK",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Atalanta Corporation",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"AXIS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"AXIS REDISTRIBUTION LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"AXXION",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"AZAR NUT COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"B & G FOODS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BAGCRAFT",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BAGCRAFT PACKAGING DIV OF NOVOLEX",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BAGCRAFT RJ SCHINNER",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BAKE'N JOY FOODS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Bake N Joy",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BARBEQUE SELECT",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BARON",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Bay Valley",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BAY VALLEY FOODS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BBQ Select",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BEDWAY PRODUCE COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BERK ENTERPRISES INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BERKLEY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BERRY GLOBAL FILMS LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Berry Plastics",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BEST MAID",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Blount",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BLOUNT FINE FOODS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BOC PLASTICS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BRIGHTON FARMS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BUCCANEER BROKERAGE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BUNZL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Burrnett & Sons",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Butterball",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BUTTERBALL LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"BUTTERFIELD FOODS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"C&H",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"C.F. Sauer",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"C.H. Gunther",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"C.H GUNTHER",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CALIFORNIA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Campbell Sales Company",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CAPITAL CITY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CARDINAL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CARGILL-SUGAR",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CARLISLE FOODSERVICE PRODUCTS CFS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Cash-WA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CASSANDRA'S GOURMET CLASSICS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CATERLINE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CATERLITE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CBI",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CELCORE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CELLUCAP MANUFACTURING COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CF Sauer",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"C F SAUER FOODSERVICE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CG ROXANE LLC  aka crystal geyser",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CHARLEY & SONS INC DBA KACHWA FOOD GROUP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CHECKMATE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Cheney Brothers",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CHENEY BROTHERS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CHIANTI",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CHRISTIE COOKIE CO (THE)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Christies Cookies",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CHURCH",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CLOROX SALES COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"COASTAL SUNBELT PRODUCE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"COCA-COLA USA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Coke",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"COMPANIONS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"COMPANIONS ESS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"COMPANIONS MRT",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"COMPANS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CONTINENTAL COMMERCIAL PRODUCT",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"COOPER-ATKINS CORPORATION",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CRYSTAL CLASSICS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CSF",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"CUSTOM PRODUCE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"D&W",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"D&W FINE PACK",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DAILYS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DAILYS PREMIUM MEATS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Dairy Fresh",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DARNEL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DART",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Dart/Solo",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DART CONTAINER CORPORATION",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DAXWELL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DEB EL FOOD PRODUCTS CORP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DEEP RIVER SNACK",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Deep River Snacks",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DIAMOND STRAW",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DIAMOND STRAW INC.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DIANNE'S FINE DESSERTS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DISCO",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DISPOZ-O PRODUCTS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DIXIE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DOLE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DOMINO",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DOMINO FOODS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DR PEPPER SNAPPLE GROUP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DURABLE PACKAGING INTERNATIONAL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DURO",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"DURO BAG MANUFACTURING CO DIV OF NOVOLEX",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ECOLAB INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Ecosense",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ELKAY PLASTICS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"EMI",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"EMI Yoshi",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"EMI YOSHI INC.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Empress",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Empress Earth",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Engelman's",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ENGELMAN'S BAKERY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ENMOTION",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ENVISION",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ESSITY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ESSITY PRO HYGIENE NORAM",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"EVERGREEN INTERNATIONAL INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Evergreen Manufacturin",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Evergreen Manufacturing",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"FABRI-KAL CORP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"FARM FRESH PACKERS LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Feesers",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Felbro Food Products",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Fineline",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"FIRST FOODS COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Flavorseal",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"FLAVORSEAL CORP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"FORDION PACKAGING",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"FRENCH'S FOODS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"French's Foodservice",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Freshmark",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"FRESH MARK INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"FRESH MARK INC (HAM)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"FRITO LAY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"FRONT ROW PRODUCE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GARDNER PIE COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Gardner Pies",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GenPak",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GEORGIA-PACIFIC LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GEORGIA PACIFIC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GIELOW",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GOOD FOODS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GOURMET TABLE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GRAND A INTERNATIONAL CO. INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Grandma Hoerners",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GRANDMA HOERNERS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GREAT LAKES",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GREAT LAKES CHEESE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GREAT LAKES CHEESE CO INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Griffith Foods",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GRIFFITH LABS DIV OF CUSTOM CULINARY INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"GROWERS PRIDE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HANDGARDS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HANDGARDS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HANDGARDS INC.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HANDGRD",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HANDI-FOIL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HANDI-FOIL OF AMERICA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Handi Foil",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HANDYWAC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HANDYWACKS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HANDY WACKS CORP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Handy Wacks Corporation",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"H B H",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HEARTLAND SWEETENERS LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HEINZ",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HEINZ NORTH AMERICA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HERITAGE BAG COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HIDDEN VALLEY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Highland Market",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HILAND DAIRY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HONEYBAKE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HORMEL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"HORMEL FOODS CORPORATION",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"H Valley",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"INDIANA SUGAR",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Indiana Sugars",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"INTEGRATED BAGGING SYSTEMS (IBS) DIV OF INTEPLAST",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"INTEPLA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Inteplast Group - IBS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"INTERFRESH",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Interplast",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"INTERPLAST (PITT PLASTIC)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Interplast Group",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ISUPPLY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"J. HELLMAN PRODUCE  INC.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"J HELLMAN FROZEN FOODS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Jobselect",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"JOFFREYS COFFEE & TEA COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"JRMI",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"JR PLASTICS CORP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"JUST FRESH PRODUCE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Kaiser",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Kapstone",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"KARAT",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"KELLOGG'S",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"KELLOGGS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Ken's",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"KEN'S FOODS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"KENS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"KENS FOODS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"KIKKOMAN",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Kikkomans",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"KIKOMAN",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"King's Hawaiian",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"KINGS HAWAIIAN",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Kitchen Cuts",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Knouse Foods",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Kraft",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"KRAFT HEINZ COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"LANCE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Land O Lakes",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"LAND O LAKES INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"LE BLEU CORPORATION",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Libby's",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"LIFE GUARD",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"LIFE GUARD MFG",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"LINEAGE GENEVA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"LK PKG",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"LK PLASTICS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"LOLLICUP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Love & Quiches",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"LOVE AND QUICHES LTD",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"MARINA FOODS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"MARZETTI",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"McCormick",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"MCCORMICK & COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"MCNAIRN",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"MDS FOODS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"MICHAEL FOODS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Minors",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"MISS VICKIES",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"MONACO FOODS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"MRS. VICKIES",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Mrs Gerrys",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"MRS GERRYS KITCHEN",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"NATIONAL CHECKING COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"NEMCO",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Nestle",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"NESTLE USA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"NORPAK",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Novoflex (Bagcraft)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Novoflex (Waddington)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Novolex",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"NOWPAK",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"NowPak Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"OASIS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"OCEAN MIST FARMS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Ocean Spray",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"OCEAN SPRAY CRANBERRIES INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"OMEGA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"OMEGA PLASTICS CORP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"OPTIMA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"OVERHILL FARMS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PACIFIC CHEESE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PACIFIC COAST PRODUCERS PCP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PACKER",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Pac Paper",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PACTIV",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PACTIV CORPORATION",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PACTIV LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PAPER CUTTERS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PAPER SOURCE CONVERTING",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Papetti's",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Papettis",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PEPSICO INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Pictsweet Company",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PITT",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PITT PLASTICS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PITT PLASTICS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Pitt Plastics Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"P L",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PLASTIFAR",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PLATINUM",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Portion Pak / Kraft",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PRBWLPR",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PREMIUM WATERS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PRIMESC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PRO-KAL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PROCTER & GAMBLE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PROMARK",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"PRO PAK ENTERPRISES",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"R-3 INDIANAPOLIS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"R3 BUNZL/PAPERCRAFT",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"R3 Redistribution",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"REGINA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Resers",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Restaurant Pride",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"RIPAC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"RIVER FRESH FARMS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"RJ SCHINNER CO INC.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"R J SCHINNER COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ROFSON ASSOCIATES INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Rotella's",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ROTELLA'S ITALIAN BAKERY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ROTELLAS ITALIAN BAKERY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ROYAL PAPER",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ROYAL PAPER PRODUCTS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Sabert",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SABERT CORP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SANECK",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SANITEX",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SAN JAMAR INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SAVOR BRANDS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Savor Imports",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SCA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SCA Tissue North America",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SCHREIBE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Schreiber",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SCHRIEBER",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SENECA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SENECA FOODS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SGC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Shorr Packaging Corporation",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SILVER SPRINGS BOTTLED WATER CO",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SIMONIZ USA INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SMITHFIELD'S FOODS INC (HAM)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SMITHFIELDS FOODS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SOFIDEL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SOFIDEL AMERICA CORPORATION",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SOFT TOUCH",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Solo",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Southern Champion",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SOUTHERN CHAMPION TRAY CO",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SPECIALTY PRODUCTS OF AMERICA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SPECTRUM PLASTI",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"ST CLAIR FOODS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Stephen Gould",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"STEPHEN GOULD CORP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Stewart Sutherland",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"STEWART SUTHERLAND INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Stratas Foods LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Sugar Foods",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SUGAR FOODS CORPORATION",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SUNBURST CHEMICALS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SWEET STREET",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Sweet Street Desserts",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"SWT BABY RAYS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"TAPIA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Tapia Brothers",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"TAYLOR FARMS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"TAYLOR FARMS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"TCD PARTS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"THE INVENTURE GROUP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"THEOCHEM LABORATORIES INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"T MARZETTI FOODSERVICE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"TORK",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"TORKMATIC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Tyson",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Tyson/REDLABEL",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Tyson Foods",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"TYSON FOODS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"TYSON FOODS INC (CHICKEN)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"TYSON FOODS INC (HAM)",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"UNILEVER BESTFOODS FOODSERVICE UBF",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"UNIPRO FOODSERVICE INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"UNITED SUGARS CORP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"UTZ QUALITY FOODS INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Vanee Foods",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"VANEE FOODS COMPANY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"VENTURA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"VERDE PACK INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Vie de France",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"VIE DE FRANCE YAMAZAKI INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"VOLK ENTERPRISES INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Vollrath",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"WADDINGTON NORTH AMERICA INC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"WARDLEY",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"WARDLEY INDUSTRIAL INC.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"WESTROCK LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"WINCUP",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"WNA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"WNA CATERLINE",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Woeber",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"WOEBER FOODS",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"WORLD CENTRIC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"World Horizon",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"YOSHI",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Z-General Products",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Z-General Supplies",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Manufacturer",
+			"ComponentName":"Zesta",
+			"Weight":1
+		}
+	],
+	"DefaultMemberName":"Total Manufacturer",
+	"Subsets@Code.links":
+	[
+		"SP_Manufacturer.subsets/All Level 0.json",
+		"SP_Manufacturer.subsets/zz_@SP_Inventory - Load Current POs from SP_PO_Detail_SRC_Mfgr.json",
+		"SP_Manufacturer.subsets/zz_@SP_Inventory - Zero Adjustments_MFGR.json",
+		"SP_Manufacturer.subsets/zz_SP_PO_Detail_Clear_MFGR.json",
+		"SP_Manufacturer.subsets/zz_z_Export_SP_Inventory_MFG_20260325_200557.json",
+		"SP_Manufacturer.subsets/zz_z_Export_SP_Inventory_MFG_20260325_200607.json",
+		"SP_Manufacturer.subsets/zz_z_Export_SP_Inventory_MFG_20260325_201050.json",
+		"SP_Manufacturer.subsets/zz_ZeroOut_Mfgr.json",
+		"SP_Manufacturer.subsets/}tmp_@SP_Inventory - Set_AdjExists_12WkHorizon_mfg.json"
+	]
+}

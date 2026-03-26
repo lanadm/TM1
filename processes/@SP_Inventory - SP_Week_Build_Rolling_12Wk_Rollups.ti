@@ -1,0 +1,121 @@
+#region Prolog
+
+#====================================================================
+# @SP_Inventory - SP_Week_Build_Rolling_12Wk_Rollups
+#
+# Purpose:
+#   Rebuild SP_Week rollups:
+#     - CurrYear Rolling
+#     - NextYear Rolling
+#
+# Based on bpmControl / SP Load - Start Week.
+#
+# Example:
+#   Start Week = 25
+#     CurrYear Rolling = Wk 25 to Wk 36
+#     NextYear Rolling = empty
+#
+#   Start Week = 50
+#     CurrYear Rolling = Wk 50, Wk 51, Wk 52
+#     NextYear Rolling = Wk 1 to Wk 9
+#====================================================================
+
+strProc = GetProcessName();
+
+#----------------------------
+# Constants
+#----------------------------
+strDim = 'SP_Week';
+
+strCubeCtrl = 'bpmControl';
+strCtrlRowWeek = 'SP Load - Start Week';
+strCtrlColVal = 'Value';
+
+strCurrRoll = 'CurrYear Rolling';
+strNextRoll = 'NextYear Rolling';
+
+#----------------------------
+# Read control value
+#----------------------------
+strStartWeekRaw = Trim( CellGetS( strCubeCtrl, strCtrlRowWeek, strCtrlColVal ) );
+strTS = TimSt( Now, '\Y-\m-\d \h:\i:\s' );
+
+IF( strStartWeekRaw @= '' );
+  ASCIIOutput( '}tmp\' | strProc | '_errors.csv', strTS, 'SP Load - Start Week is blank in bpmControl' );
+  ProcessQuit;
+ENDIF;
+
+numStartWeek = Numbr( strStartWeekRaw );
+
+
+IF( numStartWeek < 1 % numStartWeek > 52 );
+  ASCIIOutput( '}tmp\' | strProc | '_errors.csv', strTS, 'SP Load - Start Week out of range', strStartWeekRaw );
+  ProcessQuit;
+ENDIF;
+
+#----------------------------
+# Create rollup elements if missing
+#----------------------------
+IF( DimensionElementExists( strDim, strCurrRoll ) = 0 );
+  DimensionElementInsert( strDim, '', strCurrRoll, 'C' );
+ENDIF;
+
+IF( DimensionElementExists( strDim, strNextRoll ) = 0 );
+  DimensionElementInsert( strDim, '', strNextRoll, 'C' );
+ENDIF;
+
+#----------------------------
+# Remove all existing children from rollups
+#----------------------------
+numCurrChildren = ElCompN( strDim, strCurrRoll );
+
+WHILE( numCurrChildren > 0 );
+  strChild = ElComp( strDim, strCurrRoll, numCurrChildren );
+  DimensionElementComponentDelete( strDim, strCurrRoll, strChild );
+  numCurrChildren = numCurrChildren - 1;
+END;
+
+numNextChildren = ElCompN( strDim, strNextRoll );
+
+WHILE( numNextChildren > 0 );
+  strChild = ElComp( strDim, strNextRoll, numNextChildren );
+  DimensionElementComponentDelete( strDim, strNextRoll, strChild );
+  numNextChildren = numNextChildren - 1;
+END;
+
+#----------------------------
+# Build the 12-week horizon
+#----------------------------
+numWeek = numStartWeek;
+numPos  = 1;
+
+WHILE( numPos <= 12 );
+
+  strWeekEl = 'Wk ' | NumberToString( numWeek );
+
+  IF( DimensionElementExists( strDim, strWeekEl ) = 0 );
+    ASCIIOutput( '}tmp\' | strProc | '_errors.csv', strTS, 'Week element not found', strWeekEl );
+  ELSE;
+
+    IF( numWeek >= numStartWeek );
+      # still in current year portion
+      DimensionElementComponentAdd( strDim, strCurrRoll, strWeekEl, 1 );
+    ELSE;
+      # crossed into next year
+      DimensionElementComponentAdd( strDim, strNextRoll, strWeekEl, 1 );
+    ENDIF;
+
+  ENDIF;
+
+  numWeek = numWeek + 1;
+
+  IF( numWeek > 52 );
+    numWeek = 1;
+  ENDIF;
+
+  numPos = numPos + 1;
+
+END;
+
+
+#endregion

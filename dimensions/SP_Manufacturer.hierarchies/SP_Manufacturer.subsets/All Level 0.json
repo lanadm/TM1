@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"All Level 0",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {ORDER(TM1FILTERBYLEVEL(TM1SUBSETALL([SP_Manufacturer].[SP_Manufacturer]) , 0) , [SP_Manufacturer].[SP_Manufacturer].CURRENTMEMBER.PROPERTIES(\"MEMBER_NAME\") , BASC)}"
+}

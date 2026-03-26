@@ -1,0 +1,174 @@
+#region Prolog
+
+#====================================================================
+# @SP_Inventory - Forecast Load Weekly
+# Load data from [dbo].[vSupplyPlanner_QOH_Inventory] table in HBHDW database
+#  - This table is updated weekly on Monday morning at 4am ET
+#  - The data is zeroed and refreshed each week, so no previous data is available
+#  - No parameters required
+#====================================================================
+
+
+#----------------------------
+# Cube / Dimensions
+#----------------------------
+strCube = 'SP_Inventory';
+ 
+strDimYear = 'YEAR';
+strDimWeek = 'SP_Week';
+strDimDC = 'SP_DistributionCenter';
+strDimLoc = 'SP_Locations';
+strDimSKU = 'SP_SKU';
+strDimDCItem = 'SP_DCItem';
+strDimMfgr = 'SP_Manufacturer';
+strDimMeas = 'SP_Measures_Inventory';
+
+#----------------------------
+# Parent rollups (must exist)
+#----------------------------
+strDCParent = 'Total DC';
+strSKUParent = 'Unassigned SKUs';
+strDCItemParent = 'Total DC Item';
+strMfgrParent = 'Total Manufacturer';
+
+# Fixed element
+strNoStore = 'No Store';
+
+
+#----------------------------
+# Alias / Attribute names
+#----------------------------
+
+# SP_SKU alias attribute name
+strAliasSKUDesc = 'SKU Description';
+
+# SP_SKU string attribute for DOT
+strAttrDotItem = 'DOT#';
+
+
+#----------------------------
+# Measure elements
+#----------------------------
+strFcstCases = 'Fcst - Cases';
+strPOACases = 'Fcst - POA Cases';
+strTTLCases = 'Fcst - TTL Cases';
+
+
+
+#endregion
+#region Metadata
+
+#---------------------------------------------------------
+# Normalize fields
+#---------------------------------------------------------
+
+strYear = 'FY ' | SUBST( TRIM( vYear ), 3, 2 );
+strWeek = TRIM( vWeek );
+strDC = TRIM( vDC );
+strSKU = TRIM( vSKU );
+strMfgr = TRIM( vMfgr );
+strDCItem = TRIM( vDCItemNum );
+strSKUDescRaw = TRIM( vSKU_Desc );
+strLoc = strNoStore;
+strSKUDesc = strSKU | ' - ' | strSKUDescRaw;
+strDotRaw = TRIM( vDotItemNum );
+
+
+#---------------------------------------------------------
+# Add new SKU elements and attributes
+#---------------------------------------------------------
+
+# --- SKU Insert ---
+IF( DIMIX( strDimSKU, strSKU ) = 0 );
+    DimensionElementInsert( strDimSKU, '', strSKU, 'N' );
+
+    # --- SKU Parent Insert ---
+    IF( ELISCOMP( strDimSKU, strSKUParent, strSKU ) = 0 );
+        DimensionElementComponentAdd( strDimSKU, strSKUParent, strSKU, 1);
+    ENDIF;
+
+ENDIF;
+
+
+# --- SKU attributes ---
+IF( ATTRS( strDimSKU, strSKU, strAliasSKUDesc ) @<> strSKUDesc ); 
+    AttrPutS( strSKUDesc, strDimSKU,strSKU, strAliasSKUDesc );
+ENDIF;
+
+#---------------------------------------------------------
+# Add new DC elements
+#---------------------------------------------------------
+
+# --- DC Insert ---
+IF( DIMIX( strDimDC, strDC ) = 0 );
+    DimensionElementInsert( strDimDC, '', strDC, 'N' );   
+
+    # --- DC Parent Insert ---
+    IF( ELISCOMP( strDimDC, strDCParent, strDC ) = 0 );
+        DimensionElementComponentAdd( strDimDC, strDCParent, strDC, 1 );
+    ENDIF;
+    
+ENDIF;
+
+
+#---------------------------------------------------------
+# Add new DC item Number elements and attributes
+#---------------------------------------------------------
+
+# --- DC Item Number Insert ---
+IF( DIMIX( strDimDCItem, strDCItem ) = 0 );
+    DimensionElementInsert( strDimDCItem, '', strDCItem, 'N' );
+
+    # --- DC Item Number Parent Insert ---
+    IF( ELISCOMP( strDimDCItem, strDCItemParent, strDCItem ) = 0 );
+        DimensionElementComponentAdd( strDimDCItem, strDCItemParent, strDCItem, 1);
+    ENDIF;
+    
+ENDIF;
+
+
+#---------------------------------------------------------
+# Add new Manufacturer elements
+#---------------------------------------------------------
+
+# --- Manufacturer Insert ---
+IF( DIMIX( strDimMfgr, strMfgr ) = 0 );
+    DimensionElementInsert( strDimMfgr, '', strMfgr, 'N' );
+
+    # --- Manufacturer Parent Insert ---
+    IF( ELISCOMP( strDimMfgr, strMfgrParent, strMfgr ) = 0 );
+        DimensionElementComponentAdd( strDimMfgr, strMfgrParent, strMfgr, 1 );
+    ENDIF;
+    
+ENDIF;
+
+
+
+#endregion
+#region Data
+
+#---------------------------------------------------------
+# Normalize fields
+#---------------------------------------------------------
+
+strYear  = 'FY ' | SUBST( TRIM( vYear ), 3, 2 );
+strWeek = TRIM( vWeek );
+strDC = TRIM( vDC );
+strSKU = TRIM( vSKU );
+strMfgr = TRIM( vMfgr );
+strDCItem = TRIM( vDCItemNum );
+strSKUDescRaw = TRIM( vSKU_Desc );
+strLoc = strNoStore;
+strSKUDesc = strSKU | ' - ' | strSKUDescRaw;
+strDotRaw = TRIM( vDotItemNum );
+
+#---------------------------------------------------------
+# Load forecast data to cube
+#---------------------------------------------------------
+
+CellPutN( vTTLCases, strCube, strYear, strWeek, strDC, strLoc, strSKU, strDCItem, strMfgr, strTTLCases );
+CellPutN( vFcstCases, strCube, strYear, strWeek, strDC, strLoc, strSKU, strDCItem, strMfgr, strFcstCases );
+CellPutN( vPOACases, strCube, strYear, strWeek, strDC, strLoc, strSKU, strDCItem, strMfgr, strPOACases  );
+
+
+#endregion

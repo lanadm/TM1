@@ -1,0 +1,31 @@
+SKIPCHECK;
+
+# ['Updated Demand'] = IF( ['Demand_Adjust'] <> 0, ['Demand_Adjust'], CONTINUE);
+
+['Demand_Adjust_Lock_Flag'] = N:
+IF( ( ['Fcst - Cases'] = 0 & ['Fcst - POA Cases'] = 0), 0,
+   IF( ['Fcst - POA Cases'] >= ['Fcst - Cases'], 1, 0 ) );
+
+
+['Updated Demand (Adjusted Only)'] = N:
+IF( !YEAR @= 'Current and Next Year',
+
+    DB( 'SP_Inventory', DB('bpmControl', 'Current FY', 'Value'), !SP_Week, !SP_DistributionCenter, !SP_Locations, !SP_SKU, !SP_DCItem, !SP_Manufacturer, 'Updated Demand (Adjusted Only)' )
+    +
+    DB( 'SP_Inventory', DB('bpmControl', 'Next FY', 'Value'), !SP_Week, !SP_DistributionCenter, !SP_Locations, !SP_SKU, !SP_DCItem, !SP_Manufacturer, 'Updated Demand (Adjusted Only)' ),
+
+    IF( ['Demand Adjustments'] <> 0,
+        ['Updated Demand'],
+        0
+    )
+);
+
+
+FEEDERS;
+  
+['Fcst - Cases'] => ['Demand_Adjust_Lock_Flag'];
+['Fcst - POA Cases'] => ['Demand_Adjust_Lock_Flag'];
+
+['Demand Adjustments'] =>  ['Updated Demand (Adjusted Only)'];
+
+['Updated Demand (Adjusted Only)'] => DB( 'SP_Inventory', 'Current and Next Year', !SP_Week, !SP_DistributionCenter, !SP_Locations, !SP_SKU, !SP_DCItem, !SP_Manufacturer, 'Updated Demand (Adjusted Only)' );

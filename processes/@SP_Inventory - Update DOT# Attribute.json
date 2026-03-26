@@ -1,0 +1,38 @@
+{
+	"@type":"Process",
+	"Name":"@SP_Inventory - Update DOT# Attribute",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"@SP_Inventory - Update DOT# Attribute.ti",
+	"DataSource":
+	{
+		"Type":"ODBC",
+		"dataSourceNameForServer":"MYSQL_TM1",
+		"dataSourceNameForClient":"MYSQL_TM1",
+		"userName":"admin",
+		"password":"@a21b#iFARrhRVo*",
+		"query":"SELECT\r\n  LTRIM(RTRIM(CAST(HBH_SKU AS varchar(50)))) AS HBH_SKU,\r\n  MAX(NULLIF(LTRIM(RTRIM(CAST(Dot_Item_Nbr AS varchar(50)))),'')) AS Dot_Item_Nbr\r\nFROM dbo.vSupplyPlanner_QOH_Inventory\r\nGROUP BY LTRIM(RTRIM(CAST(HBH_SKU AS varchar(50))));"
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"vSKU",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vDotItemNum",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"UID": "1770846597000",
+	"VariablesUIData": [
+		"VarType=32\fColType=827\f",
+		"VarType=32\fColType=827\f"
+	]
+}

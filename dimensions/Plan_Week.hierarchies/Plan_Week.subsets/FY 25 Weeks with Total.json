@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"FY 25 Weeks with Total",
-	"Alias":"MEMBER_NAME",
-	"Expression":"TM1IGNORE_BADTUPLES {DISTINCT({DESCENDANTS([Plan_Week].[Plan_Week].[FISCAL YEAR BY WEEK FY 25])})}"
-}

@@ -1,0 +1,47 @@
+{
+	"@type":"MDXView",
+	"Name":"Demand Breakdown - POA vs Fcst",
+	"MDX@Code.link":"Demand Breakdown - POA vs Fcst.mdx",
+	"Meta": {
+		"Aliases": {
+			"[YEAR].[YEAR]": "MEMBER_NAME",
+			"[SP_Week].[SP_Week]": "MEMBER_NAME",
+			"[SP_SKU].[SP_SKU]": "SKU Description",
+			"[SP_DCItem].[SP_DCItem]": "MEMBER_NAME",
+			"[SP_Measures_Inventory].[SP_Measures_Inventory]": "Description",
+			"[SP_Manufacturer].[SP_Manufacturer]": "MEMBER_NAME"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[SP_Locations].[SP_Locations]": false,
+			"[SP_DistributionCenter].[SP_DistributionCenter]": false,
+			"[SP_Week].[SP_Week]": false,
+			"[SP_SKU].[SP_SKU]": false,
+			"[SP_DCItem].[SP_DCItem]": false,
+			"[SP_Measures_Inventory].[SP_Measures_Inventory]": false,
+			"[SP_Manufacturer].[SP_Manufacturer]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[SP_Locations].[SP_Locations]": {
+				"Expression": "{DRILLDOWNMEMBER(DRILLUPMEMBER([SP_Locations].[SP_Locations].MEMBERS , {[SP_Locations].[SP_Locations].[Total Store]}) , {[SP_Locations].[SP_Locations].[Total Store]} , RECURSIVE)}"
+			},
+			"[SP_DistributionCenter].[SP_DistributionCenter]": {
+				"Expression": "{[SP_DistributionCenter].[SP_DistributionCenter].MEMBERS}"
+			},
+			"[SP_Week].[SP_Week]": {
+				"SubsetName": "All Level 0",
+				"IsPublic": true
+			}
+		}
+	},
+	"ViewExtractSkipRuleValues": false,
+	"ViewExtractSkipConsolidatedValues": true,
+	"ViewExtractSkipZeroes": true,
+	"IsSuppressComputeOnOpen": false,
+	"IsAutocalculate": true,
+	"IsDeferComputeOnLeafDataEntry": false
+}

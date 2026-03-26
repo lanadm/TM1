@@ -1,0 +1,65 @@
+{
+	"@type":"MDXView",
+	"Name":"Compare to Inventory",
+	"MDX@Code.link":"Compare to Inventory.mdx",
+	"Meta": {
+		"Aliases": {
+			"[SP_PO].[SP_PO]": "MEMBER_NAME",
+			"[SP_Week].[SP_Week]": "MEMBER_NAME",
+			"[SP_SKU].[SP_SKU]": "SKU Description",
+			"[SP_DCItem].[SP_DCItem]": "MEMBER_NAME",
+			"[SP_Manufacturer].[SP_Manufacturer]": "MEMBER_NAME"
+		},
+		"ExpandAboves": {
+			"[YEAR].[YEAR]": false,
+			"[SP_PO].[SP_PO]": false,
+			"[SP_Locations].[SP_Locations]": false,
+			"[SP_Week].[SP_Week]": false,
+			"[SP_DistributionCenter].[SP_DistributionCenter]": false,
+			"[SP_Measures_PO].[SP_Measures_PO]": false,
+			"[SP_SKU].[SP_SKU]": false,
+			"[SP_DCItem].[SP_DCItem]": false,
+			"[SP_Manufacturer].[SP_Manufacturer]": false
+		},
+		"ContextSets": {
+			"[YEAR].[YEAR]": {
+				"Expression": "{DRILLDOWNMEMBER({[YEAR].[YEAR].[ALL YEARS]} , {[YEAR].[YEAR].[ALL YEARS]} , RECURSIVE)}"
+			},
+			"[SP_PO].[SP_PO]": {
+				"Expression": "{DRILLDOWNMEMBER({[SP_PO].[SP_PO].[Total POs]} , {[SP_PO].[SP_PO].[Total POs]} , RECURSIVE)}"
+			},
+			"[SP_Locations].[SP_Locations]": {
+				"Expression": "{[SP_Locations].[SP_Locations].MEMBERS}"
+			},
+			"[SP_DistributionCenter].[SP_DistributionCenter]": {
+				"Expression": "{[SP_DistributionCenter].[SP_DistributionCenter].MEMBERS}"
+			},
+			"[SP_SKU].[SP_SKU]": {
+				"Expression": "{[SP_SKU].[SP_SKU].[Total SKU]}"
+			},
+			"[SP_DCItem].[SP_DCItem]": {
+				"Expression": "{[SP_DCItem].[SP_DCItem].[Total DC Item]}"
+			},
+			"[SP_Manufacturer].[SP_Manufacturer]": {
+				"Expression": "{[SP_Manufacturer].[SP_Manufacturer].[Total Manufacturer]}"
+			}
+		},
+		"CalculatedMembers": {
+			"[SP_Week].[SP_Week]": [
+				{
+					"MemberID": "[SP_Week].[SP_Week].[Sum Wk1-22]",
+					"Caption": "Sum Wk1-22",
+					"Anchor": "[SP_Week].[SP_Week].[Wk 22]",
+					"Parent": "[SP_Week].[SP_Week].[Total Year]",
+					"InsertionPosition": "AFTER"
+				}
+			]
+		}
+	},
+	"ViewExtractSkipRuleValues": false,
+	"ViewExtractSkipConsolidatedValues": true,
+	"ViewExtractSkipZeroes": true,
+	"IsSuppressComputeOnOpen": false,
+	"IsAutocalculate": true,
+	"IsDeferComputeOnLeafDataEntry": false
+}

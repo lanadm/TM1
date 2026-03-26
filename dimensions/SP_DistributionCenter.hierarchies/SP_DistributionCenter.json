@@ -1,0 +1,228 @@
+{
+	"@type":"Hierarchy",
+	"Name":"SP_DistributionCenter",
+	"ComponentsSortType":"ByName",
+	"ComponentsSortSense":"Ascending",
+	"Elements":
+	[
+		{
+			"Name":"Brown Foodservice",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CASH-WA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cheney Punta Gorda",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cheney Riviera",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cheney Statesville",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DOT Foods",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feesers",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"I-Supply",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"KUNA Foodservice",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"McDonald",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Quirch - Houston",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Quirch - Vineland",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Quirch - Winter Haven",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Springfield Grocer",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tapia Fresno",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tapia Las Vegas",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tapia Maywood",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tapia Phoenix",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Cheney",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Total DC",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Total Quirch",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Total Tapia Brothers",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Cheney Florence",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Cheney",
+			"ComponentName":"Cheney Punta Gorda",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Cheney",
+			"ComponentName":"Cheney Riviera",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Cheney",
+			"ComponentName":"Cheney Statesville",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"Brown Foodservice",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"CASH-WA",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"Cheney Florence",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"DOT Foods",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"Feesers",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"I-Supply",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"KUNA Foodservice",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"McDonald",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"Springfield Grocer",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"Total Cheney",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"Total Quirch",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total DC",
+			"ComponentName":"Total Tapia Brothers",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Quirch",
+			"ComponentName":"Quirch - Houston",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Quirch",
+			"ComponentName":"Quirch - Vineland",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Quirch",
+			"ComponentName":"Quirch - Winter Haven",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Tapia Brothers",
+			"ComponentName":"Tapia Fresno",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Tapia Brothers",
+			"ComponentName":"Tapia Las Vegas",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Tapia Brothers",
+			"ComponentName":"Tapia Maywood",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Tapia Brothers",
+			"ComponentName":"Tapia Phoenix",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"SP_DistributionCenter.subsets/All Level 0.json",
+		"SP_DistributionCenter.subsets/All level 0 with TTL.json",
+		"SP_DistributionCenter.subsets/Default.json",
+		"SP_DistributionCenter.subsets/zz_@SP_Inventory - Load Current POs from SP_PO_Detail_SRC_DC.json",
+		"SP_DistributionCenter.subsets/zz_@SP_Inventory - Zero Adjustments_DC.json",
+		"SP_DistributionCenter.subsets/zz_SP_PO_Detail_Clear_DC.json",
+		"SP_DistributionCenter.subsets/zz_z_Export_SP_Inventory_DC_20260325_200557.json",
+		"SP_DistributionCenter.subsets/zz_z_Export_SP_Inventory_DC_20260325_200607.json",
+		"SP_DistributionCenter.subsets/zz_z_Export_SP_Inventory_DC_20260325_201050.json",
+		"SP_DistributionCenter.subsets/zz_ZeroOut_DC.json",
+		"SP_DistributionCenter.subsets/}tmp_@SP_Inventory - Set_AdjExists_12WkHorizon_dc.json"
+	]
+}

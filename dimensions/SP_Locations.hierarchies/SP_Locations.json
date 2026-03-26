@@ -1,0 +1,4461 @@
+{
+	"@type":"Hierarchy",
+	"Name":"SP_Locations",
+	"Elements":
+	[
+		{
+			"Name":"Total Store",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Company Owned",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"52110001",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110002",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110004",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110012",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110016",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110017",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110019",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110020",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110021",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110026",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110027",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110028",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110029",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110031",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110032",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110033",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110034",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110036",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110037",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110038",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110040",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711517",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711524",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110103",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110104",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110105",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110106",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110107",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110109",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110110",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110111",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110114",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110201",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110202",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110203",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110204",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110206",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110208",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110209",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110210",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110211",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110212",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110215",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110301",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110304",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110306",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110307",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110308",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110309",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110310",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110311",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110312",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110313",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110315",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110316",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110317",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110318",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110319",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110321",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110322",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110323",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110325",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110328",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110329",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110332",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110337",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110354",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110401",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110402",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110403",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110404",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110405",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110406",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110407",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110417",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110418",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110501",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110502",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110503",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110505",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711627",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110601",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110602",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110603",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110605",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110701",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110705",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110706",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110707",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110710",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110712",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110801",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110802",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110803",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110804",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110805",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110808",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110901",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110902",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110903",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52110906",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111001",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111003",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111102",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111103",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111105",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111201",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111214",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711926",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111301",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111305",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111306",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111307",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111308",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111309",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111315",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52111317",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114101",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114103",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114104",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114106",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114107",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114108",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114110",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114111",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114112",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114113",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114127",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114128",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114201",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114301",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114302",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114303",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114304",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114305",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114306",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114307",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114308",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114309",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114310",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114311",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114313",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114314",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114315",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114316",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114317",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114331",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114332",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114333",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114334",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114335",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114336",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114337",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114340",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114401",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114501",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114502",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114503",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114504",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114505",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114601",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114700",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52114701",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52117002",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52117005",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52117006",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52117101",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52117102",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52117201",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20712701",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52117401",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52117501",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118101",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118115",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118201",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118202",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118203",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118204",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118226",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118301",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118302",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118304",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118305",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118306",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118401",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118402",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118403",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118405",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118406",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118407",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118408",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118409",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118410",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118411",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118412",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118413",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118414",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118415",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118416",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118473",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118474",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118475",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118501",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118502",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118503",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118505",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118506",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52115807",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52115808",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118701",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118702",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118703",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118704",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"52118705",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118903",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118904",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118905",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118906",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118907",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118908",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118910",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118911",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118914",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118915",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118916",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118917",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118920",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118921",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118922",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118923",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118925",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118939",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118960",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118966",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118967",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118968",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"66118982",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Franchise",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"20711502",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711508",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711510",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711511",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711514",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711521",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711522",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711525",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711526",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711527",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711534",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711538",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711543",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711544",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711545",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711546",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711551",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711556",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711559",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711560",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711565",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711566",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711568",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711571",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711573",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711576",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711578",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711579",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711581",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711582",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711583",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711585",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711586",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711588",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711591",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711592",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711594",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711595",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711596",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711597",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711598",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711599",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711612",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711615",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711616",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711617",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711618",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711619",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711623",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711625",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711626",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711628",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711631",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711633",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711634",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711635",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711636",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711637",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711638",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711645",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711648",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711649",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711651",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711653",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711654",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711655",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711656",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711658",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711660",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711662",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711664",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711667",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711668",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711669",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711670",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711672",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711673",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711674",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20731675",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20177676",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711680",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711681",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711682",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711683",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20751701",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20741702",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20741704",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20741705",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20741707",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20741708",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20741709",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20751717",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20751719",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20751720",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20751721",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20751724",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20751725",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20751728",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20751730",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711732",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20751735",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711736",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711821",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711822",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711823",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711905",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711906",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711907",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711909",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711910",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711911",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711912",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711913",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711914",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711915",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711916",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711919",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711920",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711922",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711923",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711925",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711927",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711931",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711933",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711934",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711935",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20711937",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752100",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752102",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752105",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20742107",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20742108",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752110",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752111",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752112",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752113",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752114",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752115",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752117",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20742118",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752122",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752123",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752124",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752126",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752127",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752130",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752131",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752134",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20752135",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732201",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732202",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732203",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732204",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732205",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732206",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732208",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732209",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732216",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732217",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732218",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732220",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732221",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732224",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732225",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732226",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732227",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732228",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732230",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732231",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732232",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732233",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732234",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732239",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732240",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732501",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732505",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732506",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732508",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732509",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732511",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732512",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732514",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732518",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732519",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732520",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732521",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732522",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732524",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732525",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732526",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732527",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732533",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732535",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732536",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732538",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732539",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732541",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732542",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20712453",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732544",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20732545",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20762620",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20762621",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20762622",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20762623",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20712702",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20712703",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20712704",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20712706",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20712710",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20782832",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20782856",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20782857",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20782858",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20782859",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20782890",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20782891",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20782892",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20782893",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"20782900",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Michelle Anderson",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Billy Griffeth",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Andy Andurlakis",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Becky Grider",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Alex Bickel",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Brian Akers",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Lisa Gray",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Norm Henninger",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Mundi Silvers",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Steve Allen",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Dan Sweeney",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Dorothy Bonaventure",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Carlos Macias",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Cerron Collins",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Dave Karol",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Doug Krey",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Harold McClellan",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Michael Bray",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Open 21",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Justin Witzleb",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Eric Sonny",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Evelyn Lainez",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jason Tucker",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Marcos Soto",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Matt Reder",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Michael Ward",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Brandon Moore",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Heather Moeckel",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jeremy Kilburn",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jerry DeFeo",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jerry Garvey",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Karl Merkle",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Patrick Lovelace",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"No Store",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Store",
+			"ComponentName":"Company Owned",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Store",
+			"ComponentName":"Franchise",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Store",
+			"ComponentName":"No Store",
+			"Weight":1
+		},
+		{
+			"ParentName":"Company Owned",
+			"ComponentName":"Michelle Anderson",
+			"Weight":1
+		},
+		{
+			"ParentName":"Company Owned",
+			"ComponentName":"Billy Griffeth",
+			"Weight":1
+		},
+		{
+			"ParentName":"Company Owned",
+			"ComponentName":"Andy Andurlakis",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise",
+			"ComponentName":"Brandon Moore",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise",
+			"ComponentName":"Dan Sweeney",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise",
+			"ComponentName":"Heather Moeckel",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise",
+			"ComponentName":"Jeremy Kilburn",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise",
+			"ComponentName":"Jerry DeFeo",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise",
+			"ComponentName":"Jerry Garvey",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise",
+			"ComponentName":"Karl Merkle",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise",
+			"ComponentName":"Patrick Lovelace",
+			"Weight":1
+		},
+		{
+			"ParentName":"Franchise",
+			"ComponentName":"20762623",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michelle Anderson",
+			"ComponentName":"Alex Bickel",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michelle Anderson",
+			"ComponentName":"Becky Grider",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michelle Anderson",
+			"ComponentName":"Brian Akers",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michelle Anderson",
+			"ComponentName":"Lisa Gray",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michelle Anderson",
+			"ComponentName":"Norm Henninger",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michelle Anderson",
+			"ComponentName":"Mundi Silvers",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michelle Anderson",
+			"ComponentName":"Steve Allen",
+			"Weight":1
+		},
+		{
+			"ParentName":"Billy Griffeth",
+			"ComponentName":"Dorothy Bonaventure",
+			"Weight":1
+		},
+		{
+			"ParentName":"Billy Griffeth",
+			"ComponentName":"Carlos Macias",
+			"Weight":1
+		},
+		{
+			"ParentName":"Billy Griffeth",
+			"ComponentName":"Cerron Collins",
+			"Weight":1
+		},
+		{
+			"ParentName":"Billy Griffeth",
+			"ComponentName":"Dave Karol",
+			"Weight":1
+		},
+		{
+			"ParentName":"Billy Griffeth",
+			"ComponentName":"Doug Krey",
+			"Weight":1
+		},
+		{
+			"ParentName":"Billy Griffeth",
+			"ComponentName":"Harold McClellan",
+			"Weight":1
+		},
+		{
+			"ParentName":"Billy Griffeth",
+			"ComponentName":"Michael Bray",
+			"Weight":1
+		},
+		{
+			"ParentName":"Billy Griffeth",
+			"ComponentName":"Open 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Billy Griffeth",
+			"ComponentName":"Justin Witzleb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Andy Andurlakis",
+			"ComponentName":"Eric Sonny",
+			"Weight":1
+		},
+		{
+			"ParentName":"Andy Andurlakis",
+			"ComponentName":"Evelyn Lainez",
+			"Weight":1
+		},
+		{
+			"ParentName":"Andy Andurlakis",
+			"ComponentName":"Jason Tucker",
+			"Weight":1
+		},
+		{
+			"ParentName":"Andy Andurlakis",
+			"ComponentName":"Marcos Soto",
+			"Weight":1
+		},
+		{
+			"ParentName":"Andy Andurlakis",
+			"ComponentName":"Matt Reder",
+			"Weight":1
+		},
+		{
+			"ParentName":"Andy Andurlakis",
+			"ComponentName":"Michael Ward",
+			"Weight":1
+		},
+		{
+			"ParentName":"Becky Grider",
+			"ComponentName":"52110001",
+			"Weight":1
+		},
+		{
+			"ParentName":"Becky Grider",
+			"ComponentName":"52110004",
+			"Weight":1
+		},
+		{
+			"ParentName":"Becky Grider",
+			"ComponentName":"52110017",
+			"Weight":1
+		},
+		{
+			"ParentName":"Becky Grider",
+			"ComponentName":"52110019",
+			"Weight":1
+		},
+		{
+			"ParentName":"Becky Grider",
+			"ComponentName":"52110020",
+			"Weight":1
+		},
+		{
+			"ParentName":"Becky Grider",
+			"ComponentName":"52110026",
+			"Weight":1
+		},
+		{
+			"ParentName":"Becky Grider",
+			"ComponentName":"52110028",
+			"Weight":1
+		},
+		{
+			"ParentName":"Becky Grider",
+			"ComponentName":"52110029",
+			"Weight":1
+		},
+		{
+			"ParentName":"Becky Grider",
+			"ComponentName":"52110034",
+			"Weight":1
+		},
+		{
+			"ParentName":"Becky Grider",
+			"ComponentName":"52110036",
+			"Weight":1
+		},
+		{
+			"ParentName":"Becky Grider",
+			"ComponentName":"52110037",
+			"Weight":1
+		},
+		{
+			"ParentName":"Becky Grider",
+			"ComponentName":"52110040",
+			"Weight":1
+		},
+		{
+			"ParentName":"Alex Bickel",
+			"ComponentName":"52118301",
+			"Weight":1
+		},
+		{
+			"ParentName":"Alex Bickel",
+			"ComponentName":"52118302",
+			"Weight":1
+		},
+		{
+			"ParentName":"Alex Bickel",
+			"ComponentName":"52118304",
+			"Weight":1
+		},
+		{
+			"ParentName":"Alex Bickel",
+			"ComponentName":"52118305",
+			"Weight":1
+		},
+		{
+			"ParentName":"Alex Bickel",
+			"ComponentName":"52118306",
+			"Weight":1
+		},
+		{
+			"ParentName":"Alex Bickel",
+			"ComponentName":"52118501",
+			"Weight":1
+		},
+		{
+			"ParentName":"Alex Bickel",
+			"ComponentName":"52118502",
+			"Weight":1
+		},
+		{
+			"ParentName":"Alex Bickel",
+			"ComponentName":"52118503",
+			"Weight":1
+		},
+		{
+			"ParentName":"Alex Bickel",
+			"ComponentName":"52118505",
+			"Weight":1
+		},
+		{
+			"ParentName":"Alex Bickel",
+			"ComponentName":"52118506",
+			"Weight":1
+		},
+		{
+			"ParentName":"Alex Bickel",
+			"ComponentName":"52115807",
+			"Weight":1
+		},
+		{
+			"ParentName":"Alex Bickel",
+			"ComponentName":"52115808",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brian Akers",
+			"ComponentName":"52110304",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brian Akers",
+			"ComponentName":"52110308",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brian Akers",
+			"ComponentName":"52110309",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brian Akers",
+			"ComponentName":"52110311",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brian Akers",
+			"ComponentName":"52110312",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brian Akers",
+			"ComponentName":"52110318",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brian Akers",
+			"ComponentName":"52110319",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brian Akers",
+			"ComponentName":"52110321",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brian Akers",
+			"ComponentName":"52110322",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brian Akers",
+			"ComponentName":"52110328",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brian Akers",
+			"ComponentName":"52110337",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lisa Gray",
+			"ComponentName":"52110301",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lisa Gray",
+			"ComponentName":"52110306",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lisa Gray",
+			"ComponentName":"52110307",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lisa Gray",
+			"ComponentName":"52110310",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lisa Gray",
+			"ComponentName":"52110313",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lisa Gray",
+			"ComponentName":"52110316",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lisa Gray",
+			"ComponentName":"52110317",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lisa Gray",
+			"ComponentName":"52110323",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lisa Gray",
+			"ComponentName":"52110325",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lisa Gray",
+			"ComponentName":"52110329",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lisa Gray",
+			"ComponentName":"52110332",
+			"Weight":1
+		},
+		{
+			"ParentName":"Lisa Gray",
+			"ComponentName":"52110354",
+			"Weight":1
+		},
+		{
+			"ParentName":"Norm Henninger",
+			"ComponentName":"52110103",
+			"Weight":1
+		},
+		{
+			"ParentName":"Norm Henninger",
+			"ComponentName":"52110104",
+			"Weight":1
+		},
+		{
+			"ParentName":"Norm Henninger",
+			"ComponentName":"52110105",
+			"Weight":1
+		},
+		{
+			"ParentName":"Norm Henninger",
+			"ComponentName":"52110106",
+			"Weight":1
+		},
+		{
+			"ParentName":"Norm Henninger",
+			"ComponentName":"52110107",
+			"Weight":1
+		},
+		{
+			"ParentName":"Norm Henninger",
+			"ComponentName":"52110109",
+			"Weight":1
+		},
+		{
+			"ParentName":"Norm Henninger",
+			"ComponentName":"52110110",
+			"Weight":1
+		},
+		{
+			"ParentName":"Norm Henninger",
+			"ComponentName":"52110111",
+			"Weight":1
+		},
+		{
+			"ParentName":"Norm Henninger",
+			"ComponentName":"52110114",
+			"Weight":1
+		},
+		{
+			"ParentName":"Norm Henninger",
+			"ComponentName":"52110901",
+			"Weight":1
+		},
+		{
+			"ParentName":"Norm Henninger",
+			"ComponentName":"52110902",
+			"Weight":1
+		},
+		{
+			"ParentName":"Norm Henninger",
+			"ComponentName":"52110903",
+			"Weight":1
+		},
+		{
+			"ParentName":"Norm Henninger",
+			"ComponentName":"52110906",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mundi Silvers",
+			"ComponentName":"52110002",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mundi Silvers",
+			"ComponentName":"52110012",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mundi Silvers",
+			"ComponentName":"52110016",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mundi Silvers",
+			"ComponentName":"52110021",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mundi Silvers",
+			"ComponentName":"52110027",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mundi Silvers",
+			"ComponentName":"52110031",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mundi Silvers",
+			"ComponentName":"52110032",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mundi Silvers",
+			"ComponentName":"52110033",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mundi Silvers",
+			"ComponentName":"52110038",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mundi Silvers",
+			"ComponentName":"20711517",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mundi Silvers",
+			"ComponentName":"20711524",
+			"Weight":1
+		},
+		{
+			"ParentName":"Steve Allen",
+			"ComponentName":"52114501",
+			"Weight":1
+		},
+		{
+			"ParentName":"Steve Allen",
+			"ComponentName":"52114503",
+			"Weight":1
+		},
+		{
+			"ParentName":"Steve Allen",
+			"ComponentName":"52117002",
+			"Weight":1
+		},
+		{
+			"ParentName":"Steve Allen",
+			"ComponentName":"52117005",
+			"Weight":1
+		},
+		{
+			"ParentName":"Steve Allen",
+			"ComponentName":"52117006",
+			"Weight":1
+		},
+		{
+			"ParentName":"Steve Allen",
+			"ComponentName":"52117101",
+			"Weight":1
+		},
+		{
+			"ParentName":"Steve Allen",
+			"ComponentName":"52117102",
+			"Weight":1
+		},
+		{
+			"ParentName":"Steve Allen",
+			"ComponentName":"52117201",
+			"Weight":1
+		},
+		{
+			"ParentName":"Steve Allen",
+			"ComponentName":"52117401",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20712701",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20751725",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20751730",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20752102",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20752124",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20752126",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732202",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732203",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732205",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732206",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732209",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732224",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732227",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732228",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732232",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732234",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732240",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732505",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732508",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732512",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732522",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732524",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732533",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732539",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20732542",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20712703",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20712704",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20712706",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dan Sweeney",
+			"ComponentName":"20712710",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dorothy Bonaventure",
+			"ComponentName":"52110315",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dorothy Bonaventure",
+			"ComponentName":"52110501",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dorothy Bonaventure",
+			"ComponentName":"52110502",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dorothy Bonaventure",
+			"ComponentName":"52110503",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dorothy Bonaventure",
+			"ComponentName":"52110505",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dorothy Bonaventure",
+			"ComponentName":"52110802",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dorothy Bonaventure",
+			"ComponentName":"52110803",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dorothy Bonaventure",
+			"ComponentName":"52111001",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dorothy Bonaventure",
+			"ComponentName":"20711627",
+			"Weight":1
+		},
+		{
+			"ParentName":"Carlos Macias",
+			"ComponentName":"52114104",
+			"Weight":1
+		},
+		{
+			"ParentName":"Carlos Macias",
+			"ComponentName":"52114601",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cerron Collins",
+			"ComponentName":"52110201",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cerron Collins",
+			"ComponentName":"52110203",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cerron Collins",
+			"ComponentName":"52110206",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cerron Collins",
+			"ComponentName":"52110208",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cerron Collins",
+			"ComponentName":"52110209",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cerron Collins",
+			"ComponentName":"52110211",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cerron Collins",
+			"ComponentName":"52110212",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cerron Collins",
+			"ComponentName":"52110215",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cerron Collins",
+			"ComponentName":"52118201",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cerron Collins",
+			"ComponentName":"52118203",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cerron Collins",
+			"ComponentName":"52118204",
+			"Weight":1
+		},
+		{
+			"ParentName":"Cerron Collins",
+			"ComponentName":"52118226",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dave Karol",
+			"ComponentName":"52114101",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dave Karol",
+			"ComponentName":"52114103",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dave Karol",
+			"ComponentName":"52114106",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dave Karol",
+			"ComponentName":"52114107",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dave Karol",
+			"ComponentName":"52114108",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dave Karol",
+			"ComponentName":"52114110",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dave Karol",
+			"ComponentName":"52114111",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dave Karol",
+			"ComponentName":"52114112",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dave Karol",
+			"ComponentName":"52114113",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dave Karol",
+			"ComponentName":"52114127",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dave Karol",
+			"ComponentName":"52114128",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dave Karol",
+			"ComponentName":"52118473",
+			"Weight":1
+		},
+		{
+			"ParentName":"Doug Krey",
+			"ComponentName":"52110401",
+			"Weight":1
+		},
+		{
+			"ParentName":"Doug Krey",
+			"ComponentName":"52110402",
+			"Weight":1
+		},
+		{
+			"ParentName":"Doug Krey",
+			"ComponentName":"52110403",
+			"Weight":1
+		},
+		{
+			"ParentName":"Doug Krey",
+			"ComponentName":"52110404",
+			"Weight":1
+		},
+		{
+			"ParentName":"Doug Krey",
+			"ComponentName":"52110405",
+			"Weight":1
+		},
+		{
+			"ParentName":"Doug Krey",
+			"ComponentName":"52110406",
+			"Weight":1
+		},
+		{
+			"ParentName":"Doug Krey",
+			"ComponentName":"52110407",
+			"Weight":1
+		},
+		{
+			"ParentName":"Doug Krey",
+			"ComponentName":"52110417",
+			"Weight":1
+		},
+		{
+			"ParentName":"Doug Krey",
+			"ComponentName":"52110418",
+			"Weight":1
+		},
+		{
+			"ParentName":"Doug Krey",
+			"ComponentName":"52111301",
+			"Weight":1
+		},
+		{
+			"ParentName":"Doug Krey",
+			"ComponentName":"52118101",
+			"Weight":1
+		},
+		{
+			"ParentName":"Doug Krey",
+			"ComponentName":"52118115",
+			"Weight":1
+		},
+		{
+			"ParentName":"Harold McClellan",
+			"ComponentName":"52118202",
+			"Weight":1
+		},
+		{
+			"ParentName":"Harold McClellan",
+			"ComponentName":"52118401",
+			"Weight":1
+		},
+		{
+			"ParentName":"Harold McClellan",
+			"ComponentName":"52118403",
+			"Weight":1
+		},
+		{
+			"ParentName":"Harold McClellan",
+			"ComponentName":"52118405",
+			"Weight":1
+		},
+		{
+			"ParentName":"Harold McClellan",
+			"ComponentName":"52118407",
+			"Weight":1
+		},
+		{
+			"ParentName":"Harold McClellan",
+			"ComponentName":"52118408",
+			"Weight":1
+		},
+		{
+			"ParentName":"Harold McClellan",
+			"ComponentName":"52118410",
+			"Weight":1
+		},
+		{
+			"ParentName":"Harold McClellan",
+			"ComponentName":"52118413",
+			"Weight":1
+		},
+		{
+			"ParentName":"Harold McClellan",
+			"ComponentName":"52118415",
+			"Weight":1
+		},
+		{
+			"ParentName":"Harold McClellan",
+			"ComponentName":"52118474",
+			"Weight":1
+		},
+		{
+			"ParentName":"Harold McClellan",
+			"ComponentName":"52118475",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Bray",
+			"ComponentName":"52114502",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Bray",
+			"ComponentName":"52114504",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Bray",
+			"ComponentName":"52114505",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Bray",
+			"ComponentName":"52118402",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Bray",
+			"ComponentName":"52118406",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Bray",
+			"ComponentName":"52118409",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Bray",
+			"ComponentName":"52118411",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Bray",
+			"ComponentName":"52118412",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Bray",
+			"ComponentName":"52118414",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Bray",
+			"ComponentName":"52118416",
+			"Weight":1
+		},
+		{
+			"ParentName":"Open 21",
+			"ComponentName":"52111305",
+			"Weight":1
+		},
+		{
+			"ParentName":"Open 21",
+			"ComponentName":"52111306",
+			"Weight":1
+		},
+		{
+			"ParentName":"Open 21",
+			"ComponentName":"52111307",
+			"Weight":1
+		},
+		{
+			"ParentName":"Open 21",
+			"ComponentName":"52111308",
+			"Weight":1
+		},
+		{
+			"ParentName":"Open 21",
+			"ComponentName":"52111309",
+			"Weight":1
+		},
+		{
+			"ParentName":"Open 21",
+			"ComponentName":"52111315",
+			"Weight":1
+		},
+		{
+			"ParentName":"Open 21",
+			"ComponentName":"52111317",
+			"Weight":1
+		},
+		{
+			"ParentName":"Justin Witzleb",
+			"ComponentName":"52110202",
+			"Weight":1
+		},
+		{
+			"ParentName":"Justin Witzleb",
+			"ComponentName":"52110204",
+			"Weight":1
+		},
+		{
+			"ParentName":"Justin Witzleb",
+			"ComponentName":"52110210",
+			"Weight":1
+		},
+		{
+			"ParentName":"Justin Witzleb",
+			"ComponentName":"52110801",
+			"Weight":1
+		},
+		{
+			"ParentName":"Justin Witzleb",
+			"ComponentName":"52110804",
+			"Weight":1
+		},
+		{
+			"ParentName":"Justin Witzleb",
+			"ComponentName":"52110805",
+			"Weight":1
+		},
+		{
+			"ParentName":"Justin Witzleb",
+			"ComponentName":"52110808",
+			"Weight":1
+		},
+		{
+			"ParentName":"Justin Witzleb",
+			"ComponentName":"52111003",
+			"Weight":1
+		},
+		{
+			"ParentName":"Justin Witzleb",
+			"ComponentName":"52111201",
+			"Weight":1
+		},
+		{
+			"ParentName":"Justin Witzleb",
+			"ComponentName":"52111214",
+			"Weight":1
+		},
+		{
+			"ParentName":"Justin Witzleb",
+			"ComponentName":"20711926",
+			"Weight":1
+		},
+		{
+			"ParentName":"Eric Sonny",
+			"ComponentName":"52110601",
+			"Weight":1
+		},
+		{
+			"ParentName":"Eric Sonny",
+			"ComponentName":"52110602",
+			"Weight":1
+		},
+		{
+			"ParentName":"Eric Sonny",
+			"ComponentName":"52110603",
+			"Weight":1
+		},
+		{
+			"ParentName":"Eric Sonny",
+			"ComponentName":"52110605",
+			"Weight":1
+		},
+		{
+			"ParentName":"Eric Sonny",
+			"ComponentName":"52110701",
+			"Weight":1
+		},
+		{
+			"ParentName":"Eric Sonny",
+			"ComponentName":"52110705",
+			"Weight":1
+		},
+		{
+			"ParentName":"Eric Sonny",
+			"ComponentName":"52110706",
+			"Weight":1
+		},
+		{
+			"ParentName":"Eric Sonny",
+			"ComponentName":"52110707",
+			"Weight":1
+		},
+		{
+			"ParentName":"Eric Sonny",
+			"ComponentName":"52110710",
+			"Weight":1
+		},
+		{
+			"ParentName":"Eric Sonny",
+			"ComponentName":"52110712",
+			"Weight":1
+		},
+		{
+			"ParentName":"Eric Sonny",
+			"ComponentName":"52114401",
+			"Weight":1
+		},
+		{
+			"ParentName":"Evelyn Lainez",
+			"ComponentName":"66118907",
+			"Weight":1
+		},
+		{
+			"ParentName":"Evelyn Lainez",
+			"ComponentName":"66118908",
+			"Weight":1
+		},
+		{
+			"ParentName":"Evelyn Lainez",
+			"ComponentName":"66118911",
+			"Weight":1
+		},
+		{
+			"ParentName":"Evelyn Lainez",
+			"ComponentName":"66118916",
+			"Weight":1
+		},
+		{
+			"ParentName":"Evelyn Lainez",
+			"ComponentName":"66118917",
+			"Weight":1
+		},
+		{
+			"ParentName":"Evelyn Lainez",
+			"ComponentName":"66118922",
+			"Weight":1
+		},
+		{
+			"ParentName":"Evelyn Lainez",
+			"ComponentName":"66118923",
+			"Weight":1
+		},
+		{
+			"ParentName":"Evelyn Lainez",
+			"ComponentName":"66118925",
+			"Weight":1
+		},
+		{
+			"ParentName":"Evelyn Lainez",
+			"ComponentName":"66118960",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jason Tucker",
+			"ComponentName":"52111102",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jason Tucker",
+			"ComponentName":"52111103",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jason Tucker",
+			"ComponentName":"52111105",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jason Tucker",
+			"ComponentName":"66118903",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jason Tucker",
+			"ComponentName":"66118904",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jason Tucker",
+			"ComponentName":"66118905",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jason Tucker",
+			"ComponentName":"66118906",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jason Tucker",
+			"ComponentName":"66118939",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jason Tucker",
+			"ComponentName":"66118966",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jason Tucker",
+			"ComponentName":"66118967",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jason Tucker",
+			"ComponentName":"66118968",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jason Tucker",
+			"ComponentName":"66118982",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marcos Soto",
+			"ComponentName":"52114700",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marcos Soto",
+			"ComponentName":"52114701",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marcos Soto",
+			"ComponentName":"52118701",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marcos Soto",
+			"ComponentName":"52118702",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marcos Soto",
+			"ComponentName":"52118703",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marcos Soto",
+			"ComponentName":"52118704",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marcos Soto",
+			"ComponentName":"52118705",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marcos Soto",
+			"ComponentName":"66118910",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marcos Soto",
+			"ComponentName":"66118914",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marcos Soto",
+			"ComponentName":"66118915",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marcos Soto",
+			"ComponentName":"66118920",
+			"Weight":1
+		},
+		{
+			"ParentName":"Marcos Soto",
+			"ComponentName":"66118921",
+			"Weight":1
+		},
+		{
+			"ParentName":"Matt Reder",
+			"ComponentName":"52114301",
+			"Weight":1
+		},
+		{
+			"ParentName":"Matt Reder",
+			"ComponentName":"52114302",
+			"Weight":1
+		},
+		{
+			"ParentName":"Matt Reder",
+			"ComponentName":"52114303",
+			"Weight":1
+		},
+		{
+			"ParentName":"Matt Reder",
+			"ComponentName":"52114305",
+			"Weight":1
+		},
+		{
+			"ParentName":"Matt Reder",
+			"ComponentName":"52114306",
+			"Weight":1
+		},
+		{
+			"ParentName":"Matt Reder",
+			"ComponentName":"52114311",
+			"Weight":1
+		},
+		{
+			"ParentName":"Matt Reder",
+			"ComponentName":"52114316",
+			"Weight":1
+		},
+		{
+			"ParentName":"Matt Reder",
+			"ComponentName":"52114317",
+			"Weight":1
+		},
+		{
+			"ParentName":"Matt Reder",
+			"ComponentName":"52114336",
+			"Weight":1
+		},
+		{
+			"ParentName":"Matt Reder",
+			"ComponentName":"52114337",
+			"Weight":1
+		},
+		{
+			"ParentName":"Matt Reder",
+			"ComponentName":"52114340",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114201",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114304",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114307",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114308",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114309",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114310",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114313",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114314",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114315",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114331",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114332",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114333",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114334",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52114335",
+			"Weight":1
+		},
+		{
+			"ParentName":"Michael Ward",
+			"ComponentName":"52117501",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711556",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711566",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711568",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711591",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711597",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711617",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711634",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711637",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711645",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711664",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711673",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711732",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711913",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711916",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711920",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20711927",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20752110",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20752112",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20752113",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20752117",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20752122",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20752123",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20732518",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20732519",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20732538",
+			"Weight":1
+		},
+		{
+			"ParentName":"Brandon Moore",
+			"ComponentName":"20732541",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711511",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711525",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711527",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711534",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711538",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711565",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711573",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711581",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711582",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711583",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711585",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711586",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711592",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711596",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711612",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711618",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711619",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711625",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711628",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711631",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711636",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711649",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711653",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711655",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711658",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711662",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711668",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711669",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711670",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711682",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711821",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711822",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711911",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711914",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711919",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711923",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711925",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711931",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711935",
+			"Weight":1
+		},
+		{
+			"ParentName":"Heather Moeckel",
+			"ComponentName":"20711937",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20711594",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20741702",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20751721",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20751735",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20711736",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20711912",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20711922",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20752100",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20752105",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20742107",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20742108",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20752111",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20752114",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20752135",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20782832",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20782856",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20782857",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20782858",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20782859",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20782890",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20782891",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20782892",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20782893",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jeremy Kilburn",
+			"ComponentName":"20782900",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711502",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711508",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711510",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711514",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711522",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711543",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711560",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711578",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711588",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711616",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711623",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711635",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711638",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711651",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711654",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711656",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711660",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711667",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20731675",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20177676",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20711681",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20732514",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20732526",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20732527",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20712453",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20732544",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry DeFeo",
+			"ComponentName":"20732545",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711521",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711526",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711544",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711545",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711546",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711551",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711559",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711571",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711576",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711579",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711595",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711598",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711599",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711615",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711626",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711633",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711648",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711672",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711674",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711680",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711905",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711906",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jerry Garvey",
+			"ComponentName":"20711907",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20751701",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20741704",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20741705",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20741707",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20741708",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20741709",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20751717",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20751719",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20751720",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20751724",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20751728",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20752115",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20742118",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20752127",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20752130",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20752131",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20752134",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732208",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732216",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732217",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732218",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732220",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732221",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732230",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732239",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732501",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732506",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732509",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732521",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732525",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732535",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20732536",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20762620",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20762621",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20762622",
+			"Weight":1
+		},
+		{
+			"ParentName":"Karl Merkle",
+			"ComponentName":"20712702",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20711683",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20711823",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20711909",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20711910",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20711915",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20711933",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20711934",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20732201",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20732204",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20732225",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20732226",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20732231",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20732233",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20732511",
+			"Weight":1
+		},
+		{
+			"ParentName":"Patrick Lovelace",
+			"ComponentName":"20732520",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"SP_Locations.subsets/zz_@SP_Inventory - Load Current POs from SP_PO_Detail_SRC_Loc.json",
+		"SP_Locations.subsets/zz_@SP_Inventory - Zero Adjustments_LOC.json",
+		"SP_Locations.subsets/zz_SP_PO_Detail_Clear_LOC.json",
+		"SP_Locations.subsets/zz_z_Export_SP_Inventory_LOC_20260325_200557.json",
+		"SP_Locations.subsets/zz_z_Export_SP_Inventory_LOC_20260325_200607.json",
+		"SP_Locations.subsets/zz_z_Export_SP_Inventory_LOC_20260325_201050.json",
+		"SP_Locations.subsets/}tmp_@SP_Inventory - Set_AdjExists_12WkHorizon_loc.json"
+	]
+}

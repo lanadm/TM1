@@ -1,0 +1,179 @@
+#region Prolog
+
+#====================================================================
+# z_Backup_SP_PO_Detail
+# Backup all leaf-level data from SP_PO_Detail
+#====================================================================
+
+sProcess = GetProcessName();
+
+#----------------------------
+# Cube / view / dimensions
+#----------------------------
+strCube = 'SP_PO_Detail';
+strView = 'zz_' | sProcess;
+
+strDimYear = 'YEAR';
+strDimWeek = 'SP_Week';
+strDimDC = 'SP_DistributionCenter';
+strDimLoc = 'SP_Locations';
+strDimSKU = 'SP_SKU';
+strDimDCItem = 'SP_DCItem';
+strDimMfgr = 'SP_Manufacturer';
+strDimPO = 'SP_PO';
+strDimMeas = 'SP_Measures_PO';
+
+#----------------------------
+# Output file
+#----------------------------
+
+strDate = TimSt( Now, '\Y-\m-\d' );
+strFile = '}tmp\Backups\SP_PO_Detail_Backup_' | strDate | '.csv';
+
+#----------------------------
+# Cleanup old objects
+#----------------------------
+IF( ViewExists( strCube, strView ) = 1 );
+  ViewDestroy( strCube, strView );
+ENDIF;
+
+strSubYear = 'zz_' | sProcess | '_Year';
+strSubWeek = 'zz_' | sProcess | '_Week';
+strSubDC = 'zz_' | sProcess | '_DC';
+strSubLoc = 'zz_' | sProcess | '_Loc';
+strSubSKU = 'zz_' | sProcess | '_SKU';
+strSubDCItem = 'zz_' | sProcess | '_DCItem';
+strSubMfgr = 'zz_' | sProcess | '_Mfgr';
+strSubPO = 'zz_' | sProcess | '_PO';
+strSubMeas = 'zz_' | sProcess | '_Meas';
+
+IF( SubsetExists( strDimYear, strSubYear ) = 1 );     
+    SubsetDestroy( strDimYear, strSubYear ); 
+ENDIF;
+
+IF( SubsetExists( strDimWeek, strSubWeek ) = 1 );     
+    SubsetDestroy( strDimWeek, strSubWeek ); 
+ENDIF;
+
+IF( SubsetExists( strDimDC, strSubDC ) = 1 );         
+    SubsetDestroy( strDimDC, strSubDC ); 
+ENDIF;
+
+IF( SubsetExists( strDimLoc, strSubLoc ) = 1 );       
+    SubsetDestroy( strDimLoc, strSubLoc ); 
+ENDIF;
+
+IF( SubsetExists( strDimSKU, strSubSKU ) = 1 );       
+    SubsetDestroy( strDimSKU, strSubSKU ); 
+ENDIF;
+
+IF( SubsetExists( strDimDCItem, strSubDCItem ) = 1 ); 
+    SubsetDestroy( strDimDCItem, strSubDCItem ); 
+ENDIF;
+
+IF( SubsetExists( strDimMfgr, strSubMfgr ) = 1 );     
+    SubsetDestroy( strDimMfgr, strSubMfgr ); 
+ENDIF;
+
+IF( SubsetExists( strDimPO, strSubPO ) = 1 );         
+    SubsetDestroy( strDimPO, strSubPO ); 
+ENDIF;
+
+IF( SubsetExists( strDimMeas, strSubMeas ) = 1 );     
+    SubsetDestroy( strDimMeas, strSubMeas ); 
+ENDIF;
+
+#----------------------------
+# Create leaf subsets
+#----------------------------
+SubsetCreateByMDX( strSubYear, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimYear | '])}, 0 )}' );
+SubsetCreateByMDX( strSubWeek, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimWeek | '])}, 0 )}' );
+SubsetCreateByMDX( strSubDC, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimDC | '])}, 0 )}' );
+SubsetCreateByMDX( strSubLoc, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimLoc | '])}, 0 )}' );
+SubsetCreateByMDX( strSubSKU, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimSKU | '])}, 0 )}' );
+SubsetCreateByMDX( strSubDCItem, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimDCItem | '])}, 0 )}' );
+SubsetCreateByMDX( strSubMfgr, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimMfgr | '])}, 0 )}' );
+SubsetCreateByMDX( strSubPO, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimPO | '])}, 0 )}' );
+SubsetCreateByMDX( strSubMeas, '{TM1FILTERBYLEVEL( {TM1SUBSETALL([' | strDimMeas | '])}, 0 )}' );
+
+#----------------------------
+# Create view
+#----------------------------
+ViewCreate( strCube, strView );
+
+ViewSubsetAssign( strCube, strView, strDimYear, strSubYear );
+ViewSubsetAssign( strCube, strView, strDimWeek, strSubWeek );
+ViewSubsetAssign( strCube, strView, strDimDC, strSubDC );
+ViewSubsetAssign( strCube, strView, strDimLoc, strSubLoc );
+ViewSubsetAssign( strCube, strView, strDimSKU, strSubSKU );
+ViewSubsetAssign( strCube, strView, strDimDCItem, strSubDCItem );
+ViewSubsetAssign( strCube, strView, strDimMfgr, strSubMfgr );
+ViewSubsetAssign( strCube, strView, strDimPO, strSubPO );
+ViewSubsetAssign( strCube, strView, strDimMeas, strSubMeas );
+
+ViewExtractSkipRuleValuesSet( strCube, strView, 0 );
+ViewExtractSkipZeroesSet( strCube, strView, 1 );
+ViewExtractSkipCalcsSet( strCube, strView, 1 );
+ViewExtractSkipConsolidatedStringsSet( strCube, strView, 1 );
+
+ASCIIOutput( strFile, 'YEAR', 'SP_Week', 'SP_DistributionCenter', 'SP_Locations', 'SP_SKU', 'SP_DCItem', 'SP_Manufacturer', 'SP_PO', 'SP_Measures_PO', 'Value' );
+
+DatasourceType = 'VIEW';
+DatasourceNameForServer = strCube;
+DatasourceCubeview = strView;
+
+
+#endregion
+#region Data
+
+ASCIIOutput( strFile, vYear, vWeek, vDC, vLoc, vSKU, vDCItem, vMfgr, vPO, vMeasure, vValue );
+
+
+#endregion
+#region Epilog
+
+IF( ViewExists( strCube, strView ) = 1 );
+  ViewDestroy( strCube, strView );
+ENDIF;
+
+IF( SubsetExists( strDimYear, strSubYear ) = 1 );     
+    SubsetDestroy( strDimYear, strSubYear ); 
+ENDIF;
+
+IF( SubsetExists( strDimWeek, strSubWeek ) = 1 );     
+    SubsetDestroy( strDimWeek, strSubWeek ); 
+ENDIF;
+
+IF( SubsetExists( strDimDC, strSubDC ) = 1 );         
+    SubsetDestroy( strDimDC, strSubDC ); 
+ENDIF;
+
+IF( SubsetExists( strDimLoc, strSubLoc ) = 1 );       
+    SubsetDestroy( strDimLoc, strSubLoc ); 
+ENDIF;
+
+IF( SubsetExists( strDimSKU, strSubSKU ) = 1 );       
+    SubsetDestroy( strDimSKU, strSubSKU ); 
+ENDIF;
+
+IF( SubsetExists( strDimDCItem, strSubDCItem ) = 1 ); 
+    SubsetDestroy( strDimDCItem, strSubDCItem );
+ENDIF;
+
+IF( SubsetExists( strDimMfgr, strSubMfgr ) = 1 );     
+    SubsetDestroy( strDimMfgr, strSubMfgr ); 
+ENDIF;
+
+IF( SubsetExists( strDimPO, strSubPO ) = 1 );         
+    SubsetDestroy( strDimPO, strSubPO ); 
+ENDIF;
+
+IF( SubsetExists( strDimMeas, strSubMeas ) = 1 );     
+    SubsetDestroy( strDimMeas, strSubMeas ); 
+ENDIF;
+
+
+
+
+
+#endregion

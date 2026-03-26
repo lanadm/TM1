@@ -1,0 +1,163 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SP_Inventory - Zero Adjustments_WEEK",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 52')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 51')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 50')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 49')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 48')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 47')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 46')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 45')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 44')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 43')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 42')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 41')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 40')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 39')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 38')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 37')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 36')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 35')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 34')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 33')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 32')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 31')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 30')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 29')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 28')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 27')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 26')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 25')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 24')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 23')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 22')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 21')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 20')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 19')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 18')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 17')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 16')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 15')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 14')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 13')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 12')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 11')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 10')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 9')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 8')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 7')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 6')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 5')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 4')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 3')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 2')"
+		},
+		{
+			"@id":"Dimensions('SP_Week')/Hierarchies('SP_Week')/Elements('Wk 1')"
+		}
+	]
+}

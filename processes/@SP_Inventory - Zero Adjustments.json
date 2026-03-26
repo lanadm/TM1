@@ -1,0 +1,22 @@
+{
+	"@type":"Process",
+	"Name":"@SP_Inventory - Zero Adjustments",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"@SP_Inventory - Zero Adjustments.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pRun",
+			"Prompt":"Enter \"Y\" to run",
+			"Value":"N",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "1771768553000",
+	"VariablesUIData": []
+}

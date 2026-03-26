@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"SP_Measures_Inventory",
+	"Hierarchies@Code.links":
+	[
+		"SP_Measures_Inventory.hierarchies/SP_Measures_Inventory.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('SP_Measures_Inventory')/Hierarchies('SP_Measures_Inventory')"
+	}
+}

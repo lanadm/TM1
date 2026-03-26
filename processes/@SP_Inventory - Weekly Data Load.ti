@@ -1,0 +1,300 @@
+#region Prolog
+
+#====================================================================
+# @SP_Inventory - Weekly Data Load
+# Load data from [dbo].[vSupplyPlanner_QOH_Inventory] table in HBHDW database
+#  - This table is updated weekly on Monday morning at 4am ET
+#  - The data is zeroed and refreshed each week, so no previous data is available
+#  - No parameters required
+#====================================================================
+
+
+#----------------------------
+# Cube / Dimensions
+#----------------------------
+strCube = 'SP_Inventory';
+ 
+strDimYear = 'YEAR';
+strDimWeek = 'SP_Week';
+strDimDC = 'SP_DistributionCenter';
+strDimLoc = 'SP_Locations';
+strDimSKU = 'SP_SKU';
+strDimDCItem = 'SP_DCItem';
+strDimMfgr = 'SP_Manufacturer';
+strDimMeas = 'SP_Measures_Inventory';
+
+#----------------------------
+# Parent rollups (must exist)
+#----------------------------
+strDCParent = 'Total DC';
+strSKUParent = 'Unassigned SKUs';
+strDCItemParent = 'Total DC Item';
+strMfgrParent = 'Total Manufacturer';
+
+# Fixed element
+strNoStore = 'No Store';
+
+#----------------------------
+# Alias / Attribute names
+#----------------------------
+
+# SP_SKU alias attribute name
+strAliasSKUDesc = 'SKU Description';
+
+# SP_SKU string attribute for DOT
+strAttrDotItem = 'DOT#';
+
+
+#----------------------------
+# Measure elements
+#----------------------------
+strMeasOnHand = 'Case_Qty_OnHand';
+strMeasAllocated = 'Case_Qty_Allocated';
+strMeasAvailable = 'Case_Qty_Available';
+strMeasLatePO = 'Late_POs';
+strMeasCurrentPO = 'Current_POs';
+
+
+
+#endregion
+#region Metadata
+
+
+#=========================================================
+# Normalize fields
+#=========================================================
+
+# --- Year, Week, Location ---
+strYear = 'FY ' | SUBST( TRIM( vYear ), 3, 2 );
+strWeek = TRIM( vWeek );
+strLoc = strNoStore;
+
+# --- Attributes ---
+strSKUDescRaw = TRIM( vSKU_Desc );
+strDotRaw = TRIM( vDotItemNum );
+
+# --- DC ---
+strDC = TRIM( vDC );
+
+p = SCAN( CHAR( 160 ), strDC );
+
+WHILE( p > 0 );
+  strDC = SUBST( strDC, 1, p-1 ) | ' ' | SUBST( strDC, p+1, LONG( strDC )-p );
+  p = SCAN( CHAR( 160 ), strDC );
+END;
+
+strDC = TRIM( strDC );
+
+# --- SKU ---
+strSKU = TRIM( vSKU );
+
+p = SCAN( CHAR( 160 ), strSKU );
+
+WHILE( p > 0 );
+  strSKU = SUBST( strSKU, 1, p-1 ) | ' ' | SUBST( strSKU, p+1, LONG( strSKU )-p );
+  p = SCAN( CHAR( 160 ), strSKU );
+END;
+
+strSKU = TRIM( strSKU );
+
+strSKUDesc = strSKU | ' - ' | strSKUDescRaw;
+
+# --- Manufacturer ---
+strMfgr = TRIM( vMfgr );
+
+p = SCAN( CHAR( 160 ), strMfgr );
+
+WHILE( p > 0 );
+  strMfgr = SUBST( strMfgr, 1, p-1 ) | ' ' | SUBST( strMfgr, p+1, LONG( strMfgr )-p );
+  p = SCAN( CHAR( 160 ), strMfgr );
+END;
+
+strMfgr = TRIM( strMfgr );
+
+# --- DC Item ---
+strDCItem = TRIM( vDCItemNum );
+
+p = SCAN( CHAR( 160 ), strDCItem );
+
+WHILE( p > 0 );
+  strDCItem = SUBST( strDCItem, 1, p-1) | ' ' | SUBST( strDCItem, p+1, LONG( strDCItem )-p );
+  p = SCAN( CHAR( 160 ), strDCItem );
+END;
+
+strDCItem = TRIM( strDCItem );
+
+
+#=========================================================
+# New SKU Insert
+#=========================================================
+
+IF( DIMIX( strDimSKU, strSKU ) = 0 );
+    
+    DimensionElementInsert( strDimSKU, '', strSKU, 'N' );
+
+    IF( ELISCOMP(strDimSKU, strSKUParent, strSKU ) = 0 );
+        DimensionElementComponentAdd( strDimSKU, strSKUParent, strSKU, 1 );
+    ENDIF;
+    
+ENDIF;
+
+# --- If insert fails, write to file and quit process
+IF( DIMIX( strDimSKU, strSKU ) = 0 );
+    ASCIIOutput( '}tmp\SP_Inventory_insert_fail.csv', 'SKU_NOT_FOUND_AFTER_INSERT', 'RAW', vSKU, 'CLEAN', strSKU, 'LEN', NumberToString(LONG(strSKU)) );
+    ProcessQuit;
+ENDIF;
+
+
+#=========================================================
+# Write SKU Attributes
+#=========================================================
+
+IF( ATTRS( strDimSKU, strSKU, strAliasSKUDesc ) @<> strSKUDesc );
+    AttrPutS( strSKUDesc, strDimSKU, strSKU, strAliasSKUDesc );
+ENDIF;
+
+IF( strDotRaw @<> '' );
+    
+    IF( ATTRS( strDimSKU, strSKU, strAttrDotItem ) @<> strDotRaw );
+        AttrPutS( strDotRaw, strDimSKU, strSKU, strAttrDotItem );
+    ENDIF;
+    
+ENDIF;
+
+
+#=========================================================
+# New DC Insert
+#=========================================================
+
+IF( DIMIX( strDimDC, strDC ) = 0 );
+    
+    DimensionElementInsert( strDimDC, '', strDC, 'N' );
+
+    IF( ELISCOMP( strDimDC, strDCParent, strDC ) = 0 );
+        DimensionElementComponentAdd( strDimDC, strDCParent, strDC, 1 );
+    ENDIF;
+    
+ENDIF;
+
+
+#=========================================================
+# New DC Item Insert
+#=========================================================
+
+IF( DIMIX( strDimDCItem, strDCItem ) = 0 );
+    
+    DimensionElementInsert( strDimDCItem, '', strDCItem, 'N' );
+
+    IF( ELISCOMP( strDimDCItem, strDCItemParent, strDCItem ) = 0 );
+        DimensionElementComponentAdd( strDimDCItem, strDCItemParent, strDCItem, 1 );
+    ENDIF;
+    
+ENDIF;
+
+
+#=========================================================
+# New Manufacturer Insert
+#=========================================================
+
+IF( DIMIX( strDimMfgr, strMfgr ) = 0 );
+    
+    DimensionElementInsert( strDimMfgr, '', strMfgr, 'N' );
+
+    IF( ELISCOMP( strDimMfgr, strMfgrParent, strMfgr ) = 0 );
+        DimensionElementComponentAdd( strDimMfgr, strMfgrParent, strMfgr, 1 );
+    ENDIF;
+    
+ENDIF;
+
+
+
+
+#endregion
+#region Data
+
+#---------------------------------------------------------
+# Normalize fields
+#---------------------------------------------------------
+
+# --- Year and Week ---
+strYear = 'FY ' | SUBST( TRIM( vYear ), 3, 2 );
+strWeek = TRIM( vWeek );
+
+
+# --- DC ---
+strDC = TRIM( vDC );
+
+p = SCAN( CHAR( 160 ), strDC );
+
+WHILE( p > 0 );
+  strDC = SUBST( strDC, 1, p-1 ) | ' ' | SUBST( strDC, p+1, LONG( strDC )-p );
+  p = SCAN( CHAR( 160 ), strDC );
+END;
+
+strDC = TRIM( strDC );
+
+
+# --- SKU ---
+strSKU = TRIM( vSKU );
+
+p = SCAN( CHAR( 160 ), strSKU );
+
+WHILE( p > 0 );
+  strSKU = SUBST( strSKU, 1, p-1 ) | ' ' | SUBST (strSKU, p+1, LONG( strSKU )-p) ;
+  p = SCAN( CHAR( 160 ), strSKU );
+END;
+
+strSKU = TRIM( strSKU );
+
+
+# --- Manufacturer ---
+strMfgr = TRIM( vMfgr );
+
+p = SCAN( CHAR( 160 ), strMfgr );
+
+WHILE( p > 0 );
+  strMfgr = SUBST( strMfgr, 1, p-1 ) | ' ' | SUBST( strMfgr, p+1, LONG( strMfgr )-p );
+  p = SCAN( CHAR( 160 ), strMfgr );
+END;
+
+strMfgr = TRIM( strMfgr );
+
+
+# --- DC Item ---
+strDCItem = TRIM( vDCItemNum );
+
+p = SCAN( CHAR( 160 ), strDCItem );
+
+WHILE( p > 0 );
+  strDCItem = SUBST( strDCItem, 1, p-1 ) | ' ' | SUBST( strDCItem, p+1, LONG( strDCItem )-p );
+  p = SCAN( CHAR( 160 ), strDCItem );
+END;
+
+strDCItem = TRIM( strDCItem );
+
+
+# --- Attributes ---
+strSKUDescRaw = TRIM( vSKU_Desc );
+strLoc = strNoStore;
+strSKUDesc = strSKU | ' - ' | strSKUDescRaw;
+strDotRaw = TRIm( vDotItemNum );
+
+
+# Import Data to cube
+CellPutN( vCaseQtyOnHand, strCube, strYear, strWeek, strDC, strLoc, strSKU, strDCItem, strMfgr, strMeasOnHand );
+CellPutN( vCaseQtyAllocated, strCube, strYear, strWeek, strDC, strLoc, strSKU, strDCItem, strMfgr, strMeasAllocated );
+CellPutN( vCaseQtyAvailable, strCube, strYear, strWeek, strDC, strLoc, strSKU, strDCItem, strMfgr, strMeasAvailable );
+CellPutN( vLatePOQty, strCube, strYear, strWeek, strDC, strLoc, strSKU, strDCItem, strMfgr, strMeasLatePO );
+
+
+
+
+
+#endregion
+#region Epilog
+
+
+
+
+
+#endregion

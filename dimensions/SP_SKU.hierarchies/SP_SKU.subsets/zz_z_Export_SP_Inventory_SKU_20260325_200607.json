@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"zz_z_Export_SP_Inventory_SKU_20260325_200607",
+	"Expression":"{TM1FILTERBYLEVEL( {TM1SUBSETALL( [SP_SKU] )}, 0)}"
+}

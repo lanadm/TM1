@@ -1,6 +1,0 @@
-{
-	"@type":"Subset",
-	"Name":"Total Initiatives Expanded",
-	"Alias":"MEMBER_NAME",
-	"Expression":"TM1IGNORE_BADTUPLES {DISTINCT({DESCENDANTS([LRP_Initiatives].[LRP_Initiatives].[Total Initiatives])})}"
-}

@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"All Level 0 wDesc",
+	"Alias":"Description",
+	"Expression":"TM1IGNORE_BADTUPLES {ORDER(TM1FILTERBYLEVEL(TM1SUBSETALL([SP_DCItem].[SP_DCItem]) , 0) , IIF([SP_DCItem].[SP_DCItem].CURRENTMEMBER.PROPERTIES(\"Description\")=\"\", [SP_DCItem].[SP_DCItem].CURRENTMEMBER.PROPERTIES(\"MEMBER_CAPTION\"), [SP_DCItem].[SP_DCItem].CURRENTMEMBER.PROPERTIES(\"Description\")) , BASC)}"
+}

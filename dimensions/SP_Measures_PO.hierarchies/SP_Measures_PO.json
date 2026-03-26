@@ -1,0 +1,26 @@
+{
+	"@type":"Hierarchy",
+	"Name":"SP_Measures_PO",
+	"Elements":
+	[
+		{
+			"Name":"PO_Case_Qty",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PO_ExpectedDate",
+			"Type":"String"
+		},
+		{
+			"Name":"DOT or Direct",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"SP_Measures_PO.subsets/All Measures.json",
+		"SP_Measures_PO.subsets/zz_@SP_Inventory - Load Current POs from SP_PO_Detail_SRC_MeasPO.json",
+		"SP_Measures_PO.subsets/zz_SP_PO_Detail_Clear_MEAS_ALL.json",
+		"SP_Measures_PO.subsets/zz_SP_PO_Detail_Clear_MEAS_STR.json"
+	]
+}
