@@ -1,0 +1,28 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@D365_GL - Copy from SKU_DATA (HBH California)",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B2B GIFTING')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('CONSUMER RETAIL')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B2B CATERING')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('CONSUMER LUNCH')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('ALL 3P')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('ALL VENDORS')"
+		},
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('ALL OTHER CHANNELS')"
+		}
+	]
+}

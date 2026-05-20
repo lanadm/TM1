@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Purchasing DCs",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {EXCEPT(TM1DRILLDOWNMEMBER(DRILLUPMEMBER({[Lchannel].[Lchannel].[Purchasing DCs]} , {[Lchannel].[Lchannel].[Purchasing DCs]}) , {[Lchannel].[Lchannel].[Purchasing DCs]} , RECURSIVE) , {[Lchannel].[Lchannel].[Purchasing DCs]})}"
+}

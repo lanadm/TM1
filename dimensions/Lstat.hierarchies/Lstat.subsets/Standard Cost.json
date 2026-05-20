@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Standard Cost",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {TM1FILTERBYPATTERN(TM1SubsetAll([Lstat].[Lstat]),\"*standard cost*\",\"MEMBER_NAME\")}"
+}

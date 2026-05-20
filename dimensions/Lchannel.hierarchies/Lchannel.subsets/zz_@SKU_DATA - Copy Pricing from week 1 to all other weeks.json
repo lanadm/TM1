@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SKU_DATA - Copy Pricing from week 1 to all other weeks",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('100')"
+		}
+	]
+}

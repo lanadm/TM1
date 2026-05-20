@@ -1,0 +1,2098 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Lchannel",
+	"Elements":
+	[
+		{
+			"Name":"}All Rollups",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL CHANNELS X GIFTING",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL CHANNELS-CONSUMER AND B2B",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL CONSUMER",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL B2B",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL CHANNELS x price inc",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL CHANNELS X RESPREAD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL CHANNELS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL OTHER CHANNELS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Cost Channel",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"0",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ALL VENDORS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Costco",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ALL 3P",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL 3P - LUNCH",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"309713",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"308956",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"309780",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"309791",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ALL 3P - CATER",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"307961",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"450015",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"RESPREAD CHANNELS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TOTAL ALTERNATE DISTRIBUTION",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TOTAL FUNDRAISING",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"}Vendor Rollupos",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"ALL VENDORS - DC",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Fresh Mark - DC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tyson Foods Inc. - DC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"ALL VENDORS - NON-DC",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Doerle Food Service",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Fresh Mark",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Haag Food Service Inc.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Institutional Jobbers",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nicholas & Company, Inc.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Peer Foods Inc.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tyson Foods Inc.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Vistar Roma Food Service",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Somerset Food Service Inc.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"}Other Rollups",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"John Morrell/Smithfield - DC",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"John Morrell - DC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Smithfield Packaged Meats Sales Corp - DC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"John Morrell/Smithfield",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"John Morrell & Co.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Smithfield Packaged Meats Sales Corp",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TB%",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"NEW SALES CHANNELS ONLY",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"B2B GIFTING ONLY",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TOTAL DINNERS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DINNERS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"DINNERS MINI",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CONSUMER AND INTERNET",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"RSM CHANNELS EXCLUDING DINNERS",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"C",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"I",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"LUNCH & CATERING",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CONSUMER LUNCH",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"203",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B CATERING",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"403",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"RETAIL & GIFTING",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"CONSUMER RETAIL",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"103",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"600",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"B2B GIFTING",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"303",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"500",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"501",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"502",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"700",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"701",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"702",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"800",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"801",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"802",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Price + Elasticity",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Elasticity",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Price",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"102",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"202",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"302",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"402",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"COGS Sales",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"100",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"101",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"200",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"201",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"300",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"301",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"400",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"401",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Purchasing DCs",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Cash-Wa Distributing",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cheney  Brothers Inc",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feesers Inc.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SHERWOOD FOOD DISTRIBUTORS, LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Springfield Grocer Company",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TAPIA BROTHERS",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tapia Brothers - Phoenix",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tapia Brothers-Las Vegas",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"The Engelman's Bakery",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Avalon Foodservice Inc.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Bassham Wholesale Egg Co. Inc.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Brown Food Service, Inc.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DiCarlo Food Service Inc.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Kuna Food Service Inc.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"McDonald Wholesale Co.",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"SoFo Foods of Georgia",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cheney Brothers - Punta Gorda",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tapia Brothers - Maywood",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tapia Brothers - Fresno",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cheney Brothers - Riviera Beach",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cheney Brothers - Statesville",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Harvest Sherwood - Atlanta",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Harvest Sherwood - Dallas",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Harvest Sherwood - Detroit",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Harvest Sherwood - Cleveland",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Harvest Sherwood - Union City",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TTL Cheney Brothers Inc",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TTL Sherwood Food Distributors, LLC",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"TTL Tapia Brothers",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Prefco Distribution, LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Quirch Foods LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TTL Kuna Food Service Inc.",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Kuna Meat Company Inc dba Kuna Foodservice",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TTL Quirch Foods LLC",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Quirch Foods Parent LLC dba Quirch Foods LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TTL McDonald Wholesale LLC",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"McDonald Wholesale LLC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"I Supply Company",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tapia Brothers (North Las Vegas)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tapia Brothers (Phoenix)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TAPIA Enterprises Inc dba Tapia Brothers Company (Maywood)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cheney Brothers - Florence",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"}All Rollups",
+			"ComponentName":"ALL CHANNELS",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Rollups",
+			"ComponentName":"ALL CHANNELS X GIFTING",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Rollups",
+			"ComponentName":"ALL CHANNELS-CONSUMER AND B2B",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Rollups",
+			"ComponentName":"ALL CHANNELS x price inc",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Rollups",
+			"ComponentName":"ALL CHANNELS X RESPREAD",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Rollups",
+			"ComponentName":"TOTAL ALTERNATE DISTRIBUTION",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Rollups",
+			"ComponentName":"TOTAL FUNDRAISING",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Rollups",
+			"ComponentName":"}Vendor Rollupos",
+			"Weight":0
+		},
+		{
+			"ParentName":"}All Rollups",
+			"ComponentName":"}Other Rollups",
+			"Weight":0
+		},
+		{
+			"ParentName":"ALL CHANNELS X GIFTING",
+			"ComponentName":"CONSUMER RETAIL",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS X GIFTING",
+			"ComponentName":"CONSUMER LUNCH",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS X GIFTING",
+			"ComponentName":"B2B CATERING",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS X GIFTING",
+			"ComponentName":"ALL OTHER CHANNELS",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS X GIFTING",
+			"ComponentName":"ALL VENDORS",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS X GIFTING",
+			"ComponentName":"ALL 3P",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS-CONSUMER AND B2B",
+			"ComponentName":"ALL CONSUMER",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS-CONSUMER AND B2B",
+			"ComponentName":"ALL B2B",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CONSUMER",
+			"ComponentName":"100",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CONSUMER",
+			"ComponentName":"101",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CONSUMER",
+			"ComponentName":"102",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CONSUMER",
+			"ComponentName":"200",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CONSUMER",
+			"ComponentName":"201",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CONSUMER",
+			"ComponentName":"202",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CONSUMER",
+			"ComponentName":"600",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CONSUMER",
+			"ComponentName":"C",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CONSUMER",
+			"ComponentName":"I",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"300",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"301",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"302",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"400",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"401",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"402",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"500",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"501",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"502",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"700",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"701",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"702",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"800",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"801",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"802",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL B2B",
+			"ComponentName":"B",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS x price inc",
+			"ComponentName":"ALL CHANNELS",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS x price inc",
+			"ComponentName":"101",
+			"Weight":-1
+		},
+		{
+			"ParentName":"ALL CHANNELS X RESPREAD",
+			"ComponentName":"ALL CHANNELS",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS X RESPREAD",
+			"ComponentName":"RESPREAD CHANNELS",
+			"Weight":-1
+		},
+		{
+			"ParentName":"ALL CHANNELS",
+			"ComponentName":"CONSUMER RETAIL",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS",
+			"ComponentName":"CONSUMER LUNCH",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS",
+			"ComponentName":"B2B GIFTING",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS",
+			"ComponentName":"B2B CATERING",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS",
+			"ComponentName":"ALL OTHER CHANNELS",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS",
+			"ComponentName":"ALL VENDORS",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL CHANNELS",
+			"ComponentName":"ALL 3P",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL OTHER CHANNELS",
+			"ComponentName":"C",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL OTHER CHANNELS",
+			"ComponentName":"B",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL OTHER CHANNELS",
+			"ComponentName":"I",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL OTHER CHANNELS",
+			"ComponentName":"Cost Channel",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL OTHER CHANNELS",
+			"ComponentName":"0",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Costco",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Doerle Food Service",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Fresh Mark",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Fresh Mark - DC",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Haag Food Service Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Institutional Jobbers",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"John Morrell & Co.",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Nicholas & Company, Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Peer Foods Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Tyson Foods Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Tyson Foods Inc. - DC",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Vistar Roma Food Service",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Somerset Food Service Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"John Morrell - DC",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Smithfield Packaged Meats Sales Corp",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS",
+			"ComponentName":"Smithfield Packaged Meats Sales Corp - DC",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL 3P",
+			"ComponentName":"ALL 3P - LUNCH",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL 3P",
+			"ComponentName":"ALL 3P - CATER",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL 3P - LUNCH",
+			"ComponentName":"309713",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL 3P - LUNCH",
+			"ComponentName":"308956",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL 3P - LUNCH",
+			"ComponentName":"309780",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL 3P - LUNCH",
+			"ComponentName":"309791",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL 3P - CATER",
+			"ComponentName":"307961",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL 3P - CATER",
+			"ComponentName":"450015",
+			"Weight":1
+		},
+		{
+			"ParentName":"RESPREAD CHANNELS",
+			"ComponentName":"101",
+			"Weight":1
+		},
+		{
+			"ParentName":"RESPREAD CHANNELS",
+			"ComponentName":"201",
+			"Weight":1
+		},
+		{
+			"ParentName":"RESPREAD CHANNELS",
+			"ComponentName":"301",
+			"Weight":1
+		},
+		{
+			"ParentName":"RESPREAD CHANNELS",
+			"ComponentName":"401",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL ALTERNATE DISTRIBUTION",
+			"ComponentName":"700",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL ALTERNATE DISTRIBUTION",
+			"ComponentName":"701",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL ALTERNATE DISTRIBUTION",
+			"ComponentName":"702",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL FUNDRAISING",
+			"ComponentName":"800",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL FUNDRAISING",
+			"ComponentName":"801",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL FUNDRAISING",
+			"ComponentName":"802",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Vendor Rollupos",
+			"ComponentName":"ALL VENDORS - DC",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Vendor Rollupos",
+			"ComponentName":"ALL VENDORS - NON-DC",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Vendor Rollupos",
+			"ComponentName":"Purchasing DCs",
+			"Weight":0
+		},
+		{
+			"ParentName":"ALL VENDORS - DC",
+			"ComponentName":"Fresh Mark - DC",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - DC",
+			"ComponentName":"Tyson Foods Inc. - DC",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - DC",
+			"ComponentName":"John Morrell - DC",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - DC",
+			"ComponentName":"Smithfield Packaged Meats Sales Corp - DC",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - NON-DC",
+			"ComponentName":"Doerle Food Service",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - NON-DC",
+			"ComponentName":"Fresh Mark",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - NON-DC",
+			"ComponentName":"Haag Food Service Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - NON-DC",
+			"ComponentName":"Institutional Jobbers",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - NON-DC",
+			"ComponentName":"John Morrell & Co.",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - NON-DC",
+			"ComponentName":"Nicholas & Company, Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - NON-DC",
+			"ComponentName":"Peer Foods Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - NON-DC",
+			"ComponentName":"Tyson Foods Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - NON-DC",
+			"ComponentName":"Vistar Roma Food Service",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - NON-DC",
+			"ComponentName":"Somerset Food Service Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"ALL VENDORS - NON-DC",
+			"ComponentName":"Smithfield Packaged Meats Sales Corp",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Rollups",
+			"ComponentName":"John Morrell/Smithfield - DC",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Rollups",
+			"ComponentName":"John Morrell/Smithfield",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Rollups",
+			"ComponentName":"TB%",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Rollups",
+			"ComponentName":"NEW SALES CHANNELS ONLY",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Rollups",
+			"ComponentName":"B2B GIFTING ONLY",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Rollups",
+			"ComponentName":"TOTAL DINNERS",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Rollups",
+			"ComponentName":"CONSUMER AND INTERNET",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Rollups",
+			"ComponentName":"RSM CHANNELS EXCLUDING DINNERS",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Rollups",
+			"ComponentName":"LUNCH & CATERING",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Rollups",
+			"ComponentName":"RETAIL & GIFTING",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Rollups",
+			"ComponentName":"Price + Elasticity",
+			"Weight":1
+		},
+		{
+			"ParentName":"}Other Rollups",
+			"ComponentName":"COGS Sales",
+			"Weight":1
+		},
+		{
+			"ParentName":"John Morrell/Smithfield - DC",
+			"ComponentName":"John Morrell - DC",
+			"Weight":1
+		},
+		{
+			"ParentName":"John Morrell/Smithfield - DC",
+			"ComponentName":"Smithfield Packaged Meats Sales Corp - DC",
+			"Weight":1
+		},
+		{
+			"ParentName":"John Morrell/Smithfield",
+			"ComponentName":"John Morrell & Co.",
+			"Weight":1
+		},
+		{
+			"ParentName":"John Morrell/Smithfield",
+			"ComponentName":"Smithfield Packaged Meats Sales Corp",
+			"Weight":1
+		},
+		{
+			"ParentName":"TB%",
+			"ComponentName":"CONSUMER RETAIL",
+			"Weight":1
+		},
+		{
+			"ParentName":"TB%",
+			"ComponentName":"B2B CATERING",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"100",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"101",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"102",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"200",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"201",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"202",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"300",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"301",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"302",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"400",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"401",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"402",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"500",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"501",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"502",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"600",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"700",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"701",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"702",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"800",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"801",
+			"Weight":1
+		},
+		{
+			"ParentName":"NEW SALES CHANNELS ONLY",
+			"ComponentName":"802",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING ONLY",
+			"ComponentName":"300",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING ONLY",
+			"ComponentName":"301",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING ONLY",
+			"ComponentName":"302",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING ONLY",
+			"ComponentName":"500",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING ONLY",
+			"ComponentName":"501",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING ONLY",
+			"ComponentName":"502",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING ONLY",
+			"ComponentName":"700",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING ONLY",
+			"ComponentName":"701",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING ONLY",
+			"ComponentName":"702",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL DINNERS",
+			"ComponentName":"DINNERS",
+			"Weight":1
+		},
+		{
+			"ParentName":"TOTAL DINNERS",
+			"ComponentName":"DINNERS MINI",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS",
+			"ComponentName":"101",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS",
+			"ComponentName":"201",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS",
+			"ComponentName":"301",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS",
+			"ComponentName":"401",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS",
+			"ComponentName":"501",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS",
+			"ComponentName":"701",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS",
+			"ComponentName":"801",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS MINI",
+			"ComponentName":"102",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS MINI",
+			"ComponentName":"202",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS MINI",
+			"ComponentName":"302",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS MINI",
+			"ComponentName":"402",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS MINI",
+			"ComponentName":"502",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS MINI",
+			"ComponentName":"702",
+			"Weight":1
+		},
+		{
+			"ParentName":"DINNERS MINI",
+			"ComponentName":"802",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER AND INTERNET",
+			"ComponentName":"100",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER AND INTERNET",
+			"ComponentName":"200",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER AND INTERNET",
+			"ComponentName":"101",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER AND INTERNET",
+			"ComponentName":"201",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER AND INTERNET",
+			"ComponentName":"600",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER AND INTERNET",
+			"ComponentName":"C",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER AND INTERNET",
+			"ComponentName":"I",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSM CHANNELS EXCLUDING DINNERS",
+			"ComponentName":"100",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSM CHANNELS EXCLUDING DINNERS",
+			"ComponentName":"200",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSM CHANNELS EXCLUDING DINNERS",
+			"ComponentName":"300",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSM CHANNELS EXCLUDING DINNERS",
+			"ComponentName":"400",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSM CHANNELS EXCLUDING DINNERS",
+			"ComponentName":"500",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSM CHANNELS EXCLUDING DINNERS",
+			"ComponentName":"700",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSM CHANNELS EXCLUDING DINNERS",
+			"ComponentName":"800",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSM CHANNELS EXCLUDING DINNERS",
+			"ComponentName":"C",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSM CHANNELS EXCLUDING DINNERS",
+			"ComponentName":"B",
+			"Weight":1
+		},
+		{
+			"ParentName":"RSM CHANNELS EXCLUDING DINNERS",
+			"ComponentName":"I",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH & CATERING",
+			"ComponentName":"CONSUMER LUNCH",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH & CATERING",
+			"ComponentName":"B2B CATERING",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER LUNCH",
+			"ComponentName":"200",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER LUNCH",
+			"ComponentName":"201",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER LUNCH",
+			"ComponentName":"202",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER LUNCH",
+			"ComponentName":"203",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B CATERING",
+			"ComponentName":"400",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B CATERING",
+			"ComponentName":"401",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B CATERING",
+			"ComponentName":"402",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B CATERING",
+			"ComponentName":"403",
+			"Weight":1
+		},
+		{
+			"ParentName":"RETAIL & GIFTING",
+			"ComponentName":"CONSUMER RETAIL",
+			"Weight":1
+		},
+		{
+			"ParentName":"RETAIL & GIFTING",
+			"ComponentName":"B2B GIFTING",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER RETAIL",
+			"ComponentName":"100",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER RETAIL",
+			"ComponentName":"101",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER RETAIL",
+			"ComponentName":"102",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER RETAIL",
+			"ComponentName":"103",
+			"Weight":1
+		},
+		{
+			"ParentName":"CONSUMER RETAIL",
+			"ComponentName":"600",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING",
+			"ComponentName":"300",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING",
+			"ComponentName":"301",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING",
+			"ComponentName":"302",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING",
+			"ComponentName":"303",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING",
+			"ComponentName":"500",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING",
+			"ComponentName":"501",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING",
+			"ComponentName":"502",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING",
+			"ComponentName":"700",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING",
+			"ComponentName":"701",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING",
+			"ComponentName":"702",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING",
+			"ComponentName":"800",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING",
+			"ComponentName":"801",
+			"Weight":1
+		},
+		{
+			"ParentName":"B2B GIFTING",
+			"ComponentName":"802",
+			"Weight":1
+		},
+		{
+			"ParentName":"Price + Elasticity",
+			"ComponentName":"Elasticity",
+			"Weight":1
+		},
+		{
+			"ParentName":"Price + Elasticity",
+			"ComponentName":"Price",
+			"Weight":1
+		},
+		{
+			"ParentName":"Elasticity",
+			"ComponentName":"101",
+			"Weight":1
+		},
+		{
+			"ParentName":"Elasticity",
+			"ComponentName":"201",
+			"Weight":1
+		},
+		{
+			"ParentName":"Elasticity",
+			"ComponentName":"301",
+			"Weight":1
+		},
+		{
+			"ParentName":"Elasticity",
+			"ComponentName":"401",
+			"Weight":1
+		},
+		{
+			"ParentName":"Price",
+			"ComponentName":"102",
+			"Weight":1
+		},
+		{
+			"ParentName":"Price",
+			"ComponentName":"202",
+			"Weight":1
+		},
+		{
+			"ParentName":"Price",
+			"ComponentName":"302",
+			"Weight":1
+		},
+		{
+			"ParentName":"Price",
+			"ComponentName":"402",
+			"Weight":1
+		},
+		{
+			"ParentName":"COGS Sales",
+			"ComponentName":"100",
+			"Weight":1
+		},
+		{
+			"ParentName":"COGS Sales",
+			"ComponentName":"101",
+			"Weight":1
+		},
+		{
+			"ParentName":"COGS Sales",
+			"ComponentName":"200",
+			"Weight":1
+		},
+		{
+			"ParentName":"COGS Sales",
+			"ComponentName":"201",
+			"Weight":1
+		},
+		{
+			"ParentName":"COGS Sales",
+			"ComponentName":"300",
+			"Weight":1
+		},
+		{
+			"ParentName":"COGS Sales",
+			"ComponentName":"301",
+			"Weight":1
+		},
+		{
+			"ParentName":"COGS Sales",
+			"ComponentName":"400",
+			"Weight":1
+		},
+		{
+			"ParentName":"COGS Sales",
+			"ComponentName":"401",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"Avalon Foodservice Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"Bassham Wholesale Egg Co. Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"Brown Food Service, Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"Cash-Wa Distributing",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"TTL Cheney Brothers Inc",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"DiCarlo Food Service Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"Feesers Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"Fresh Mark",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"I Supply Company",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"TTL Sherwood Food Distributors, LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"TTL Kuna Food Service Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"TTL McDonald Wholesale LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"Prefco Distribution, LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"TTL Quirch Foods LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"Smithfield Packaged Meats Sales Corp",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"SoFo Foods of Georgia",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"Springfield Grocer Company",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"TTL Tapia Brothers",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"The Engelman's Bakery",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchasing DCs",
+			"ComponentName":"Tyson Foods Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Cheney Brothers Inc",
+			"ComponentName":"Cheney  Brothers Inc",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Cheney Brothers Inc",
+			"ComponentName":"Cheney Brothers - Punta Gorda",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Cheney Brothers Inc",
+			"ComponentName":"Cheney Brothers - Riviera Beach",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Cheney Brothers Inc",
+			"ComponentName":"Cheney Brothers - Statesville",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Cheney Brothers Inc",
+			"ComponentName":"Cheney Brothers - Florence",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Sherwood Food Distributors, LLC",
+			"ComponentName":"SHERWOOD FOOD DISTRIBUTORS, LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Sherwood Food Distributors, LLC",
+			"ComponentName":"Harvest Sherwood - Atlanta",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Sherwood Food Distributors, LLC",
+			"ComponentName":"Harvest Sherwood - Dallas",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Sherwood Food Distributors, LLC",
+			"ComponentName":"Harvest Sherwood - Detroit",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Sherwood Food Distributors, LLC",
+			"ComponentName":"Harvest Sherwood - Cleveland",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Sherwood Food Distributors, LLC",
+			"ComponentName":"Harvest Sherwood - Union City",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Tapia Brothers",
+			"ComponentName":"TAPIA BROTHERS",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Tapia Brothers",
+			"ComponentName":"Tapia Brothers - Fresno",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Tapia Brothers",
+			"ComponentName":"Tapia Brothers-Las Vegas",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Tapia Brothers",
+			"ComponentName":"Tapia Brothers - Maywood",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Tapia Brothers",
+			"ComponentName":"Tapia Brothers - Phoenix",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Tapia Brothers",
+			"ComponentName":"Tapia Brothers (North Las Vegas)",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Tapia Brothers",
+			"ComponentName":"Tapia Brothers (Phoenix)",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Tapia Brothers",
+			"ComponentName":"TAPIA Enterprises Inc dba Tapia Brothers Company (Maywood)",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Kuna Food Service Inc.",
+			"ComponentName":"Kuna Food Service Inc.",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Kuna Food Service Inc.",
+			"ComponentName":"Kuna Meat Company Inc dba Kuna Foodservice",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Quirch Foods LLC",
+			"ComponentName":"Quirch Foods LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL Quirch Foods LLC",
+			"ComponentName":"Quirch Foods Parent LLC dba Quirch Foods LLC",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL McDonald Wholesale LLC",
+			"ComponentName":"McDonald Wholesale Co.",
+			"Weight":1
+		},
+		{
+			"ParentName":"TTL McDonald Wholesale LLC",
+			"ComponentName":"McDonald Wholesale LLC",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Lchannel.subsets/!Extract from Plan to SKU_Data.json",
+		"Lchannel.subsets/All B2B.json",
+		"Lchannel.subsets/All Channels.json",
+		"Lchannel.subsets/All Channels - Dynamic.json",
+		"Lchannel.subsets/All Channels Quantity Template.json",
+		"Lchannel.subsets/All Channels Total.json",
+		"Lchannel.subsets/All Channels with Children.json",
+		"Lchannel.subsets/All Level 0.json",
+		"Lchannel.subsets/All Level 0 - No Desc.json",
+		"Lchannel.subsets/B2B CATERING.json",
+		"Lchannel.subsets/B2B GIFTING.json",
+		"Lchannel.subsets/Big 4.json",
+		"Lchannel.subsets/Big 4 + Other.json",
+		"Lchannel.subsets/COGS Sales.json",
+		"Lchannel.subsets/Consumer Lunch.json",
+		"Lchannel.subsets/Consumer Retail.json",
+		"Lchannel.subsets/Cost Channel.json",
+		"Lchannel.subsets/Default.json",
+		"Lchannel.subsets/Forecast Channels.json",
+		"Lchannel.subsets/Forecast Channels - 100-400.json",
+		"Lchannel.subsets/N Elements.json",
+		"Lchannel.subsets/New Channels.json",
+		"Lchannel.subsets/Old_Channels.json",
+		"Lchannel.subsets/Other - B2B.json",
+		"Lchannel.subsets/Other - Consumer.json",
+		"Lchannel.subsets/Planning Channel Rollups.json",
+		"Lchannel.subsets/Planning Cube Channels.json",
+		"Lchannel.subsets/Purchasing DCs.json",
+		"Lchannel.subsets/Purchasing DCs - Leaf Level only.json",
+		"Lchannel.subsets/Rollup-All Channels.json",
+		"Lchannel.subsets/Z-3P_Wk_Stat.json",
+		"Lchannel.subsets/Z-RSMrollups.json",
+		"Lchannel.subsets/zz_#MS - @Forecasting - Load from Category to Category (for one stat).json",
+		"Lchannel.subsets/zz_#MS - Purchasing Data - Move from Standard Cost to Extended Cost.json",
+		"Lchannel.subsets/zz_@D365_GL - Copy from SKU_DATA.json",
+		"Lchannel.subsets/zz_@D365_GL - Copy from SKU_DATA (D2C).json",
+		"Lchannel.subsets/zz_@D365_GL - Copy from SKU_DATA (Franchise).json",
+		"Lchannel.subsets/zz_@D365_GL - Copy from SKU_DATA (HBH California).json",
+		"Lchannel.subsets/zz_@D365_GL - Copy from SKU_DATA (HB Retail incl CA).json",
+		"Lchannel.subsets/zz_@D365_GL - Copy from SKU_DATA (Retail).json",
+		"Lchannel.subsets/zz_@D365_GL - Copy from SKU_DATA (Retail Operations Only).json",
+		"Lchannel.subsets/zz_@D365_GL - Copy from SKU_DATA - COGS Usage.json",
+		"Lchannel.subsets/zz_@D365_GL - Copy from SKU_DATA - COGS Usage (CA).json",
+		"Lchannel.subsets/zz_@D365_GL - Copy from SKU_DATA - COGS Usage (D2C).json",
+		"Lchannel.subsets/zz_@D365_GL - Copy from SKU_DATA - COGS Usage (Retail).json",
+		"Lchannel.subsets/zz_@Forecasting - Copy from CC to CC (all).json",
+		"Lchannel.subsets/zz_@Forecasting - Load from Category to Category.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from CC to CC.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from CC to CC (Special).json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (ALL LOB)_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (California Only)_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (Franchise Only)_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (Retail Only)_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - 2YearPrior (Specific CC).json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (ALL LOB).json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (ALL LOB)_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (California Only) - Adhoc CCs_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (California Only)_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (Franchise Only)_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (Retail Only).json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (Retail Only)_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear (Specific CC).json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - CurrYear - Adhoc CCs_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (ALL LOB)_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (California Only)_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (Franchise Only)_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (Retail Only)_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Forecasting - Load from SKU_DATA - PriorYear (Specific CC).json",
+		"Lchannel.subsets/zz_@Forecasting - Load from week to week for cost centers - CurrYear Stats.json",
+		"Lchannel.subsets/zz_@Forecasting - Load to SKU_DATA (ALL LOB).json",
+		"Lchannel.subsets/zz_@Forecasting - Load to SKU_DATA (California Only).json",
+		"Lchannel.subsets/zz_@Forecasting - Load to SKU_DATA (Franchise Only).json",
+		"Lchannel.subsets/zz_@Forecasting - Load to SKU_DATA (Retail Only).json",
+		"Lchannel.subsets/zz_@Forecasting - Load to SKU_DATA (Retail Operations-HB Only).json",
+		"Lchannel.subsets/zz_@Forecasting - Load to SKU_DATA (Specific CC List).json",
+		"Lchannel.subsets/zz_@Forecasting - Move Transactions from Channel 1 to C or B 1-4.json",
+		"Lchannel.subsets/zz_@Forecasting - Zero CurrYear Stats (ALL LOB)_ZeroOut.json",
+		"Lchannel.subsets/zz_@Planning - Copy from Scenario to Scenario_Load.json",
+		"Lchannel.subsets/zz_@Planning - Load from SKU_DATA (California Only)_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Planning - Load from SKU_DATA_LoadtoPlanning.json",
+		"Lchannel.subsets/zz_@Planning - Load to SKU_DATA (Franchise Only)_LoadtoSKU_DATA.json",
+		"Lchannel.subsets/zz_@Planning - Load to SKU_DATA (Franchise Only) w Adjustment_LoadtoSKU_DATA.json",
+		"Lchannel.subsets/zz_@Planning - Load to SKU_DATA (HBHCA Franchise Only) w Adjustment_LoadtoSKU_DATA.json",
+		"Lchannel.subsets/zz_@Planning - Load to SKU_DATA (HBH California)_LoadtoSKU_DATA.json",
+		"Lchannel.subsets/zz_@Planning - Load to SKU_DATA (HBH California) w Adjustment_LoadtoSKU_DATA.json",
+		"Lchannel.subsets/zz_@Planning - Load to SKU_DATA (HB Retail incl CA)_LoadtoSKU_DATA.json",
+		"Lchannel.subsets/zz_@Planning - Load to SKU_DATA (Retail Only)_LoadtoSKU_DATA.json",
+		"Lchannel.subsets/zz_@Planning - Load to SKU_DATA (Retail Operations-HB Only)_LoadtoSKU_DATA.json",
+		"Lchannel.subsets/zz_@Planning - Load to SKU_DATA (Specific Cost Centers)_LoadtoSKU_DATA.json",
+		"Lchannel.subsets/zz_@SKU_DATA - Copy from Category to Category.json",
+		"Lchannel.subsets/zz_@SKU_DATA - Copy from Category to Category (D2C).json",
+		"Lchannel.subsets/zz_@SKU_DATA - Copy from Category to Category (Franchise).json",
+		"Lchannel.subsets/zz_@SKU_DATA - Copy from Category to Category (HBHCA Franchise).json",
+		"Lchannel.subsets/zz_@SKU_DATA - Copy from Category to Category (HBH California)_Load.json",
+		"Lchannel.subsets/zz_@SKU_DATA - Copy from Category to Category (HB Retail incl CA).json",
+		"Lchannel.subsets/zz_@SKU_DATA - Copy from Category to Category (Retail).json",
+		"Lchannel.subsets/zz_@SKU_DATA - Copy from Category to Category (Retail Operations-HB).json",
+		"Lchannel.subsets/zz_@SKU_DATA - Copy from CC to CC.json",
+		"Lchannel.subsets/zz_@SKU_DATA - Copy from CC to CC - Periods Only.json",
+		"Lchannel.subsets/zz_@SKU_DATA - Copy Pricing from week 1 to all other weeks.json",
+		"Lchannel.subsets/zz_@SKU_DATA - Extract Data.json",
+		"Lchannel.subsets/zz_@SKU_DATA - Load Actual to Forecast_Load.json",
+		"Lchannel.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HB Dir-to-Consumer_Load.json",
+		"Lchannel.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HBH California_Load.json",
+		"Lchannel.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast FY 24 Weeks 27-53 - Temp_Load.json",
+		"Lchannel.subsets/zz_DATA - QTY - Copy by Location_Category_Year_Weeknum_SourceView.json",
+		"Lchannel.subsets/zz_DATA - QTY - Load QTY from SKU_DATA - Budget (backup)_Source.json",
+		"Lchannel.subsets/zz_DATA - QTY - Load QTY from SKU_DATA - Budget_Source.json",
+		"Lchannel.subsets/zz_DATA - SKU DATA - Copy by Location_Category_week_SourceView.json",
+		"Lchannel.subsets/zz_DATA - TEST QTY - Load Qty from Sku_Data - Budget_Source.json",
+		"Lchannel.subsets/zz_DATA - Zero Out SKU_3P_Wkv2_ZeroOut2.json",
+		"Lchannel.subsets/zz_DATA - Zero Out SKU_3P_Wkv2b_ZeroOut2b.json",
+		"Lchannel.subsets/zz_Planning - Create Source View for Data Copy_CopyData.json",
+		"Lchannel.subsets/zz_SKU_DATA - Extract Data.json",
+		"Lchannel.subsets/zzSKUDATA_to_D365_GL.json",
+		"Lchannel.subsets/zzSKUDATA_to_GPGL.json"
+	]
+}

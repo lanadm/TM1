@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"Gross & Price",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Gross')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Ham Price per lb')"
+		}
+	]
+}

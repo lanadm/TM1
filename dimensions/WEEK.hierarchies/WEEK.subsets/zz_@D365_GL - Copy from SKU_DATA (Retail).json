@@ -1,31 +1,23 @@
 {
 	"@type":"Subset",
 	"Name":"zz_@D365_GL - Copy from SKU_DATA (Retail)",
+	"Alias":"MEMBER_NAME",
 	"Elements":
 	[
 		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('FEB FY 26')"
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('MAY FY 27')"
 		},
 		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('MAR FY 26')"
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('JUN FY 27')"
 		},
 		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('APR FY 26')"
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('JUL FY 27')"
 		},
 		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('MAY FY 26')"
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('AUG FY 27')"
 		},
 		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('JUN FY 26')"
-		},
-		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('JUL FY 26')"
-		},
-		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('AUG FY 26')"
-		},
-		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('SEP FY 26')"
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('SEP FY 27')"
 		}
 	]
 }

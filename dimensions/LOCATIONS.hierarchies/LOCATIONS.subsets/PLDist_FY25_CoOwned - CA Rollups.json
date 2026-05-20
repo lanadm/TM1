@@ -41,9 +41,6 @@
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('CA - Northridge')"
 		},
 		{
-			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('CA - Oakland')"
-		},
-		{
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('CA - Pasadena')"
 		},
 		{

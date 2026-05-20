@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Cost",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Cost')"
+		}
+	]
+}

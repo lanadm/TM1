@@ -214,6 +214,10 @@
 		{
 			"Name":"FY 29",
 			"Type":"Numeric"
+		},
+		{
+			"Name":"Current and Next Year",
+			"Type":"Numeric"
 		}
 	],
 	"Edges":
@@ -231,6 +235,11 @@
 		{
 			"ParentName":"{YEAR ROLLUPS",
 			"ComponentName":"{OTHER",
+			"Weight":1
+		},
+		{
+			"ParentName":"{YEAR ROLLUPS",
+			"ComponentName":"Current and Next Year",
 			"Weight":1
 		},
 		{
@@ -534,6 +543,10 @@
 		"YEAR.subsets/Z_FY22-23.json",
 		"YEAR.subsets/Z_FY93-FY99.json",
 		"YEAR.subsets/Z_N Elements.json",
+		"YEAR.subsets/zTemp_Year.json",
+		"YEAR.subsets/zz_#MS - @Forecasting - Load from Category to Category (for one stat).json",
+		"YEAR.subsets/zz_#MS - Forecasting - Load Plug_Flag_FY27 value_YEAR.json",
+		"YEAR.subsets/zz_#MS - Forecasting - Plug Price & Elasticity Factor - FY27 Budget_YEAR.json",
 		"YEAR.subsets/zz_#MS - Purchasing Data - Move from Standard Cost to Extended Cost.json",
 		"YEAR.subsets/zz_# UNDER CONSTRUCTION - GP-GL Load from one Category to Another_DataLoad.json",
 		"YEAR.subsets/zz_@D365_GL - Copy from Category to Category.json",
@@ -612,6 +625,8 @@
 		"YEAR.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HB Dir-to-Consumer_Load.json",
 		"YEAR.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast 6 - HBH California_Load.json",
 		"YEAR.subsets/zz_@SKU_DATA - Load Rev Fcst to Forecast FY 24 Weeks 27-53 - Temp_Load.json",
+		"YEAR.subsets/zz_@SP_Inventory - Load Current POs from SP_PO_Detail_SRC_Year.json",
+		"YEAR.subsets/zz_@SP_Inventory - Zero Adjustments_YEAR.json",
 		"YEAR.subsets/zz_D365_GL - Export Data.json",
 		"YEAR.subsets/zz_DATA - Copy GP-GL 10 to 52_SourceView.json",
 		"YEAR.subsets/zz_DATA - QTY - Copy by Location_Category_Year_Weeknum_SourceView.json",

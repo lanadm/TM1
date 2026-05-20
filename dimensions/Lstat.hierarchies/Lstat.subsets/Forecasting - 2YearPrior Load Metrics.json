@@ -1,0 +1,14 @@
+{
+	"@type":"Subset",
+	"Name":"Forecasting - 2YearPrior Load Metrics",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Quantity')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('Selling Metrics Transactions')"
+		}
+	]
+}

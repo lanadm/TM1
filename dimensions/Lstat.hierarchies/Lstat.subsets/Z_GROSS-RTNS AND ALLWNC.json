@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"Z_GROSS-RTNS AND ALLWNC",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('GROSS SALES')"
+		},
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('RTNS AND ALLWNC')"
+		}
+	]
+}

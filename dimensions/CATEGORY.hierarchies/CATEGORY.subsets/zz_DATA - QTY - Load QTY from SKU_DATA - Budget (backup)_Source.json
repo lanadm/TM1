@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_DATA - QTY - Load QTY from SKU_DATA - Budget (backup)_Source",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 8')"
+		}
+	]
+}

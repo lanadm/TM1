@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Act and ActAsOfGLCls",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Actual')"
+		}
+	]
+}

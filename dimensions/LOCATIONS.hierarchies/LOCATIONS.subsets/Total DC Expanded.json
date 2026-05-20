@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Total DC Expanded",
+	"Alias":"Name",
+	"Expression":"TM1IGNORE_BADTUPLES {DISTINCT(DESCENDANTS([LOCATIONS].[LOCATIONS].[Total DC]))}"
+}

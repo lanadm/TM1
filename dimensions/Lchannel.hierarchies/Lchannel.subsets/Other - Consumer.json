@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Other - Consumer",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('C')"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"COGS Sales",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('COGS Sales')"
+		}
+	]
+}

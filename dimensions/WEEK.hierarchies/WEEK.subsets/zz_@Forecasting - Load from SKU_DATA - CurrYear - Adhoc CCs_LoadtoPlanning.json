@@ -4,16 +4,67 @@
 	"Elements":
 	[
 		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 28 FY 26')"
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 1 FY 27')"
 		},
 		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 29 FY 26')"
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 2 FY 27')"
 		},
 		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 30 FY 26')"
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 3 FY 27')"
 		},
 		{
-			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 31 FY 26')"
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 4 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 5 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 6 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 7 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 8 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 9 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 10 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 11 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 12 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 13 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 14 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 15 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 16 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 17 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 18 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 19 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 20 FY 27')"
+		},
+		{
+			"@id":"Dimensions('WEEK')/Hierarchies('WEEK')/Elements('WEEK 21 FY 27')"
 		}
 	]
 }

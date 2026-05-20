@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_#MS - Forecasting - Plug Price & Elasticity Factor - FY27 Budget_CAT",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Budget')"
+		}
+	]
+}

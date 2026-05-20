@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"Z-All N Lstats",
+	"Expression":"{TM1FILTERBYLEVEL( {TM1SUBSETALL( [Lstat] )}, 0)}"
+}

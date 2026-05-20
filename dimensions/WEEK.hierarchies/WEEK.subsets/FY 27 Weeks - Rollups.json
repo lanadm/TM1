@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"FY 27 Weeks - Rollups",
+	"Alias":"MEMBER_NAME",
+	"Expression":"TM1IGNORE_BADTUPLES {EXCEPT(DRILLDOWNMEMBER({[WEEK].[WEEK].[FISCAL YEAR BY WEEK FY 27]} , {[WEEK].[WEEK].[FISCAL YEAR BY WEEK FY 27]} , RECURSIVE) , {[WEEK].[WEEK].[FISCAL YEAR BY WEEK FY 27]} , ALL)}"
+}

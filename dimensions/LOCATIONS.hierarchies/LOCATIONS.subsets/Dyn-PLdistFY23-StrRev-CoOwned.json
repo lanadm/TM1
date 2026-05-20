@@ -959,9 +959,6 @@
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('CA - San Jose')"
 		},
 		{
-			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('CA - Oakland')"
-		},
-		{
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('CA - Fair Oaks')"
 		},
 		{
@@ -1131,9 +1128,6 @@
 		},
 		{
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 8412')"
-		},
-		{
-			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 8415')"
 		},
 		{
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('KIOSKS ROLLUP - INCLUDING HUB STORE 8473')"

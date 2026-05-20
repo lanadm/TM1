@@ -23,9 +23,6 @@
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('CA - San Jose')"
 		},
 		{
-			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('CA - Oakland')"
-		},
-		{
 			"@id":"Dimensions('LOCATIONS')/Hierarchies('LOCATIONS')/Elements('CA - Fair Oaks')"
 		},
 		{

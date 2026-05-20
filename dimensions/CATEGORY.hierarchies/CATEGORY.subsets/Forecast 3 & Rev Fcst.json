@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"Forecast 3 & Rev Fcst",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Forecast 3')"
+		},
+		{
+			"@id":"Dimensions('CATEGORY')/Hierarchies('CATEGORY')/Elements('Rev Fcst')"
+		}
+	]
+}

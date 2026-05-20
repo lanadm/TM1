@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zz_@SP_Inventory - Zero Adjustments_YEAR",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('YEAR')/Hierarchies('YEAR')/Elements('FY 27')"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Other - B2B",
+	"Alias":"Name",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('B')"
+		}
+	]
+}

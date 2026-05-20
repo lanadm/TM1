@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Cost Channel",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lchannel')/Hierarchies('Lchannel')/Elements('Cost Channel')"
+		}
+	]
+}

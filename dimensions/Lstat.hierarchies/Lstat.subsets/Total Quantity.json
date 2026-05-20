@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"Total Quantity",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Lstat')/Hierarchies('Lstat')/Elements('TOTAL QUANTITY')"
+		}
+	]
+}

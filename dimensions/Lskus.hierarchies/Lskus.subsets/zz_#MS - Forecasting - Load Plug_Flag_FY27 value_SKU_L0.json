@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"zz_#MS - Forecasting - Load Plug_Flag_FY27 value_SKU_L0",
+	"Expression":"TM1FILTERBYLEVEL( TM1SUBSETALL( [Lskus] ), 0 )"
+}

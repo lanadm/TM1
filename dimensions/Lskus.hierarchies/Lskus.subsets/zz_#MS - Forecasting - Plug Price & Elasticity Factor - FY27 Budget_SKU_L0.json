@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"zz_#MS - Forecasting - Plug Price & Elasticity Factor - FY27 Budget_SKU_L0",
+	"Expression":"TM1FILTERBYLEVEL( TM1SUBSETALL( [Lskus] ), 0 )"
+}

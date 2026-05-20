@@ -48314,6 +48314,190 @@
 		{
 			"Name":"729548",
 			"Type":"Numeric"
+		},
+		{
+			"Name":"003039",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"201197",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183188",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183189",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183190",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183192",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183191",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"201198",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"730070",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"300410",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"300411",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"4082",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183193",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183194",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183195",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183196",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183197",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183198",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183199",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183200",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"181920",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"202395",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"001308",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"001309",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"202402",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183201",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183202",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"202469",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"202470",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"202471",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"728832",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Meal_160305",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Meal_182958",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Meal_183201",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"180099",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"180142",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"730190",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"705467",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"51085",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Meal_150339",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"202472",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183203",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183204",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"183205",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"202473",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"730216",
+			"Type":"Numeric"
 		}
 	],
 	"Edges":
@@ -58635,6 +58819,16 @@
 		},
 		{
 			"ParentName":"BEEF INDIV (PRODUCT)",
+			"ComponentName":"300410",
+			"Weight":1
+		},
+		{
+			"ParentName":"BEEF INDIV (PRODUCT)",
+			"ComponentName":"300411",
+			"Weight":1
+		},
+		{
+			"ParentName":"BEEF INDIV (PRODUCT)",
 			"ComponentName":"4000108",
 			"Weight":1
 		},
@@ -68560,6 +68754,11 @@
 		},
 		{
 			"ParentName":"FAMILY MEALS",
+			"ComponentName":"183191",
+			"Weight":1
+		},
+		{
+			"ParentName":"FAMILY MEALS",
 			"ComponentName":"1882212",
 			"Weight":1
 		},
@@ -72156,6 +72355,16 @@
 		{
 			"ParentName":"HAM BY THE SLICE",
 			"ComponentName":"183182",
+			"Weight":1
+		},
+		{
+			"ParentName":"HAM BY THE SLICE",
+			"ComponentName":"183201",
+			"Weight":1
+		},
+		{
+			"ParentName":"HAM BY THE SLICE",
+			"ComponentName":"183202",
 			"Weight":1
 		},
 		{
@@ -85010,21 +85219,6 @@
 		},
 		{
 			"ParentName":"LUNCH ADDONS (PRODUCT)",
-			"ComponentName":"1016",
-			"Weight":1
-		},
-		{
-			"ParentName":"LUNCH ADDONS (PRODUCT)",
-			"ComponentName":"1017",
-			"Weight":1
-		},
-		{
-			"ParentName":"LUNCH ADDONS (PRODUCT)",
-			"ComponentName":"2156",
-			"Weight":1
-		},
-		{
-			"ParentName":"LUNCH ADDONS (PRODUCT)",
 			"ComponentName":"001013",
 			"Weight":1
 		},
@@ -85545,6 +85739,16 @@
 		},
 		{
 			"ParentName":"LUNCH ADDONS (PRODUCT)",
+			"ComponentName":"1016",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH ADDONS (PRODUCT)",
+			"ComponentName":"1017",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH ADDONS (PRODUCT)",
 			"ComponentName":"1035035",
 			"Weight":1
 		},
@@ -85601,6 +85805,11 @@
 		{
 			"ParentName":"LUNCH ADDONS (PRODUCT)",
 			"ComponentName":"1058035",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH ADDONS (PRODUCT)",
+			"ComponentName":"1104",
 			"Weight":1
 		},
 		{
@@ -85751,6 +85960,11 @@
 		{
 			"ParentName":"LUNCH ADDONS (PRODUCT)",
 			"ComponentName":"180127",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH ADDONS (PRODUCT)",
+			"ComponentName":"180142",
 			"Weight":1
 		},
 		{
@@ -87530,6 +87744,26 @@
 		},
 		{
 			"ParentName":"LUNCH ADDONS (PRODUCT)",
+			"ComponentName":"183200",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH ADDONS (PRODUCT)",
+			"ComponentName":"183203",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH ADDONS (PRODUCT)",
+			"ComponentName":"183204",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH ADDONS (PRODUCT)",
+			"ComponentName":"183205",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH ADDONS (PRODUCT)",
 			"ComponentName":"185018",
 			"Weight":1
 		},
@@ -87645,6 +87879,11 @@
 		},
 		{
 			"ParentName":"LUNCH ADDONS (PRODUCT)",
+			"ComponentName":"202402",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH ADDONS (PRODUCT)",
 			"ComponentName":"2020162",
 			"Weight":1
 		},
@@ -87691,6 +87930,11 @@
 		{
 			"ParentName":"LUNCH ADDONS (PRODUCT)",
 			"ComponentName":"2077777",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH ADDONS (PRODUCT)",
+			"ComponentName":"2156",
 			"Weight":1
 		},
 		{
@@ -88790,6 +89034,11 @@
 		},
 		{
 			"ParentName":"LUNCH ADDONS (PRODUCT)",
+			"ComponentName":"4082",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH ADDONS (PRODUCT)",
 			"ComponentName":"51125",
 			"Weight":1
 		},
@@ -89415,6 +89664,11 @@
 		},
 		{
 			"ParentName":"LUNCH MAIN SALADS (PRODUCT)",
+			"ComponentName":"180099",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH MAIN SALADS (PRODUCT)",
 			"ComponentName":"180121",
 			"Weight":1
 		},
@@ -89835,6 +90089,11 @@
 		},
 		{
 			"ParentName":"LUNCH MAIN SALADS (PRODUCT)",
+			"ComponentName":"181920",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH MAIN SALADS (PRODUCT)",
 			"ComponentName":"181944",
 			"Weight":1
 		},
@@ -90171,6 +90430,11 @@
 		{
 			"ParentName":"LUNCH MAIN SALADS (PRODUCT)",
 			"ComponentName":"183187",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH MAIN SALADS (PRODUCT)",
+			"ComponentName":"183199",
 			"Weight":1
 		},
 		{
@@ -91071,6 +91335,11 @@
 		{
 			"ParentName":"LUNCH SOUPS (PRODUCT)",
 			"ComponentName":"402070",
+			"Weight":1
+		},
+		{
+			"ParentName":"LUNCH SOUPS (PRODUCT)",
+			"ComponentName":"51085",
 			"Weight":1
 		},
 		{
@@ -93684,6 +93953,26 @@
 			"Weight":1
 		},
 		{
+			"ParentName":"MAKE IT A MEAL",
+			"ComponentName":"Meal_160305",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAKE IT A MEAL",
+			"ComponentName":"Meal_182958",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAKE IT A MEAL",
+			"ComponentName":"Meal_183201",
+			"Weight":1
+		},
+		{
+			"ParentName":"MAKE IT A MEAL",
+			"ComponentName":"Meal_150339",
+			"Weight":1
+		},
+		{
 			"ParentName":"MEAL ADDONS",
 			"ComponentName":"BEVERAGES",
 			"Weight":1
@@ -94340,6 +94629,11 @@
 		},
 		{
 			"ParentName":"MEAT PARTY TRAYS",
+			"ComponentName":"183197",
+			"Weight":1
+		},
+		{
+			"ParentName":"MEAT PARTY TRAYS",
 			"ComponentName":"230006",
 			"Weight":1
 		},
@@ -94855,6 +95149,16 @@
 		},
 		{
 			"ParentName":"MISC",
+			"ComponentName":"183188",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
+			"ComponentName":"183189",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
 			"ComponentName":"185632",
 			"Weight":1
 		},
@@ -94960,11 +95264,6 @@
 		},
 		{
 			"ParentName":"MISC",
-			"ComponentName":"201196",
-			"Weight":1
-		},
-		{
-			"ParentName":"MISC",
 			"ComponentName":"2049998",
 			"Weight":1
 		},
@@ -95016,6 +95315,16 @@
 		{
 			"ParentName":"MISC",
 			"ComponentName":"407851",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
+			"ComponentName":"4517",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
+			"ComponentName":"4709",
 			"Weight":1
 		},
 		{
@@ -95161,6 +95470,11 @@
 		{
 			"ParentName":"MISC",
 			"ComponentName":"702841",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
+			"ComponentName":"705467",
 			"Weight":1
 		},
 		{
@@ -95415,6 +95729,11 @@
 		},
 		{
 			"ParentName":"MISC",
+			"ComponentName":"724905",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
 			"ComponentName":"725010",
 			"Weight":1
 		},
@@ -95475,12 +95794,22 @@
 		},
 		{
 			"ParentName":"MISC",
+			"ComponentName":"727475",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
 			"ComponentName":"727476",
 			"Weight":1
 		},
 		{
 			"ParentName":"MISC",
 			"ComponentName":"727477",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
+			"ComponentName":"727478",
 			"Weight":1
 		},
 		{
@@ -95531,6 +95860,11 @@
 		{
 			"ParentName":"MISC",
 			"ComponentName":"728809",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
+			"ComponentName":"728832",
 			"Weight":1
 		},
 		{
@@ -95595,6 +95929,21 @@
 		},
 		{
 			"ParentName":"MISC",
+			"ComponentName":"729039",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
+			"ComponentName":"729139",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
+			"ComponentName":"729342",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
 			"ComponentName":"729362",
 			"Weight":1
 		},
@@ -95625,6 +95974,16 @@
 		},
 		{
 			"ParentName":"MISC",
+			"ComponentName":"729548",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
+			"ComponentName":"729595",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
 			"ComponentName":"729613",
 			"Weight":1
 		},
@@ -95646,6 +96005,21 @@
 		{
 			"ParentName":"MISC",
 			"ComponentName":"729850",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
+			"ComponentName":"730070",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
+			"ComponentName":"730190",
+			"Weight":1
+		},
+		{
+			"ParentName":"MISC",
+			"ComponentName":"730216",
 			"Weight":1
 		},
 		{
@@ -97229,91 +97603,6 @@
 			"Weight":1
 		},
 		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"6511",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"6008",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"6019",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"4099",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"4266",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"5139",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"727475",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"727478",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"729595",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"4709",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"729039",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"729342",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"4517",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"1104",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"729139",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"724905",
-			"Weight":1
-		},
-		{
-			"ParentName":"ORPHAN",
-			"ComponentName":"729548",
-			"Weight":1
-		},
-		{
 			"ParentName":"OTHER BREADS",
 			"ComponentName":"000193",
 			"Weight":1
@@ -97681,6 +97970,16 @@
 		{
 			"ParentName":"OTHER BUFFETS (PRODUCT)",
 			"ComponentName":"181451",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER BUFFETS (PRODUCT)",
+			"ComponentName":"183195",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER BUFFETS (PRODUCT)",
+			"ComponentName":"183196",
 			"Weight":1
 		},
 		{
@@ -98191,6 +98490,11 @@
 		{
 			"ParentName":"OTHER DINNERS",
 			"ComponentName":"182527",
+			"Weight":1
+		},
+		{
+			"ParentName":"OTHER DINNERS",
+			"ComponentName":"183193",
 			"Weight":1
 		},
 		{
@@ -101805,6 +102109,11 @@
 		},
 		{
 			"ParentName":"ROASTED TKY BREAST (PRODUCT)",
+			"ComponentName":"003039",
+			"Weight":1
+		},
+		{
+			"ParentName":"ROASTED TKY BREAST (PRODUCT)",
 			"ComponentName":"003195",
 			"Weight":1
 		},
@@ -102661,6 +102970,11 @@
 		{
 			"ParentName":"ROLLS",
 			"ComponentName":"2020381",
+			"Weight":1
+		},
+		{
+			"ParentName":"ROLLS",
+			"ComponentName":"202473",
 			"Weight":1
 		},
 		{
@@ -108390,6 +108704,26 @@
 		},
 		{
 			"ParentName":"SANDWICHES (PRODUCT)",
+			"ComponentName":"183190",
+			"Weight":1
+		},
+		{
+			"ParentName":"SANDWICHES (PRODUCT)",
+			"ComponentName":"183192",
+			"Weight":1
+		},
+		{
+			"ParentName":"SANDWICHES (PRODUCT)",
+			"ComponentName":"183194",
+			"Weight":1
+		},
+		{
+			"ParentName":"SANDWICHES (PRODUCT)",
+			"ComponentName":"183198",
+			"Weight":1
+		},
+		{
+			"ParentName":"SANDWICHES (PRODUCT)",
 			"ComponentName":"185014",
 			"Weight":1
 		},
@@ -109265,6 +109599,16 @@
 		},
 		{
 			"ParentName":"SANDWICHES (PRODUCT)",
+			"ComponentName":"4099",
+			"Weight":1
+		},
+		{
+			"ParentName":"SANDWICHES (PRODUCT)",
+			"ComponentName":"4266",
+			"Weight":1
+		},
+		{
+			"ParentName":"SANDWICHES (PRODUCT)",
 			"ComponentName":"51000",
 			"Weight":1
 		},
@@ -109281,6 +109625,26 @@
 		{
 			"ParentName":"SANDWICHES (PRODUCT)",
 			"ComponentName":"51122",
+			"Weight":1
+		},
+		{
+			"ParentName":"SANDWICHES (PRODUCT)",
+			"ComponentName":"5139",
+			"Weight":1
+		},
+		{
+			"ParentName":"SANDWICHES (PRODUCT)",
+			"ComponentName":"6008",
+			"Weight":1
+		},
+		{
+			"ParentName":"SANDWICHES (PRODUCT)",
+			"ComponentName":"6019",
+			"Weight":1
+		},
+		{
+			"ParentName":"SANDWICHES (PRODUCT)",
+			"ComponentName":"6511",
 			"Weight":1
 		},
 		{
@@ -117250,6 +117614,21 @@
 		},
 		{
 			"ParentName":"SUPPLIES",
+			"ComponentName":"201196",
+			"Weight":1
+		},
+		{
+			"ParentName":"SUPPLIES",
+			"ComponentName":"201197",
+			"Weight":1
+		},
+		{
+			"ParentName":"SUPPLIES",
+			"ComponentName":"201198",
+			"Weight":1
+		},
+		{
+			"ParentName":"SUPPLIES",
 			"ComponentName":"202000",
 			"Weight":1
 		},
@@ -118976,6 +119355,31 @@
 		{
 			"ParentName":"SUPPLIES",
 			"ComponentName":"202350",
+			"Weight":1
+		},
+		{
+			"ParentName":"SUPPLIES",
+			"ComponentName":"202395",
+			"Weight":1
+		},
+		{
+			"ParentName":"SUPPLIES",
+			"ComponentName":"202469",
+			"Weight":1
+		},
+		{
+			"ParentName":"SUPPLIES",
+			"ComponentName":"202470",
+			"Weight":1
+		},
+		{
+			"ParentName":"SUPPLIES",
+			"ComponentName":"202471",
+			"Weight":1
+		},
+		{
+			"ParentName":"SUPPLIES",
+			"ComponentName":"202472",
 			"Weight":1
 		},
 		{
@@ -120985,6 +121389,16 @@
 		},
 		{
 			"ParentName":"WHOLE HAM (PRODUCT)",
+			"ComponentName":"001308",
+			"Weight":1
+		},
+		{
+			"ParentName":"WHOLE HAM (PRODUCT)",
+			"ComponentName":"001309",
+			"Weight":1
+		},
+		{
+			"ParentName":"WHOLE HAM (PRODUCT)",
 			"ComponentName":"001813",
 			"Weight":1
 		},
@@ -122163,6 +122577,9 @@
 		"Lskus.subsets/Z_GP-GL Bdg Load.json",
 		"Lskus.subsets/Z_SalesSkus-WKG.json",
 		"Lskus.subsets/Z_Str Wkbk Units.json",
+		"Lskus.subsets/zz_#MS - @Forecasting - Load from Category to Category (for one stat).json",
+		"Lskus.subsets/zz_#MS - Forecasting - Load Plug_Flag_FY27 value_SKU_L0.json",
+		"Lskus.subsets/zz_#MS - Forecasting - Plug Price & Elasticity Factor - FY27 Budget_SKU_L0.json",
 		"Lskus.subsets/zz_#MS - Purchasing Data - Move from Standard Cost to Extended Cost.json",
 		"Lskus.subsets/zz_@D365_GL - Copy from SKU_DATA.json",
 		"Lskus.subsets/zz_@D365_GL - Copy from SKU_DATA (D2C).json",
